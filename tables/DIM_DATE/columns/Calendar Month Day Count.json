@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Month Day Count",
+  "dataType": "int64",
+  "sourceColumn": "Calendar Month Day Count",
+  "encodingHint": "hash"
+}

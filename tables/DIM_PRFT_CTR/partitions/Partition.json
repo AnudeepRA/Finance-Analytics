@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_PRFT_CTR = Source{[Schema=\"GLBL\",Item=\"V_DIM_PRFT_CTR_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_PRFT_CTR,{\"PRFT_CTR_KEY\", \"Profit Center\", \"Profit Center Effective To Date Key\", \"Profit Center Effective From Date Key\", \"Controlling Area Code\", \"Profit Center Segment Code\", \"Profit Center Emp Resp BP ID\", \"USR_RESP_BP_ID\", \"Hyperion Business Unit Code\", \"COPA Record Currency Code\", \"Profit Center Long Description\", \"Profit Center Hierarchy Area Code\", \"HFM Segment\", \"Profit Center Short Description\", \"SAP Business Unit Code\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_CONTROLLING_AREA_ACTIVITY_TYPE_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_CONTROLLING_AREA_ACTIVITY_TYPE_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_CONTROLLING_AREA_ACTIVITY_TYPE_BusNm,{\"Controlling Area Activity Type Key\", \"Controlling Area Code\", \"Activity Type Code\", \"Activity Type Effective To Date\", \"Activity Type Effective From Date\", \"Activity Type Unit Of Measure\", \"Activity Type Category Indicator\", \"Variant Activity Type Category for Actual Postings Indicator\", \"Activity Type Created Date\", \"Activity Type Created By Identifier\", \"Activity Type Valid Cost Center Categories Indicator\", \"Output Factor Unit of Measure\", \"Output Factor\", \"Allocation Cost Element\", \"Activity Type Lock Indicator\", \"Activity Type Name\", \"Activity Type Long Description\", \"Activity Type Short Description\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

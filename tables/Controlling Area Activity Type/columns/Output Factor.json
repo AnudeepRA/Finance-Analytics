@@ -1,0 +1,13 @@
+{
+  "name": "Output Factor",
+  "dataType": "double",
+  "description": [
+    "\"factor calculated to describe the relationship between activity quantity and output quantity (see example calculation below), stored as a decimal",
+    "",
+    "Output quantity = Activity quantity * Output factor",
+    "",
+    "In planning you can calculate the output quantity from the activity quantity and output factor. In the planning transaction, choose \"\"Edit -> Activity -> Output\"\".\""
+  ],
+  "sourceColumn": "Output Factor",
+  "encodingHint": "hash"
+}

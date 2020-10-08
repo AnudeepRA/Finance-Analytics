@@ -1,0 +1,6 @@
+{
+  "name": "Fact Selection",
+  "calculationGroup": {
+    "precedence": 31
+  }
+}

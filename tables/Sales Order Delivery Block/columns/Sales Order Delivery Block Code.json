@@ -1,0 +1,28 @@
+{
+  "name": "Sales Order Delivery Block Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP that identifies why shipments cannot occur for the given sales order or sales order line item (see examples below), stored as a nvarchar",
+    "",
+    "DF = Sales Area Del Flag",
+    "Z1 = awaiting ETO customer return",
+    "Z2 = indirect sale",
+    "Z3 = non-returnable material",
+    "Z4 = returnable material",
+    "Z5 = MFG/ATP block",
+    "Z6 = cancel request",
+    "Z7 = material status block",
+    "Z8 = large order hold",
+    "Z9 = health check",
+    "ZA = advance payment block",
+    "ZG = block with inventory reserved",
+    "ZM = material extension needed (usually for a new configured item)",
+    "ZP = pricing issue block",
+    "ZR = Product Manager restriction",
+    "ZW = extended want date",
+    "ZY = check assigned plan\""
+  ],
+  "sourceColumn": "Sales Order Delivery Block Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

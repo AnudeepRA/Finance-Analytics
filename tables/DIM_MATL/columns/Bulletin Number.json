@@ -1,0 +1,7 @@
+{
+  "name": "Bulletin Number",
+  "dataType": "string",
+  "description": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+  "sourceColumn": "Bulletin Number",
+  "encodingHint": "hash"
+}

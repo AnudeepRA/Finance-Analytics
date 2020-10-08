@@ -1,0 +1,7 @@
+{
+  "name": "0cfd1051-be73-43c8-a365-d5a254a31e39",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "ORD_COMPLT_DLVRY_IND_VAL_KEY",
+  "toTable": "Order Complete Delivery Indicator Values",
+  "toColumn": "Indicator Values Key"
+}

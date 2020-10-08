@@ -1,0 +1,8 @@
+{
+  "name": "Actual Consumption Quantity Summary",
+  "description": "the actual number of items consumed in the transaction at the given cost center, which is used in cost center utilization analysis (where plan and actual values are compared), stored as a decimal in the unit of measure for the transaction",
+  "expression": "sum(FACT_CCA_PLAN_ACTUALS[actual_consumption_qty])",
+  "formatString": "0.00",
+  "isHidden": true,
+  "displayFolder": "CCA Summary"
+}

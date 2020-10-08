@@ -1,0 +1,7 @@
+{
+  "name": "703648e5-f74b-4502-a25c-9eefa13483ff",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_ORD_DELIVERY_BLOCK_KEY",
+  "toTable": "Sales Order Delivery Block",
+  "toColumn": "Sales Order Delivery Block Key"
+}

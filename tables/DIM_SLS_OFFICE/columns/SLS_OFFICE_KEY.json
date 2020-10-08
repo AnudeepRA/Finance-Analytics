@@ -1,0 +1,8 @@
+{
+  "name": "SLS_OFFICE_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "SLS_OFFICE_KEY",
+  "encodingHint": "hash"
+}

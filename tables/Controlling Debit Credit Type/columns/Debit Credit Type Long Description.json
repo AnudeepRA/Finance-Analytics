@@ -1,0 +1,7 @@
+{
+  "name": "Debit Credit Type Long Description",
+  "dataType": "string",
+  "description": "long description associated with the code that identifies the type of debit or credit (such as Credit for Settlement for code value 'A' ,Credit Posting or Sender Credit Posting for code value 'H', or Credit from Delivery to Stock for code value 'L'), stored as a string",
+  "sourceColumn": "Debit Credit Type Long Description",
+  "encodingHint": "hash"
+}

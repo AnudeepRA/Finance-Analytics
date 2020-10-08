@@ -1,0 +1,6 @@
+{
+  "name": "Time Calculation",
+  "dataType": "string",
+  "sourceColumn": "Name",
+  "sortByColumn": "Ordinal"
+}

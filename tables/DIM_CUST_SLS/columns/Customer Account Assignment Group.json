@@ -1,0 +1,15 @@
+{
+  "name": "Customer Account Assignment Group",
+  "dataType": "string",
+  "description": [
+    "classification (see examples below) to segregate accounts during the automatic determination of revenue in SAP, stored as a nvarchar",
+    "",
+    "01 = 3rd Party Vendor Revenue",
+    "02 = Intercompany/Intracompany Revenue",
+    "Z1 = 3rd Party Vendor Sales",
+    "Z2 = 3rd Party Vendor Cost of Goods Sold (COGS)",
+    "Z3 = Stock Transfer Order India AAG"
+  ],
+  "sourceColumn": "Customer Account Assignment Group",
+  "encodingHint": "hash"
+}

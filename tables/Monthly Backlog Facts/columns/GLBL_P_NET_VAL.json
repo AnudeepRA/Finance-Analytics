@@ -1,0 +1,7 @@
+{
+  "name": "GLBL_P_NET_VAL",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "GLBL_P_NET_VAL",
+  "encodingHint": "value"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "35d3585c-4a76-4177-9296-a608cad87386",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SOLD_TO_BP_BUSI_ADDR_KEY",
+  "toTable": "Business Address Sold To",
+  "toColumn": "Business Address Key"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Material Master Record Created Date",
+  "dataType": "dateTime",
+  "description": "date on which the given material master record was created in SAP, stored as a timestamp in yyyy-MM-dd HH:mm:ss format, where HH:mm:ss are all zeroes",
+  "sourceColumn": "Material Master Record Created Date",
+  "encodingHint": "hash"
+}

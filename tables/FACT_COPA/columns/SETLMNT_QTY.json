@@ -1,0 +1,6 @@
+{
+  "name": "SETLMNT_QTY",
+  "dataType": "double",
+  "sourceColumn": "SETLMNT_QTY",
+  "encodingHint": "value"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ORD_ITM_PLND_GOODS_ISS_DTE_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the order line item planned goods issue date foreign key in the sales order fact table, which links to the date dimension table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "ORD_ITM_PLND_GOODS_ISS_DTE_KEY",
+  "encodingHint": "hash"
+}

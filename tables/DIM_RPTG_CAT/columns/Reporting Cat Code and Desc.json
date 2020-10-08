@@ -1,0 +1,7 @@
+{
+  "name": "Reporting Cat Code and Desc",
+  "dataType": "string",
+  "description": "concatenation of the Reporting Category Code in SAP and the associated Reporting Category Description (such as 2005-CRM Service), stored as a nvarchar",
+  "sourceColumn": "Reporting Cat Code and Desc",
+  "encodingHint": "hash"
+}

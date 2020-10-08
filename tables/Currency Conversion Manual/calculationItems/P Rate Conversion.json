@@ -1,0 +1,29 @@
+{
+  "name": "P Rate Conversion",
+  "expression": [
+    "VAR myFACT = SUMMARIZE(FACT_COPA,FACT_COPA[CRNCY_KEY],FACT_COPA[POSTNG_DATE_INT_KEY],\"X\",SELECTEDMEASURE())",
+    "VAR myDate = MAX(DIM_CRNCY_CVRSN[Rate Effective To Date])",
+    "",
+    "RETURN ",
+    "IF (HASONEVALUE(DIM_CRNCY[Currency Code]),",
+    "    CALCULATE(",
+    "\t    SUMX(myFACT, ",
+    "\t\t    [X] ",
+    "\t\t    * MINX( ",
+    "\t\t\t    TOPN(1,      ",
+    "                    FILTER(",
+    "                        DIM_CRNCY_CVRSN,",
+    "                            DIM_CRNCY_CVRSN[Rate Effective From Date] <= myDate",
+    "                            && FACT_COPA[CRNCY_KEY]=DIM_CRNCY_CVRSN[FROM_CRNCY_KEY]",
+    "                            && DIM_CRNCY_CVRSN[Rate Type] = \"P\"",
+    "                    )",
+    "         \t\t    ,DIM_CRNCY_CVRSN[Rate Effective From Date]",
+    "        \t    )",
+    "             ,DIM_CRNCY_CVRSN[EXCHG_RATE]",
+    "            ) ",
+    "           ),ALL(DIM_CRNCY_CVRSN[Rate Effective To Date])",
+    "    ),",
+    "\tSELECTEDMEASURE()",
+    ")"
+  ]
+}

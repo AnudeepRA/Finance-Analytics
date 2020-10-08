@@ -1,0 +1,21 @@
+{
+  "name": "Sales Document Item Category",
+  "dataType": "string",
+  "description": [
+    "\"category in SAP (see examples below) used to determine the correct billing for the customer, stored as a nvarchar",
+    "",
+    "Z5DI - RA Proxy for demo",
+    "ZCT2 - RA Quote Config Matl",
+    "ZENX = RA Returns - ETO",
+    "ZEPN = RA Purch No BP",
+    "ZET1 = RA ETO Material",
+    "ZFXN = RA Ext Billing Item ",
+    "ZPCF = 3P-LAB-Reg / OT Bill",
+    "ZTAN - RA Standard Item",
+    "",
+    "Rockwell Automation Finance maintains a configuration table in SAP that connects an Item Category and Service Type to an Activity Type.  The Item Category and Service Type are used to bill the customer​, and the Activity Type is used to charge labor to the service order.\""
+  ],
+  "sourceColumn": "Sales Document Item Category",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

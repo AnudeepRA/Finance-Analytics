@@ -1,0 +1,7 @@
+{
+  "name": "8ff620e9-6078-44be-b84a-326d1deaea77",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "PRFT_CTR_KEY",
+  "toTable": "DIM_PRFT_CTR",
+  "toColumn": "PRFT_CTR_KEY"
+}

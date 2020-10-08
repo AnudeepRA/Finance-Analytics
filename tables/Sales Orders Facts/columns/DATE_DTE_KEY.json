@@ -1,0 +1,7 @@
+{
+  "name": "DATE_DTE_KEY",
+  "dataType": "dateTime",
+  "isHidden": true,
+  "sourceColumn": "DATE_DTE_KEY",
+  "encodingHint": "hash"
+}

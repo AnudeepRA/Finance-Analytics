@@ -1,0 +1,6 @@
+{
+  "name": "REMNG_OUTPT_VARNC_AMT",
+  "dataType": "double",
+  "sourceColumn": "REMNG_OUTPT_VARNC_AMT",
+  "encodingHint": "value"
+}

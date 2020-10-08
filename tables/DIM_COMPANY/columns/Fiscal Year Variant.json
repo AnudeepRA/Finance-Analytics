@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Year Variant",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Year Variant",
+  "encodingHint": "hash"
+}

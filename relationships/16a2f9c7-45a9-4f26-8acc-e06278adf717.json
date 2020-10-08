@@ -1,0 +1,7 @@
+{
+  "name": "16a2f9c7-45a9-4f26-8acc-e06278adf717",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "UOM_KEY",
+  "toTable": "DIM_UNIT_OF_MEASURE",
+  "toColumn": "UOM_KEY"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Booking Extended Standard Discount Value In Document Currency Without Decimal Shift",
+  "description": [
+    "\"amount of the standard book (catalog) discount subtracted from the list price for the given product, stored as a decimal in the currency used for the transaction",
+    "",
+    "Extended Standard Book Discount Value In Document Currency = List Price In Transaction Currency * Standard Book Discount Multiplier * Booked Quantity",
+    "",
+    "For currencies such as the Korean won or the Chilean peso that do not use denominations in decimals for everyday transactions (that is, the smallest denomination of the currency is a single unit, such as one won or one peso), this field stores the value before any adjustments have been made to shift the decimal point to prepare the data for analysis.  (Other currencies do use denominations in decimals for everyday transactions, such as the United States dollar, which uses a cent, or 1/100th of a dollar.)\""
+  ],
+  "expression": "SUM('Sales Orders Facts'[BKNG_EXTD_STD_DISC_WTHOT_DCML_ADJMT_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Bookings Measures"
+}

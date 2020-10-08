@@ -1,0 +1,16 @@
+{
+  "name": "Hyperion Business Unit Code",
+  "dataType": "string",
+  "description": [
+    "code assigned within the Hyperion Financial Management reporting package (HFM) for a business unit within the financial structure of Rockwell Automation (such as ACS for Automation Software, DRV for Drives, ICB for Industrial Components Business, MOT for Motion, and SOF for Software), stored as a varchar",
+    "",
+    "The Business Units within Hyperion Financial Management are divided into a three-level hierarchy (See below). They are denoted in the following way: The Business Unit at Level 1, Full Business Unit at Level 2, and the Sub-Business Unit at Level 3. ",
+    "",
+    "Business Unit = business group at the second level in the profit and cost center hierarchies (for example, PCB for Power Control Business)",
+    "Full Business Unit = business unit at the third level in the profit and cost center hierarchies (for example, DST for Standard Drives)",
+    "Sub Business Unit  = sub-business unit at the fourth level in the profit and cost center hierarchies (for example, CDS for Component Drives)"
+  ],
+  "sourceColumn": "Hyperion Business Unit Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "GLBL_CUST_DISC_WTHOT_DCML_ADJMT_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "GLBL_CUST_DISC_WTHOT_DCML_ADJMT_AMT",
+  "encodingHint": "value"
+}

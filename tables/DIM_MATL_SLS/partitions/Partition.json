@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_MATL_SLS = Source{[Schema=\"GLBL\",Item=\"V_DIM_MATL_SLS_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_MATL_SLS,{\"MATL_SLS_KEY\", \"Sales Organization Code\", \"Distribution Channel Code\", \"Material Identifier\", \"Stock Status Code\", \"Prod Allowed for Pre-Auth Rtn Ind\", \"Prod Allowed for Return Ind\", \"Product Brand Code\", \"Published Product Indicator\", \"Product Current Series Indicator\", \"Product Dir Ship Deliv Plant Code\", \"Product Direct Shipment Indicator\", \"Discount Schedule\", \"Delivering Plant Code\", \"Product Deliv Qty Rndg Val\", \"Distribution Channel Status Code\", \"Dist Channel Status Eff From Date\", \"Product Expected Delivering Plant Code\", \"Harmonized Tariff Schedule 8D Code\", \"Harmonized Tariff Schedule Code\", \"Product Minimum Delivery Quantity\", \"Product Minimum Order Quantity\", \"Price Family Code\", \"Price Group Code\", \"Preferred Product Indicator \", \"Product Available Date\", \"Product Country Of Origin Code\", \"Published Product Lead Time Days\", \"Sales Unit Of Measure\", \"Technology Segment\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

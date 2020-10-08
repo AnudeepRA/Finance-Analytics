@@ -1,0 +1,7 @@
+{
+  "name": "72c0623d-2a3e-4479-81b8-a17b743b503c",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "INTERNAL_ORD_NO_KEY",
+  "toTable": "Internal Order Number",
+  "toColumn": "Internal Order Number Key"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Ind Vertical",
+  "dataType": "string",
+  "sourceColumn": "Ind Vertical",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Booking Document Identifier",
+  "dataType": "string",
+  "description": "identifier for the document that represents a demand (\"reservation\") for products or services in SAP (such as a sales document or warranty return document), stored as a nvarchar",
+  "sourceColumn": "Booking Document Identifier",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

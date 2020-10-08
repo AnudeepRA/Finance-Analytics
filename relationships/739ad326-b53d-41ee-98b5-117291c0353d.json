@@ -1,0 +1,7 @@
+{
+  "name": "739ad326-b53d-41ee-98b5-117291c0353d",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "COMPANY_KEY",
+  "toTable": "DIM_COMPANY",
+  "toColumn": "COMPANY_KEY"
+}

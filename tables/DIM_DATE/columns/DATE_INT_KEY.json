@@ -1,0 +1,7 @@
+{
+  "name": "DATE_INT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "DATE_INT_KEY",
+  "encodingHint": "hash"
+}

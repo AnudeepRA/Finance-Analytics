@@ -1,0 +1,7 @@
+{
+  "name": "Fiscal Calendar Qtr Year Text",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Calendar Qtr Year Text",
+  "sortByColumn": "Fiscal_Calendar_Qtr_Year_Text_ORD_Number",
+  "encodingHint": "hash"
+}

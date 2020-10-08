@@ -1,0 +1,7 @@
+{
+  "name": "Cost Element Medium Description",
+  "dataType": "string",
+  "description": "medium-length description for the Cost Element, which is a category of an activity that incurs costs, stored as a string",
+  "sourceColumn": "Cost Element Medium Description",
+  "encodingHint": "hash"
+}

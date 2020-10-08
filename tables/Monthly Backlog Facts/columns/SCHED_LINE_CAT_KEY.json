@@ -1,0 +1,7 @@
+{
+  "name": "SCHED_LINE_CAT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SCHED_LINE_CAT_KEY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Actual Primary Postings Lock Indicator",
+  "dataType": "string",
+  "description": [
+    "indicator (such as X if locked for posting or blank if it is not) of whether a cost center is locked for posting with direct costs, stored as a string",
+    "",
+    "If the indicator is active, no primary costs can be posted to the cost center. You may, however, still use the cost center for evaluations such as summarization, etc."
+  ],
+  "sourceColumn": "Actual Primary Postings Lock Indicator",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "3470f91b-1e95-417a-b5b9-a1668eb8ebde",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "MFGNG_REQRMT_TYPE_KEY",
+  "toTable": "Manufacturing Requirement Type",
+  "toColumn": "Manufacturing Requirement Type Key"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "0502fe46-a2a1-47e9-9f3c-4a0e8680c93b",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "BKD_QTY_UOM_KEY",
+  "toTable": "Booked Quantity Unit of Measure",
+  "toColumn": "UOM_KEY"
+}

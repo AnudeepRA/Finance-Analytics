@@ -1,0 +1,11 @@
+{
+  "name": "Billable Outbound Freight Costs In USD At M Rate",
+  "description": [
+    "\"the total billable amount of the costs related to the transport of finshed goods from the Rockwell Automation plant or distribution center to the delivery location specified by the customer (which may include costs or charges for packing, palletizing, documentation, loading, unloading, carriage, and insurance) for the given line item on the booking document, stored as a decimal in United States dollars (Currency Code = USD) using the monthly exchange rate in effect at the time of the transaction",
+    "",
+    "In some cases, outbound freight costs are not billable (such as when shipping replacement parts under warranty or promotional/demo products).\""
+  ],
+  "expression": "SUM('Sales Orders Facts'[BILLB_OUTBND_FRT_GLBL_M_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Bookings Measures"
+}

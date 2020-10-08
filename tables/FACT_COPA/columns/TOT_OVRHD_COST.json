@@ -1,0 +1,6 @@
+{
+  "name": "TOT_OVRHD_COST",
+  "dataType": "double",
+  "sourceColumn": "TOT_OVRHD_COST",
+  "encodingHint": "value"
+}

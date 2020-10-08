@@ -1,0 +1,7 @@
+{
+  "name": "7334fa79-e1ef-48ee-908b-cb0fbffad06a",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SOLD_TO_BP_KEY",
+  "toTable": "DIM_BUSINESS_PARTNER_SOLD_TO",
+  "toColumn": "BUSI_PRTNR_KEY"
+}

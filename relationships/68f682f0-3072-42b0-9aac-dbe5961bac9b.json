@@ -1,0 +1,7 @@
+{
+  "name": "68f682f0-3072-42b0-9aac-dbe5961bac9b",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SHIPPING_CONDITION_KEY",
+  "toTable": "Shipping Condition",
+  "toColumn": "Shipping Condition Key"
+}

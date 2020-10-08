@@ -1,0 +1,7 @@
+{
+  "name": "e888c818-8fc2-4c3e-848b-bcd9a39158f3",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "MATL_SLS_KEY",
+  "toTable": "DIM_MATL_SLS",
+  "toColumn": "MATL_SLS_KEY"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner PO Box",
+  "dataType": "string",
+  "description": "number of the post office box for the given Business Partner in SAP, stored as a nvarchar",
+  "sourceColumn": "Business Partner PO Box",
+  "encodingHint": "hash"
+}

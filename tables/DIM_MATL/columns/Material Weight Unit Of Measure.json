@@ -1,0 +1,7 @@
+{
+  "name": "Material Weight Unit Of Measure",
+  "dataType": "string",
+  "description": "the unit of measure (such as KG for kilograms) for the Material Gross and Net Weights of the given material, stored as a nvarchar",
+  "sourceColumn": "Material Weight Unit Of Measure",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DSTBN_COST",
+  "dataType": "double",
+  "sourceColumn": "DSTBN_COST",
+  "encodingHint": "value"
+}

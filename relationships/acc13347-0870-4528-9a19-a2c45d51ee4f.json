@@ -1,0 +1,7 @@
+{
+  "name": "acc13347-0870-4528-9a19-a2c45d51ee4f",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_DOC_ITM_CAT_KEY",
+  "toTable": "Sales Document Item Category",
+  "toColumn": "Sales Document Item Category Key"
+}

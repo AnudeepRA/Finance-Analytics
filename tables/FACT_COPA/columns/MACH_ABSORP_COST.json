@@ -1,0 +1,6 @@
+{
+  "name": "MACH_ABSORP_COST",
+  "dataType": "double",
+  "sourceColumn": "MACH_ABSORP_COST",
+  "encodingHint": "value"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "SETLMNT_QTY_UOM_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SETLMNT_QTY_UOM_KEY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Country Sale Organization Code",
+  "dataType": "string",
+  "sourceColumn": "Country Sale Organization Code",
+  "encodingHint": "hash"
+}

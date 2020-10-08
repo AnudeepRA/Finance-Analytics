@@ -1,0 +1,7 @@
+{
+  "name": "Plant Code",
+  "dataType": "string",
+  "description": "code in SAP for the physical location (4 digits stored as text, such as 1020 for Twinsburg, 1090 for the Champaign Distribution Center, 4000 for the Central European Distribution Center, and 4080 for the EMEA main service hub) at which material is produced and stored as inventory, or goods and services are provided, stored as a string",
+  "sourceColumn": "Plant Code",
+  "encodingHint": "hash"
+}

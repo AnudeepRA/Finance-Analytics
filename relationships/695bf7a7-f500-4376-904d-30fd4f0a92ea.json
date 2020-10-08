@@ -1,0 +1,7 @@
+{
+  "name": "695bf7a7-f500-4376-904d-30fd4f0a92ea",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "COST_ELEMENT_HIERARCHY_KEY",
+  "toTable": "Cost Element Hierarchy Standard",
+  "toColumn": "COST_ELEMNT_HRCHY_KEY"
+}

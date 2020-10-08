@@ -1,0 +1,13 @@
+{
+  "name": "Adjusted Cost Component",
+  "description": "amount of manual adjustments made by the Rockwell Automation Finance team in the General Ledger to the costs of the material for the given transaction (such as a goods issue or inventory revaluation), stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "sum(FACT_COPA[ADJD_COST_CMPNT_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

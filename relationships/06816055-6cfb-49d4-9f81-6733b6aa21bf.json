@@ -1,0 +1,8 @@
+{
+  "name": "06816055-6cfb-49d4-9f81-6733b6aa21bf",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "CMTD_DLVRY_DTE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY",
+  "isActive": false
+}

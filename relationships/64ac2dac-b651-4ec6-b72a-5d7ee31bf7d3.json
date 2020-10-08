@@ -1,0 +1,7 @@
+{
+  "name": "64ac2dac-b651-4ec6-b72a-5d7ee31bf7d3",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "BKD_QTY_UOM_KEY",
+  "toTable": "Booked Quantity Unit of Measure",
+  "toColumn": "UOM_KEY"
+}

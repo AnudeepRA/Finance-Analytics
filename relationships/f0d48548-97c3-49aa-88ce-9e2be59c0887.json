@@ -1,0 +1,7 @@
+{
+  "name": "f0d48548-97c3-49aa-88ce-9e2be59c0887",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "INCOTERMS_KEY",
+  "toTable": "DIM_INCOTERMS",
+  "toColumn": "INCOTERMS_KEY"
+}

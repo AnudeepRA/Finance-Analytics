@@ -1,0 +1,12 @@
+{
+  "name": "Value Type Statistics Code Medium Description",
+  "dataType": "string",
+  "description": [
+    "medium description associated with the given Value Type Code and Value Type Statistics Indicator combination (see examples below), stored as a string",
+    "",
+    "Actual (Not Statistical) = Value Type Code 010 and Value Type Statistics Indicator 0",
+    "Statistical Actual = Value Type Code 010 and Value Type Statistics Indicator 2"
+  ],
+  "sourceColumn": "Value Type Statistics Code Medium Description",
+  "encodingHint": "hash"
+}

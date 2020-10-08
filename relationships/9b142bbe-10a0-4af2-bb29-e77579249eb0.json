@@ -1,0 +1,7 @@
+{
+  "name": "9b142bbe-10a0-4af2-bb29-e77579249eb0",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "COST_CTR_HIERARCHY_KEY",
+  "toTable": "Cost Center Hierarchy Standard",
+  "toColumn": "COST_CTR_HRCHY_KEY"
+}

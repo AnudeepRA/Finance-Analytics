@@ -1,0 +1,7 @@
+{
+  "name": "Delivery Group Description",
+  "dataType": "string",
+  "description": "description associated with the code used to group the type of delivery allowed for a given order (such as C for Only Complete Delivery Allowed or blank for Partial Delivery Allowed), stored as a nvarchar",
+  "sourceColumn": "Delivery Group Description",
+  "encodingHint": "hash"
+}

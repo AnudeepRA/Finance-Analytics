@@ -1,0 +1,6 @@
+{
+  "name": "PRODN_ORD_DLVRD_QTY",
+  "dataType": "double",
+  "sourceColumn": "PRODN_ORD_DLVRD_QTY",
+  "encodingHint": "value"
+}

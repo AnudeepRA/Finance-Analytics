@@ -1,0 +1,7 @@
+{
+  "name": "SLS_DOC_ITM_CAT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SLS_DOC_ITM_CAT_KEY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Delivery Group Code",
+  "dataType": "string",
+  "description": "code used to group the type of delivery allowed for a given order (such as C for Only Complete Delivery Allowed or blank for Partial Delivery Allowed), stored as a nvarchar",
+  "sourceColumn": "Delivery Group Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "RateTypeSelected",
+  "expression": "SELECTEDVALUE(DIM_CRNCY_CVRSN[Rate Type])",
+  "isHidden": true
+}

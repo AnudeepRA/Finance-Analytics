@@ -1,0 +1,7 @@
+{
+  "name": "Controlling Area Currency Code",
+  "dataType": "string",
+  "description": "code for the currency (such as MYR for Malaysia ringgit or USD for United States dollars) in SAP, based on the controlling area, stored as a nvarchar",
+  "sourceColumn": "Controlling Area Currency Code",
+  "encodingHint": "hash"
+}

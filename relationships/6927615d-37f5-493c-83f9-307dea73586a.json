@@ -1,0 +1,7 @@
+{
+  "name": "6927615d-37f5-493c-83f9-307dea73586a",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "CUST_COLLECTIVE_NO_KEY",
+  "toTable": "Customer Collective Number",
+  "toColumn": "Customer Collective Number Key"
+}

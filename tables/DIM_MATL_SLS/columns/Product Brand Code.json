@@ -1,0 +1,7 @@
+{
+  "name": "Product Brand Code",
+  "dataType": "string",
+  "description": "code in SAP that identifies the marketing brand within Rockwell Automation (such as 001 for Allen-Bradley, or 002 for Rockwell Software, or 013 for Sprecher+Schuh) for the given product and sales organization, stored as a nvarchar",
+  "sourceColumn": "Product Brand Code",
+  "encodingHint": "hash"
+}

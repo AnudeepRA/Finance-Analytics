@@ -1,0 +1,7 @@
+{
+  "name": "Activity Type Valid Cost Center Categories Indicator",
+  "dataType": "string",
+  "description": "indicator used to determine what cost center types are allowed for a given Activity Type Code, which determines what is allowed for planning or as a sender what is allowed for internal activity allocation, stored as a string",
+  "sourceColumn": "Activity Type Valid Cost Center Categories Indicator",
+  "encodingHint": "hash"
+}

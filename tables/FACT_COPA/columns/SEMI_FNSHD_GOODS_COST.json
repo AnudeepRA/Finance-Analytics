@@ -1,0 +1,6 @@
+{
+  "name": "SEMI_FNSHD_GOODS_COST",
+  "dataType": "double",
+  "sourceColumn": "SEMI_FNSHD_GOODS_COST",
+  "encodingHint": "value"
+}

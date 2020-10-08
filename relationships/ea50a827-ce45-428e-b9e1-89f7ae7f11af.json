@@ -1,0 +1,7 @@
+{
+  "name": "ea50a827-ce45-428e-b9e1-89f7ae7f11af",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "ORD_ITM_PHYSCL_DLVRY_IND_VAL_KEY",
+  "toTable": "Order Item Physical Delivery Indicator Values",
+  "toColumn": "Indicator Values Key"
+}

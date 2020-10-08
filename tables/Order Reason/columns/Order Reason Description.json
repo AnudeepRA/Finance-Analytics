@@ -1,0 +1,20 @@
+{
+  "name": "Order Reason Description",
+  "dataType": "string",
+  "description": [
+    "\"description associated with the code in SAP (see examples below) that identifies why the given order was placed, stored as a nvarchar",
+    "",
+    "ZA4 = Sales/Support Error",
+    "ZA7 = NPSR",
+    "ZB3 = Manufacturing Error",
+    "ZBA = Billing Adjustment",
+    "ZPE = Packaging Error",
+    "ZS1 = Shipping Error",
+    "ZSD = Shipping Damage",
+    "ZSP = Special Return",
+    "ZTU = Trade Up Program",
+    "ZCW = Consumable Warranty\""
+  ],
+  "sourceColumn": "Order Reason Description",
+  "encodingHint": "hash"
+}

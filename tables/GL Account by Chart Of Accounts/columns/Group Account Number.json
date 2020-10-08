@@ -1,0 +1,7 @@
+{
+  "name": "Group Account Number",
+  "dataType": "string",
+  "description": "number for the line item associated with the given account, as defined within the balance sheet and the Profit and Loss structure, which is assgined by the given G/L Account Number or the group account number, stored as a string",
+  "sourceColumn": "Group Account Number",
+  "encodingHint": "hash"
+}

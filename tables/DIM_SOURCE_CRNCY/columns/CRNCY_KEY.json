@@ -1,0 +1,5 @@
+{
+  "name": "CRNCY_KEY",
+  "dataType": "int64",
+  "sourceColumn": "CRNCY_KEY"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ENGRNG_EXP_COST",
+  "dataType": "double",
+  "sourceColumn": "ENGRNG_EXP_COST",
+  "encodingHint": "value"
+}

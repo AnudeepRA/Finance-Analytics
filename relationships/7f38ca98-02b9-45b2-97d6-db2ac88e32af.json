@@ -1,0 +1,7 @@
+{
+  "name": "7f38ca98-02b9-45b2-97d6-db2ac88e32af",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "ORD_ITM_REJECTION_REASON_KEY",
+  "toTable": "Order Item Rejection Reason",
+  "toColumn": "Order Item Rejection Reason Key"
+}

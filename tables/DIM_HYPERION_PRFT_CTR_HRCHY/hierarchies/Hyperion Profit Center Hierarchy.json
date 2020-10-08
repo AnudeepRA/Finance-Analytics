@@ -1,0 +1,30 @@
+{
+  "name": "Hyperion Profit Center Hierarchy",
+  "levels": [
+    {
+      "name": "FBU Description",
+      "ordinal": 2,
+      "column": "FBU Description"
+    },
+    {
+      "name": "BU Description",
+      "ordinal": 1,
+      "column": "BU Description"
+    },
+    {
+      "name": "SBU Description",
+      "ordinal": 3,
+      "column": "SBU Description"
+    },
+    {
+      "name": "Profit Center Code",
+      "ordinal": 4,
+      "column": "Profit Center Code"
+    },
+    {
+      "name": "Segment Description",
+      "ordinal": 0,
+      "column": "Segment Description"
+    }
+  ]
+}

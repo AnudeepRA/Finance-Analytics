@@ -1,0 +1,6 @@
+{
+  "name": "BP GUID",
+  "dataType": "string",
+  "sourceColumn": "BP GUID",
+  "encodingHint": "hash"
+}

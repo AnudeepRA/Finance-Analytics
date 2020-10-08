@@ -1,0 +1,7 @@
+{
+  "name": "G/L Account Planning Blocked Indicator",
+  "dataType": "string",
+  "description": "indicator (such as X if the acccount is blocked or blank if not) of whether the given G/L account is blocked for planning, stored as a string",
+  "sourceColumn": "G/L Account Planning Blocked Indicator",
+  "encodingHint": "hash"
+}

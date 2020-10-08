@@ -1,0 +1,7 @@
+{
+  "name": "2530c536-281c-400b-9217-01adedaf32b0",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "PLANT_KEY",
+  "toTable": "DIM_PLANT",
+  "toColumn": "PLANT_KEY"
+}

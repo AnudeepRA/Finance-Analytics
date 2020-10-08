@@ -1,0 +1,7 @@
+{
+  "name": "SLS_ORD_SFTWR_SHPMNT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SLS_ORD_SFTWR_SHPMNT_KEY",
+  "encodingHint": "hash"
+}

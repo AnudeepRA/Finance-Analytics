@@ -1,0 +1,12 @@
+{
+  "name": "Customer Purchase Order Number",
+  "dataType": "string",
+  "description": [
+    "\"number of the purchase order (PO) from the company (such as a distributor or an end customer) that purchased the product, stored as a nvarchar in the format dictated by the given customer",
+    "",
+    "The Rockwell Automation sales document includes the Customer PO Number, which is used as a reference to facilitate sales of products and services to the customer.\""
+  ],
+  "sourceColumn": "Customer Purchase Order Number",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

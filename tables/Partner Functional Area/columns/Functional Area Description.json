@@ -1,0 +1,11 @@
+{
+  "name": "Functional Area Description",
+  "dataType": "string",
+  "description": [
+    "description associated with the code in SAP that represents a line item on the income statement (such as 1000 for Sales-3rd Party Sales, 2000 for Standard Cost of Sales, 2100 for Inventory Adjustment-Scrap Sales, 5000 for Field Sales, 6005 for Marketing-Commercial, and 7000 for Admin), stored as a nvarchar",
+    "",
+    "All general ledger accounts in SAP are assigned to a Functional Area, which is then associated with an HFM account."
+  ],
+  "sourceColumn": "Functional Area Description",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "10bca799-0793-4004-b09f-73ea6f7452ad",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_QTY_UOM_KEY",
+  "toTable": "DIM_UNIT_OF_MEASURE",
+  "toColumn": "UOM_KEY"
+}

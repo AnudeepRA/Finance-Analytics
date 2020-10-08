@@ -1,0 +1,8 @@
+{
+  "name": "Plan Version Name",
+  "dataType": "string",
+  "description": "name associated with the code (such as Plan/actual version for code 0, PS: Forecast Version for code 110, or Plan Version 2 for code P02, etc.) that identifies the current version the given controlling value type in SAP, stored as a string",
+  "sourceColumn": "Plan Version Name",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

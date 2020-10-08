@@ -1,0 +1,7 @@
+{
+  "name": "Copa Trans Type and Desc",
+  "dataType": "string",
+  "description": "concatenation of the Copa Transaction Type and the associated COPA Transaction Type Description (such as C-Order/proj.settlemnt or E-Single trans costing), stored as a nvarchar",
+  "sourceColumn": "Copa Trans Type and Desc",
+  "encodingHint": "hash"
+}

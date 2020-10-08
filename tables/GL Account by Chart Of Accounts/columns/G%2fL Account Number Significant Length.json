@@ -1,0 +1,7 @@
+{
+  "name": "G/L Account Number Significant Length",
+  "dataType": "string",
+  "description": "identifier for the general ledger account, which contains leading zeros (such as 00075000 for the G/L account number 75000), stored as a string",
+  "sourceColumn": "G/L Account Number Significant Length",
+  "encodingHint": "hash"
+}

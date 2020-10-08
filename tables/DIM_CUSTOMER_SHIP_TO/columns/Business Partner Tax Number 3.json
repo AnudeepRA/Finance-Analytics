@@ -1,0 +1,11 @@
+{
+  "name": "Business Partner Tax Number 3",
+  "dataType": "string",
+  "description": [
+    "free-form text for a third tax identification number associated with the business partner, stored as a nvarchar",
+    "",
+    "The use of this field varies by country."
+  ],
+  "sourceColumn": "Business Partner Tax Number 3",
+  "encodingHint": "hash"
+}

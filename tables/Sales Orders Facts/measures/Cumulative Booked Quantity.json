@@ -1,0 +1,11 @@
+{
+  "name": "Cumulative Booked Quantity",
+  "description": [
+    "\"number of units reserved to be sold, or hours of service planned, for the entire line item in the given sales document, based on the sales unit of measure for the material, stored as a decimal",
+    "",
+    "If the total quantity of a product on a sales order line item must be shipped in multiple partial deliveries, multiple schedule lines exist (one for each delivery) with the appropriate quantity and delivery date for each schedule line.  The Cumulative Booked Quantity is the rounded total quantity from all of schedule lines for the line item.\""
+  ],
+  "expression": " SUM('Sales Orders Facts'[ITM_CUM_BKD_QTY])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Bookings Measures"
+}

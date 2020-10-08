@@ -1,0 +1,7 @@
+{
+  "name": "Activity Type Unit Of Measure",
+  "dataType": "string",
+  "description": "the unit of measure used when posting the consumed activity quantity (such as EA for each or H for hours), which is based upon the unit of measure in the activity type master data, stored as a string",
+  "sourceColumn": "Activity Type Unit Of Measure",
+  "encodingHint": "hash"
+}

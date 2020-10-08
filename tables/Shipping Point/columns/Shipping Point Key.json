@@ -1,0 +1,9 @@
+{
+  "name": "Shipping Point Key",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the primary key in the shipping point dimension table, stored as a bigint",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "Shipping Point Key",
+  "encodingHint": "hash"
+}

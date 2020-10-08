@@ -1,0 +1,6 @@
+{
+  "name": "SPCL_DIR_SLS_COST",
+  "dataType": "double",
+  "sourceColumn": "SPCL_DIR_SLS_COST",
+  "encodingHint": "value"
+}

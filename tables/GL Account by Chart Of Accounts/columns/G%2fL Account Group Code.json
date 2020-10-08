@@ -1,0 +1,7 @@
+{
+  "name": "G/L Account Group Code",
+  "dataType": "string",
+  "description": "code in SAP that classifies the given G/L account with the G/L account master record, stored as a string",
+  "sourceColumn": "G/L Account Group Code",
+  "encodingHint": "hash"
+}

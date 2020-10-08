@@ -1,0 +1,12 @@
+{
+  "name": "UOM_MLTPLR_NMRTR",
+  "dataType": "double",
+  "description": [
+    "\"numerator of the ratio used to convert a quantity related to the given sales order line item from the Sales Unit Of Measure to the Material Base Unit Of Measure, stored as a decimal",
+    "",
+    "Quantity In Material Base Unit Of Measure = Quantity In Sales Unit Of Measure * (Unit Of Measure Multiplier Numerator / Unit Of Measure Multiplier Denominator)\""
+  ],
+  "isHidden": true,
+  "sourceColumn": "UOM_MLTPLR_NMRTR",
+  "encodingHint": "value"
+}

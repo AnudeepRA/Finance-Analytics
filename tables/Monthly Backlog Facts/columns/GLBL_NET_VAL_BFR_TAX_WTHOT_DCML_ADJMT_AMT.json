@@ -1,0 +1,7 @@
+{
+  "name": "GLBL_NET_VAL_BFR_TAX_WTHOT_DCML_ADJMT_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "GLBL_NET_VAL_BFR_TAX_WTHOT_DCML_ADJMT_AMT",
+  "encodingHint": "value"
+}

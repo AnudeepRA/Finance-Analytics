@@ -1,0 +1,7 @@
+{
+  "name": "d3cf8d89-c850-4e82-ac4e-76764fa74c12",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "ORD_ITM_DLVRY_PRTY_KEY",
+  "toTable": "Order Item Delivery Priority",
+  "toColumn": "Order Item Delivery Priority Key"
+}

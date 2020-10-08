@@ -1,0 +1,7 @@
+{
+  "name": "c121d091-4bbd-4bd5-8ba1-98cf51167b4d",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "MATL_KEY",
+  "toTable": "DIM_MATL",
+  "toColumn": "MATL_KEY"
+}

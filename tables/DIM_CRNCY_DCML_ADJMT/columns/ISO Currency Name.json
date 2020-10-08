@@ -1,0 +1,7 @@
+{
+  "name": "ISO Currency Name",
+  "dataType": "string",
+  "description": "the name of the currency associated with the given three-letter ISO Currency Code, stored as a nvarchar",
+  "sourceColumn": "ISO Currency Name",
+  "encodingHint": "hash"
+}

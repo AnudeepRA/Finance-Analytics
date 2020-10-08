@@ -1,0 +1,7 @@
+{
+  "name": "Level 1 Code",
+  "dataType": "string",
+  "description": "code associated with level 1 of the cost element hierarchy, stored as a string",
+  "sourceColumn": "Level 1 Code",
+  "encodingHint": "hash"
+}

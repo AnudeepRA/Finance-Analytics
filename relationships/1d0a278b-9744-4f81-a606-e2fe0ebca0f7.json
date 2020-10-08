@@ -1,0 +1,7 @@
+{
+  "name": "1d0a278b-9744-4f81-a606-e2fe0ebca0f7",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "ORD_ITM_CREATD_DTE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY"
+}

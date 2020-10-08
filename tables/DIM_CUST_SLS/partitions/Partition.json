@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_CUST_SLS = Source{[Schema=\"GLBL\",Item=\"V_DIM_CUST_SLS_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_CUST_SLS,{\"CUST_SLS_KEY\", \"Business Partner Identifier\", \"Sales Organization Code\", \"Distribution Channel Code\", \"Division Code\", \"Customer Account Deletion Indicator\", \"Sales District Code\", \"Incoterms Code\", \"Incoterms Details\", \"Customer Account Assignment Group\", \"Delivering Plant Code\", \"Sales Office Code\", \"Sales Document Invoice Review Code\", \"Consolidated Billing Frequency Code\", \"Customer Group 5 Code In SAP\", \"Sold To Business Partner Name\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

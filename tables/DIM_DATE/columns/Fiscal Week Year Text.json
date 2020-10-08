@@ -1,0 +1,7 @@
+{
+  "name": "Fiscal Week Year Text",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Week Year Text",
+  "sortByColumn": "Fiscal Calendar Year Number",
+  "encodingHint": "value"
+}

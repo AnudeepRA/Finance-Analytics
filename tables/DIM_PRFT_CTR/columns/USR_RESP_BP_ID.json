@@ -1,0 +1,6 @@
+{
+  "name": "USR_RESP_BP_ID",
+  "dataType": "string",
+  "sourceColumn": "USR_RESP_BP_ID",
+  "encodingHint": "hash"
+}

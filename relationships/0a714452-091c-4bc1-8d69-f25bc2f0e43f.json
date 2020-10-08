@@ -1,0 +1,8 @@
+{
+  "name": "0a714452-091c-4bc1-8d69-f25bc2f0e43f",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "PRODN_ORD_DLVRD_QTY_UOM_KEY",
+  "toTable": "DIM_UNIT_OF_MEASURE",
+  "toColumn": "UOM_KEY",
+  "isActive": false
+}

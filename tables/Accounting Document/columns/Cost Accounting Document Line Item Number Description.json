@@ -1,0 +1,7 @@
+{
+  "name": "Cost Accounting Document Line Item Number Description",
+  "dataType": "string",
+  "description": "description associated with the given line item (such as DKC DIGI KEY CORP, ULINE SHIP SUPPLIES or QUEST COMPONEN00 OF 00) in the cost accounting document in SAP for the cost center, stored as a string",
+  "sourceColumn": "Cost Accounting Document Line Item Number Description",
+  "encodingHint": "hash"
+}

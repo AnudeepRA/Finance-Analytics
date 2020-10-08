@@ -1,0 +1,7 @@
+{
+  "name": "5770dfba-f68d-4579-8c49-ca6d0252073c",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "PARTL_DLVRY_GRP_KEY",
+  "toTable": "Delivery Group",
+  "toColumn": "Delivery Group Key"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Commitment Update Lock Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator (such as X if the commitment can be update or blank if not) of whether a given commitment associated with the cost center can be updated or not, stored as a string",
+    "",
+    "If the Commitment Update Lock Indicator is active, no commitments can be updated to the affected cost center.\""
+  ],
+  "sourceColumn": "Commitment Update Lock Indicator",
+  "encodingHint": "hash"
+}

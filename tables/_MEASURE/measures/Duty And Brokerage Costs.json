@@ -1,0 +1,13 @@
+{
+  "name": "Duty And Brokerage Costs",
+  "description": "amount of duties other than import duty (such as local or port-specific duties) and brokerage fees paid in conjunction with the purchase of raw materials needed to make the material for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "sum(FACT_COPA[DUTY_BRKRG_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

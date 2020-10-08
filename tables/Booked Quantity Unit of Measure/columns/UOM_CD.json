@@ -1,0 +1,5 @@
+{
+  "name": "UOM_CD",
+  "dataType": "string",
+  "sourceColumn": "UOM_CD"
+}

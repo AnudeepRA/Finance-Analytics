@@ -1,0 +1,13 @@
+{
+  "name": "Billable Outbound Freight Costs Manual Adjustments",
+  "description": "amount of manual adjustments made by the Rockwell Automation Finance team in the General Ledger to the billable outbound freight costs for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "sum(FACT_COPA[BILLBL_OUTBND_ADJMT_FRT_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

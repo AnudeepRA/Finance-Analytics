@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_CRNCY_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_CRNCY_BusNm\"]}[Data],",
+      "    #\"Removed Columns\" = Table.RemoveColumns(GLBL_V_DIM_CRNCY_BusNm,{\"DW_CREATED_DTTM\", \"DW_UPDATED_DTTM\"})",
+      "in",
+      "    #\"Removed Columns\""
+    ]
+  }
+}

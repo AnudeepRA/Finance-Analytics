@@ -1,0 +1,7 @@
+{
+  "name": "10481ce5-0555-4bdb-b42d-a49c374fad99",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "PRTNR_FUNCL_AREA_KEY",
+  "toTable": "Partner Functional Area",
+  "toColumn": "FUNCL_AREA_KEY"
+}

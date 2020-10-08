@@ -1,0 +1,5 @@
+{
+  "name": "BAS Time Zone",
+  "dataType": "string",
+  "sourceColumn": "BAS Time Zone"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fully Burdened Absorption Costs",
+  "description": "the total of manufacturing costs that were absorbed by the material produced:  labor (Machine Absorption Costs) and fixed and variable manufacturing overhead (Indirect Material Costs, or material burden) costs, for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "sum(FACT_COPA[FULL_BDN_ABSORP_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Market Closed",
+  "expression": "sum(DIM_DATE[Is Market Closed Count])",
+  "displayFolder": "Key Metrics"
+}

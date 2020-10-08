@@ -1,0 +1,5 @@
+{
+  "name": "RA Work Day",
+  "expression": "sum(DIM_DATE[Is RA Work Day Count])",
+  "displayFolder": "Key Metrics"
+}

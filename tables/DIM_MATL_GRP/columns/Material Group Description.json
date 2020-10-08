@@ -1,0 +1,8 @@
+{
+  "name": "Material Group Description",
+  "dataType": "string",
+  "description": "description associated with the category defined by Rockwell Automation (such as 01MKE for Material Variant or 121010 for Marketing & Advertising) that identifies the group or role that will process the material master data, stored as a nvarchar",
+  "sourceColumn": "Material Group Description",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

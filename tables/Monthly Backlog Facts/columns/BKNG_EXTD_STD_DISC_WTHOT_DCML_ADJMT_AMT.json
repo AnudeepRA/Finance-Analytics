@@ -1,0 +1,7 @@
+{
+  "name": "BKNG_EXTD_STD_DISC_WTHOT_DCML_ADJMT_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "BKNG_EXTD_STD_DISC_WTHOT_DCML_ADJMT_AMT",
+  "encodingHint": "value"
+}

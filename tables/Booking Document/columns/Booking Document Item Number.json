@@ -1,0 +1,8 @@
+{
+  "name": "Booking Document Item Number",
+  "dataType": "string",
+  "description": "number of the line item in the given booking document in SAP, stored as an nvarchar",
+  "sourceColumn": "Booking Document Item Number",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

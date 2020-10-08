@@ -1,0 +1,6 @@
+{
+  "name": "Oem Seg Text",
+  "dataType": "string",
+  "sourceColumn": "Oem Seg Text",
+  "encodingHint": "hash"
+}

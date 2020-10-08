@@ -1,0 +1,20 @@
+{
+  "name": "BP Value Added Service Code",
+  "dataType": "string",
+  "description": [
+    "an optional classification in SAP that identifies a value-added service to be provided to the customer, stored as a nvarchar",
+    "",
+    "01 = Pack slip on outside",
+    "02 = Customer pick up",
+    "03 = Parcels - no pallets",
+    "04 = Pack on pallets",
+    "05 = Bundling instructions",
+    "06 = WI-RS Components (customer-specific)",
+    "07 = WI-Atlas Copco (customer-specific)",
+    "08 = WI VMI (customer-specific)",
+    "09 = Contact RA",
+    "10 = WI-Gardner Denver"
+  ],
+  "sourceColumn": "BP Value Added Service Code",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Vendor Central Posting Block Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator (such as x if blocked for posting or null if not) of whether the given vendor account is blocked for posting for all company codes, stored as a string",
+    "",
+    "If the Vendor Central Posting Block is set, the system prevents users from posting items to this account and issues an error message to inform them that the account is blocked. \""
+  ],
+  "sourceColumn": "Vendor Central Posting Block Indicator",
+  "encodingHint": "hash"
+}

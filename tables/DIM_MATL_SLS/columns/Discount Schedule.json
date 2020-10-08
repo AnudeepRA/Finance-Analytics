@@ -1,0 +1,18 @@
+{
+  "name": "Discount Schedule",
+  "dataType": "string",
+  "description": [
+    "the second level in the Rockwell Automation material pricing hierarchy, which is a way of grouping materials to which you want to apply the same conditions for pricing (such as B5 for Global Logic Product , which is part of the ICB Technology Segment), for the given material, stored as a nvarchar",
+    "",
+    "If a special pricing agreement does not exist between Rockwell Automation and the customer, Rockwell Automation applies a Standard Book Discount percentage based on the Sales Organization and Customer Price Group combination (which identifies the Discount Schedule to apply).",
+    "",
+    "The pricing hierarchy ensures consistent standard pricing and discount levels in the marketplace for similar products or services, and has the structure:",
+    "1) Technology Segment",
+    "2) Discount Schedule",
+    "3) Price Family",
+    "4) Price Group Code",
+    "5) Catalog Number"
+  ],
+  "sourceColumn": "Discount Schedule",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SLS_EXP_RECVRY_AMT",
+  "dataType": "double",
+  "sourceColumn": "SLS_EXP_RECVRY_AMT",
+  "encodingHint": "value"
+}

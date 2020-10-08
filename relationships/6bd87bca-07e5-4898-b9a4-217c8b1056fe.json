@@ -1,0 +1,7 @@
+{
+  "name": "6bd87bca-07e5-4898-b9a4-217c8b1056fe",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SCHED_LINE_CAT_KEY",
+  "toTable": "Schedule Line Category",
+  "toColumn": "Schedule Line Category Key"
+}

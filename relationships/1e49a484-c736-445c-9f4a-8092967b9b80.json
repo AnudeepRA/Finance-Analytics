@@ -1,0 +1,8 @@
+{
+  "name": "1e49a484-c736-445c-9f4a-8092967b9b80",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_ORD_ITM_MATL_AVAIL_DTE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY",
+  "isActive": false
+}

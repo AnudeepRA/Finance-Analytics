@@ -1,0 +1,8 @@
+{
+  "name": "Material Type Description",
+  "dataType": "string",
+  "description": "description associated with the code that represents the type of the material in the material master data (such as RA Configurable Materials for ZCFG, or Repair for ZREP), stored as a string",
+  "sourceColumn": "Material Type Description",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "bf952c9e-1f1b-4b05-b63a-b808a744c07f",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "PRTNR_COMPANY_KEY",
+  "toTable": "Partner Company",
+  "toColumn": "COMPANY_KEY"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Schedule Line Category",
+  "dataType": "string",
+  "description": [
+    "\"code for the classification that identifies the given schedule line type (such as CB for Individual Purchase Order, CD for Without Delivery, CP for Material Resource Planning), stored as a nvarchar",
+    "",
+    "The Schedule Line Category determines, for example, whether GAINsystems passes on requirements to material resource planning (MRP). \""
+  ],
+  "sourceColumn": "Schedule Line Category",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

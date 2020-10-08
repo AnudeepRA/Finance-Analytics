@@ -1,0 +1,15 @@
+{
+  "name": "YOY",
+  "expression": [
+    "VAR CY =",
+    "        SELECTEDMEASURE ()",
+    "    VAR PY =",
+    "        CALCULATE (",
+    "            SELECTEDMEASURE (),",
+    "            SAMEPERIODLASTYEAR (dim_date[date dt] )",
+    "        )",
+    "    VAR Result = CY- PY",
+    "    RETURN Result"
+  ],
+  "ordinal": 5
+}

@@ -1,0 +1,7 @@
+{
+  "name": "f3c3919d-7989-4b0f-9a40-1bfa1b85ada1",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "CRNCY_KEY",
+  "toTable": "DIM_SOURCE_CRNCY",
+  "toColumn": "CRNCY_KEY"
+}

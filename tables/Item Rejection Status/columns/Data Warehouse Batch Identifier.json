@@ -1,0 +1,5 @@
+{
+  "name": "Data Warehouse Batch Identifier",
+  "dataType": "string",
+  "sourceColumn": "Data Warehouse Batch Identifier"
+}

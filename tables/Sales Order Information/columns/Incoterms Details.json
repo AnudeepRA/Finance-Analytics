@@ -1,0 +1,6 @@
+{
+  "name": "Incoterms Details",
+  "dataType": "string",
+  "sourceColumn": "Incoterms Details",
+  "encodingHint": "hash"
+}

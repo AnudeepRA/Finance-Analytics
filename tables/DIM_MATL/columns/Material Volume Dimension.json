@@ -1,0 +1,11 @@
+{
+  "name": "Material Volume Dimension",
+  "dataType": "double",
+  "description": [
+    "the product of the length, width, and height dimensions of the material, without packaging, stored as a decimal in the Material Volume Unit Of Measure",
+    "",
+    "Material Volume = Material Length * Material Width * Material Height"
+  ],
+  "sourceColumn": "Material Volume Dimension",
+  "encodingHint": "hash"
+}

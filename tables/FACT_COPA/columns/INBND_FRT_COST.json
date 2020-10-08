@@ -1,0 +1,6 @@
+{
+  "name": "INBND_FRT_COST",
+  "dataType": "double",
+  "sourceColumn": "INBND_FRT_COST",
+  "encodingHint": "value"
+}

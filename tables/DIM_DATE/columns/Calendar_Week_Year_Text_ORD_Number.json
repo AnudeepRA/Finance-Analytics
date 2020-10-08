@@ -1,0 +1,7 @@
+{
+  "name": "Calendar_Week_Year_Text_ORD_Number",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "Calendar_Week_Year_Text_ORD_Number",
+  "encodingHint": "hash"
+}

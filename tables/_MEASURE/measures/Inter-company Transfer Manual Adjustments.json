@@ -1,0 +1,13 @@
+{
+  "name": "Inter-company Transfer Manual Adjustments",
+  "description": "amount of manual adjustments made by Rockwell Automation Finance to the Inter-company Transfer Costs or Markup for the given inter-company transfer transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "sum(FACT_COPA[INTRCO_TRNSFR_ADJMT_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Country Code and Name",
+  "dataType": "string",
+  "description": "concatenation of the Country Code in SAP and the associated country name (such as DE - Germany or PE - Peru.), stored as a nvarchar",
+  "sourceColumn": "Country Code and Name",
+  "encodingHint": "hash"
+}

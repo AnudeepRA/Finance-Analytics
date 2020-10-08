@@ -1,0 +1,6 @@
+{
+  "name": "Region Description",
+  "dataType": "string",
+  "sourceColumn": "Region Description",
+  "encodingHint": "hash"
+}

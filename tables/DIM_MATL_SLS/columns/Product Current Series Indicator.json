@@ -1,0 +1,13 @@
+{
+  "name": "Product Current Series Indicator",
+  "dataType": "string",
+  "description": [
+    "indicator (X if yes, or blank if no) for whether the series of the given material is the current series of the product to be sold in the given sales organization, stored as a nvarchar",
+    "",
+    "When a Catalog Identifier is specified on an order, SAP populates the current Series of the product as a default.",
+    "",
+    "The series identifies changes to a product through its life cycle, and the Rockwell Automation sales organizations also use it to ensure correct usage and consumption of the product."
+  ],
+  "sourceColumn": "Product Current Series Indicator",
+  "encodingHint": "hash"
+}

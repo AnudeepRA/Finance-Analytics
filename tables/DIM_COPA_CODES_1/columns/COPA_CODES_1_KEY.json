@@ -1,0 +1,8 @@
+{
+  "name": "COPA_CODES_1_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "COPA_CODES_1_KEY",
+  "encodingHint": "hash"
+}

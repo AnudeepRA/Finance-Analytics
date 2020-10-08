@@ -1,0 +1,7 @@
+{
+  "name": "POSTNG_DATE_INT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "POSTNG_DATE_INT_KEY",
+  "encodingHint": "hash"
+}

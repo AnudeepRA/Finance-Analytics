@@ -1,0 +1,7 @@
+{
+  "name": "SAP Subset",
+  "dataType": "string",
+  "description": "component of the setnode, which defines a standard hierarchy within SAP, stored as a nvarchar",
+  "sourceColumn": "SAP Subset",
+  "encodingHint": "hash"
+}

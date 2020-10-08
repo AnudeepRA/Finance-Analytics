@@ -1,0 +1,13 @@
+{
+  "name": "Material General Item Cat Grp",
+  "dataType": "string",
+  "description": [
+    "classification of materials (see examples below) used during sales document processing in SAP to control internal/external sales, drop ship, etc, stored as a nvarchar",
+    "",
+    "ZPLS = RA product",
+    "Z3RP = third-party cross-dock product",
+    "Z3RM = third-party direct ship product"
+  ],
+  "sourceColumn": "Material General Item Cat Grp",
+  "encodingHint": "hash"
+}

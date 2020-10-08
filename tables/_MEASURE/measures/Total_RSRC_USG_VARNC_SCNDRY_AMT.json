@@ -1,0 +1,12 @@
+{
+  "name": "Total_RSRC_USG_VARNC_SCNDRY_AMT",
+  "expression": "sum(FACT_COPA[RSRC_USG_VARNC_SCNDRY_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Misc. Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

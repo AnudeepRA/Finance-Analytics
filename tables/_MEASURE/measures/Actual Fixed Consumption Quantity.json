@@ -1,0 +1,14 @@
+{
+  "name": "Actual Fixed Consumption Quantity",
+  "description": "the actual fixed number of items consumed in the transaction at the given cost center, which is used in cost center utilization analysis (where plan and actual values are compared), stored as a decimal in the unit of measure for the transaction",
+  "expression": [
+    "",
+    "IF (",
+    "    [CCA Detail Flag],",
+    "    [Actual Fixed Consumption Quantity Detail],",
+    "    [Actual Fixed Consumption Quantity Summary]",
+    ")"
+  ],
+  "formatString": "0.00",
+  "displayFolder": "CCA"
+}

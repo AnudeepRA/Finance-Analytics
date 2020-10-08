@@ -1,0 +1,7 @@
+{
+  "name": "ed57a9d0-2922-4213-9a14-7a6977afb0bc",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "CUST_COLLECTIVE_NO_KEY",
+  "toTable": "Customer Collective Number",
+  "toColumn": "Customer Collective Number Key"
+}

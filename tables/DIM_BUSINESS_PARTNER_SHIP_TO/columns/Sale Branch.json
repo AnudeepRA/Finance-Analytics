@@ -1,0 +1,6 @@
+{
+  "name": "Sale Branch",
+  "dataType": "string",
+  "sourceColumn": "Sale Branch",
+  "encodingHint": "hash"
+}

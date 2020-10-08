@@ -1,0 +1,11 @@
+{
+  "name": "Reporting Category Code",
+  "dataType": "string",
+  "description": [
+    "code in SAP (such as 2005 for CRM Service) defined by the Rockwell Automation Finance team and used for generating reports, stored as a string",
+    "",
+    "Known as free characteristic WWFAR and defined in SPRO in the SAP COPA configuration."
+  ],
+  "sourceColumn": "Reporting Category Code",
+  "encodingHint": "hash"
+}

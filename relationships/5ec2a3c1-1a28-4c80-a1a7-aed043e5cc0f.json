@@ -1,0 +1,7 @@
+{
+  "name": "5ec2a3c1-1a28-4c80-a1a7-aed043e5cc0f",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "PLANT_STORAGE_LOCATION_KEY",
+  "toTable": "Plant Storage Location",
+  "toColumn": "Plant Storage Location Key"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Material UoM Multiplier Denominator",
+  "dataType": "int64",
+  "description": [
+    "denominator of the ratio used to convert a quantity related to the given purchase order (or stock transport order) line item from the PO Quantity Unit Of Measure to the Material Base Unit Of Measure, stored as a integer",
+    "",
+    "Quantity In Material Base Unit Of Measure = Quantity In PO Quantity Unit Of Measure * (Unit Of Measure Multiplier Numerator / Unit Of Measure Multiplier Denominator)",
+    "",
+    "For example:",
+    "A material is purchased by weight, but managed by Rockwell Automation by the piece.",
+    "5kg = 3 pieces",
+    "Quantity on PO = 10",
+    "PO Quantity Unit Of Measure  = kg",
+    "Material Base Unit Of Measure = piece",
+    "Unit Of Measure Multiplier Numerator = 3",
+    "Unit Of Measure Multiplier Denominator = 5",
+    "Quantity In Material Base Unit Of Measure = 10kg * (3/5) = 6 pieces"
+  ],
+  "sourceColumn": "Material UoM Multiplier Denominator",
+  "encodingHint": "hash"
+}

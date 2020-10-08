@@ -1,0 +1,6 @@
+{
+  "name": "DISC_ADJMT_AMT",
+  "dataType": "double",
+  "sourceColumn": "DISC_ADJMT_AMT",
+  "encodingHint": "value"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "cf07839c-24fb-40f9-9eae-4a435be07347",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "ORD_ITM_CREATD_DTE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY"
+}

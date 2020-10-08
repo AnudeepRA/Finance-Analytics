@@ -1,0 +1,13 @@
+{
+  "name": "Business Partner Name 3",
+  "dataType": "string",
+  "description": [
+    "third name or additional name details associated with the Business Partner Identifier in SAP for the company (such as a distributor or an end customer, such as EXPLORASTORE, DEPT ENGENHARIA AUTOMACAO, or CONNELLSVLLE AREA SR HIGH SCHL), stored as a nvarchar",
+    "",
+    "Use of Name 3 varies by country.  For example, in India, Name 3 stores the name of the main contact for that company, while in Chile, Name 3 stores required “Giro del negocio del Receptor” information from local Finance.",
+    "",
+    "Known as Account Name 3 in SAP"
+  ],
+  "sourceColumn": "Business Partner Name 3",
+  "encodingHint": "hash"
+}

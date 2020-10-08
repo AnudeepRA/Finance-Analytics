@@ -1,0 +1,7 @@
+{
+  "name": "9d3639ab-ddf1-4f4a-babe-f392ac3131fb",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "MATL_GRP_KEY",
+  "toTable": "DIM_MATL_GRP",
+  "toColumn": "MATL_GRP_KEY"
+}

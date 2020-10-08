@@ -1,0 +1,11 @@
+{
+  "name": "PO Quantity UOM",
+  "dataType": "string",
+  "description": [
+    "the unit of measure used to specify the quantity on a purchase order (or stock transport order) line item when procuring the given material (such as EA for each), stored as a nvarchar",
+    "",
+    "The PO Quantity UOM and the PO Price Quantity UOM may be the same, or different."
+  ],
+  "sourceColumn": "PO Quantity UOM",
+  "encodingHint": "hash"
+}

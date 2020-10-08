@@ -1,0 +1,8 @@
+{
+  "name": "SLS_DOC_ITM_CAT_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the sales document item category foreign key in the sales order fact table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "SLS_DOC_ITM_CAT_KEY",
+  "encodingHint": "hash"
+}

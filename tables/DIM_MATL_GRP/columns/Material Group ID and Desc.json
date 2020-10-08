@@ -1,0 +1,7 @@
+{
+  "name": "Material Group ID and Desc",
+  "dataType": "string",
+  "description": "concatenation of the Material Group Identifier and the description associated with the identifier (such as 01MKE - Material Variant and 121010 - Marketing & Advert), stored as a nvarchar",
+  "sourceColumn": "Material Group ID and Desc",
+  "encodingHint": "hash"
+}

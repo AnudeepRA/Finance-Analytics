@@ -1,0 +1,17 @@
+{
+  "name": "Billable Outbound Freight Costs",
+  "description": [
+    "the total billable amount of the costs related to the transport of finshed goods from the Rockwell Automation plant or distribution center to the delivery location specified by the customer (which may include costs or charges for packing, palletizing, documentation, loading, unloading, carriage, and insurance) for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "In some cases, outbound freight costs are not billable (such as when shipping replacement parts under warranty or promotional/demo products)."
+  ],
+  "expression": "sum(FACT_COPA[BILLBL_OUTBND_FRT_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

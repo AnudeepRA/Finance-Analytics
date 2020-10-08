@@ -1,0 +1,6 @@
+{
+  "name": "SETLMNT_NET_MARG_AMT",
+  "dataType": "double",
+  "sourceColumn": "SETLMNT_NET_MARG_AMT",
+  "encodingHint": "value"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Cost Element Deactivated Indicator",
+  "dataType": "string",
+  "description": "indicator (such as x if cost element has been deactivated or null if not) of whether the given cost element has been deactivated in SAP, stored as a string",
+  "sourceColumn": "Cost Element Deactivated Indicator",
+  "encodingHint": "hash"
+}

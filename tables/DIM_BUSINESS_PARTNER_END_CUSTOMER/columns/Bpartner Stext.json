@@ -1,0 +1,6 @@
+{
+  "name": "Bpartner Stext",
+  "dataType": "string",
+  "sourceColumn": "Bpartner Stext",
+  "encodingHint": "hash"
+}

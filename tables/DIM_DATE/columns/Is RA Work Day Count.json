@@ -1,0 +1,6 @@
+{
+  "name": "Is RA Work Day Count",
+  "dataType": "int64",
+  "sourceColumn": "Is RA Work Day Count",
+  "encodingHint": "hash"
+}

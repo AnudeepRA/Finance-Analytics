@@ -1,0 +1,31 @@
+{
+  "name": "Shipping Point Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP for the physical location within the given plant (see examples below) from which the product for the given sales order line item shipped or will ship, stored as a nvarchar",
+    "",
+    "For physical location 101:",
+    "101A = Standard collection of loading ramps",
+    "101E = Returns",
+    "101H = Internal",
+    "",
+    "For physical location 114:",
+    "114A = Standard",
+    "114B = Premium",
+    "114C = Urgent",
+    "114D = Receiving",
+    "114E = Returns",
+    "114F = CP (Consolidated Pack)",
+    "114G = Same Day",
+    "114H = Internal",
+    "114I = Miscellanous Outbound",
+    "114O = Ocean Shipping",
+    "",
+    "SAP automatically proposes the Shipping Point Code based on the plant, shipping condition, and loading group of parts treated similarly for shipping (such as loading group Z003 for products that are shipped more cost effectively via ocean freight).",
+    "",
+    "Products assigned to a loading group have a Shipping Point Code with an \"\"O\"\" suffix (such as 114O or 101O).  All other products (at least for now) default to loading group Z001, which is standard shipping.\""
+  ],
+  "sourceColumn": "Shipping Point Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

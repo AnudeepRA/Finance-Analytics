@@ -1,0 +1,19 @@
+{
+  "name": "Cost Element",
+  "dataType": "string",
+  "description": [
+    "\"category of an activity that incurs costs (see examples below), used in activity based costing (which states that products consume activities and activities consume resources), stored as a string",
+    "",
+    "543000 sales - intercompany",
+    "700001 operating expenses - salary, wages, and benefits",
+    "700002 operating expenses - commission, bonus, and recognition",
+    "700003 operating expenses - recruiting and relocation",
+    "762100 travel",
+    "763200 training",
+    "",
+    "A primary Cost Element is an account used for operating expenses charged to a cost object (cost center, I/O or project WBS element) and corresponds with RCOA (7XXXXX);  a secondary Cost Element is an account used exclusively to allocate costs between cost objects for management reporting purposes and does not exist in RCOA (9XXXXX).\""
+  ],
+  "sourceColumn": "Cost Element",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Calculation Base Valuation View Code",
+  "dataType": "int64",
+  "description": [
+    "code for the valuation view (such as 2 for Profit Center Valuation or 5 for Parallel Cost of Goods Manufactured 1) for the Controlling Area Calculation Base, stored as a integer",
+    "The Calculation Base determines to which cost elements overhead is applied together. "
+  ],
+  "sourceColumn": "Calculation Base Valuation View Code",
+  "encodingHint": "hash"
+}

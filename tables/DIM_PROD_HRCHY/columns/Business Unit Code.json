@@ -1,0 +1,7 @@
+{
+  "name": "Business Unit Code",
+  "dataType": "string",
+  "description": "the code for the business unit (such as ACS for Automation Software, GIA for Global Infrastructure for Architecture, KNX for Kinetix, MCP for Motor Control Protection, CPB for Package Component Business, PBS for Push Buttons, SOF for Software, and SOP for Supply of Power) that is responsible for the design of the product, and the highest level in the Rockwell Automation product hierarchy, stored as a nvarchar",
+  "sourceColumn": "Business Unit Code",
+  "encodingHint": "hash"
+}

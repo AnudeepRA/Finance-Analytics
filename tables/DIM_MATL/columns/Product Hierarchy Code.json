@@ -1,0 +1,16 @@
+{
+  "name": "Product Hierarchy Code",
+  "dataType": "string",
+  "description": [
+    "the code for the entire Rockwell Automation product hierarchy node (see example below), stored as a nvarchar",
+    "",
+    "For example:",
+    "SFC = Safety Components (business unit) ",
+    "SFCA051 = Safety non contact switches (product category)",
+    "SFCA0513A202 = Guardshield light curtains (product line)",
+    "SFCA0513A2024A1278 = 440L-Guardshield point of operation (product group - also known as the Product Hierarchy)"
+  ],
+  "sourceColumn": "Product Hierarchy Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SETLMNT_DISC_PRMTN_INCNTV_AMT",
+  "dataType": "double",
+  "sourceColumn": "SETLMNT_DISC_PRMTN_INCNTV_AMT",
+  "encodingHint": "value"
+}

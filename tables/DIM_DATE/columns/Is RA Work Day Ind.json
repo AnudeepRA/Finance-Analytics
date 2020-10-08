@@ -1,0 +1,7 @@
+{
+  "name": "Is RA Work Day Ind",
+  "dataType": "string",
+  "sourceColumn": "Is RA Work Day Ind",
+  "sortByColumn": "Is RA Work Day Count",
+  "encodingHint": "hash"
+}

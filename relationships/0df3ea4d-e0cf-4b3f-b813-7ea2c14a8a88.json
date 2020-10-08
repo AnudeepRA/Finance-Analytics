@@ -1,0 +1,7 @@
+{
+  "name": "0df3ea4d-e0cf-4b3f-b813-7ea2c14a8a88",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "PROD_HRCHY_KEY",
+  "toTable": "DIM_PROD_HRCHY",
+  "toColumn": "PROD_HRCHY_KEY"
+}

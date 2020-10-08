@@ -1,0 +1,8 @@
+{
+  "name": "Incoterms Code and Description",
+  "dataType": "string",
+  "description": "concatenation of the Incoterms Code and the Incoterms Description associated with that code (such as CFR - Costs and freight, DAF - Delivered at frontier and FOB - Free on board), stored as a nvarchar",
+  "sourceColumn": "Incoterms Code and Description",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

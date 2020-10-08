@@ -1,0 +1,6 @@
+{
+  "name": "Business Address Short S",
+  "dataType": "string",
+  "sourceColumn": "Business Address Short S",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "832844aa-d74c-4cfb-b91b-c3e12af90f89",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "PRFT_CTR_HRCHY_KEY",
+  "toTable": "DIM_PRFT_CTR_HRCHY",
+  "toColumn": "PRFT_CTR_HRCHY_KEY"
+}

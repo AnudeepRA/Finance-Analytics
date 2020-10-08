@@ -1,0 +1,7 @@
+{
+  "name": "Business Purpose Completion Indicator",
+  "dataType": "string",
+  "description": "indicator (such as X if the purpose for the vendor has been completed, or blank it not) of whether the end purchase for the master data used by the consuming applications has been reached, which upon being set blocks the given vendor, stored as a string",
+  "sourceColumn": "Business Purpose Completion Indicator",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    SLS_ORD_V_DIM_BOOKING_DOC_BusNm = Source{[Schema=\"SLS_ORD\",Item=\"V_DIM_BOOKING_DOC_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(SLS_ORD_V_DIM_BOOKING_DOC_BusNm,{\"Booking Document Key\", \"Booking Document Identifier\", \"Booking Document Item Number\", \"Reference Document Identifier\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

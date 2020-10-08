@@ -1,0 +1,7 @@
+{
+  "name": "ITM_BASE_UOM_OPEN_QTY",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "ITM_BASE_UOM_OPEN_QTY",
+  "encodingHint": "value"
+}

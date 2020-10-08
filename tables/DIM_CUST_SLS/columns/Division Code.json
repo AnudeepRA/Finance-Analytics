@@ -1,0 +1,7 @@
+{
+  "name": "Division Code",
+  "dataType": "string",
+  "description": "code in SAP that identifies divisions within Rockwell Automation (currently, there is only one:  00 for Rockwell Div. '00'), stored as a nvarchar",
+  "sourceColumn": "Division Code",
+  "encodingHint": "hash"
+}

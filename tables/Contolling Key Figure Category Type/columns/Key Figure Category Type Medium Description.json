@@ -1,0 +1,7 @@
+{
+  "name": "Key Figure Category Type Medium Description",
+  "dataType": "string",
+  "description": "medium description associated with the code (such as Credit for code 000200, Sales for code 000400 or Result from Results Analysis for code 001400, etc.) that identifies the type of key figure category in SAP, stored as a string",
+  "sourceColumn": "Key Figure Category Type Medium Description",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Oem Machine Cat Text",
+  "dataType": "string",
+  "sourceColumn": "Oem Machine Cat Text",
+  "encodingHint": "hash"
+}

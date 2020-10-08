@@ -1,0 +1,16 @@
+{
+  "name": "Price Group Code",
+  "dataType": "string",
+  "description": [
+    "the fourth level in the Rockwell Automation material pricing hierarchy, which represents the amount of a discount off of list price to be applied to a specific group of Catalog Identifiers (such as 194, which represents \"\"700-HA: Tube Base\"\") for aggressive negotiations, stored as a nvarchar",
+    "",
+    "The pricing hierarchy ensures consistent standard pricing and discount levels in the marketplace for similar products or services, and has the structure:",
+    "1) Technology Segment",
+    "2) Discount Schedule",
+    "3) Price Family",
+    "4) Price Group Code",
+    "5) Catalog Number"
+  ],
+  "sourceColumn": "Price Group Code",
+  "encodingHint": "hash"
+}

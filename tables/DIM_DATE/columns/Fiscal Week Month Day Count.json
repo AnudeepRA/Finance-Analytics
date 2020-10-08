@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Week Month Day Count",
+  "dataType": "int64",
+  "sourceColumn": "Fiscal Week Month Day Count",
+  "encodingHint": "value"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Valuation View Code",
+  "dataType": "string",
+  "description": [
+    "\"code that identifies a distinct view on which a given business transaction can be valuated (such as 0 for Legal Valuation, 1 for Group Valuation, or 2 for Profit Center Valuation), stored a string",
+    "",
+    "In the context of multiple valuation and transfer prices, you can define the following views:",
+    "",
+    "Legal View = The business transactions between afflicated companies are valuated using external sales prices.",
+    "Group View = The business transactions within the group are represented using group-wide cost rates.",
+    "Profit Center View = The business transactions between profit centers are valuated using managerial or controlling rates.\""
+  ],
+  "sourceColumn": "Valuation View Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

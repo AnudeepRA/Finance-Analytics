@@ -1,0 +1,7 @@
+{
+  "name": "Fiscal Year Variant",
+  "dataType": "string",
+  "description": "code for the fiscal year calendar used in SAP (such as RA, which signifies that the Rockwell Automation fiscal year spans from 1 Oct to 30 Sep), stored as a nvarchar",
+  "sourceColumn": "Fiscal Year Variant",
+  "encodingHint": "hash"
+}

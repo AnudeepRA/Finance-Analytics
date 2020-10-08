@@ -1,0 +1,12 @@
+{
+  "name": "Cost Of Goods Sold Manual Adjustments",
+  "expression": "sum(FACT_COPA[COGS_ADJMT_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

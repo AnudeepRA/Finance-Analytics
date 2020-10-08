@@ -1,0 +1,6 @@
+{
+  "name": "LAST_GOODS_ISS_DATE_INT_KEY",
+  "dataType": "int64",
+  "sourceColumn": "LAST_GOODS_ISS_DATE_INT_KEY",
+  "encodingHint": "hash"
+}

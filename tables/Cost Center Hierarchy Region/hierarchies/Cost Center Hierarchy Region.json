@@ -1,0 +1,50 @@
+{
+  "name": "Cost Center Hierarchy Region",
+  "levels": [
+    {
+      "name": "Level 2 Description",
+      "ordinal": 0,
+      "column": "Level 2 Description"
+    },
+    {
+      "name": "Level 3 Description",
+      "ordinal": 1,
+      "column": "Level 3 Description"
+    },
+    {
+      "name": "Level 4 Description",
+      "ordinal": 2,
+      "column": "Level 4 Description"
+    },
+    {
+      "name": "Level 5 Description",
+      "ordinal": 3,
+      "column": "Level 5 Description"
+    },
+    {
+      "name": "Level 6 Description",
+      "ordinal": 4,
+      "column": "Level 6 Description"
+    },
+    {
+      "name": "Level 7 Description",
+      "ordinal": 5,
+      "column": "Level 7 Description"
+    },
+    {
+      "name": "Level 8 Code",
+      "ordinal": 6,
+      "column": "Level 8 Code"
+    },
+    {
+      "name": "Level 9 Code",
+      "ordinal": 7,
+      "column": "Level 9 Code"
+    },
+    {
+      "name": "Level 10 Code",
+      "ordinal": 8,
+      "column": "Level 10 Code"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Is Federal Holiday Ind",
+  "dataType": "string",
+  "sourceColumn": "Is Federal Holiday Ind",
+  "sortByColumn": "Is Federal Holiday Count",
+  "encodingHint": "hash"
+}

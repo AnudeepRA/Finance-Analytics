@@ -1,0 +1,7 @@
+{
+  "name": "d417aa72-6e54-4030-8032-c780224f94f5",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "PRTNR_OBJ_KEY",
+  "toTable": "Partner Object",
+  "toColumn": "Partner Object Key"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SENDER_RECEIVER_KEY",
+  "dataType": "int64",
+  "sourceColumn": "SENDER_RECEIVER_KEY",
+  "encodingHint": "hash"
+}

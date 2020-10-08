@@ -1,0 +1,8 @@
+{
+  "name": "EXCHG_RATE",
+  "dataType": "double",
+  "description": "the value to be used to convert the \"from currency\" to the \"to currency\" during the time period specified by the rate effective from and to date keys, also known as the exchange rate, stored as a decimal",
+  "isHidden": true,
+  "sourceColumn": "EXCHG_RATE",
+  "encodingHint": "hash"
+}

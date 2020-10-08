@@ -1,0 +1,6 @@
+{
+  "name": "PRODN_VARNC_COST",
+  "dataType": "double",
+  "sourceColumn": "PRODN_VARNC_COST",
+  "encodingHint": "value"
+}

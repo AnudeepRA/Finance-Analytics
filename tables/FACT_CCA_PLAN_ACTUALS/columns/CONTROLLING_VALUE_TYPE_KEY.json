@@ -1,0 +1,6 @@
+{
+  "name": "CONTROLLING_VALUE_TYPE_KEY",
+  "dataType": "int64",
+  "sourceColumn": "CONTROLLING_VALUE_TYPE_KEY",
+  "encodingHint": "hash"
+}

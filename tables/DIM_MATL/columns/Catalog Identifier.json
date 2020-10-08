@@ -1,0 +1,8 @@
+{
+  "name": "Catalog Identifier",
+  "dataType": "string",
+  "description": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+  "sourceColumn": "Catalog Identifier",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

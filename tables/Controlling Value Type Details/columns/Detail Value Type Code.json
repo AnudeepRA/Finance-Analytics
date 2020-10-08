@@ -1,0 +1,7 @@
+{
+  "name": "Detail Value Type Code",
+  "dataType": "string",
+  "description": "code that identifies characteristics for a given value type and key figure category type combination (such as 01 for Primary Costs or 02 for C0-Transfer), stored as a string",
+  "sourceColumn": "Detail Value Type Code",
+  "displayFolder": "Key Attributes"
+}

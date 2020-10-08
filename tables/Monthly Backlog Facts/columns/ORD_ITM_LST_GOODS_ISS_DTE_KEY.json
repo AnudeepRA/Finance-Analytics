@@ -1,0 +1,7 @@
+{
+  "name": "ORD_ITM_LST_GOODS_ISS_DTE_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ORD_ITM_LST_GOODS_ISS_DTE_KEY",
+  "encodingHint": "hash"
+}

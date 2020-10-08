@@ -1,0 +1,8 @@
+{
+  "name": "Distribution Channel Code",
+  "dataType": "string",
+  "description": "code to identify the type of sale within a sales organization in SAP (such as 01 for Rockwell D/Channel, meaning direct sales), stored as a nvarchar",
+  "sourceColumn": "Distribution Channel Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

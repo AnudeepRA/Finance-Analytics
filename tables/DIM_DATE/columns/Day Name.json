@@ -1,0 +1,7 @@
+{
+  "name": "Day Name",
+  "dataType": "string",
+  "sourceColumn": "Day Name",
+  "sortByColumn": "Calendar Week Day Number",
+  "encodingHint": "hash"
+}

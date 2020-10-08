@@ -1,0 +1,6 @@
+{
+  "name": "SOURCE",
+  "dataType": "string",
+  "sourceColumn": "Source",
+  "encodingHint": "hash"
+}

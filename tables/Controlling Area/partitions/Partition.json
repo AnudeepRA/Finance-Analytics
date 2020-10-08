@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_CONTROLLING_AREA_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_CONTROLLING_AREA_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_CONTROLLING_AREA_BusNm,{\"Controlling Area Key\", \"Controlling Area Code\", \"Controlling Area Name\", \"List Price Currency Code\", \"Chart of Accounts\", \"Fiscal Year Variant Code\", \"Cost Center Hierarchy Code\", \"Operating Concern Code\", \"Profit Center Hierarchy Area Code\", \"Valuation View Code\", \"Calculation Base Valuation View Code\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

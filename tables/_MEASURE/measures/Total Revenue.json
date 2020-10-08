@@ -1,0 +1,17 @@
+{
+  "name": "Total Revenue",
+  "description": [
+    "the total amount of all revenue components (including Revenue, Settlement Revenue, Revenue Manual Adjustments, Inter-company Markup, Inter-company Manual Service Charges, Sales Discounts, Settlement Discount, Discounts Manual Adjustments, Volume Rebates, Sales Rebates, Settlement Rebates, Billable Outbound Freight Costs, Billable Outbound Freight Costs Manual Adjustments, Settlement Billable Expenses, and SFSAC Sales Adjustments) for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "The Total Revenue is typically analyzed by Fiscal Year Period, Sales Organization, Profit Center, and other characteristics."
+  ],
+  "expression": "sum(FACT_COPA[TOT_REVNU_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

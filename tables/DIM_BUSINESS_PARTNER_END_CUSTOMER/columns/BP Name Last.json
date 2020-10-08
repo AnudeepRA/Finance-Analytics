@@ -1,0 +1,6 @@
+{
+  "name": "BP Name Last",
+  "dataType": "string",
+  "sourceColumn": "BP Name Last",
+  "encodingHint": "hash"
+}

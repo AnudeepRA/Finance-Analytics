@@ -1,0 +1,7 @@
+{
+  "name": "b59b6022-477a-47ec-bb19-1bd2cd5b450c",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "MATL_SLS_KEY",
+  "toTable": "DIM_MATL_SLS",
+  "toColumn": "MATL_SLS_KEY"
+}

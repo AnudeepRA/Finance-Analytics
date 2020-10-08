@@ -1,0 +1,7 @@
+{
+  "name": "4b9b54bb-b1c6-425a-9d7a-9cfdcaf1dbeb",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "CONTROLLING_AREA_KEY",
+  "toTable": "Controlling Area",
+  "toColumn": "Controlling Area Key"
+}

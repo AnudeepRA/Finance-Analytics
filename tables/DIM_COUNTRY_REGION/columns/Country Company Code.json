@@ -1,0 +1,6 @@
+{
+  "name": "Country Company Code",
+  "dataType": "string",
+  "sourceColumn": "Country Company Code",
+  "encodingHint": "hash"
+}

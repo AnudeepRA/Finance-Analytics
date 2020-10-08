@@ -1,0 +1,7 @@
+{
+  "name": "0e160494-80ba-4ef8-bc11-52ab80dd8c1d",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "MATL_KEY",
+  "toTable": "DIM_MATL",
+  "toColumn": "MATL_KEY"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Month Begin Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Calendar Month Begin Date",
+  "encodingHint": "hash"
+}

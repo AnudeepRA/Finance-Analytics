@@ -1,0 +1,7 @@
+{
+  "name": "eda4c066-7d43-4e16-bf71-afb83436cf9e",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "PLANT_KEY",
+  "toTable": "DIM_PLANT",
+  "toColumn": "PLANT_KEY"
+}

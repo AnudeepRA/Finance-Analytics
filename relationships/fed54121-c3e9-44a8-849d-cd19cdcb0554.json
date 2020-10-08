@@ -1,0 +1,7 @@
+{
+  "name": "fed54121-c3e9-44a8-849d-cd19cdcb0554",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_DOC_ITM_CAT_KEY",
+  "toTable": "Sales Document Item Category",
+  "toColumn": "Sales Document Item Category Key"
+}

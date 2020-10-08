@@ -1,0 +1,6 @@
+{
+  "name": "PRFT_CTR_HRCHY_KEY",
+  "dataType": "int64",
+  "sourceColumn": "PRFT_CTR_HRCHY_KEY",
+  "encodingHint": "hash"
+}

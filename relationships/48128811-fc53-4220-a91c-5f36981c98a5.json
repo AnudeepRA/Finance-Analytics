@@ -1,0 +1,7 @@
+{
+  "name": "48128811-fc53-4220-a91c-5f36981c98a5",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "PRFT_CTR_KEY",
+  "toTable": "DIM_PRFT_CTR",
+  "toColumn": "PRFT_CTR_KEY"
+}

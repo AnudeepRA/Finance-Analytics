@@ -1,0 +1,13 @@
+{
+  "name": "Total Of Cost Components",
+  "description": "the total amount of direct costs attributed to the manufacture or production of the finished goods for the given transaction (including costs for raw materials, import duty, duty and brokerage, inter-company transfer price, inbound freight, subcontracting expenses, external procurement, fully burdened absorption, machine absorption, finished goods, trading goods usage, plus the adjusted cost component), stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "SUM(FACT_COPA[TOT_CMPNTS_DIR_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

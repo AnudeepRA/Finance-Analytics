@@ -1,0 +1,7 @@
+{
+  "name": "96e2e980-e0de-4974-8482-46bb5a45a29a",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SOLD_TO_CUST_KEY",
+  "toTable": "DIM_CUST_SLS",
+  "toColumn": "CUST_SLS_KEY"
+}

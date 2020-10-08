@@ -1,0 +1,6 @@
+{
+  "name": "Tlkit Parentid",
+  "dataType": "string",
+  "sourceColumn": "Tlkit Parentid",
+  "encodingHint": "hash"
+}

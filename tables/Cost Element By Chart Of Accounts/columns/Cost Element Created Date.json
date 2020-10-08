@@ -1,0 +1,7 @@
+{
+  "name": "Cost Element Created Date",
+  "dataType": "dateTime",
+  "description": "date on which the given cost element was created in SAP, stored as a timestamp in yyyy-mm-dd format",
+  "sourceColumn": "Cost Element Created Date",
+  "encodingHint": "hash"
+}

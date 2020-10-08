@@ -1,0 +1,12 @@
+{
+  "name": "Value Type Statistics Code Short Description",
+  "dataType": "string",
+  "description": [
+    "\"short description associated with the given Value Type Code and Value Type Statistics Indicator combination (see examples below), stored as a string",
+    "",
+    "Act. (Not Statist.) = Value Type Code 010 and Value Type Statistics Indicator 0",
+    "Statistical Actual = Value Type Code 010 and Value Type Statistics Indicator 1\""
+  ],
+  "sourceColumn": "Value Type Statistics Code Short Description",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Segment",
+  "dataType": "string",
+  "sourceColumn": "Segment"
+}

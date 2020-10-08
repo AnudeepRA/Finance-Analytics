@@ -1,0 +1,8 @@
+{
+  "name": "RATE_EFF_FROM_DTE_INT_KEY",
+  "dataType": "int64",
+  "description": "the date on which the currency exchange rate is effective (which may be a past, present, or future date), stored as a BigInt",
+  "isHidden": true,
+  "sourceColumn": "RATE_EFF_FROM_DTE_INT_KEY",
+  "encodingHint": "hash"
+}

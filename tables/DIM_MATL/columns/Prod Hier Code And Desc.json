@@ -1,0 +1,10 @@
+{
+  "name": "Prod Hier Code And Desc",
+  "dataType": "string",
+  "description": [
+    "concatenation of the code for the entire Rockwell Automation product hierarchy node and the description associated with that code (such as ACSA1793A7064A3362 RA Toolkits, CCTA1003A4724A5022 RAPID Line, CCTA1043B1094A5147 RASwin Subscription, ",
+    "FLDA1243B098 RA Technical Migrations, or PLSA201 RAAMP), stored as a nvarchar"
+  ],
+  "sourceColumn": "Prod Hier Code And Desc",
+  "encodingHint": "hash"
+}

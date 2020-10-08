@@ -1,0 +1,8 @@
+{
+  "name": "Billing Type",
+  "dataType": "string",
+  "description": "code for the billing type (such as ZF2 for RA Service Invoice, ZF6 for RA Invoice, and ZF8 for RA Pro Forma Invoice, or warranty if the customer will not be charged, billable if the customer will be charged for the repair service, or not assigned if not yet determined) in SAP, stored as a nvarchar",
+  "sourceColumn": "Billing Type",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

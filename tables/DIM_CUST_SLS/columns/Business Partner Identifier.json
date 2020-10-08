@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner Identifier",
+  "dataType": "string",
+  "description": "business partner identifier in SAP for the company (such as a distributor, or an end customer) that purchased the product, stored as a nvarchar",
+  "sourceColumn": "Business Partner Identifier",
+  "encodingHint": "hash"
+}

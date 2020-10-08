@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_SHIPPING_ROUTE_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_SHIPPING_ROUTE_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_SHIPPING_ROUTE_BusNm,{\"Shipping Route Key\", \"Shipping Route Code\", \"Shipping Route Description\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

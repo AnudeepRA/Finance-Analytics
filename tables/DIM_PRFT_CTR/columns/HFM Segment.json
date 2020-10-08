@@ -1,0 +1,7 @@
+{
+  "name": "HFM Segment",
+  "dataType": "string",
+  "description": "abbreviation for the Rockwell Automation segment (such as CORP for Corporate and CS for Control Systems) in the Hyperion Financial Management (HFM) reporting package, stored as a nvarchar",
+  "sourceColumn": "HFM Segment",
+  "encodingHint": "hash"
+}

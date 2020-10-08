@@ -1,0 +1,7 @@
+{
+  "name": "f75483e3-7f3a-4301-aa7b-fb6a02351bae",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "CUST_ACCT_ASGNMT_GRP_KEY",
+  "toTable": "DIM_CUST_ACCT_ASGNMT_GRP",
+  "toColumn": "CUST_ACCT_ASGNMT_GRP_KEY"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Customer Type",
+  "dataType": "string",
+  "sourceColumn": "Customer Type",
+  "encodingHint": "hash"
+}

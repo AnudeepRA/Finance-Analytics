@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_CUSTOMER_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_CUSTOMER_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_CUSTOMER_BusNm,{\"CUST_KEY\", \"Business Partner Identfier\", \"Business Partner Name 1\", \"BP Name 1 Description\", \"Business Partner Name 2\", \"Business Partner Name 3\", \"BP Customer Type Code\", \"Business Partner City Name\", \"Business Partner Country Code\", \"BP Country Subdivision Code\", \"BP Account Group Code\", \"Customer Account Deletion Indicator\", \"Dual Area Of Primary Responsibility\", \"Business Partner Fax Number\", \"Fiscal Year Variant\", \"BP Industry Vertical Identifier\", \"Usage Code For Material Sale\", \"BP Telephone 1 Number\", \"Business Partner PO Box\", \"BP PO Box City Name\", \"BP PO Box Postal Code\", \"Business Partner Postal Code\", \"Business Partner RAAMP Code\", \"Business Partner SIC Code\", \"Sales District Name\", \"BP Sold to Cust Type Code\", \"Business Partner Search Term\", \"BP Street Address\", \"Strategic Account Identifier\", \"Strategic Account Level\", \"Business Partner Tax Number 1\", \"Business Partner Tax Number 2\", \"Business Partner Tax Number 3\", \"Trading Partner Company Identifier\", \"Transaction Plant Code\", \"BP Value Added Service Code\", \"Vendor BP Identifier\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

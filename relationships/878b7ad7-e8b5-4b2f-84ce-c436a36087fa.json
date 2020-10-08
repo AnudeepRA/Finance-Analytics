@@ -1,0 +1,7 @@
+{
+  "name": "878b7ad7-e8b5-4b2f-84ce-c436a36087fa",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "MEASURE_TYPE_KEY",
+  "toTable": "Contolling Key Figure Category Type",
+  "toColumn": "Controlling Key Figure Category Type Key"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PLAN_FIXED_AMT",
+  "dataType": "double",
+  "sourceColumn": "PLAN_FIXED_AMT",
+  "encodingHint": "value"
+}

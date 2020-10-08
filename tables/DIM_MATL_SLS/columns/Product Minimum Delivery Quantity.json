@@ -1,0 +1,7 @@
+{
+  "name": "Product Minimum Delivery Quantity",
+  "dataType": "double",
+  "description": "minimum number of units required of the given product that can be delivered to a customer in the given sales organization, stored as a decimal in the sales unit of measure",
+  "sourceColumn": "Product Minimum Delivery Quantity",
+  "encodingHint": "hash"
+}

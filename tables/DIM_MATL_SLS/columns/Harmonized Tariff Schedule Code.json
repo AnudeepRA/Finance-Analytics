@@ -1,0 +1,7 @@
+{
+  "name": "Harmonized Tariff Schedule Code",
+  "dataType": "string",
+  "description": "ten-digit code (such as 8536.50.4000 for motor starters) from the Harmonized Tariff Schedule of the United States Annotated (HTSA) that classifies the given material for import to the United States and is used to determine tariffs and for statistical reporting, stored as a nvarchar without the period (\".\") separators shown in the HTSA (for example, 8536504000 for motor starters)",
+  "sourceColumn": "Harmonized Tariff Schedule Code",
+  "encodingHint": "hash"
+}

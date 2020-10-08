@@ -1,0 +1,8 @@
+{
+  "name": "Debit Credit Type Code",
+  "dataType": "string",
+  "description": "code that identifies the type of debit or credit (such as 'A' for Credit for Settlement, 'H' for Credit Posting or Sender Credit Posting, 'L' for Credit from Delivery to Stock), stored as a string",
+  "sourceColumn": "Debit Credit Type Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

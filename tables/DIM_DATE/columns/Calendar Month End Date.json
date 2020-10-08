@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Month End Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Calendar Month End Date",
+  "encodingHint": "hash"
+}

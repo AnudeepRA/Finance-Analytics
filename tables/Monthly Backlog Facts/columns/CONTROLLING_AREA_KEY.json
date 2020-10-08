@@ -1,0 +1,7 @@
+{
+  "name": "CONTROLLING_AREA_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "CONTROLLING_AREA_KEY",
+  "encodingHint": "hash"
+}

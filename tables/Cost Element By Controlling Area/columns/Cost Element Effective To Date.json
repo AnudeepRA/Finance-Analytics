@@ -1,0 +1,7 @@
+{
+  "name": "Cost Element Effective To Date",
+  "dataType": "dateTime",
+  "description": "date in SAP on which the given cost element is no longer effective (which may be a past, present, or future date), stored as a timestamp in yyyy-mm-dd format",
+  "sourceColumn": "Cost Element Effective To Date",
+  "encodingHint": "hash"
+}

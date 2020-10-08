@@ -1,0 +1,13 @@
+{
+  "name": "Plan Fixed Consumption Quantity",
+  "description": "the planned fixed number of items consumed in the transaction at the given cost center, which is used in cost center utilization analysis (where plan and actual values are compared), stored as a decimal in the unit of measure for the transaction",
+  "expression": [
+    " ",
+    "IF (NOT ",
+    "    [CCA Detail Flag],",
+    "    [Plan Fixed Consumption Quantity Summary]",
+    ")"
+  ],
+  "formatString": "0.00",
+  "displayFolder": "CCA"
+}

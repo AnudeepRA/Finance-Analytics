@@ -1,0 +1,7 @@
+{
+  "name": "3f3ca984-6bdb-4b8f-8e00-ce5e101d2210",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "ORD_ITM_DLVRY_PRTY_KEY",
+  "toTable": "Order Item Delivery Priority",
+  "toColumn": "Order Item Delivery Priority Key"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ACTUAL_VAR_CONSUMPTION_QTY",
+  "dataType": "double",
+  "sourceColumn": "ACTUAL_VAR_CONSUMPTION_QTY",
+  "encodingHint": "value"
+}

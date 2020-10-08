@@ -1,0 +1,6 @@
+{
+  "name": "PRTNR_COMPANY_KEY",
+  "dataType": "int64",
+  "sourceColumn": "PRTNR_COMPANY_KEY",
+  "encodingHint": "hash"
+}

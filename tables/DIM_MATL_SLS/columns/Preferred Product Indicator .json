@@ -1,0 +1,7 @@
+{
+  "name": "Preferred Product Indicator ",
+  "dataType": "string",
+  "description": "indicator for whether the given product is available for shipment quickly (X if available without wait time, or blank if not), stored as a nvarchar",
+  "sourceColumn": "Preferred Product Indicator ",
+  "encodingHint": "hash"
+}

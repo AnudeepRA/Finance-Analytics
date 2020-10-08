@@ -1,0 +1,6 @@
+{
+  "name": "OUTBND_FXD_COST",
+  "dataType": "double",
+  "sourceColumn": "OUTBND_FXD_COST",
+  "encodingHint": "value"
+}

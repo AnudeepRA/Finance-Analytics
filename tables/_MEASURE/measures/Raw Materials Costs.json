@@ -1,0 +1,17 @@
+{
+  "name": "Raw Materials Costs",
+  "description": [
+    "amount paid for the raw materials purchased by Rockwell Automation from third-party suppliers to make the material for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "In SAP, raw materials are specfied as child materials in the bill of materials for the material master record associated with the given product."
+  ],
+  "expression": "sum(FACT_COPA[RAW_MATL_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

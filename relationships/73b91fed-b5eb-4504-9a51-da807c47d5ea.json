@@ -1,0 +1,7 @@
+{
+  "name": "73b91fed-b5eb-4504-9a51-da807c47d5ea",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "INTERNAL_ORD_NO_KEY",
+  "toTable": "Internal Order Number",
+  "toColumn": "Internal Order Number Key"
+}

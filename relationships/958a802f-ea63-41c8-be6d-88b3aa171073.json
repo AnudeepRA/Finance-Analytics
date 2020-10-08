@@ -1,0 +1,7 @@
+{
+  "name": "958a802f-ea63-41c8-be6d-88b3aa171073",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "VENDOR_KEY",
+  "toTable": "Vendor",
+  "toColumn": "Vendor Key"
+}

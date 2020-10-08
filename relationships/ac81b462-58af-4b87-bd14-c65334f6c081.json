@@ -1,0 +1,7 @@
+{
+  "name": "ac81b462-58af-4b87-bd14-c65334f6c081",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "GL_ACCOUNT_MASTER_COA_KEY",
+  "toTable": "GL Account by Chart Of Accounts",
+  "toColumn": "G/L Account Master COA Key"
+}

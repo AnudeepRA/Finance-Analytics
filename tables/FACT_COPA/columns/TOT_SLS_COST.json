@@ -1,0 +1,6 @@
+{
+  "name": "TOT_SLS_COST",
+  "dataType": "double",
+  "sourceColumn": "TOT_SLS_COST",
+  "encodingHint": "value"
+}

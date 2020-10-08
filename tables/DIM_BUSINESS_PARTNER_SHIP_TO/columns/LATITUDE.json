@@ -1,0 +1,6 @@
+{
+  "name": "LATITUDE",
+  "dataType": "double",
+  "sourceColumn": "Latitude",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "INTRCO_TRNSFR_COST",
+  "dataType": "double",
+  "sourceColumn": "INTRCO_TRNSFR_COST",
+  "encodingHint": "value"
+}

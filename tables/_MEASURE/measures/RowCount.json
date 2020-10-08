@@ -1,0 +1,6 @@
+{
+  "name": "RowCount",
+  "expression": "COUNTROWS(FACT_COPA)",
+  "formatString": "0",
+  "displayFolder": "Key Metrics"
+}

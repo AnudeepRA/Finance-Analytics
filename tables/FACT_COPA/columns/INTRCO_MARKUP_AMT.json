@@ -1,0 +1,6 @@
+{
+  "name": "INTRCO_MARKUP_AMT",
+  "dataType": "double",
+  "sourceColumn": "INTRCO_MARKUP_AMT",
+  "encodingHint": "value"
+}

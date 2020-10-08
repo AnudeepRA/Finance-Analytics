@@ -1,0 +1,5 @@
+{
+  "name": "CRM Item Number In Document",
+  "dataType": "string",
+  "sourceColumn": "CRM Item Number In Document"
+}

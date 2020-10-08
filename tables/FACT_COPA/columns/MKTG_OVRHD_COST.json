@@ -1,0 +1,6 @@
+{
+  "name": "MKTG_OVRHD_COST",
+  "dataType": "double",
+  "sourceColumn": "MKTG_OVRHD_COST",
+  "encodingHint": "value"
+}

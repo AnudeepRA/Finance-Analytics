@@ -1,0 +1,7 @@
+{
+  "name": "Level 9 Code",
+  "dataType": "string",
+  "description": "code associated with level 9 of the cost center hierarchy, stored as a string",
+  "sourceColumn": "Level 9 Code",
+  "encodingHint": "hash"
+}

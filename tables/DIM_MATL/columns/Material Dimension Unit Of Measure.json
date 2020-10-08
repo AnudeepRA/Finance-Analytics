@@ -1,0 +1,7 @@
+{
+  "name": "Material Dimension Unit Of Measure",
+  "dataType": "string",
+  "description": "the unit of measure (such as CM for centimeters) for the Material Length, Width, and Height dimensions of the given material, stored as a string",
+  "sourceColumn": "Material Dimension Unit Of Measure",
+  "encodingHint": "hash"
+}

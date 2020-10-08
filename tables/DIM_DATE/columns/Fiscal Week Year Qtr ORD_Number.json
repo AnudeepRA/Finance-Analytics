@@ -1,0 +1,8 @@
+{
+  "name": "Fiscal Week Year Qtr ORD_Number",
+  "dataType": "int64",
+  "description": "the fiscal year and quarter of the transaction date of the billing document (if the change occurred at time of entry) or the last settlement date on the billback document (if the change was part of a ship from stock and credit (SFSAC) transaction), stored as a varchar",
+  "isHidden": true,
+  "sourceColumn": "Fiscal Week Year Qtr ORD_Number",
+  "encodingHint": "value"
+}

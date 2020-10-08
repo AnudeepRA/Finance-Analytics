@@ -1,0 +1,10 @@
+{
+  "name": "Sales Org BP Identifier",
+  "dataType": "string",
+  "description": [
+    "business partner identifier in SAP for the given Rockwell Automation company (such as PC1000 for the United States, PC2000 for Canada, and PC4000 for EMEA) that will be billed for the material during an intercompany transfer, stored as a nvarchar",
+    ""
+  ],
+  "sourceColumn": "Sales Org BP Identifier",
+  "encodingHint": "hash"
+}

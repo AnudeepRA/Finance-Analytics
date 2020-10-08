@@ -1,0 +1,7 @@
+{
+  "name": "Midrange Group Description",
+  "dataType": "string",
+  "description": "description associated with a specific set of \"product hierarchies\" for midrange processing capacity controllers (controllers or attachments/accessories for controllers), categorized into the midrange group, as defined by Rockwell Automation Finance, stored as a nvarchar",
+  "sourceColumn": "Midrange Group Description",
+  "encodingHint": "hash"
+}

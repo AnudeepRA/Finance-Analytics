@@ -1,0 +1,7 @@
+{
+  "name": "Is RA Holiday Ind",
+  "dataType": "string",
+  "sourceColumn": "Is RA Holiday Ind",
+  "sortByColumn": "Is RA Holiday Count",
+  "encodingHint": "hash"
+}

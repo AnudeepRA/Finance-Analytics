@@ -1,0 +1,7 @@
+{
+  "name": "Calendar Month Year Text",
+  "dataType": "string",
+  "sourceColumn": "Calendar Month Year Text",
+  "sortByColumn": "Calendar_Month_Year_Text_ORD_Number",
+  "encodingHint": "hash"
+}

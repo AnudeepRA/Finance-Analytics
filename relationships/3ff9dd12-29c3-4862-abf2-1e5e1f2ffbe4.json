@@ -1,0 +1,7 @@
+{
+  "name": "3ff9dd12-29c3-4862-abf2-1e5e1f2ffbe4",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "MATL_GRP_KEY",
+  "toTable": "DIM_MATL_GRP",
+  "toColumn": "MATL_GRP_KEY"
+}

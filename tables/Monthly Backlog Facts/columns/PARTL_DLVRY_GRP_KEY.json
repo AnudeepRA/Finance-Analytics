@@ -1,0 +1,7 @@
+{
+  "name": "PARTL_DLVRY_GRP_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "PARTL_DLVRY_GRP_KEY",
+  "encodingHint": "hash"
+}

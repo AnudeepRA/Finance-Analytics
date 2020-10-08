@@ -1,0 +1,6 @@
+{
+  "name": "Is Contact",
+  "dataType": "string",
+  "sourceColumn": "Is Contact",
+  "encodingHint": "hash"
+}

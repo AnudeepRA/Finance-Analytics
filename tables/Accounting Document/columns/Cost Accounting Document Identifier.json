@@ -1,0 +1,7 @@
+{
+  "name": "Cost Accounting Document Identifier",
+  "dataType": "string",
+  "description": "identifier for the cost accounting document in SAP (such as the receipt of an invoice or credit memo from the vendor) for the given cost center, stored as a string",
+  "sourceColumn": "Cost Accounting Document Identifier",
+  "encodingHint": "hash"
+}

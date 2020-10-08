@@ -1,0 +1,7 @@
+{
+  "name": "62233f85-5f88-443e-9ec1-c2635e5bfe75",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "COST_ELEMENT_COA_KEY",
+  "toTable": "Cost Element By Chart Of Accounts",
+  "toColumn": "Cost Element COA Key"
+}

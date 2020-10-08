@@ -1,0 +1,7 @@
+{
+  "name": "b34367d9-3056-4d77-be94-03ae4061841f",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SLS_OFFICE_KEY",
+  "toTable": "DIM_SLS_OFFICE",
+  "toColumn": "SLS_OFFICE_KEY"
+}

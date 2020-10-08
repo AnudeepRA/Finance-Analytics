@@ -1,0 +1,7 @@
+{
+  "name": "Partner Object Value",
+  "dataType": "string",
+  "description": "value associated with the partner object in SAP (such as RA000000003188 or RA000000070050CCC903), stored as a string",
+  "sourceColumn": "Partner Object Value",
+  "encodingHint": "hash"
+}

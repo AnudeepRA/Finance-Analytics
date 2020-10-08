@@ -1,0 +1,6 @@
+{
+  "name": "CUST_KEY",
+  "dataType": "int64",
+  "sourceColumn": "CUST_KEY",
+  "encodingHint": "hash"
+}

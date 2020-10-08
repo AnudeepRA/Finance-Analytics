@@ -1,0 +1,7 @@
+{
+  "name": "Rate Type",
+  "dataType": "string",
+  "description": "the category of currency exchange rates (such as M for monthly rate, which is the moving monthly average rate for the previous calendar month as recorded in Hyperion;  D for the daily rate;  P for the annual planning rate; …) as defined in SAP for the given record, stored as a nvarchar",
+  "sourceColumn": "RATE_TYPE",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Dual Area Of Primary Responsibility",
+  "dataType": "string",
+  "description": [
+    "description of the two distributors that are authorized to sell Rockwell Automation products within a single geographic area (such as IT1), abbreviated \"\"APR\"\", defined by Rockwell Automation at the lowest level of sales office hierarachy, stored as a string",
+    "",
+    "APR relationships for distributors drive security for access to SAP and are also used to determine whether a distributor can request a special price agreement.",
+    "",
+    "The APR identifies the Rockwell Automation distributor for the area, but sometimes the same area has a second authorized distributor to cover the area.  Where this occurs, APR and Dual APR store derived values (such as 001=001-ALLIED ELECTRIC, 002=002-B & K ELECTRIC)."
+  ],
+  "sourceColumn": "Dual Area Of Primary Responsibility",
+  "encodingHint": "hash"
+}

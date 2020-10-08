@@ -1,0 +1,6 @@
+{
+  "name": "List Price Currency Code",
+  "dataType": "string",
+  "sourceColumn": "List Price Currency Code",
+  "encodingHint": "hash"
+}

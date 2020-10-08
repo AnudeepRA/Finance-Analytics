@@ -1,0 +1,7 @@
+{
+  "name": "Material Length Dimension",
+  "dataType": "double",
+  "description": "the length dimension measurement of the material, without packaging, stored as a decimal in the Material Dimension Unit Of Measure",
+  "sourceColumn": "Material Length Dimension",
+  "encodingHint": "hash"
+}

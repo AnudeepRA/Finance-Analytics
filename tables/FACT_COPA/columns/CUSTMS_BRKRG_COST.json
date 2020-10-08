@@ -1,0 +1,6 @@
+{
+  "name": "CUSTMS_BRKRG_COST",
+  "dataType": "double",
+  "sourceColumn": "CUSTMS_BRKRG_COST",
+  "encodingHint": "value"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Sales Region",
+  "dataType": "string",
+  "description": [
+    "the top level in the Rockwell Automation sales office hierarchy, which represents the four main geographical areas of the business world (see below), stored as a nvarchar",
+    "",
+    "AP = Asia/Pacific",
+    "EMEA = Europe, Middle East, and Africa",
+    "LA = Latin America",
+    "NA = North America",
+    "",
+    "The sales office hierarchy has the structure:",
+    "1) Region",
+    "2) Sub-region",
+    "3) District",
+    "4) Sales Office",
+    "5) Branch"
+  ],
+  "sourceColumn": "Sales Region",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

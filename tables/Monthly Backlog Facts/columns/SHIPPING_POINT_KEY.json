@@ -1,0 +1,7 @@
+{
+  "name": "SHIPPING_POINT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SHIPPING_POINT_KEY",
+  "encodingHint": "hash"
+}

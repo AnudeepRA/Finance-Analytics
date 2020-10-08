@@ -1,0 +1,22 @@
+{
+  "name": "Strategic Account Identifier",
+  "dataType": "string",
+  "description": [
+    "identifier (such as 001 for 3M or T52 for Toyota) for an account with an established close relationship, or a close relationship being nurtured, identified by Rockwell Automation industry leadership based on specific criteria that includes (but is not limited to) the strategic direction for the account, geographic presence, and alignment with Rockwell Automation global core industries and our global industry ecosystem, stored as a nvarchar",
+    "",
+    "For example:",
+    "001 - 3M",
+    "200 - C.A. - Amerada Hess",
+    "201 - C.A. - Anadarko",
+    "202 - C.A. - Applied Mater",
+    "204 - C.A. - Ingersoll Ran",
+    "205 - C.A. - Cemex",
+    "207 - C.A. - Coca-Cola",
+    "208 - C.A. - ConAgra",
+    "210 - C.A. - Corning",
+    ""
+  ],
+  "sourceColumn": "Strategic Account Identifier",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "OTHER_VARNC_AMT",
+  "dataType": "double",
+  "sourceColumn": "OTHER_VARNC_AMT",
+  "encodingHint": "value"
+}

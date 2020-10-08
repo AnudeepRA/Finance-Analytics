@@ -1,0 +1,7 @@
+{
+  "name": "PRODN_ORD_DLVRD_QTY_UOM_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "PRODN_ORD_DLVRD_QTY_UOM_KEY",
+  "encodingHint": "hash"
+}

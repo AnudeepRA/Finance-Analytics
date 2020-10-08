@@ -1,0 +1,8 @@
+{
+  "name": "PLANT_STORAGE_LOCATION_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the plant material storage location foreign key in the sales order fact table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "PLANT_STORAGE_LOCATION_KEY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Hq Parent Duns Text",
+  "dataType": "string",
+  "sourceColumn": "Hq Parent Duns Text",
+  "encodingHint": "hash"
+}

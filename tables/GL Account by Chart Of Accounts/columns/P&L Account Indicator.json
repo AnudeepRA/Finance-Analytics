@@ -1,0 +1,7 @@
+{
+  "name": "P&L Account Indicator",
+  "dataType": "string",
+  "description": "indicator (such as X if the earnings are retained or null if they are not ) that identifies if a Profit and Loss statement account needs to be created, which determines the retained earnings account for each Profit and Loss account, stored as a string",
+  "sourceColumn": "P&L Account Indicator",
+  "encodingHint": "hash"
+}

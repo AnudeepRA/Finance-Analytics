@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner Street Address",
+  "dataType": "string",
+  "description": "free-form text for the address (usually a building number and street) of the location of the given Business Partner, stored as a string",
+  "sourceColumn": "Business Partner Street Address",
+  "encodingHint": "hash"
+}

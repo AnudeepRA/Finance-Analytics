@@ -1,0 +1,16 @@
+{
+  "name": "Price Family Code",
+  "dataType": "string",
+  "description": [
+    "the third level in the Rockwell Automation material pricing hierarchy, which represents a group of Price Group Codes (such as A28, which represents \"\"GP Ice Cube Relays\"\") for less aggressive negotiations, for the given material, stored as a nvarchar",
+    "",
+    "The pricing hierarchy ensures consistent standard pricing and discount levels in the marketplace for similar products or services, and has the structure:",
+    "1) Technology Segment",
+    "2) Discount Schedule",
+    "3) Price Family",
+    "4) Price Group Code",
+    "5) Catalog Number"
+  ],
+  "sourceColumn": "Price Family Code",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Value Type Statistical Indicator",
+  "dataType": "string",
+  "description": "indicator of whether the given Value Type Code is used for statistical reporting (1 If the value type is used for statistical reporting or 0 if the value type is not used for statistical reporting), stored as a string",
+  "sourceColumn": "Value Type Statistical Indicator",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

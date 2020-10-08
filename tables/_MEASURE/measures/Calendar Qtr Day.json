@@ -1,0 +1,5 @@
+{
+  "name": "Calendar Qtr Day",
+  "expression": "sum(DIM_DATE[Calendar Qtr Day Count])",
+  "displayFolder": "Key Metrics"
+}

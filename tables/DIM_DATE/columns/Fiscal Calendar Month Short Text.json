@@ -1,0 +1,7 @@
+{
+  "name": "Fiscal Calendar Month Short Text",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Calendar Month Short Text",
+  "sortByColumn": "Fiscal Calendar Month Number",
+  "encodingHint": "hash"
+}

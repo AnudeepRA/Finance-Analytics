@@ -1,0 +1,8 @@
+{
+  "name": "Partner Object Code",
+  "dataType": "string",
+  "description": "code for the given partner object in SAP (such as 0ATY, OCCT, or OCOR), which is the first two characters of the object number, stored as a string",
+  "sourceColumn": "Partner Object Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "BUSINESS_AREA_KEY",
+  "dataType": "int64",
+  "sourceColumn": "BUSINESS_AREA_KEY",
+  "encodingHint": "hash"
+}

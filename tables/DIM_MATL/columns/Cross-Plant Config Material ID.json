@@ -1,0 +1,7 @@
+{
+  "name": "Cross-Plant Config Material ID",
+  "dataType": "string",
+  "description": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+  "sourceColumn": "Cross-Plant Config Material ID",
+  "encodingHint": "hash"
+}

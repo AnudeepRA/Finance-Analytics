@@ -1,0 +1,6 @@
+{
+  "name": "Var PCT Plan Actual Amount",
+  "expression": " DIVIDE([Var Plan Actual Amount],[Plan Amount])",
+  "formatString": "0.00 %;-0.00 %;0.00 %",
+  "displayFolder": "CCA"
+}

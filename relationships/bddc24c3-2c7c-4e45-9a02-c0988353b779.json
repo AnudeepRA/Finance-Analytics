@@ -1,0 +1,7 @@
+{
+  "name": "bddc24c3-2c7c-4e45-9a02-c0988353b779",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "POSTNG_DATE_INT_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY"
+}

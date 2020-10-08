@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Year Day Number",
+  "dataType": "int64",
+  "sourceColumn": "Calendar Year Day Number",
+  "encodingHint": "hash"
+}

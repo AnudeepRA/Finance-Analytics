@@ -1,0 +1,7 @@
+{
+  "name": "47c78885-6b5b-4b44-b554-297942b78b25",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "PROD_HRCHY_KEY",
+  "toTable": "DIM_PROD_HRCHY",
+  "toColumn": "PROD_HRCHY_KEY"
+}

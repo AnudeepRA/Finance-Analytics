@@ -1,0 +1,13 @@
+{
+  "name": "Net Value In Transaction Currency",
+  "description": "the extended price to be invoiced to the customer for the quantity of products purchased including any applicable surcharges such as freight, stored as a decimal in the currency used for the transaction",
+  "expression": "SUM('Sales Orders Facts'[TRANS_NET_VAL])",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Sales Orders Bookings Measures",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" Accuracy=\"2\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "structured",
+  "name": "SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300",
+  "connectionDetails": {
+    "protocol": "tds",
+    "address": {
+      "server": "azr-sql-dai-entdl-500.database.windows.net",
+      "database": "azr-adw-dai-entdl-500"
+    },
+    "authentication": null,
+    "query": null
+  },
+  "credential": {
+    "AuthenticationKind": "OAuth2",
+    "kind": "SQL",
+    "path": "azr-sql-dai-entdl-500.database.windows.net;azr-adw-dai-entdl-500",
+    "Expires": "Wed, 07 Oct 2020 08:57:14 GMT",
+    "RefreshToken": "********"
+  }
+}

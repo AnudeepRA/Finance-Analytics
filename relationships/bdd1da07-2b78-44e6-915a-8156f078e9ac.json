@@ -1,0 +1,7 @@
+{
+  "name": "bdd1da07-2b78-44e6-915a-8156f078e9ac",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "ORD_ITM_PHYSCL_DLVRY_IND_VAL_KEY",
+  "toTable": "Order Item Physical Delivery Indicator Values",
+  "toColumn": "Indicator Values Key"
+}

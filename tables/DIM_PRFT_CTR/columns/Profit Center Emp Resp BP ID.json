@@ -1,0 +1,7 @@
+{
+  "name": "Profit Center Emp Resp BP ID",
+  "dataType": "string",
+  "description": "business partner identifier in SAP associated with the Rockwell Automation employee who is responsible for the revenue and expenses in the given profit center, stored as a nvarchar",
+  "sourceColumn": "Profit Center Emp Resp BP ID",
+  "encodingHint": "hash"
+}

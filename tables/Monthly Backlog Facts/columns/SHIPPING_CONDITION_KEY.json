@@ -1,0 +1,7 @@
+{
+  "name": "SHIPPING_CONDITION_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SHIPPING_CONDITION_KEY",
+  "encodingHint": "hash"
+}

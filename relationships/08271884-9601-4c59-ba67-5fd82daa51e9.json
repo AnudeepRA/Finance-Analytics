@@ -1,0 +1,8 @@
+{
+  "name": "08271884-9601-4c59-ba67-5fd82daa51e9",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "POSTING_DATE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY",
+  "isActive": false
+}

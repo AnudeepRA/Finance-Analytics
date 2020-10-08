@@ -1,0 +1,7 @@
+{
+  "name": "Product Group Description",
+  "dataType": "string",
+  "description": "description associated with the fourth and lowest level in the Rockwell Automation product hierarchy, below the Product Line, stored a nvarchar",
+  "sourceColumn": "Product Group Description",
+  "encodingHint": "hash"
+}

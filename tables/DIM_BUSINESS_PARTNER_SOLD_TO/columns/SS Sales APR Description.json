@@ -1,0 +1,6 @@
+{
+  "name": "SS Sales APR Description",
+  "dataType": "string",
+  "sourceColumn": "SS Sales APR Description",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SUBCONTRG_EXP_AMT",
+  "dataType": "double",
+  "sourceColumn": "SUBCONTRG_EXP_AMT",
+  "encodingHint": "value"
+}

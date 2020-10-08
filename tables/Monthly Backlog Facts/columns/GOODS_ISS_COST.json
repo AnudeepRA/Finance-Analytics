@@ -1,0 +1,7 @@
+{
+  "name": "GOODS_ISS_COST",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "GOODS_ISS_COST",
+  "encodingHint": "value"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SHPMNT_COMPLT_IND_VAL_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the shipment complete indicator value foreign key in the sales order fact table, which links to the indicator values dimension table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "SHPMNT_COMPLT_IND_VAL_KEY",
+  "encodingHint": "hash"
+}

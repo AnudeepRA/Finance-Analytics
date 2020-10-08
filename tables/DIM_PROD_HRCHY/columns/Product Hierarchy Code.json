@@ -1,0 +1,7 @@
+{
+  "name": "Product Hierarchy Code",
+  "dataType": "string",
+  "description": "description associated with a code for the Product Category (such as I/O, Drives, Limit Switches, or Channel Software), Product Line (such as Toolkits, 1734 POINT I/O, PowerFlex DC Drives, or NEMA (802T) Safety Switches), or Product Group (such as Accessories Shaft Seal H/S) in the Rockwell Automation product hierarchy, stored as a nvarchar",
+  "sourceColumn": "Product Hierarchy Code",
+  "encodingHint": "hash"
+}

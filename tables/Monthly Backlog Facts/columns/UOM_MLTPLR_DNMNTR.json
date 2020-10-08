@@ -1,0 +1,7 @@
+{
+  "name": "UOM_MLTPLR_DNMNTR",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "UOM_MLTPLR_DNMNTR",
+  "encodingHint": "value"
+}

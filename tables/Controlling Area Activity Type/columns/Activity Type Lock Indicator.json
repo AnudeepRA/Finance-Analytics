@@ -1,0 +1,20 @@
+{
+  "name": "Activity Type Lock Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator (such as X if locked for activity input planning or blank if not) of whether the given activity type is locked for activity input planning, stored as a string",
+    "",
+    "If the indicator is active, the affected activity type cannot be included.",
+    "",
+    "If planning is reconciled (planned activity = scheduled activity), the indicator should be activated so that the planned quantity remains unchanged.",
+    "",
+    "If the indicator is inactive, the activity type can be drawn upon for activity input planning and indirect activity allocation in plan.",
+    "",
+    "If active, the lock indicator has no effect on:",
+    "-actual postings",
+    "-planning, other than activity input planning and indirect activity allocation in plan",
+    "-activity price changes\""
+  ],
+  "sourceColumn": "Activity Type Lock Indicator",
+  "encodingHint": "hash"
+}

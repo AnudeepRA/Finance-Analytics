@@ -1,0 +1,11 @@
+{
+  "name": "Product Expected Delivering Plant Code",
+  "dataType": "string",
+  "description": [
+    "code in SAP for the plant (4 digits stored as text, such as 1020 for Twinsburg, 1090 for the Champaign Distribution Center, 4000 for the Central European Distribution Center, or 4080 for the EMEA main service hub) from which the given product will actually be shipped to the customer, based on the sales organization responsible for the sales order, stored as a nvarchar",
+    "",
+    "When a Catalog Identifier is specified on an order, SAP populates the Product Delivering Plant Code as a default, but may be overridden by the Product Expected Delivering Plant Code."
+  ],
+  "sourceColumn": "Product Expected Delivering Plant Code",
+  "encodingHint": "hash"
+}

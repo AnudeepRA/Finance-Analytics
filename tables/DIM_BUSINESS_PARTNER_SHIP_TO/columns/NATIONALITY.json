@@ -1,0 +1,6 @@
+{
+  "name": "NATIONALITY",
+  "dataType": "string",
+  "sourceColumn": "Nationality",
+  "encodingHint": "hash"
+}

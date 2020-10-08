@@ -1,0 +1,7 @@
+{
+  "name": "671224f0-209d-4f9a-83ac-dd4c6ceb1936",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "CUST_ACCT_ASGNMT_GRP_KEY",
+  "toTable": "DIM_CUST_ACCT_ASGNMT_GRP",
+  "toColumn": "CUST_ACCT_ASGNMT_GRP_KEY"
+}

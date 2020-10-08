@@ -1,0 +1,7 @@
+{
+  "name": "57df6f05-fb5d-4097-82d0-ee2b5bf99399",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "MATL_GRP_KEY",
+  "toTable": "DIM_MATL_GRP",
+  "toColumn": "MATL_GRP_KEY"
+}

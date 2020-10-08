@@ -1,0 +1,7 @@
+{
+  "name": "SHIPPING_ROUTE_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SHIPPING_ROUTE_KEY",
+  "encodingHint": "hash"
+}

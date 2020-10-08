@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Qtr Previous Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Calendar Qtr Previous Date",
+  "encodingHint": "hash"
+}

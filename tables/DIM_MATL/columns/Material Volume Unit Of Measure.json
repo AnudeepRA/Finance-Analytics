@@ -1,0 +1,7 @@
+{
+  "name": "Material Volume Unit Of Measure",
+  "dataType": "string",
+  "description": "the unit of measure (such as CCM for cubic centimeters) for the Material Volume of the given material, stored as a nvarchar",
+  "sourceColumn": "Material Volume Unit Of Measure",
+  "encodingHint": "hash"
+}

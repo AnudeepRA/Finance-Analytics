@@ -1,0 +1,7 @@
+{
+  "name": "Trading Partner Company Identifier",
+  "dataType": "string",
+  "description": "identifier for the given Business Partner Identifier (such as 185, the identifier for the company FDS 185 Turkey) or the Company Code of the purchasing company, such as the receiving plant for an intercompany transaction (such as 3031, the identfier for the company Rockwell Automation Chile S.A.), stored as a string",
+  "sourceColumn": "Trading Partner Company Identifier",
+  "encodingHint": "hash"
+}

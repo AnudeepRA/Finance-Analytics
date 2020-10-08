@@ -1,0 +1,7 @@
+{
+  "name": "Material Gross Weight",
+  "dataType": "double",
+  "description": "sum of the weight of the material (the Net Weight) and its packaging, stored as a decimal in the Material Weight Unit Of Measure",
+  "sourceColumn": "Material Gross Weight",
+  "encodingHint": "hash"
+}

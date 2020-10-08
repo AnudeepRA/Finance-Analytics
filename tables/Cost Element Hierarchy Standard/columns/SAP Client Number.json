@@ -1,0 +1,8 @@
+{
+  "name": "SAP Client Number",
+  "dataType": "string",
+  "description": "number that identifies the production environment of sap deployed at Rockwell Automation, stored as a string",
+  "isHidden": true,
+  "sourceColumn": "SAP Client Number",
+  "encodingHint": "hash"
+}

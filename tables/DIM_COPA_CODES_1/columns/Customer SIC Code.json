@@ -1,0 +1,5 @@
+{
+  "name": "Customer SIC Code",
+  "dataType": "string",
+  "sourceColumn": "Customer SIC Code"
+}

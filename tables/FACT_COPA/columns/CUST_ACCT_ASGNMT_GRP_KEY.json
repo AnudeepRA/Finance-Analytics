@@ -1,0 +1,7 @@
+{
+  "name": "CUST_ACCT_ASGNMT_GRP_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "CUST_ACCT_ASGNMT_GRP_KEY",
+  "encodingHint": "hash"
+}

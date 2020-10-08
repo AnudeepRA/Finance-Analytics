@@ -1,0 +1,5 @@
+{
+  "name": "BP Relationship Status",
+  "dataType": "int64",
+  "sourceColumn": "BP Relationship Status"
+}

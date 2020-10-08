@@ -1,0 +1,6 @@
+{
+  "name": "STATISTICS_KEY",
+  "dataType": "int64",
+  "sourceColumn": "STATISTICS_KEY",
+  "encodingHint": "hash"
+}

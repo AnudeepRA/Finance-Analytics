@@ -1,0 +1,6 @@
+{
+  "name": "BP GEO SRCID",
+  "dataType": "string",
+  "sourceColumn": "BP GEO SRCID",
+  "encodingHint": "hash"
+}

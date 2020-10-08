@@ -1,0 +1,8 @@
+{
+  "name": "Customer Collective Number",
+  "dataType": "string",
+  "description": "category in SAP (a number such as 6838939, or a brief decription) defined by Customer Care or included in an EDI transaction to group related documents (such as customer inquiries, customer purchase orders, and sales documents) for the given customer to document that they are related and make them easier to retrieve, stored as a nvarchar",
+  "sourceColumn": "Customer Collective Number",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

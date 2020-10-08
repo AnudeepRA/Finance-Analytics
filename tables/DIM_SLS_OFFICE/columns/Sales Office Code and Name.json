@@ -1,0 +1,7 @@
+{
+  "name": "Sales Office Code and Name",
+  "dataType": "string",
+  "description": "concatenation of the Sales Office Code and the Sales Office Name (such as DET - Detroit and MKE - Milwaukee), stored as a nvarchar",
+  "sourceColumn": "Sales Office Code and Name",
+  "encodingHint": "hash"
+}

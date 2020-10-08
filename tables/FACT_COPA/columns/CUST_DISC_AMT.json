@@ -1,0 +1,6 @@
+{
+  "name": "CUST_DISC_AMT",
+  "dataType": "double",
+  "sourceColumn": "CUST_DISC_AMT",
+  "encodingHint": "value"
+}

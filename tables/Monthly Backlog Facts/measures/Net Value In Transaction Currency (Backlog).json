@@ -1,0 +1,7 @@
+{
+  "name": "Net Value In Transaction Currency (Backlog)",
+  "description": "the extended price to be invoiced to the customer for the quantity of products purchased including any applicable surcharges such as freight, stored as a decimal in the currency used for the transaction",
+  "expression": " SUM('Monthly Backlog Facts'[TRANS_NET_VAL])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

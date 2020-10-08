@@ -1,0 +1,11 @@
+{
+  "name": "Open Quantity In Material Base Unit Of Measure",
+  "description": [
+    "\"number of items remaining to be shipped for the given booking document line item, based on the material base unit of measure, stored as a decimal",
+    "",
+    "Open Quantity = Booked Quantity - Cumulative Delivered Quantity\""
+  ],
+  "expression": "SUM('Monthly Backlog Facts'[ITM_BASE_UOM_OPEN_QTY])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

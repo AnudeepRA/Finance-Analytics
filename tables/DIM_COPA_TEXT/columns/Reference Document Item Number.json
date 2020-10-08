@@ -1,0 +1,15 @@
+{
+  "name": "Reference Document Item Number",
+  "dataType": "string",
+  "description": [
+    "\"number of the item in the given originating document in SAP (see examples below), stored as a nvarchar",
+    "",
+    "The originating document could be one of several types of transactions, such as:",
+    "- a Finance settlement document in SAP ECC for a SAP CRM transaction such as a service order or service contract",
+    "- a Finance settlement document for a production order in SAP ECC",
+    "- a Billing document for a customer invoice in SAP ECC\""
+  ],
+  "sourceColumn": "Reference Document Item Number",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

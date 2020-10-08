@@ -1,0 +1,7 @@
+{
+  "name": "96342deb-5a38-41a9-b653-adad7b970058",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "ORD_RELTD_BLLNG_PRCSNG_STAT_KEY",
+  "toTable": "Order Related Billing Status",
+  "toColumn": "Processing Status Key"
+}

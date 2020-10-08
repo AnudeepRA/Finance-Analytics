@@ -1,0 +1,16 @@
+{
+  "name": "Technology Segment",
+  "dataType": "string",
+  "description": [
+    "the top level in the Rockwell Automation material pricing hierarchy, which represents the key organizations within Rockwell Automation responsible for products (such as ICB for the Industrial Components Business) and is used for channel management reporting, stored as a string",
+    "",
+    "The pricing hierarchy ensures consistent standard pricing and discount levels in the marketplace for similar products or services, and has the structure:",
+    "1) Technology Segment",
+    "2) Discount Schedule",
+    "3) Price Family",
+    "4) Price Group Code",
+    "5) Catalog Number"
+  ],
+  "sourceColumn": "Technology Segment",
+  "encodingHint": "hash"
+}

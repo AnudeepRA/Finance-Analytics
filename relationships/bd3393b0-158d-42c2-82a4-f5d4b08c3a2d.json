@@ -1,0 +1,7 @@
+{
+  "name": "bd3393b0-158d-42c2-82a4-f5d4b08c3a2d",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "COST_CTR_ELIM_IBV_KEY",
+  "toTable": "Cost Center IBV",
+  "toColumn": "Cost Center Key"
+}

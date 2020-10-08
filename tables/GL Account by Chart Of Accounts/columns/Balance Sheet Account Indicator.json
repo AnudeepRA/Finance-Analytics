@@ -1,0 +1,7 @@
+{
+  "name": "Balance Sheet Account Indicator",
+  "dataType": "string",
+  "description": "indicator (such as x if used as a balance sheet account and blank if not) of whether the given G/L account is managed as a balance sheet account, stored as a string",
+  "sourceColumn": "Balance Sheet Account Indicator",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Decimal Places",
+  "dataType": "int64",
+  "description": "number of digits after the decimal point required for the given currency for display and transactions, stored as an integer",
+  "sourceColumn": "Decimal Places",
+  "encodingHint": "hash"
+}

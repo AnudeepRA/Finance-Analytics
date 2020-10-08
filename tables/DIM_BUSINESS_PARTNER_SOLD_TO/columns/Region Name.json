@@ -1,0 +1,7 @@
+{
+  "name": "Region Name",
+  "dataType": "string",
+  "description": "name of the state, province, or county (such as Wisconsin for WI or Paris for 75) associated with the address for the given Sold To Business Partner in SAP, stored as a string",
+  "sourceColumn": "Region Name",
+  "encodingHint": "hash"
+}

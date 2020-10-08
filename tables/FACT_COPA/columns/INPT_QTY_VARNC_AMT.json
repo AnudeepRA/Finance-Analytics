@@ -1,0 +1,6 @@
+{
+  "name": "INPT_QTY_VARNC_AMT",
+  "dataType": "double",
+  "sourceColumn": "INPT_QTY_VARNC_AMT",
+  "encodingHint": "value"
+}

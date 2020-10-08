@@ -1,0 +1,7 @@
+{
+  "name": "SLS_DIST_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SLS_DIST_KEY",
+  "encodingHint": "hash"
+}

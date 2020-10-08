@@ -1,0 +1,6 @@
+{
+  "name": "COST_CTR_HIERARCHY_REGION_KEY",
+  "dataType": "int64",
+  "sourceColumn": "COST_CTR_HIERARCHY_REGION_KEY",
+  "encodingHint": "hash"
+}

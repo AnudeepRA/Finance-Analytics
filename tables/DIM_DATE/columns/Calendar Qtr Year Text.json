@@ -1,0 +1,7 @@
+{
+  "name": "Calendar Qtr Year Text",
+  "dataType": "string",
+  "sourceColumn": "Calendar Qtr Year Text",
+  "sortByColumn": "Calendar_Year_Qtr_ORD_Number",
+  "encodingHint": "hash"
+}

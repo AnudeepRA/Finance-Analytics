@@ -1,0 +1,6 @@
+{
+  "name": "SETLMNT_SLS_SECNDRY_COST",
+  "dataType": "double",
+  "sourceColumn": "SETLMNT_SLS_SECNDRY_COST",
+  "encodingHint": "value"
+}

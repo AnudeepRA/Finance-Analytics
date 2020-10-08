@@ -1,0 +1,7 @@
+{
+  "name": "Processing Status Code",
+  "dataType": "string",
+  "sourceColumn": "Processing Status Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

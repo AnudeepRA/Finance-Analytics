@@ -1,0 +1,7 @@
+{
+  "name": "b5f6fecb-1ced-46d1-9a5d-48d97767ef20",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "MATL_KEY",
+  "toTable": "DIM_MATL",
+  "toColumn": "MATL_KEY"
+}

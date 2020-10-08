@@ -1,0 +1,6 @@
+{
+  "name": "PLAN_AMT",
+  "dataType": "double",
+  "sourceColumn": "PLAN_AMT",
+  "encodingHint": "value"
+}

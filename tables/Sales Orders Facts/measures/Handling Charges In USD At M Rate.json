@@ -1,0 +1,7 @@
+{
+  "name": "Handling Charges In USD At M Rate",
+  "description": "amount of any applicable charges (such as freight or delivery charges for engineered-to-order products) that will be charged to the customer if the product on the given sales document line item is returned for non-warranty reasons, stored as a decimal in United States dollars (Currency Code = USD) using the monthly exchange rate in effect at the time of the transaction",
+  "expression": "sum('Sales Orders Facts'[HNDLG_CHRG_GLBL_M_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Bookings Measures"
+}

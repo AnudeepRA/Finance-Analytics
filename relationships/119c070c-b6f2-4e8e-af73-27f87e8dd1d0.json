@@ -1,0 +1,7 @@
+{
+  "name": "119c070c-b6f2-4e8e-af73-27f87e8dd1d0",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "COUNTRY_KEY",
+  "toTable": "DIM_COUNTRY",
+  "toColumn": "COUNTRY_KEY"
+}

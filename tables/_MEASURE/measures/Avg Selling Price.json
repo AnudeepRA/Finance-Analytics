@@ -1,0 +1,28 @@
+{
+  "name": "Avg Selling Price",
+  "description": "Average Price calculated by dividing Total Revenue by Quantity Sold",
+  "expression": [
+    "",
+    "VAR ConversionType = SELECTEDVALUE('Currency Conversion'[Conversion Types], BLANK())",
+    "RETURN",
+    "DIVIDE(",
+    "    CALCULATE(",
+    "        '_MEASURE'[Total Revenue],",
+    "        FILTER(",
+    "            'Currency Conversion Manual',",
+    "            'Currency Conversion Manual'[Conversion Types Manual] = ConversionType",
+    "        )",
+    "    ),",
+    "    '_MEASURE'[Quantity Sold],",
+    "    BLANK()",
+    ")"
+  ],
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

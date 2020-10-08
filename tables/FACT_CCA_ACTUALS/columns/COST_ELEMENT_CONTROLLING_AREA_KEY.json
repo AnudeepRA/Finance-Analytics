@@ -1,0 +1,6 @@
+{
+  "name": "COST_ELEMENT_CONTROLLING_AREA_KEY",
+  "dataType": "int64",
+  "sourceColumn": "COST_ELEMENT_CONTROLLING_AREA_KEY",
+  "encodingHint": "hash"
+}

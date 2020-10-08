@@ -1,0 +1,7 @@
+{
+  "name": "cc9aeb10-f069-42ac-bb80-435074812490",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "COPA_HEADER_3_KEY",
+  "toTable": "DIM_COPA_HEADER_3",
+  "toColumn": "COPA_HEADER_3_KEY"
+}

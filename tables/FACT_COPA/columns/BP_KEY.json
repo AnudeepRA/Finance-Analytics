@@ -1,0 +1,7 @@
+{
+  "name": "BP_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "BP_KEY",
+  "encodingHint": "hash"
+}

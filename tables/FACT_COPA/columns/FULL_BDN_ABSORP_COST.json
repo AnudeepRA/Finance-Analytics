@@ -1,0 +1,6 @@
+{
+  "name": "FULL_BDN_ABSORP_COST",
+  "dataType": "double",
+  "sourceColumn": "FULL_BDN_ABSORP_COST",
+  "encodingHint": "value"
+}

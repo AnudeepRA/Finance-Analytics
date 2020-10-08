@@ -1,0 +1,6 @@
+{
+  "name": "Is Federal Holiday Count",
+  "dataType": "int64",
+  "sourceColumn": "Is Federal Holiday Count",
+  "encodingHint": "hash"
+}

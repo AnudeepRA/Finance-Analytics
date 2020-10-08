@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner Name 1",
+  "dataType": "string",
+  "description": "name 1 associated with the Business Partner Identifier in SAP for the legal entity name of the company either created in the customer master or imported through EDI (such as a distributor or an end customer), which is associated with the given cost center, stored as a string",
+  "sourceColumn": "Business Partner Name 1",
+  "encodingHint": "hash"
+}

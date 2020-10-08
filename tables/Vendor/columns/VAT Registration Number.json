@@ -1,0 +1,13 @@
+{
+  "name": "VAT Registration Number",
+  "dataType": "string",
+  "description": [
+    "\"identifier for the number used within the European Union (EU) for value added tax purposes, which is used with vendors within the EU for tax-exempt deliveries for the \"\"EC sales list\"\", stored as a string",
+    "",
+    "The full identifier starts with an ISO 3166-1 alpha-2 country code and then it consists of 2 and 13 characters",
+    "",
+    "The check rules are defined for each EU country and cannot be changed.\""
+  ],
+  "sourceColumn": "VAT Registration Number",
+  "encodingHint": "hash"
+}

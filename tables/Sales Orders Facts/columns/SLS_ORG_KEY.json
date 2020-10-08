@@ -1,0 +1,8 @@
+{
+  "name": "SLS_ORG_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the sales organization foreign key in the sales order fact table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "SLS_ORG_KEY",
+  "encodingHint": "hash"
+}

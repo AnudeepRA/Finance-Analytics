@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Week Qtr Day Number",
+  "dataType": "int64",
+  "sourceColumn": "Fiscal Week Qtr Day Number",
+  "encodingHint": "value"
+}

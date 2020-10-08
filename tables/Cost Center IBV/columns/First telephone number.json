@@ -1,0 +1,7 @@
+{
+  "name": "First telephone number",
+  "dataType": "string",
+  "description": "free-form text for the primary telephone number (such as +1 414 867 5309) of the primary contact for the Business Partner, stored as a string",
+  "sourceColumn": "First telephone number",
+  "encodingHint": "hash"
+}

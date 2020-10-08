@@ -1,0 +1,7 @@
+{
+  "name": "ebcdaf40-bb28-486c-9871-9c1e7469880d",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "COST_CTR_KEY",
+  "toTable": "Cost Center",
+  "toColumn": "Cost Center Key"
+}

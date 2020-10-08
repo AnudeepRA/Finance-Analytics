@@ -1,0 +1,29 @@
+{
+  "name": "Sales Order Document Category Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP for the kind of transaction represented by the given sales document (see examples below), stored as a nvarchar",
+    "",
+    "A = Inquiry",
+    "B = Quotation",
+    "C = Order",
+    "D = Item proposal",
+    "E = Scheduling agreement",
+    "F = Scheduling agreement with external s",
+    "G = Contract",
+    "H = Returns",
+    "I = Order w/o charge",
+    "J = Delivery",
+    "K = Credit memo request",
+    "L = Debit memo request",
+    "M = Invoice",
+    "N = Invoice cancellation",
+    "O = Credit memo",
+    "P = Debit memo",
+    "Q = WMS transfer order",
+    "R = Goods movement\""
+  ],
+  "sourceColumn": "Sales Order Document Category Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

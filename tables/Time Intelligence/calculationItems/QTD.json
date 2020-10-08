@@ -1,0 +1,5 @@
+{
+  "name": "QTD",
+  "expression": "CALCULATE(SELECTEDMEASURE(), DATESQTD(DIM_DATE[Date Dt]))",
+  "ordinal": 1
+}

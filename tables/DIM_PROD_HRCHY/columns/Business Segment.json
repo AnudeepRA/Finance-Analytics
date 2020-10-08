@@ -1,0 +1,7 @@
+{
+  "name": "Business Segment",
+  "dataType": "string",
+  "description": "abbreviation for the Rockwell Automation business segment (A&S for Architecture & Software and CP&S for Control Products & Solutions), stored as a nvarchar",
+  "sourceColumn": "Business Segment",
+  "encodingHint": "hash"
+}

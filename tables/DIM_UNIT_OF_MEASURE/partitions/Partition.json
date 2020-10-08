@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_UNIT_OF_MEASURE = Source{[Schema=\"GLBL\",Item=\"V_DIM_UNIT_OF_MEASURE_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_UNIT_OF_MEASURE,{\"UOM_KEY\", \"UOM_CD\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

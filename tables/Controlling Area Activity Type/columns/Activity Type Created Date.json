@@ -1,0 +1,6 @@
+{
+  "name": "Activity Type Created Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Activity Type Created Date",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Transaction Last Changed By",
+  "dataType": "string",
+  "description": "This field defines name of the person who changed  Transaction Last time",
+  "sourceColumn": "Transaction Last Changed By",
+  "encodingHint": "hash"
+}

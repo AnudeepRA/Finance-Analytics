@@ -1,0 +1,7 @@
+{
+  "name": "Product Line",
+  "dataType": "string",
+  "description": "the third level in the Rockwell Automation product hierarchy (such as ACSA1733A684 for Toolkits), below the Product Category, stored as an alphanumeric string",
+  "sourceColumn": "Product Line",
+  "encodingHint": "hash"
+}

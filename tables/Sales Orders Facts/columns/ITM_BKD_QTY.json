@@ -1,0 +1,7 @@
+{
+  "name": "ITM_BKD_QTY",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "ITM_BKD_QTY",
+  "encodingHint": "value"
+}

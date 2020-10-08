@@ -1,0 +1,7 @@
+{
+  "name": "f5ee8909-5078-4f63-84c2-e9190fb1df69",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "CRNCY_KEY",
+  "toTable": "DIM_SOURCE_CRNCY",
+  "toColumn": "CRNCY_KEY"
+}

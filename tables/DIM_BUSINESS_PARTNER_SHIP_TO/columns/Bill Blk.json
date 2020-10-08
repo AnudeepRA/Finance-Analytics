@@ -1,0 +1,6 @@
+{
+  "name": "Bill Blk",
+  "dataType": "string",
+  "sourceColumn": "Bill Blk",
+  "encodingHint": "hash"
+}

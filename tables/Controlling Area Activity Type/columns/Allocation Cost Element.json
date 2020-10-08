@@ -1,0 +1,15 @@
+{
+  "name": "Allocation Cost Element",
+  "dataType": "string",
+  "description": [
+    "\"name of the allocation cost element (secondary cost element), of which the given activity type or business process is allocated, stored as a string",
+    "",
+    "The allocation cost element is the central characteristic used in all Controlling Document postings. Because of their central role, they are important for reporting (many reports are structured according to the posted cost elements). ",
+    "",
+    "The Allocation Cost Element can be used to store a default value in the master data of an activity type or a business process.",
+    "",
+    "The default Allocation Cost Element  value can be overwritten within planning if you are planning for the first time. \""
+  ],
+  "sourceColumn": "Allocation Cost Element",
+  "encodingHint": "hash"
+}

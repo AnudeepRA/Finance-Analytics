@@ -1,0 +1,20 @@
+{
+  "name": "Product Hierarchy",
+  "levels": [
+    {
+      "name": "Product Category Code",
+      "ordinal": 0,
+      "column": "Product Category Code"
+    },
+    {
+      "name": "Product Line",
+      "ordinal": 1,
+      "column": "Product Line"
+    },
+    {
+      "name": "Product Hierarchy Code",
+      "ordinal": 2,
+      "column": "Product Hierarchy Code"
+    }
+  ]
+}

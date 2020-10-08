@@ -1,0 +1,7 @@
+{
+  "name": "c99dfe2a-2ccb-4fce-8c23-eba89a581879",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "PRFT_CTR_HRCHY_REGION_KEY",
+  "toTable": "Profit Center Hierarchy Region",
+  "toColumn": "PRFT_CTR_HRCHY_REGION_KEY"
+}

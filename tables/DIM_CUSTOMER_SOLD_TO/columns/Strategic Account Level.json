@@ -1,0 +1,11 @@
+{
+  "name": "Strategic Account Level",
+  "dataType": "string",
+  "description": [
+    "code in SAP (001 for S1 or Global, 002 for S2 or Regional, or 003 for S3 or Internal) that is set based on the Strategic Account Name selected for the given Business Partner (if the business partner has been identified as strategic), stored as a nvarchar",
+    "",
+    "Strategic Account Managers in the Global Industry Group within Rockwell Automation set the Strategic Account Level associated with each Strategic Account Name."
+  ],
+  "sourceColumn": "Strategic Account Level",
+  "encodingHint": "hash"
+}

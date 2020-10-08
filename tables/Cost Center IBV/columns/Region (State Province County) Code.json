@@ -1,0 +1,6 @@
+{
+  "name": "Region (State Province County) Code",
+  "dataType": "string",
+  "sourceColumn": "Region (State Province County) Code",
+  "encodingHint": "hash"
+}

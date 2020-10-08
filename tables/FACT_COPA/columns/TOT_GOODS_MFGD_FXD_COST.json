@@ -1,0 +1,6 @@
+{
+  "name": "TOT_GOODS_MFGD_FXD_COST",
+  "dataType": "double",
+  "sourceColumn": "TOT_GOODS_MFGD_FXD_COST",
+  "encodingHint": "value"
+}

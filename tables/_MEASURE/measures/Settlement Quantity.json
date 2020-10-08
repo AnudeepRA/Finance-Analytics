@@ -1,0 +1,13 @@
+{
+  "name": "Settlement Quantity",
+  "description": "number of items delivered for the service order line item in SAP that is related to the COPA Record for the given transaction for the delivery of products or services  (such as product installation — not a \"ship and bill\" transaction for a physical product, per Rockwell Automation revenue recognition rules), based on the Settlement Quantity Unit Of Measure, stored as a decimal",
+  "expression": "sum(FACT_COPA[SETLMNT_QTY])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Is Market Closed Count",
+  "dataType": "int64",
+  "sourceColumn": "Is Market Closed Count",
+  "encodingHint": "hash"
+}

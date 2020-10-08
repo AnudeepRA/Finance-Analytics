@@ -1,0 +1,7 @@
+{
+  "name": "6e6eba41-3cab-446c-804a-8cf5e9bf7fd4",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "MATL_BASE_UOM_KEY",
+  "toTable": "Material Base Unit of Measure",
+  "toColumn": "UOM_KEY"
+}

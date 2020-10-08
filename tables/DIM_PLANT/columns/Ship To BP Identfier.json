@@ -1,0 +1,11 @@
+{
+  "name": "Ship To BP Identfier",
+  "dataType": "string",
+  "description": [
+    "business partner identifier in SAP for the company (such as a Rockwell Automation plant, a distributor, or an end customer) to which Rockwell Automation shipped the given product, stored as a nvarchar",
+    "",
+    "For a stock transfer order (where one Rockwell Automation location receives the product from another plant or distribution center), the Ship To Business Partner Identifier is a Rockwell Automation (internal) business partner identifier."
+  ],
+  "sourceColumn": "Ship To BP Identfier",
+  "encodingHint": "hash"
+}

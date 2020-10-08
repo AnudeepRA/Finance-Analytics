@@ -1,0 +1,7 @@
+{
+  "name": "CMTD_DLVRY_DTE_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "CMTD_DLVRY_DTE_KEY",
+  "encodingHint": "hash"
+}

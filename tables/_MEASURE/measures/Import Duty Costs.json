@@ -1,0 +1,17 @@
+{
+  "name": "Import Duty Costs",
+  "description": [
+    "amount of tariffs paid in conjunction with the purchase of imported raw materials needed to make the material for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "Countries charge import duties to generate income for the government and protect home industries by controlling the price of cheaper imported goods."
+  ],
+  "expression": "sum(FACT_COPA[IMPORT_DUTY_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

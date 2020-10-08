@@ -1,0 +1,7 @@
+{
+  "name": "8215aaf2-9604-4b4d-bcb1-a6c301214791",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SHIPPING_ROUTE_KEY",
+  "toTable": "Shipping Route",
+  "toColumn": "Shipping Route Key"
+}

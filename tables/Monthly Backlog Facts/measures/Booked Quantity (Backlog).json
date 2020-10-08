@@ -1,0 +1,11 @@
+{
+  "name": "Booked Quantity (Backlog)",
+  "description": [
+    "\"number of units reserved to be sold, or hours of services planned, for the entire line item in the given sales document, based on the sales unit of measure for the material, stored as a decimal",
+    "",
+    "The Booked Quantity, also known as the Target Quantity in SAP, may be split across multiple sales documents, each created for a partial quantity.\""
+  ],
+  "expression": " sum('Monthly Backlog Facts'[ITM_BKD_QTY])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "8886edd3-9523-4bde-9eb4-22001e1f650e",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SHIPPING_POINT_KEY",
+  "toTable": "Shipping Point",
+  "toColumn": "Shipping Point Key"
+}

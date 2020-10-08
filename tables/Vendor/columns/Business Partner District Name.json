@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner District Name",
+  "dataType": "string",
+  "description": "name of the district for the given Business Partner in SAP, stored as a string",
+  "sourceColumn": "Business Partner District Name",
+  "encodingHint": "hash"
+}

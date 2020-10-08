@@ -1,0 +1,308 @@
+{
+  "name": "READ_FIN_CCA",
+  "modelPermission": "read",
+  "members": [
+    {
+      "memberName": "DATA_AAS_READ_FIN_CCA@rockwellautomation.com",
+      "identityProvider": "AzureAD"
+    }
+  ],
+  "tablePermissions": [
+    {
+      "name": "DIM_COMPANY",
+      "filterExpression": [
+        "CONTAINS(DIM_SECURITY_COPA,DIM_SECURITY_COPA[USER_PRNCPL_NAME],USERPRINCIPALNAME(),DIM_SECURITY_COPA[VARIABLE_NAME],\"ZCOMPCODE\",DIM_SECURITY_COPA[LOW_VALUE],DIM_COMPANY[Company Code])",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "DIM_PRFT_CTR",
+      "filterExpression": "CONTAINS(DIM_SECURITY_COPA,DIM_SECURITY_COPA[USER_PRNCPL_NAME],USERPRINCIPALNAME(),DIM_SECURITY_COPA[VARIABLE_NAME],\"ZPRFTCTR\",DIM_SECURITY_COPA[LOW_VALUE],DIM_PRFT_CTR[Profit Center])"
+    },
+    {
+      "name": "DIM_SECURITY_COPA",
+      "filterExpression": "FALSE()"
+    },
+    {
+      "name": "FACT_COPA",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_BUSI_ACCT_TYPE",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COPA",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_CUST_ACCT_ASGNMT_GRP",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_INCOTERMS",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_MATL_SLS",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_MATL_TYPE",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_MATL_GRP",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_MIDRANGE",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_PROD_HRCHY",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_SLS_DIST",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_SLS_DOC_TYPE",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_SLS_ORG",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COPA_CODES_2",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COPA_HEADER",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COPA_TEXT",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_CUST_SLS",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COPA_CODES_1",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_RPTG_CAT",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_SLS_OFFICE",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_CNTRY_SUBDIV",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COUNTRY",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COPA_HEADER_2",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COPA_HEADER_3",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_COUNTRY_REGION",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_HYPERION_PRFT_CTR_HRCHY",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_BUSINESS_PARTNER_SHIP_TO",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_CUSTOMER_SOLD_TO",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_CUSTOMER_END",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_BUSINESS_PARTNER_SOLD_TO",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_BUSINESS_PARTNER_END_CUSTOMER",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Orders Facts",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Billing Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Order Item Physical Delivery Indicator Values",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Delivery Group",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Credit Hold Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Document Category",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Order Item Delivery Priority",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Material Stock Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Manufacturing Requirement Type",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Order Item Rejection Reason",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Document Item Category",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Shipping Condition",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Shipping Route",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Shipping Point",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Plant Storage Location",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Order Reason",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Order Delivery Block",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Schedule Line Category",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Business Address Ship To",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Booking Document",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Customer Purchase Order",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Customer Collective Number",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Order Information",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Internal Order Number",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Order Software Shipment",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Booked Quantity Unit of Measure",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Business Address Sold To",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Delivery Related Billing Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Material Base Unit of Measure",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Item Rejection Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Order Complete Delivery Indicator Values",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Order Item Delivery Block",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Order Related Billing Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Payer Business Partner",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Shipment Complete Indicator values",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Order Delivery Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Order Item Delivery Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Order Item Overall Delivery Status",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Sales Order Overall Delivery Status",
+      "metadataPermission": "none"
+    }
+  ]
+}

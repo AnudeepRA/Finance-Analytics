@@ -1,0 +1,9 @@
+{
+  "name": "Controlling Area Code",
+  "dataType": "string",
+  "description": "the second level in the Rockwell Automation internal organization hierarchy in SAP (such as RA00, the common controlling area used globally at Rockwell Automation), for which costs and revenues are collected and reported, stored as a string",
+  "isHidden": true,
+  "sourceColumn": "Controlling Area Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

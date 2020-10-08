@@ -1,0 +1,7 @@
+{
+  "name": "Fiscal Calendar Week Text",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Calendar Week Text",
+  "sortByColumn": "Fiscal Calendar Week Number",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "863060a3-1db6-482a-8d63-ffd551a3258d",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "INCOTERMS_KEY",
+  "toTable": "DIM_INCOTERMS",
+  "toColumn": "INCOTERMS_KEY"
+}

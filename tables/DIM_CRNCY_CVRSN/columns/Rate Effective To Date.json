@@ -1,0 +1,6 @@
+{
+  "name": "Rate Effective To Date",
+  "dataType": "dateTime",
+  "sourceColumn": "RATE_EFF_TO_DATE_DTE",
+  "encodingHint": "hash"
+}

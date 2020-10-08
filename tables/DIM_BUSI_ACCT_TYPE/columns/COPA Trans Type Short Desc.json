@@ -1,0 +1,7 @@
+{
+  "name": "COPA Trans Type Short Desc",
+  "dataType": "string",
+  "description": "description associated with the code in SAP for the type of transaction posted to SAP COPA for use in analysis (such as Entries for CRM Serv for 1, Entries for CRM Sale for 2, Incoming sales order for A, or billing data for F), stored as a nvarchar",
+  "sourceColumn": "COPA Trans Type Short Desc",
+  "encodingHint": "hash"
+}

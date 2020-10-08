@@ -1,0 +1,7 @@
+{
+  "name": "BP Account Group Code",
+  "dataType": "string",
+  "description": "code in SAP for the type of relationship a business partner has with Rockwell Automation (such as 0001 for Sold-to party, 0002 for Goods recipient, ZRAP for Rockwell US Partner Plant, and ZRET for Rockwell Return Vendor), stored as a nvarchar",
+  "sourceColumn": "BP Account Group Code",
+  "encodingHint": "hash"
+}

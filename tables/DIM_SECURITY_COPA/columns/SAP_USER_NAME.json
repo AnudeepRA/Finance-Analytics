@@ -1,0 +1,7 @@
+{
+  "name": "SAP_USER_NAME",
+  "dataType": "string",
+  "description": "name of the account for the person in SAP (such as SAPTRN022) that has accessed the Controlling & Profitability Analysis (COPA) tool, stored as a nvarchar",
+  "sourceColumn": "SAP_USER_NAME",
+  "encodingHint": "hash"
+}

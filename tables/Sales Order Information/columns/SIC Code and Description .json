@@ -1,0 +1,6 @@
+{
+  "name": "SIC Code and Description ",
+  "dataType": "string",
+  "sourceColumn": "SIC Code and Description ",
+  "encodingHint": "hash"
+}

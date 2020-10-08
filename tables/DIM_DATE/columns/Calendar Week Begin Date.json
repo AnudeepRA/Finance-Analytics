@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Week Begin Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Calendar Week Begin Date",
+  "encodingHint": "hash"
+}

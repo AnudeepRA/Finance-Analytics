@@ -1,0 +1,7 @@
+{
+  "name": "Material Width Dimension",
+  "dataType": "double",
+  "description": "the width dimension measurement of the material, without packaging, stored as a decimal in the Material Dimension Unit Of Measure",
+  "sourceColumn": "Material Width Dimension",
+  "encodingHint": "hash"
+}

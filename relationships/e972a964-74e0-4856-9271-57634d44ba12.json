@@ -1,0 +1,8 @@
+{
+  "name": "e972a964-74e0-4856-9271-57634d44ba12",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "BLLNG_DTE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY",
+  "isActive": false
+}

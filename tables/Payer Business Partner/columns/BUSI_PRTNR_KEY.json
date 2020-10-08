@@ -1,0 +1,6 @@
+{
+  "name": "BUSI_PRTNR_KEY",
+  "dataType": "int64",
+  "isUnique": true,
+  "sourceColumn": "BUSI_PRTNR_KEY"
+}

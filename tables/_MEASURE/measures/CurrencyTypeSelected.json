@@ -1,0 +1,5 @@
+{
+  "name": "CurrencyTypeSelected",
+  "expression": "SELECTEDVALUE(DIM_CRNCY[Currency Code])",
+  "displayFolder": "Key Metrics"
+}

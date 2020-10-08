@@ -1,0 +1,12 @@
+{
+  "name": "Net Trans Value by Requested Delivery Date",
+  "expression": " CALCULATE(sum('Sales Orders Facts'[TRANS_NET_VAL]),USERELATIONSHIP('Sales Orders Facts'[REQSTD_DLVRY_DTE_KEY],DIM_DATE[DATE_INT_KEY]))",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Sales Orders Bookings Measures by Requested Delivery Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" Accuracy=\"2\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

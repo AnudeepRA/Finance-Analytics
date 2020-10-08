@@ -1,0 +1,27 @@
+{
+  "name": "M Rate Conversion",
+  "expression": [
+    "VAR sumFact = SUMMARIZE(FACT_COPA,FACT_COPA[CRNCY_KEY],FACT_COPA[POSTNG_DATE_INT_KEY],\"X\",SELECTEDMEASURE())",
+    "RETURN",
+    "IF (HASONEVALUE(DIM_CRNCY[Currency Code]),",
+    "    CALCULATE(",
+    "        SUMX(",
+    "            sumFact,",
+    "            [X]",
+    "            * MINX(",
+    "                FILTER(",
+    "                    DIM_CRNCY_CVRSN,",
+    "\t\t\t\t\tDIM_CRNCY_CVRSN[RATE_EFF_FROM_DTE_INT_KEY] <= FACT_COPA[POSTNG_DATE_INT_KEY]",
+    "                    &&  DIM_CRNCY_CVRSN[RATE_EFF_TO_DTE_INT_KEY] >= FACT_COPA[POSTNG_DATE_INT_KEY]",
+    "                    && FACT_COPA[CRNCY_KEY]=DIM_CRNCY_CVRSN[FROM_CRNCY_KEY]",
+    "\t\t\t\t\t&& DIM_CRNCY_CVRSN[Rate Type] = \"M\"",
+    "                ),",
+    "                DIM_CRNCY_CVRSN[EXCHG_RATE]",
+    "            )",
+    "        ),",
+    "\t\tALL(DIM_CRNCY_CVRSN[Rate Effective To Date])",
+    "    ),",
+    "\tSELECTEDMEASURE()",
+    ")"
+  ]
+}

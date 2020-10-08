@@ -1,0 +1,36 @@
+{
+  "name": "PrevYear-5",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    MyQuery = ",
+      "    Value.NativeQuery(",
+      "        #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "       \"SELECT * FROM FIN_COPA.V_FACT_COPA_AAS ",
+      "      where year(date_dte_key) =year(getdate()) -6\"",
+      "    )",
+      "in",
+      "    MyQuery"
+    ]
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization",
+      "value": [
+        "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>let",
+        "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+        "    MyQuery = ",
+        "    Value.NativeQuery(",
+        "        #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+        "       \"SELECT * FROM FIN_COPA.V_FACT_COPA_AAS ",
+        "      where year(date_dte_key) =year(getdate()) -6\"",
+        "    )",
+        "in",
+        "    MyQuery</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+      ]
+    }
+  ]
+}

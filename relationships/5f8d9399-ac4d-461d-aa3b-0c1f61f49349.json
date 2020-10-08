@@ -1,0 +1,7 @@
+{
+  "name": "5f8d9399-ac4d-461d-aa3b-0c1f61f49349",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "END_CUST_KEY",
+  "toTable": "DIM_CUSTOMER_END",
+  "toColumn": "CUST_KEY"
+}

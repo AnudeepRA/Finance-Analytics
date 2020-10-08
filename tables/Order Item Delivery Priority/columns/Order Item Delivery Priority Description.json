@@ -1,0 +1,15 @@
+{
+  "name": "Order Item Delivery Priority Description",
+  "dataType": "string",
+  "description": [
+    "\"description associated with the code in SAP (see examples below) for the priority of the given sales order line items, based on the customer's level of urgency as perceived by Sales or Customer Care at the time the sales order was created, stored as a nvarchar",
+    "",
+    "1 = Customer is in a down situation and needs the unit as soon as possible to resume production",
+    "2 = Critical = Customer is not in a down situation, but needs the unit as soon as possible (for example, to prevent an impending down situation)",
+    "3 = Appealed = Customer appealed the commit date that provided by Rockwell Automation",
+    "5 = Delivery Improvement = Customer has requested an expedite and Rockwell Automation will attempt to do so",
+    "9 = Normal = Customer will receive delivery by the current Rockwell Automation commit date\""
+  ],
+  "sourceColumn": "Order Item Delivery Priority Description",
+  "encodingHint": "hash"
+}

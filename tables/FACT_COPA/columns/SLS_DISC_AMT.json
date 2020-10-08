@@ -1,0 +1,6 @@
+{
+  "name": "SLS_DISC_AMT",
+  "dataType": "double",
+  "sourceColumn": "SLS_DISC_AMT",
+  "encodingHint": "value"
+}

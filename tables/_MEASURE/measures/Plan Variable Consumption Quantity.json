@@ -1,0 +1,17 @@
+{
+  "name": "Plan Variable Consumption Quantity",
+  "description": [
+    "\"the planned variable number of items consumed in the transaction at the given cost center (Plan Consumption Quantity - Plan Fixed Consumption Quantity), which is used in cost center utilization analysis (where plan and actual values are compared), stored as a decimal in the unit of measure for the transaction",
+    "",
+    "The Unit of Measure (UOM) that is most common is hours. However, there can be other Units of Measure such as KG, CM, BAG, etc.\""
+  ],
+  "expression": [
+    " ",
+    "IF (NOT ",
+    "    [CCA Detail Flag],",
+    "    [Plan Variable Consumption Quantity Summary]",
+    ")"
+  ],
+  "formatString": "0.00",
+  "displayFolder": "CCA"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "c997b34a-5451-4c38-9194-868c3ddb61a5",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "DLVRY_RELTD_BLLNG_PRCSNG_STAT_KEY",
+  "toTable": "Delivery Related Billing Status",
+  "toColumn": "Processing Status Key"
+}

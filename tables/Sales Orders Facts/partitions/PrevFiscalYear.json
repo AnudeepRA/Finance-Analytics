@@ -1,0 +1,38 @@
+{
+  "name": "PrevFiscalYear",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    MyQuery = ",
+      "    Value.NativeQuery(",
+      "        #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "       \"SELECT * FROM FIN.V_FACT_SALES_ORDERS_FIN_AAS ",
+      "where Partition_Name ='PrevFiscalYear'",
+      "\"",
+      "    )",
+      "in",
+      "MyQuery"
+    ]
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization",
+      "value": [
+        "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>let",
+        "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+        "    MyQuery = ",
+        "    Value.NativeQuery(",
+        "        #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+        "       \"SELECT * FROM FIN.V_FACT_SALES_ORDERS_FIN_AAS ",
+        "where Partition_Name ='PrevFiscalYear'",
+        "\"",
+        "    )",
+        "in",
+        "MyQuery</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+      ]
+    }
+  ]
+}

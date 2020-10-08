@@ -1,0 +1,7 @@
+{
+  "name": "bccd3c59-406a-471e-943d-530d202bbd90",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SOLD_TO_CUST_KEY",
+  "toTable": "DIM_CUSTOMER_SOLD_TO",
+  "toColumn": "CUST_KEY"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Region",
+  "dataType": "string",
+  "description": "name of the state, province, or county in SAP (such as Wisconsin for WI or Paris for 75), stored as a string",
+  "sourceColumn": "Region",
+  "encodingHint": "hash"
+}

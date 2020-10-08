@@ -1,0 +1,7 @@
+{
+  "name": "Calendar Week Number",
+  "dataType": "int64",
+  "description": "the ordinal number for the week of the calendar year, stored as an integer",
+  "sourceColumn": "Calendar Week Number",
+  "encodingHint": "hash"
+}

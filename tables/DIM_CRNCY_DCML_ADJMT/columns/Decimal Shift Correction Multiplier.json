@@ -1,0 +1,13 @@
+{
+  "name": "Decimal Shift Correction Multiplier",
+  "dataType": "double",
+  "description": [
+    "\"multiplication factor needed to calculate the true local currency value for a given value stored in a SAP table in a given ISO Currency Code, stored as a decimal",
+    "",
+    "true local currency value = value stored in SAP table * Decimal Shift Correction Multiplier",
+    "",
+    "SAP stores values in currency tables to 2 decimal places (data type = decimal(17,2), with up to 15 digits before the decimal and 2 after the decimal).  For currencies with a different number of decimal places, table TCURX specifies the actual number of decimal places.  Based on the information in this table, the SAP system shifts the decimal place for the data stored in tables and displays the true local currency.\""
+  ],
+  "sourceColumn": "Decimal Shift Correction Multiplier",
+  "encodingHint": "hash"
+}

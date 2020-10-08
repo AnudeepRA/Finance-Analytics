@@ -1,0 +1,6 @@
+{
+  "name": "Langu Key",
+  "dataType": "string",
+  "sourceColumn": "Langu Key",
+  "encodingHint": "hash"
+}

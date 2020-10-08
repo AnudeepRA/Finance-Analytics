@@ -1,0 +1,7 @@
+{
+  "name": "d20d7c78-4755-4f55-a835-f76db6764740",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SHP_TO_BP_KEY",
+  "toTable": "DIM_BUSINESS_PARTNER_SHIP_TO",
+  "toColumn": "BUSI_PRTNR_KEY"
+}

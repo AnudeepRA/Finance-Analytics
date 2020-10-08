@@ -1,0 +1,7 @@
+{
+  "name": "Sales Office Code",
+  "dataType": "string",
+  "description": "code in SAP for the Rockwell Automation sales office (such as DET for Detroit or MKE for Milwaukee) responsible for providing support to the sold-to customer, stored as a three-letter string",
+  "sourceColumn": "Sales Office Code",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner Country Code",
+  "dataType": "string",
+  "description": "code for the country (such as CA for Canada, PE for Peru, TH for Thailand, and US for the United States) in SAP, stored as a two-character nvarchar",
+  "sourceColumn": "Business Partner Country Code",
+  "encodingHint": "hash"
+}

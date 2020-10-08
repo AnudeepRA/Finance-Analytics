@@ -1,0 +1,7 @@
+{
+  "name": "Material Document Version",
+  "dataType": "string",
+  "description": "number in SAP (such as 45) for the version of the drawing for the given material, used to track changes, stored as a nvarchar",
+  "sourceColumn": "Material Document Version",
+  "encodingHint": "hash"
+}

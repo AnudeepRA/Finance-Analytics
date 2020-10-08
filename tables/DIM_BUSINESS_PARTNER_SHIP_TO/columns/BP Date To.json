@@ -1,0 +1,6 @@
+{
+  "name": "BP Date To",
+  "dataType": "dateTime",
+  "sourceColumn": "BP Date To",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Ss Sales Region",
+  "dataType": "string",
+  "sourceColumn": "Ss Sales Region",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Prev Fiscal Period",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    MyQuery = ",
+      "    Value.NativeQuery(",
+      "        #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "       \"SELECT ",
+      "\t\t\tPERIOD_KEY, CONTROLLING_AREA_KEY, COST_CTR_KEY, PRFT_CTR_KEY",
+      "\t\t\t, PRFT_CTR_HRCHY_KEY, PRFT_CTR_HRCHY_TAX_KEY, PRFT_CTR_HRCHY_REGION_KEY",
+      "\t\t\t, COST_CTR_HIERARCHY_KEY, COST_CTR_HIERARCHY_REGION_KEY, COST_ELEMENT_HIERARCHY_KEY",
+      "\t\t\t, COST_ELEMENT_COA_KEY, COST_ELEMENT_CONTROLLING_AREA_KEY, CONTROLLING_AREA_ACTIVITY_TYPE_KEY",
+      "\t\t\t, CONTROLLING_VALUE_TYPE_KEY, CRNCY_TYPE_KEY, CRNCY_KEY, CUST_KEY",
+      "\t\t\t, MEASURE_TYPE_KEY, UOM_KEY, DETAIL_VALUE_TYPE_KEY, STATISTICS_KEY",
+      "\t\t\t, CONTROLLING_VERSION_KEY, VALUATION_VIEW_KEY, SENDER_RECEIVER_KEY",
+      "\t\t\t, FUNCL_AREA_KEY, PRTNR_FUNCL_AREA_KEY, COMPANY_KEY, PRTNR_COMPANY_KEY",
+      "\t\t\t, BUSINESS_AREA_KEY, PLANT_KEY, MATL_KEY, VENDOR_KEY, DOCUMENT_DATE_KEY",
+      "\t\t\t, POSTING_DATE_KEY, GL_ACCOUNT_MASTER_COA_KEY, COST_CTR_ELIM_IBV_KEY",
+      "\t\t\t, COST_ACCNTNG_DOCMNT_KEY, PRTNR_OBJ_KEY",
+      "\t\t\t, ACTUAL_AMT, ACTUAL_FIXED_AMT, ACTUAL_VARIABLE_AMT",
+      "\t\t\t, ACTUAL_CONSUMPTION_QTY, ACTUAL_FIX_CONSUMPTION_QTY, ACTUAL_VARIABLE_CONSUMPTION_QTY",
+      "\t\t\t, DATE_DTE_KEY",
+      "\t\tFROM [FIN_CCA].[V_FACT_CCA_ACTUALS_AAS] ",
+      "\t\tWHERE Part = 'Prev Fiscal Period'",
+      "\t\t\"",
+      "    )",
+      "in",
+      "    MyQuery"
+    ]
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization",
+      "value": [
+        "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>let",
+        "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+        "    MyQuery = ",
+        "    Value.NativeQuery(",
+        "        #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+        "       \"SELECT ",
+        "\t\t\tPERIOD_KEY, CONTROLLING_AREA_KEY, COST_CTR_KEY, PRFT_CTR_KEY",
+        "\t\t\t, PRFT_CTR_HRCHY_KEY, PRFT_CTR_HRCHY_TAX_KEY, PRFT_CTR_HRCHY_REGION_KEY",
+        "\t\t\t, COST_CTR_HIERARCHY_KEY, COST_CTR_HIERARCHY_REGION_KEY, COST_ELEMENT_HIERARCHY_KEY",
+        "\t\t\t, COST_ELEMENT_COA_KEY, COST_ELEMENT_CONTROLLING_AREA_KEY, CONTROLLING_AREA_ACTIVITY_TYPE_KEY",
+        "\t\t\t, CONTROLLING_VALUE_TYPE_KEY, CRNCY_TYPE_KEY, CRNCY_KEY, CUST_KEY",
+        "\t\t\t, MEASURE_TYPE_KEY, UOM_KEY, DETAIL_VALUE_TYPE_KEY, STATISTICS_KEY",
+        "\t\t\t, CONTROLLING_VERSION_KEY, VALUATION_VIEW_KEY, SENDER_RECEIVER_KEY",
+        "\t\t\t, FUNCL_AREA_KEY, PRTNR_FUNCL_AREA_KEY, COMPANY_KEY, PRTNR_COMPANY_KEY",
+        "\t\t\t, BUSINESS_AREA_KEY, PLANT_KEY, MATL_KEY, VENDOR_KEY, DOCUMENT_DATE_KEY",
+        "\t\t\t, POSTING_DATE_KEY, GL_ACCOUNT_MASTER_COA_KEY, COST_CTR_ELIM_IBV_KEY",
+        "\t\t\t, COST_ACCNTNG_DOCMNT_KEY, PRTNR_OBJ_KEY",
+        "\t\t\t, ACTUAL_AMT, ACTUAL_FIXED_AMT, ACTUAL_VARIABLE_AMT",
+        "\t\t\t, ACTUAL_CONSUMPTION_QTY, ACTUAL_FIX_CONSUMPTION_QTY, ACTUAL_VARIABLE_CONSUMPTION_QTY",
+        "\t\t\t, DATE_DTE_KEY",
+        "\t\tFROM [FIN_CCA].[V_FACT_CCA_ACTUALS_AAS] ",
+        "\t\tWHERE Part = 'Prev Fiscal Period'",
+        "\t\t\"",
+        "    )",
+        "in",
+        "    MyQuery</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+      ]
+    }
+  ]
+}

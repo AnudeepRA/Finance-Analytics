@@ -1,0 +1,7 @@
+{
+  "name": "Published Product Lead Time Days",
+  "dataType": "int64",
+  "description": "number of calendar days from the date on which a sales order line item for the given product is created to the date on which the product is expected to be shipped, as it appears in the Rockwell Automation catalog, stored as an integer",
+  "sourceColumn": "Published Product Lead Time Days",
+  "encodingHint": "hash"
+}

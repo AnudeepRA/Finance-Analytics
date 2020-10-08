@@ -1,0 +1,7 @@
+{
+  "name": "d2da1ee0-7dab-41aa-8c88-bbe4134471cb",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "COMPANY_KEY",
+  "toTable": "DIM_COMPANY",
+  "toColumn": "COMPANY_KEY"
+}

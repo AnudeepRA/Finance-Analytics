@@ -1,0 +1,19 @@
+{
+  "name": "SFSAC Sales Adjustments",
+  "description": [
+    "the difference between the total amount of ship from stock and credit (SFSAC) claims related to the given transaction and the total amount of SFSAC legacy claims related to the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "SFSAC Sales Adjustments = SFSAC Claims - SFSAC Legacy Claims",
+    "",
+    "SFSAC Legacy Claims were posted as a positive number, so this calculation is actually a sum of the two amounts."
+  ],
+  "expression": "sum(FACT_COPA[SFSAC_SLS_ADJMT_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

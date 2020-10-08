@@ -1,0 +1,7 @@
+{
+  "name": "362e12f8-041a-4dfa-adf2-29af547ad1cc",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_ORD_INFO_KEY",
+  "toTable": "Sales Order Information",
+  "toColumn": "Sales Order Info Key"
+}

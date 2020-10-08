@@ -1,0 +1,11 @@
+{
+  "name": "Serial Number",
+  "dataType": "string",
+  "description": [
+    "the globally unique number (such as 51318807) for a product (finished good) that identifies its specific equipment master record in SAP, stored as a string",
+    "",
+    "Serial numbers are assigned by SAP to assemble-to-order (ATO) and configure-to-order (CTO) products during the release of a production order based on the serial number profile of the material master being produced.  (In the future, when scanning is implemented in SAP plants, serial numbers will be captured for all outbound deliveries.)  A serial number may contain numbers, letters, check digits, and noise characters, and links the production order to the sales order.  Serial numbers are used to track goods movements, sales and shipments to Sold To and Ship To Customers, warranties, returns, and repairs."
+  ],
+  "sourceColumn": "Serial Number",
+  "encodingHint": "hash"
+}

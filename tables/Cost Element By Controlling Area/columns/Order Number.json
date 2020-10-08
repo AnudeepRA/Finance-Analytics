@@ -1,0 +1,7 @@
+{
+  "name": "Order Number",
+  "dataType": "string",
+  "description": "Number which identifies an order within a client.",
+  "sourceColumn": "Order Number",
+  "encodingHint": "hash"
+}

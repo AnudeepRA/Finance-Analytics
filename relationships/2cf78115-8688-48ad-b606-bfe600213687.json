@@ -1,0 +1,8 @@
+{
+  "name": "2cf78115-8688-48ad-b606-bfe600213687",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "BKNG_DOC_DTE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY",
+  "isActive": false
+}

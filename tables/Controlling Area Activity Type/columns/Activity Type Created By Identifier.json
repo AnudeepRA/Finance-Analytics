@@ -1,0 +1,7 @@
+{
+  "name": "Activity Type Created By Identifier",
+  "dataType": "string",
+  "description": "Windows login identifier (such as OGALIND) of the person who created the given cost estimate, stored as a string",
+  "sourceColumn": "Activity Type Created By Identifier",
+  "encodingHint": "hash"
+}

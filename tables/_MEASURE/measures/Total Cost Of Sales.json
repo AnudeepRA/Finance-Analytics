@@ -1,0 +1,13 @@
+{
+  "name": "Total Cost Of Sales",
+  "description": "the total amount of the Stock Value of the goods plus Cost Of Goods Sold Manual Adjustments, Inter-company Transfer Manual Adjustments, Settlement Cost Of Sales Primary, Settlement Cost Of Sales Secondary, Settlement Expenses, and Capitalized Software Expenses associated with the sale of the finished goods and services for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "sum(FACT_COPA[TOT_SLS_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

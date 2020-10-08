@@ -1,0 +1,7 @@
+{
+  "name": "c2920cf4-357d-4bf3-86c9-e37ef257e55c",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_ORD_SFTWR_SHPMNT_KEY",
+  "toTable": "Sales Order Software Shipment",
+  "toColumn": "Sales Order Software Shipment Key"
+}

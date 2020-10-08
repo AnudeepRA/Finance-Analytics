@@ -1,0 +1,7 @@
+{
+  "name": "OPEN_QTY_NET_VAL_IN_TRANS_CRNCY",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "OPEN_QTY_NET_VAL_IN_TRANS_CRNCY",
+  "encodingHint": "value"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "G/L Account Number",
+  "dataType": "string",
+  "description": "identifier for the general ledger account (such as 627000 for COGS STANDARD for cost of goods sold or 141000 for INV FIN GDS for inventory analysis), stored as a string",
+  "sourceColumn": "G/L Account Number",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

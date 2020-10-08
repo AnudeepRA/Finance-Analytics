@@ -1,0 +1,7 @@
+{
+  "name": "001aa45a-5d41-4ad7-8602-54ba0259284c",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "CUST_ACCT_ASGNMT_GRP_KEY",
+  "toTable": "DIM_CUST_ACCT_ASGNMT_GRP",
+  "toColumn": "CUST_ACCT_ASGNMT_GRP_KEY"
+}

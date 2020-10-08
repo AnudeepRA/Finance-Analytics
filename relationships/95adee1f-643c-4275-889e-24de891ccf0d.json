@@ -1,0 +1,7 @@
+{
+  "name": "95adee1f-643c-4275-889e-24de891ccf0d",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_DOC_CAT_KEY",
+  "toTable": "Sales Document Category",
+  "toColumn": "Sales Document Category Key"
+}

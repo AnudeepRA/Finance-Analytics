@@ -1,0 +1,8 @@
+{
+  "name": "COST_CTR_HRCHY_KEY_REGION",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "COST_CTR_HRCHY_KEY_REGION",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Fiscal Week Month Text",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Week Month Text",
+  "sortByColumn": "Fiscal Week Month Number",
+  "encodingHint": "hash"
+}

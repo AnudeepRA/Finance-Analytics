@@ -1,0 +1,8 @@
+{
+  "name": "BLLNG_PRCSNG_STAT_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the billing processing status foreign key in the sales order fact table, which links to the processing status dimension table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "BLLNG_PRCSNG_STAT_KEY",
+  "encodingHint": "hash"
+}

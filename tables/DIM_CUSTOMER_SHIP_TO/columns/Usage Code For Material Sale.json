@@ -1,0 +1,18 @@
+{
+  "name": "Usage Code For Material Sale",
+  "dataType": "string",
+  "description": [
+    "classification in SAP (see examples below) for the conditions under which the given material was sold for documentation purposes (such as for a nota fiscal for Brazil), stored as a nvarchar",
+    "",
+    "ZDM = DMI Distributors",
+    "ZEF = Estimate",
+    "ZET = Special Programs",
+    "ZFC = Created From Contract",
+    "ZFD = FOB Dest Adder",
+    "ZRR = Return Replacement",
+    "ZTU = Step Forward",
+    "ZZZ = PilotOrder/SftWr/Msc"
+  ],
+  "sourceColumn": "Usage Code For Material Sale",
+  "encodingHint": "hash"
+}

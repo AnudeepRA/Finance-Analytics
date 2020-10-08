@@ -1,0 +1,6 @@
+{
+  "name": "ADMIN_EXP_COST",
+  "dataType": "double",
+  "sourceColumn": "ADMIN_EXP_COST",
+  "encodingHint": "value"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Actual Fixed Amount By Document Date",
+  "description": "actual fixed amount posted to the cost center for the given transaction, which is used in cost center spend analysis (where plan and actual values are compared), stored as a decimal in the currency of the transaction",
+  "expression": "CALCULATE(sum(FACT_CCA_ACTUALS[ACTUAL_FIXED_AMT]), USERELATIONSHIP(FACT_CCA_ACTUALS[DOCUMENT_DATE_KEY],DIM_DATE[DATE_INT_KEY]))",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "isHidden": true,
+  "displayFolder": "CCA By Document Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" Accuracy=\"2\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

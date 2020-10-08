@@ -1,0 +1,7 @@
+{
+  "name": "741351c1-5301-41d8-8626-0c94949429c8",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SHIPPING_POINT_KEY",
+  "toTable": "Shipping Point",
+  "toColumn": "Shipping Point Key"
+}

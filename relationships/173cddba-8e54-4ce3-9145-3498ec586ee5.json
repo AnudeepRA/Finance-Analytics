@@ -1,0 +1,7 @@
+{
+  "name": "173cddba-8e54-4ce3-9145-3498ec586ee5",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "COST_CTR_KEY",
+  "toTable": "Cost Center",
+  "toColumn": "Cost Center Key"
+}

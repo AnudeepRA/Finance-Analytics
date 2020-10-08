@@ -1,0 +1,6 @@
+{
+  "name": "Reference Document Identifier",
+  "dataType": "string",
+  "sourceColumn": "Reference Document Identifier",
+  "encodingHint": "hash"
+}

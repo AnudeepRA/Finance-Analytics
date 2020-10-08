@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Calendar Week Begin Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Fiscal Calendar Week Begin Date",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Sales Document Type and Description",
+  "dataType": "string",
+  "description": "description associated with the key for the type of business transaction in SAP and classify the associated accounting documents — in this case, a document type for a specific type of sale (such as ZRPO for Plant Services third-party order transaction type and ZRFC for Full Credit Non Sched), stored as a nvarchar",
+  "sourceColumn": "Sales Document Type and Description",
+  "encodingHint": "hash"
+}

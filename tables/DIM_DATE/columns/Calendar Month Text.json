@@ -1,0 +1,8 @@
+{
+  "name": "Calendar Month Text",
+  "dataType": "string",
+  "description": "the ordinal number for the month of the calendar year, stored as an integer",
+  "sourceColumn": "Calendar Month Text",
+  "sortByColumn": "Calendar Month Number",
+  "encodingHint": "hash"
+}

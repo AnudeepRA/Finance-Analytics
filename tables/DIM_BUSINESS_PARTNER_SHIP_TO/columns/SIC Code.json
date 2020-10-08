@@ -1,0 +1,8 @@
+{
+  "name": "SIC Code",
+  "dataType": "string",
+  "description": "Standard Industry Classification (SIC) four-digit code from Dun & Bradstreet (D&B), separated by a tilde (such as \"3675 ~ Electronic Capacitors\" or \"3089 ~ Plastics Products, Not Elsewhere Classified\"), which classifies the customer into to an industry, stored as a nvarchar",
+  "sourceColumn": "SIC Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

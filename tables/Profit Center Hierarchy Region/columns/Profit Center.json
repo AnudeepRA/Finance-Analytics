@@ -1,0 +1,19 @@
+{
+  "name": "Profit Center",
+  "dataType": "string",
+  "description": [
+    "code (see example below) that identifies the organizational unit used for both business unit and product line reporting, stored as a nvarchar",
+    "",
+    "For example:  ",
+    "PB1USOP001",
+    "where:",
+    "PB = Push Buttons (sub-business unit)",
+    "1 = North America (region)",
+    "US = United States (country)",
+    "OP = Operator Interface (product category)",
+    "001 = NEMA Pushbutton 30mm (product line)"
+  ],
+  "sourceColumn": "Profit Center",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "aeea6f4d-22cc-4425-9f02-297835fe025d",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SHIP_TO_BP_BUSI_ADDR_KEY",
+  "toTable": "Business Address Ship To",
+  "toColumn": "Business Address Key"
+}

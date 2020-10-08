@@ -1,0 +1,7 @@
+{
+  "name": "UNIT_NET_VALUE_PER_UOM",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "UNIT_NET_VALUE_PER_UOM",
+  "encodingHint": "value"
+}

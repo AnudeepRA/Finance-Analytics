@@ -1,0 +1,7 @@
+{
+  "name": "Cost Center Statistical Indicator ",
+  "dataType": "string",
+  "description": "indicator used to classify the given Cost Center for statistical reporting (such as X for yes or blank if not), stored as a string",
+  "sourceColumn": "Cost Center Statistical Indicator ",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Actual Variable Consumption Quantity By Posting Date",
+  "description": [
+    "\"the actual variable number of items consumed in the transaction at the given cost center (Actual Consumption Quantity - Actual Fixed Consumption Quantity), which is used in cost center utilization analysis (where plan and actual values are compared), stored as a decimal in the unit of measure for the transaction",
+    "",
+    "The Unit of Measure (UOM) that is most common is hours. However, there can be other Units of Measure such as KG, CM, BAG, etc.\""
+  ],
+  "expression": "CALCULATE(sum(FACT_CCA_ACTUALS[ACTUAL_VARIABLE_CONSUMPTION_QTY]), USERELATIONSHIP(FACT_CCA_ACTUALS[POSTING_DATE_KEY],DIM_DATE[DATE_INT_KEY]))",
+  "formatString": "0.00",
+  "isHidden": true,
+  "displayFolder": "CCA By Posting Date"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "INTERNAL_ORD_NO_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "INTERNAL_ORD_NO_KEY",
+  "encodingHint": "hash"
+}

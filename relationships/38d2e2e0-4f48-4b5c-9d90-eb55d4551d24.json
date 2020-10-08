@@ -1,0 +1,7 @@
+{
+  "name": "38d2e2e0-4f48-4b5c-9d90-eb55d4551d24",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "CRNCY_KEY",
+  "toTable": "DIM_SOURCE_CRNCY",
+  "toColumn": "CRNCY_KEY"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "SAP Client Number",
+  "dataType": "string",
+  "description": "number that identifies the production environment of SAP deployed at Rockwell Automation, stored as a nvarchar",
+  "sourceColumn": "SAP Client Number",
+  "encodingHint": "hash"
+}

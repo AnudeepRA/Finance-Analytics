@@ -1,0 +1,6 @@
+{
+  "name": "QTY_DISC_AMT",
+  "dataType": "double",
+  "sourceColumn": "QTY_DISC_AMT",
+  "encodingHint": "value"
+}

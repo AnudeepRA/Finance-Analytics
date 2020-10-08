@@ -1,0 +1,7 @@
+{
+  "name": "4eae20c5-d324-4736-afe7-1245c8fbe028",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SHP_TO_CUST_KEY",
+  "toTable": "DIM_CUSTOMER_SHIP_TO",
+  "toColumn": "CUST_KEY"
+}

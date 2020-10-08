@@ -1,0 +1,6 @@
+{
+  "type": "calculated",
+  "name": "Add col2",
+  "dataType": "int64",
+  "isDataTypeInferred": true
+}

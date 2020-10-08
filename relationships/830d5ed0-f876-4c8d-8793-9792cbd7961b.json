@@ -1,0 +1,7 @@
+{
+  "name": "830d5ed0-f876-4c8d-8793-9792cbd7961b",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "PRFT_CTR_KEY",
+  "toTable": "DIM_PRFT_CTR",
+  "toColumn": "PRFT_CTR_KEY"
+}

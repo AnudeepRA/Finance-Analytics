@@ -1,0 +1,8 @@
+{
+  "name": "Fiscal Calendar YEAR_PERIOD",
+  "dataType": "string",
+  "description": "the ordinal numbers for the fiscal year and the fiscal month within the fiscal year (such as 201904 for January 2019, the fourth month of the Rockwell Automation fiscal year 2019, which starts on 1 Oct 2018), stored as a varchar",
+  "sourceColumn": "Fiscal Calendar YEAR_PERIOD",
+  "sortByColumn": "Fiscal_Calendar_Year_Month_ORD_Number",
+  "encodingHint": "hash"
+}

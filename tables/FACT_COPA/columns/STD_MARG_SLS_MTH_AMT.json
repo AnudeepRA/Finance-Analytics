@@ -1,0 +1,6 @@
+{
+  "name": "STD_MARG_SLS_MTH_AMT",
+  "dataType": "double",
+  "sourceColumn": "STD_MARG_SLS_MTH_AMT",
+  "encodingHint": "value"
+}

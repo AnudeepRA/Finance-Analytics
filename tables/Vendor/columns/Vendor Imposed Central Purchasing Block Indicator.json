@@ -1,0 +1,6 @@
+{
+  "name": "Vendor Imposed Central Purchasing Block Indicator",
+  "dataType": "string",
+  "description": "indicator (such as X if the given record is blocked or blank if it is not) of whether or not the vendor master record is blocked for all departments (which determines if posting to the given record is allowed), stored as a string",
+  "sourceColumn": "Vendor Imposed Central Purchasing Block Indicator"
+}

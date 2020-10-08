@@ -1,0 +1,19 @@
+{
+  "name": "Account Group Code",
+  "dataType": "string",
+  "description": [
+    "code in SAP for the type of relationship a business partner has with Rockwell Automation (see examples below), stored as a nvarchar",
+    "",
+    "0001 = Sold-to party",
+    "0002 = Goods recipient",
+    "0004 = Bill-to party",
+    "0005 = Prospective Customer",
+    "Z005 = RA Distributor",
+    "Z006 = RA Inter/Intra Company",
+    "Z099 = POS",
+    "ZRAP = RA US Partner Plant",
+    "ZRET = RA Return Vendor"
+  ],
+  "sourceColumn": "Account Group Code",
+  "encodingHint": "hash"
+}

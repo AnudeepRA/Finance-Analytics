@@ -1,0 +1,7 @@
+{
+  "name": "HNDLG_CHRG_WTHOT_DCML_ADJMT_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "HNDLG_CHRG_WTHOT_DCML_ADJMT_AMT",
+  "encodingHint": "value"
+}

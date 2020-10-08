@@ -1,0 +1,7 @@
+{
+  "name": "COPA Record Currency Code",
+  "dataType": "string",
+  "description": "code for the currency used (such as EUR or USD) for the COPA record for the given transaction (which could be any transaction that is posted to COPA in SAP, such as an order booking, a billing, a settlement transaction, costs, expenses, or a manual adjustment), stored as a nvarchar",
+  "sourceColumn": "COPA Record Currency Code",
+  "encodingHint": "hash"
+}

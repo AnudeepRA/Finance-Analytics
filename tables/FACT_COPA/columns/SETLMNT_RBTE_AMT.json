@@ -1,0 +1,6 @@
+{
+  "name": "SETLMNT_RBTE_AMT",
+  "dataType": "double",
+  "sourceColumn": "SETLMNT_RBTE_AMT",
+  "encodingHint": "value"
+}

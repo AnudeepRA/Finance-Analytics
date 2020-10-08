@@ -1,0 +1,7 @@
+{
+  "name": "MFGNG_REQRMT_TYPE_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "MFGNG_REQRMT_TYPE_KEY",
+  "encodingHint": "hash"
+}

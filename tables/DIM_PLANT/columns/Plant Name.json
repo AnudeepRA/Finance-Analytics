@@ -1,0 +1,8 @@
+{
+  "name": "Plant Name",
+  "dataType": "string",
+  "description": "description associated with the Plant Code in SAP (such as Twinsburg for Plant Code 1020 and European Distribution Center for Plant Code 4000), stored as a nvarchar",
+  "sourceColumn": "Plant Name",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

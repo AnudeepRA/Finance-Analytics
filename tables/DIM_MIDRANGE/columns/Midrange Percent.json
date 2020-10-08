@@ -1,0 +1,6 @@
+{
+  "name": "Midrange Percent",
+  "dataType": "double",
+  "sourceColumn": "Midrange Percent",
+  "encodingHint": "hash"
+}

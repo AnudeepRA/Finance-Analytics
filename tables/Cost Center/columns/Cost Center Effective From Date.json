@@ -1,0 +1,7 @@
+{
+  "name": "Cost Center Effective From Date",
+  "dataType": "dateTime",
+  "description": "the date on which the cost center is effective (which may be a past, present, or future date), stored in yyyy-MM-dd format",
+  "sourceColumn": "Cost Center Effective From Date",
+  "encodingHint": "hash"
+}

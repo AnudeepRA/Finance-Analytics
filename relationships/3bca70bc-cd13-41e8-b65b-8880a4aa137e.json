@@ -1,0 +1,7 @@
+{
+  "name": "3bca70bc-cd13-41e8-b65b-8880a4aa137e",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_DOC_TYPE_KEY",
+  "toTable": "DIM_SLS_DOC_TYPE",
+  "toColumn": "SLS_DOC_TYPE_KEY"
+}

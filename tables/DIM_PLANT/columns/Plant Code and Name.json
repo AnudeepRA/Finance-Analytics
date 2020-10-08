@@ -1,0 +1,7 @@
+{
+  "name": "Plant Code and Name",
+  "dataType": "string",
+  "description": "concatenation of the Plant Code in SAP and the associated Plant Name (such as 1010 - Eden Prairie or 1050 - Milwaukee), stored as a nvarchar",
+  "sourceColumn": "Plant Code and Name",
+  "encodingHint": "hash"
+}

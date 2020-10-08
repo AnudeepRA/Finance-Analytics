@@ -1,0 +1,7 @@
+{
+  "name": "57151333-a94f-4bbc-b2f5-f48b441554b8",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_ORD_INFO_KEY",
+  "toTable": "Sales Order Information",
+  "toColumn": "Sales Order Info Key"
+}

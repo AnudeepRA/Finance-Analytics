@@ -1,0 +1,6 @@
+{
+  "name": "RD_COST",
+  "dataType": "double",
+  "sourceColumn": "RD_COST",
+  "encodingHint": "value"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Sales Office Name",
+  "dataType": "string",
+  "description": "name associated with the code in SAP for the Rockwell Automation sales office (such as DET for Detroit or MKE for Milwaukee) responsible for providing support to the sold-to customer, stored as a nvarchar",
+  "sourceColumn": "Sales Office Name",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

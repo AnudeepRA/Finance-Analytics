@@ -1,0 +1,11 @@
+{
+  "name": "Handling Charges In Document Currency Without Decimal Shift (Backlog)",
+  "description": [
+    "\"amount of any applicable charges (such as freight or delivery charges for engineered-to-order products) that will be charged to the customer if the product on the given sales document line item is returned for non-warranty reasons, stored as a decimal in the currency used for the transaction",
+    "",
+    "For currencies such as the Korean won or the Chilean peso that do not use denominations in decimals for everyday transactions (that is, the smallest denomination of the currency is a single unit, such as one won or one peso), this field stores the value before any adjustments have been made to shift the decimal point to prepare the data for analysis.  (Other currencies do use denominations in decimals for everyday transactions, such as the United States dollar, which uses a cent, or 1/100th of a dollar.)\""
+  ],
+  "expression": " SUM('Monthly Backlog Facts'[HNDLG_CHRG_WTHOT_DCML_ADJMT_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

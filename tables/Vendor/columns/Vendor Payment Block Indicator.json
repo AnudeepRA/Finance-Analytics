@@ -1,0 +1,7 @@
+{
+  "name": "Vendor Payment Block Indicator",
+  "dataType": "string",
+  "description": "indicator (such as X if the given vendor is blocked or blank if not) of whether there is a block on payments for the given vendor, stored as a string",
+  "sourceColumn": "Vendor Payment Block Indicator",
+  "encodingHint": "hash"
+}

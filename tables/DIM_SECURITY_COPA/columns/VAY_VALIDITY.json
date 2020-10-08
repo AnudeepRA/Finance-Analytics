@@ -1,0 +1,7 @@
+{
+  "name": "VAY_VALIDITY",
+  "dataType": "string",
+  "description": "period that starts with a valid-from date (required) and can end with a valid-to date (optional), based upon the given role name, stored as a nvarchar",
+  "sourceColumn": "VAY_VALIDITY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ad9d821d-10ff-4751-85a3-2b669ce1b1c2",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_OFFICE_KEY",
+  "toTable": "DIM_SLS_OFFICE",
+  "toColumn": "SLS_OFFICE_KEY"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Calendar Month Previous Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Fiscal Calendar Month Previous Date",
+  "encodingHint": "hash"
+}

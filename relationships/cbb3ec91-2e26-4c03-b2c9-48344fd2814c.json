@@ -1,0 +1,7 @@
+{
+  "name": "cbb3ec91-2e26-4c03-b2c9-48344fd2814c",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "CONTROLLING_VERSION_KEY",
+  "toTable": "Controlling Version",
+  "toColumn": "Controlling Version Key"
+}

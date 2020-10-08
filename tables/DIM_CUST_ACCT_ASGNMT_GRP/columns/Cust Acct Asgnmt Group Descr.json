@@ -1,0 +1,14 @@
+{
+  "name": "Cust Acct Asgnmt Group Descr",
+  "dataType": "string",
+  "description": [
+    "description associated with Customer Account Assignment Group codes (see examples below), which segregate accounts during the automatic determination of revenue in SAP, stored as a nvarchar",
+    "",
+    "02 = Intercompany/Intracompany Revenue",
+    "Z1 = 3rd Party Vendor Sales",
+    "Z2 = 3rd Party Vendor Cost of Goods Sold (COGS)",
+    "Z3 = Stock Transfer Order India AAG"
+  ],
+  "sourceColumn": "Cust Acct Asgnmt Group Descr",
+  "encodingHint": "hash"
+}

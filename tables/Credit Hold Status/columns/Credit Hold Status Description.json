@@ -1,0 +1,14 @@
+{
+  "name": "Credit Hold Status Description",
+  "dataType": "string",
+  "description": [
+    "\"description associated with the code in SAP  (see list below) for whether the central organizational unit that is responsible for granting and monitoring customer credit validated the credit status of the customer that placed the given sales order (and if so, whether credit has been extended), stored as a nvarchar",
+    "",
+    "blank = credit check was not executed/status was not set",
+    "A = credit check was executed, document OK",
+    "B = credit check was executed, document not OK",
+    "C = credit check was executed, document not OK, partial release",
+    "D = document released by credit representative\""
+  ],
+  "sourceColumn": "Credit Hold Status Description"
+}

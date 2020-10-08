@@ -1,0 +1,7 @@
+{
+  "name": "Region Code and Name",
+  "dataType": "string",
+  "description": "concatenation of the Region (State, Province, County) and the associated Region (State, Province, County) Name in SAP (such as WY - Wyoming or 01 - Buenos Aires), stored as a nvarchar",
+  "sourceColumn": "Region Code and Name",
+  "encodingHint": "hash"
+}

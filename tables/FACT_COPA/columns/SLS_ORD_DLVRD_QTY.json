@@ -1,0 +1,6 @@
+{
+  "name": "SLS_ORD_DLVRD_QTY",
+  "dataType": "double",
+  "sourceColumn": "SLS_ORD_DLVRD_QTY",
+  "encodingHint": "value"
+}

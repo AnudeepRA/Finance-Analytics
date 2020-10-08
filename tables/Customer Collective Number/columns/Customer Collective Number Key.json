@@ -1,0 +1,9 @@
+{
+  "name": "Customer Collective Number Key",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the primary key in the customer collective number dimension table, stored as a bigint",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "Customer Collective Number Key",
+  "encodingHint": "hash"
+}

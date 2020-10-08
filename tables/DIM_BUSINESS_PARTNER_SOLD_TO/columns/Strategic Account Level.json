@@ -1,0 +1,6 @@
+{
+  "name": "Strategic Account Level",
+  "dataType": "string",
+  "sourceColumn": "Strategic Account Level",
+  "encodingHint": "hash"
+}

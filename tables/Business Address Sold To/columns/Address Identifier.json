@@ -1,0 +1,5 @@
+{
+  "name": "Address Identifier",
+  "dataType": "string",
+  "sourceColumn": "Address Identifier"
+}

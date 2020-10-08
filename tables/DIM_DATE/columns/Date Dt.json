@@ -1,0 +1,8 @@
+{
+  "name": "Date Dt",
+  "dataType": "dateTime",
+  "description": "the calendar year, month and day, stored as a datetime in YYYY-MM-DD format",
+  "isKey": true,
+  "sourceColumn": "Date Dt",
+  "encodingHint": "hash"
+}

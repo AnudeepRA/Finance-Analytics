@@ -1,0 +1,7 @@
+{
+  "name": "Order Document Item Number",
+  "dataType": "string",
+  "description": "number of the item in the given sales order document in SAP that is related to the given COPA Record, stored as a nvarchar",
+  "sourceColumn": "Order Document Item Number",
+  "encodingHint": "hash"
+}

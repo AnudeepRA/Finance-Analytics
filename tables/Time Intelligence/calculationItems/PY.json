@@ -1,0 +1,11 @@
+{
+  "name": "PY",
+  "expression": [
+    "CALCULATE(",
+    "SELECTEDMEASURE(),",
+    "SAMEPERIODLASTYEAR (DIM_DATE[Date Dt])",
+    ")",
+    ""
+  ],
+  "ordinal": 4
+}

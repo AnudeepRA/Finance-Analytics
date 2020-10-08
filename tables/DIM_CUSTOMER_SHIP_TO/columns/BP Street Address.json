@@ -1,0 +1,7 @@
+{
+  "name": "BP Street Address",
+  "dataType": "string",
+  "description": "free-form text for the address (usually a building number and street) of the location of the given Business Partner, stored as a nvarchar",
+  "sourceColumn": "BP Street Address",
+  "encodingHint": "hash"
+}

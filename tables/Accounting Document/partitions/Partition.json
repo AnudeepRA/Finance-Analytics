@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    FIN_CCA_V_DIM_ACCNTNG_DOCMNT_BusNm = Source{[Schema=\"FIN_CCA\",Item=\"V_DIM_ACCNTNG_DOCMNT_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(FIN_CCA_V_DIM_ACCNTNG_DOCMNT_BusNm,{\"Accounting Document Key\", \"Cost Accounting Document Identifier\", \"Cost Accounting Document Line Item Number\", \"Cost Accounting Document Line Item Number Description\", \"Posting Date\", \"Document Date\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "7413b953-b483-499a-8970-d66a9a351a0a",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "CUST_PURCHASE_ORD_KEY",
+  "toTable": "Customer Purchase Order",
+  "toColumn": "Customer Purchase Order Key"
+}

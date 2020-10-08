@@ -1,0 +1,6 @@
+{
+  "name": "VALUATION_VIEW_KEY",
+  "dataType": "int64",
+  "sourceColumn": "VALUATION_VIEW_KEY",
+  "encodingHint": "hash"
+}

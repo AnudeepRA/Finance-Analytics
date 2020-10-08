@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Calendar Month Day Number",
+  "dataType": "int64",
+  "sourceColumn": "Fiscal Calendar Month Day Number",
+  "encodingHint": "hash"
+}

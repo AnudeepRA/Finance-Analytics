@@ -1,0 +1,7 @@
+{
+  "name": "LOW_VALUE",
+  "dataType": "string",
+  "description": "standard data element within the SAP ABAP dictionary, of which Low = 1 and High = 100, used in configuration objects to limit values of a certain characteristic or dimension, stored as a nvarchar",
+  "sourceColumn": "LOW_VALUE",
+  "encodingHint": "hash"
+}

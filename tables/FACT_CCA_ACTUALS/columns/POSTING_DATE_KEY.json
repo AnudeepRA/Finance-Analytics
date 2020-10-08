@@ -1,0 +1,6 @@
+{
+  "name": "POSTING_DATE_KEY",
+  "dataType": "int64",
+  "sourceColumn": "POSTING_DATE_KEY",
+  "encodingHint": "hash"
+}

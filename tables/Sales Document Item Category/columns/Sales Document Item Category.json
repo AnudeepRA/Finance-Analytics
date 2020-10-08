@@ -1,0 +1,23 @@
+{
+  "name": "Sales Document Item Category",
+  "dataType": "string",
+  "description": [
+    "\"category in SAP (see examples below) that is used to determine the correct billing for the customer, and (in conjunction with the Requirements Type Code) in the material requirements planning process in SAP, stored as a nvarchar",
+    "",
+    "Z5DI - RA Proxy for demo",
+    "ZCT2 - RA Quote Config Matl",
+    "ZENX = RA Returns - ETO",
+    "ZEPN = RA Purch No BP",
+    "ZET1 = RA ETO Material",
+    "ZFXN = RA Ext Billing Item ",
+    "ZPCF = 3P-LAB-Reg / OT Bill",
+    "ZTAN - RA Standard Item",
+    "",
+    "Rockwell Automation Finance maintains a configuration table in SAP that links an Item Category and Service Type to an Activity Type.  The Item Category and Service Type are used to bill the customer​, and the Activity Type is used to charge labor to the service order.",
+    "",
+    "The Rockwell Automation Supply Chain organization maintains a configuration table in SAP that links an Item Category to a Requirement Type.  More than one Requirement Type may align to a single Sales Document Item Category.\""
+  ],
+  "sourceColumn": "Sales Document Item Category",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Vendor Business Partner Street Address",
+  "dataType": "string",
+  "description": "free-form text for the address (usually a building number and street) of the location of the given vendor, stored as a string",
+  "sourceColumn": "Vendor Business Partner Street Address",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "6506638e-32e9-442a-9e48-b4d85d526fa7",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "CONTROLLING_AREA_ACTIVITY_TYPE_KEY",
+  "toTable": "Controlling Area Activity Type",
+  "toColumn": "Controlling Area Activity Type Key"
+}

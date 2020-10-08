@@ -1,0 +1,7 @@
+{
+  "name": "Material Group Identifier",
+  "dataType": "string",
+  "description": "category defined by Rockwell Automation (such as 01MKE for Material Variant or 121010 for Marketing & Advertising) that identifies the group or role that will process the material master data, stored as a string",
+  "sourceColumn": "Material Group Identifier",
+  "encodingHint": "hash"
+}

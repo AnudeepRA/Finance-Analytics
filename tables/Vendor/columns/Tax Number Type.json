@@ -1,0 +1,11 @@
+{
+  "name": "Tax Number Type",
+  "dataType": "string",
+  "description": [
+    "\"number for the identification of the vendor for tax purposes (for example, 80 for CUIT), which is used for DGI tax reporting, stored as a string",
+    "",
+    "If the Argentine tax number checking routine is switched on, the number is also used to check the contents of the field tax code 1. \""
+  ],
+  "sourceColumn": "Tax Number Type",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Business Partner Name 2",
+  "dataType": "string",
+  "description": [
+    "second name associated with the Business Partner Identifier in SAP for the company, such as another name or a specific department or division for the distributor or an end customer (for example, Surcursal Argentina, PUBLIC WORKS DEPT, REKO DIVISION, or Software), stored as a nvarchar",
+    "",
+    "Known as Account Name 2 in SAP"
+  ],
+  "sourceColumn": "Business Partner Name 2",
+  "encodingHint": "hash"
+}

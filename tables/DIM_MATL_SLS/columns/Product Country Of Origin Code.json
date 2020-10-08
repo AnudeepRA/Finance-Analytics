@@ -1,0 +1,7 @@
+{
+  "name": "Product Country Of Origin Code",
+  "dataType": "string",
+  "description": "code in SAP for the country in which the given material was originally produced or manufactured (such as US for the United States, CA for Canada, or CN for China), as documented by the Global Trade Compliance team in the material master data for the given Rockwell Automation sales organization that will sell the product, stored as a two-character string",
+  "sourceColumn": "Product Country Of Origin Code",
+  "encodingHint": "hash"
+}

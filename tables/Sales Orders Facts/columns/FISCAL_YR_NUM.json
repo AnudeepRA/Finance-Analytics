@@ -1,0 +1,7 @@
+{
+  "name": "FISCAL_YR_NUM",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "FISCAL_YR_NUM",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Controlling Area Code",
+  "dataType": "string",
+  "sourceColumn": "Controlling Area Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Vendor BP Identifier",
+  "dataType": "string",
+  "description": "business partner identifier in SAP for a company from which Rockwell Automation procures items (which could be a Rockwell Automation company, such as 2000276 for Rockwell Automation Korea or 2000159 for Rockwell Automation Mayfield Heights), stored as a string",
+  "sourceColumn": "Vendor BP Identifier",
+  "encodingHint": "hash"
+}

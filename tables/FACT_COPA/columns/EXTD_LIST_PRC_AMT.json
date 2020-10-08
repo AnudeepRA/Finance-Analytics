@@ -1,0 +1,6 @@
+{
+  "name": "EXTD_LIST_PRC_AMT",
+  "dataType": "double",
+  "sourceColumn": "EXTD_LIST_PRC_AMT",
+  "encodingHint": "value"
+}

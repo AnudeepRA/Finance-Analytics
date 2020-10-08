@@ -1,0 +1,7 @@
+{
+  "name": "ddeb6bc2-7318-4a71-8bf8-c3a922cd09b4",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SHPMNT_COMPLT_IND_VAL_KEY",
+  "toTable": "Shipment Complete Indicator values",
+  "toColumn": "Indicator Values Key"
+}

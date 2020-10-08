@@ -1,0 +1,6 @@
+{
+  "name": "Work Day Type Text",
+  "dataType": "string",
+  "sourceColumn": "Work Day Type Text",
+  "encodingHint": "hash"
+}

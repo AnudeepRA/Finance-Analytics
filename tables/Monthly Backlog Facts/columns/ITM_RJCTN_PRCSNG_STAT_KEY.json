@@ -1,0 +1,7 @@
+{
+  "name": "ITM_RJCTN_PRCSNG_STAT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ITM_RJCTN_PRCSNG_STAT_KEY",
+  "encodingHint": "hash"
+}

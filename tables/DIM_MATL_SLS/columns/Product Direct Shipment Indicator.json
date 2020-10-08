@@ -1,0 +1,11 @@
+{
+  "name": "Product Direct Shipment Indicator",
+  "dataType": "string",
+  "description": [
+    "indicator in SAP for whether the given product will be shipped from the delivering plant to the customer directly upon sales order entry in the given sales organization (X if yes, or blank if not), stored as a nvarchar",
+    "",
+    "When shipping to a customer directly, the sales order will be routed for fulfillment to the delivering plant based on the sales organization responsible for the order."
+  ],
+  "sourceColumn": "Product Direct Shipment Indicator",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "e00a53b3-b890-4041-951e-0623ed1ad802",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "VALUATION_VIEW_KEY",
+  "toTable": "Controlling Valuation View",
+  "toColumn": "Controlling Valuation View Key"
+}

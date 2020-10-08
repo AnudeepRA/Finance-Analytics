@@ -1,0 +1,7 @@
+{
+  "name": "37090f2f-9f60-42a1-8eb8-9aa13572ddcb",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "ITM_RJCTN_PRCSNG_STAT_KEY",
+  "toTable": "Item Rejection Status",
+  "toColumn": "Processing Status Key"
+}

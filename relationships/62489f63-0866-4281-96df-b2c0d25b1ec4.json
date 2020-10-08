@@ -1,0 +1,7 @@
+{
+  "name": "62489f63-0866-4281-96df-b2c0d25b1ec4",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "PARTL_DLVRY_GRP_KEY",
+  "toTable": "Delivery Group",
+  "toColumn": "Delivery Group Key"
+}

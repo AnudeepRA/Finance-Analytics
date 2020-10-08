@@ -1,0 +1,13 @@
+{
+  "name": "Delivering Plant Code",
+  "dataType": "string",
+  "description": [
+    "code in SAP for the plant (4 digits stored as text, such as 1020 for Twinsburg, 1090 for the Champaign Distribution Center, 4000 for the Central European Distribution Center, and 4080 for the EMEA main service hub) at which the specified material is produced, or goods and services are provided, stored as a nvarchar",
+    "",
+    "This plant is also known as the \"\"delivering\"\" or \"\"sending\"\" plant.",
+    "",
+    "The Plant Code is needed to calculate landed costs."
+  ],
+  "sourceColumn": "Delivering Plant Code",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Material Stock Status Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP that identifies whether the material on the given sales order line item is stocked (01, for a Stock Part, meaning a part stored in inventory and used as needed) or not (02, for a Non Stock Part, meaning an assemble-to-order, configure-to-order, or engineer-to-order part that is made as needed to fulfill defined demand), stored as a string",
+    "",
+    "Known as Volume Rebate Group in SAP, this field is being used for a different purpose at Rockwell Automation.\""
+  ],
+  "sourceColumn": "Material Stock Status Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

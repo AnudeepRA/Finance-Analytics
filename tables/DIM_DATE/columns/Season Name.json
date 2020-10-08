@@ -1,0 +1,6 @@
+{
+  "name": "Season Name",
+  "dataType": "string",
+  "sourceColumn": "Season Name",
+  "encodingHint": "hash"
+}

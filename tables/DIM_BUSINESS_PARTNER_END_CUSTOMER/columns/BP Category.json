@@ -1,0 +1,6 @@
+{
+  "name": "BP Category",
+  "dataType": "string",
+  "sourceColumn": "BP Category",
+  "encodingHint": "hash"
+}

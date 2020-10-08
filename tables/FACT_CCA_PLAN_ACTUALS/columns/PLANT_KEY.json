@@ -1,0 +1,6 @@
+{
+  "name": "PLANT_KEY",
+  "dataType": "int64",
+  "sourceColumn": "PLANT_KEY",
+  "encodingHint": "hash"
+}

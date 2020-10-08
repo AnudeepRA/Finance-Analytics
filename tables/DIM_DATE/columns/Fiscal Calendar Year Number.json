@@ -1,0 +1,7 @@
+{
+  "name": "Fiscal Calendar Year Number",
+  "dataType": "int64",
+  "description": "the ordinal number for the fiscal year as defined by Rockwell Automation Finance for the given date in the format yyyy (where yyyy = 4-digit fiscal year), stored as a integer (such as 2019 for the Rockwell Automation fiscal year starting on 1 Oct 2018)",
+  "sourceColumn": "Fiscal Calendar Year Number",
+  "encodingHint": "value"
+}

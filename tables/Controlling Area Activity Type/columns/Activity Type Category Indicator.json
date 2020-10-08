@@ -1,0 +1,30 @@
+{
+  "name": "Activity Type Category Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator which is used to determine the method of activity quantity planning and activity allocation(see examples below), stored as a string",
+    "",
+    "For example:",
+    "",
+    "Activity Type Category 1 (Manual entry, manual allocation)",
+    "Activity types of this category use planned activity quantities. The planned activity is allocated to the different receiver objects using activity input planning. It may be necessary to reconcile the activity quantities and the planned scheduled activity. Actual activity quantities are entered for each business transaction using internal activity allocation.",
+    "",
+    "Activity Type Category 2 (Indirect calculation, indirect allocation)",
+    "The quantities produced by the activity types in this category cannot be calculated, if they can they can only be calculated with great effort. The Planned and Actual activity quantities are determined in indirect activity allocation using one of the following:",
+    "-The defined sender/receiver relationshps",
+    "-The receiver tracing factors",
+    "-Fixed quantities (defined in the segments)",
+    "",
+    "Allocating the activities also takes place automatically through indirect activity allocation as described above. The actual and planned activity quantities result from the sum of the activity inputs calculated from the tracing factors on the individual receivers. Planned and scheduled activity quantities are therefore automatically reconciled.",
+    "",
+    "Activity Type Category 3 (indirect determination, indirect allocation)",
+    "Activity types of this category use activity quantities entered manually. Entering the actual activity quantity takes place on an activity-related basis using a special function (Non-allocatable activities) for which no receiver objects can be given.The plan and actual activity quantities are allocated indirectly using defined sender/receiver relationships. The R/3 System calculates the activity quantity to be allocated for each receiver based on the ratios of tracing factors for all receivers. The manually planned or posted activity is thereby completely allocated to the receivers. This ensures that plan activities are fully reconciled after carrying out indirect activity allocation.",
+    "",
+    "Activity type category 4 (Manual entry, no allocation)",
+    "Activity types of this category use activity quantities entered manually. Allocations to other objects are not possible.The actual activity quantity is entered for each transaction using a special function (Non-allocatable activities). No receiver objects can be entered.",
+    "",
+    "The Activity Type Category can be saved as a default value in the master data for an activity type or a business process for allocatable activity type categories or allocation categories (category 1, 2, or 3). \""
+  ],
+  "sourceColumn": "Activity Type Category Indicator",
+  "encodingHint": "hash"
+}

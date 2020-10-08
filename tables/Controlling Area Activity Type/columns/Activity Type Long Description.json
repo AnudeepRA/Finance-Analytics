@@ -1,0 +1,7 @@
+{
+  "name": "Activity Type Long Description",
+  "dataType": "string",
+  "description": "long description associated with the code in SAP (such as Standard Direct Labor for code CAT001 or Panels for code CAT009) that describes the given activity produced by a cost center, measured in units of time or quantity, stored as a string",
+  "sourceColumn": "Activity Type Long Description",
+  "encodingHint": "hash"
+}

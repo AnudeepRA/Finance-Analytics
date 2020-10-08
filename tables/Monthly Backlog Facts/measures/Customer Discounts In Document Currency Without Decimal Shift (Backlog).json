@@ -1,0 +1,11 @@
+{
+  "name": "Customer Discounts In Document Currency Without Decimal Shift (Backlog)",
+  "description": [
+    "\"amount of discounts applied to the given booking document line item (which may include discounts from special pricing agreements, sales discounts, settlement discounts, and quantity discounts, but not cash discounts, or the cost of any items given to the customer for free), stored as a decimal in the currency used for the transaction",
+    "",
+    "For currencies such as the Korean won or the Chilean peso that do not use denominations in decimals for everyday transactions (that is, the smallest denomination of the currency is a single unit, such as one won or one peso), this field stores the value before any adjustments have been made to shift the decimal point to prepare the data for analysis.  (Other currencies do use denominations in decimals for everyday transactions, such as the United States dollar, which uses a cent, or 1/100th of a dollar.)\""
+  ],
+  "expression": " SUM('Monthly Backlog Facts'[CUST_DISC_WTHOT_DCML_ADJMT_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

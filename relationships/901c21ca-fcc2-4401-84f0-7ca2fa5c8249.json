@@ -1,0 +1,7 @@
+{
+  "name": "901c21ca-fcc2-4401-84f0-7ca2fa5c8249",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "COST_ELEMENT_CONTROLLING_AREA_KEY",
+  "toTable": "Cost Element By Controlling Area",
+  "toColumn": "Cost Element Controlling Area key"
+}

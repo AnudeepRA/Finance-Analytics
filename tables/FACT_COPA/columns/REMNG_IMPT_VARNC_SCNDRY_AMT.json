@@ -1,0 +1,6 @@
+{
+  "name": "REMNG_IMPT_VARNC_SCNDRY_AMT",
+  "dataType": "double",
+  "sourceColumn": "REMNG_IMPT_VARNC_SCNDRY_AMT",
+  "encodingHint": "value"
+}

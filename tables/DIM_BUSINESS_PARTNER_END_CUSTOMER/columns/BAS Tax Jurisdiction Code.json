@@ -1,0 +1,6 @@
+{
+  "name": "BAS Tax Jurisdiction Code",
+  "dataType": "string",
+  "sourceColumn": "BAS Tax Jurisdiction Code",
+  "encodingHint": "hash"
+}

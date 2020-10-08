@@ -1,0 +1,7 @@
+{
+  "name": "Cost Element Attributes Description",
+  "dataType": "string",
+  "description": "description (a property or parameter) used as an aid in the identification of a given cost element, stored as a string",
+  "sourceColumn": "Cost Element Attributes Description",
+  "encodingHint": "hash"
+}

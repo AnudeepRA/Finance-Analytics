@@ -1,0 +1,7 @@
+{
+  "name": "20e5a31d-d43b-47a4-9165-af0669d92fdd",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "MATL_BASE_UOM_KEY",
+  "toTable": "Material Base Unit of Measure",
+  "toColumn": "UOM_KEY"
+}

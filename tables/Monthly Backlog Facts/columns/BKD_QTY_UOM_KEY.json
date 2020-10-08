@@ -1,0 +1,7 @@
+{
+  "name": "BKD_QTY_UOM_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "BKD_QTY_UOM_KEY",
+  "encodingHint": "hash"
+}

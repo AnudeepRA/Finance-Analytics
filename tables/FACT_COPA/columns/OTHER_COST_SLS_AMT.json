@@ -1,0 +1,6 @@
+{
+  "name": "OTHER_COST_SLS_AMT",
+  "dataType": "double",
+  "sourceColumn": "OTHER_COST_SLS_AMT",
+  "encodingHint": "value"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MEASURE_TYPE_KEY",
+  "dataType": "int64",
+  "sourceColumn": "MEASURE_TYPE_KEY",
+  "encodingHint": "hash"
+}

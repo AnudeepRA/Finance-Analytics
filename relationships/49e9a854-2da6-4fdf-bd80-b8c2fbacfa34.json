@@ -1,0 +1,7 @@
+{
+  "name": "49e9a854-2da6-4fdf-bd80-b8c2fbacfa34",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "CREDIT_HOLD_STATUS_KEY",
+  "toTable": "Credit Hold Status",
+  "toColumn": "Credit Hold Status Key"
+}

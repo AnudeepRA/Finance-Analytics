@@ -1,0 +1,6 @@
+{
+  "name": "DISC_VAL",
+  "dataType": "double",
+  "sourceColumn": "DISC_VAL",
+  "encodingHint": "value"
+}

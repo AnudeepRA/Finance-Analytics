@@ -1,0 +1,11 @@
+{
+  "name": "Customer Account Deletion Indicator",
+  "dataType": "string",
+  "description": [
+    "indicator of whether the customer is active or inactive (blank for if the customer is active or  X for if the customer is inactive), stored as a nvarchar",
+    "",
+    "This indicator is used during analysis as a filter to include only customer that are still active at the Sales Organization level. "
+  ],
+  "sourceColumn": "Customer Account Deletion Indicator",
+  "encodingHint": "hash"
+}

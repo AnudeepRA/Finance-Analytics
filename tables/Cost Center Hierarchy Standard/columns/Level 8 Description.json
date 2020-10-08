@@ -1,0 +1,7 @@
+{
+  "name": "Level 8 Description",
+  "dataType": "string",
+  "description": "description associated with the code listed in level 8 of the cost center hierarchy, stored as a string",
+  "sourceColumn": "Level 8 Description",
+  "encodingHint": "hash"
+}

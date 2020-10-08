@@ -1,0 +1,7 @@
+{
+  "name": "G/L Account Deletion Indicator",
+  "dataType": "string",
+  "description": "indicator (such as X if master record will be deleted or blank it not) of whether the data in the given master record will be deleted, stored as a string",
+  "sourceColumn": "G/L Account Deletion Indicator",
+  "encodingHint": "hash"
+}

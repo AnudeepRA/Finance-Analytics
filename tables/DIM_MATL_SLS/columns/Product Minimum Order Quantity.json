@@ -1,0 +1,7 @@
+{
+  "name": "Product Minimum Order Quantity",
+  "dataType": "double",
+  "description": "minimum number of units required of the given product on a sales order in the given sales organization, stored as a decimal in the sales unit of measure",
+  "sourceColumn": "Product Minimum Order Quantity",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Shipping Condition Code",
+  "dataType": "string",
+  "description": "code in SAP for general shipping strategy and time frame to allow for delivering the product to the customer (such as Z1 for Standard, Z2 for Premium, Z3 for Urgent, or Z6 for Same Day), stored as a nvarchar",
+  "sourceColumn": "Shipping Condition Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

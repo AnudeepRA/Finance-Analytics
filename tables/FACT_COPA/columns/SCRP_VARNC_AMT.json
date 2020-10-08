@@ -1,0 +1,6 @@
+{
+  "name": "SCRP_VARNC_AMT",
+  "dataType": "double",
+  "sourceColumn": "SCRP_VARNC_AMT",
+  "encodingHint": "value"
+}

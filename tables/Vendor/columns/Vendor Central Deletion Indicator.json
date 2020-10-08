@@ -1,0 +1,11 @@
+{
+  "name": "Vendor Central Deletion Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator (such as x if yes or null if not) of whether the data in the given master record will be deleted, stored as a string ",
+    "",
+    "To delete this data, you have to run the archiving program for Accounts Receivable or Accounts Payable. This program will archive all master records marked for deletion, provided there is no dependent data present. \""
+  ],
+  "sourceColumn": "Vendor Central Deletion Indicator",
+  "encodingHint": "hash"
+}

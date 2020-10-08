@@ -1,0 +1,7 @@
+{
+  "name": "Calendar Month Number",
+  "dataType": "int64",
+  "description": "the ordinal number for the month of the calendar year, stored as an integer",
+  "sourceColumn": "Calendar Month Number",
+  "encodingHint": "hash"
+}

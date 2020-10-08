@@ -1,0 +1,7 @@
+{
+  "name": "0d91a3a3-0df1-4226-b5f1-dea6a5fffb49",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SHIP_TO_BP_BUSI_ADDR_KEY",
+  "toTable": "Business Address Ship To",
+  "toColumn": "Business Address Key"
+}

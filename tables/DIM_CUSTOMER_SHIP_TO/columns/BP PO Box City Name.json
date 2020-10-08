@@ -1,0 +1,7 @@
+{
+  "name": "BP PO Box City Name",
+  "dataType": "string",
+  "description": "name of the city associated with the Postal Code for the Post Office (\"PO\") Box for the given Business Partner in SAP (such as \"Pekin IL\" for Postal Code 61555), stored as a nvarchar",
+  "sourceColumn": "BP PO Box City Name",
+  "encodingHint": "hash"
+}

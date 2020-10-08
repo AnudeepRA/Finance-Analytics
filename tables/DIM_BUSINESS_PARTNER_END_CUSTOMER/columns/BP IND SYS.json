@@ -1,0 +1,6 @@
+{
+  "name": "BP IND SYS",
+  "dataType": "string",
+  "sourceColumn": "BP IND SYS",
+  "encodingHint": "hash"
+}

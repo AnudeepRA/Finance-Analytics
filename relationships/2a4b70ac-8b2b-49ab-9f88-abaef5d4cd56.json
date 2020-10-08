@@ -1,0 +1,7 @@
+{
+  "name": "2a4b70ac-8b2b-49ab-9f88-abaef5d4cd56",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "BUSINESS_AREA_KEY",
+  "toTable": "Controlling Business Area",
+  "toColumn": "Controlling Business Area Key"
+}

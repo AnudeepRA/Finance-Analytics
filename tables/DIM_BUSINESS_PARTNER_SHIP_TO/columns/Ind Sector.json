@@ -1,0 +1,6 @@
+{
+  "name": "Ind Sector",
+  "dataType": "string",
+  "sourceColumn": "Ind Sector",
+  "encodingHint": "hash"
+}

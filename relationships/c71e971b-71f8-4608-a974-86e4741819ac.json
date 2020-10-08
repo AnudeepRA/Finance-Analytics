@@ -1,0 +1,7 @@
+{
+  "name": "c71e971b-71f8-4608-a974-86e4741819ac",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "COUNTRY_REGION_KEY",
+  "toTable": "DIM_COUNTRY_REGION",
+  "toColumn": "COUNTRY_REGION_KEY"
+}

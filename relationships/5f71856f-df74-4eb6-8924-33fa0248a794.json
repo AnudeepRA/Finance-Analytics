@@ -1,0 +1,7 @@
+{
+  "name": "5f71856f-df74-4eb6-8924-33fa0248a794",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "CONTROLLING_AREA_KEY",
+  "toTable": "Controlling Area",
+  "toColumn": "Controlling Area Key"
+}

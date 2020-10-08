@@ -1,0 +1,6 @@
+{
+  "name": "GL_ACCOUNT_MASTER_COA_KEY",
+  "dataType": "int64",
+  "sourceColumn": "GL_ACCOUNT_MASTER_COA_KEY",
+  "encodingHint": "hash"
+}

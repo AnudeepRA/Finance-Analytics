@@ -1,0 +1,22 @@
+{
+  "name": "Profit Center Segment Code",
+  "dataType": "string",
+  "description": [
+    "code that identifies the top-level organizational unit (ASW for Architecture & Software or CPS from Control Products & Solutions) associated with the profit center used for both business unit and product line reporting, stored as a nvarchar",
+    "",
+    "For example:  ",
+    "PB1USOP001",
+    "where:",
+    "",
+    "CPS = Control Products & Solutions (segment)",
+    "OI = Operator Interface Business (business group)",
+    "Operator Interface Components (business unit)",
+    "PB = Push Buttons (sub-business unit)",
+    "1 = North America (region)",
+    "US = United States (country)",
+    "OP = Operator Interface (product category)",
+    "001 = NEMA Pushbutton 30mm (product line)"
+  ],
+  "sourceColumn": "Profit Center Segment Code",
+  "encodingHint": "hash"
+}

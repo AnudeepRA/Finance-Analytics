@@ -1,0 +1,8 @@
+{
+  "name": "Indicator Value",
+  "dataType": "string",
+  "description": "value (such as X for yes or null for no) used to indicate whether a given indicator is marked within a particular table, stored as a nvarchar",
+  "sourceColumn": "Indicator Value",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

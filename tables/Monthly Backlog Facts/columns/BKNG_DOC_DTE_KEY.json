@@ -1,0 +1,7 @@
+{
+  "name": "BKNG_DOC_DTE_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "BKNG_DOC_DTE_KEY",
+  "encodingHint": "hash"
+}

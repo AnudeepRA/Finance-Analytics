@@ -1,0 +1,17 @@
+{
+  "name": "Finished Goods Costs",
+  "description": [
+    "amount of costs attributed to the manufacture or production of the finished goods for the given transaction (that is, the value of the finished goods based on the standard cost, which includes all planned costs to produce the goods such as the costs for raw materials, labor/fully burdened absorption, machine absorption, and overhead, plus carrying costs to maintain finished goods in inventory), stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "The Finished Goods Costs are generally posted when a production order is completed and the resulting goods are posted to inventory."
+  ],
+  "expression": "sum(FACT_COPA[FNSHD_GOODS_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

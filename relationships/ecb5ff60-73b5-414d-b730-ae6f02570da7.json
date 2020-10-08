@@ -1,0 +1,7 @@
+{
+  "name": "ecb5ff60-73b5-414d-b730-ae6f02570da7",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_ORD_ITM_DLVRY_PRCSNG_STAT_KEY",
+  "toTable": "Sales Order Item Delivery Status",
+  "toColumn": "Processing Status Key"
+}

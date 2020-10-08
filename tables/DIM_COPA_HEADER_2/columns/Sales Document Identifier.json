@@ -1,0 +1,8 @@
+{
+  "name": "Sales Document Identifier",
+  "dataType": "string",
+  "description": "identifier for the document that represents the sales transaction in SAP, stored as a nvarchar",
+  "sourceColumn": "Sales Document Identifier",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "7d4422d2-a9bb-49c6-a85f-6504099f3fff",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SHIPPING_ROUTE_KEY",
+  "toTable": "Shipping Route",
+  "toColumn": "Shipping Route Key"
+}

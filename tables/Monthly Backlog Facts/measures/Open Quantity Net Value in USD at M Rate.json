@@ -1,0 +1,11 @@
+{
+  "name": "Open Quantity Net Value in USD at M Rate",
+  "description": [
+    "\"the amount of the transaction for the open quantity in the given sales order line item, stored as a decimal in United States dollars (Currency Code = USD) using the monthly exchange rate in effect at the time of the transaction",
+    "",
+    "The Net Value In USD is calculated using the Net Value In Transaction Currency and the current monthly rate (\"\"M rate\"\"), which is the exchange rate between the local currency (as specified by the Local Currency Code) and USD as set by Rockwell Automation Finance each month.\""
+  ],
+  "expression": "SUM('Monthly Backlog Facts'[OPEN_QTY_GLBL_M_NET_VAL])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Delivery Group",
+  "dataType": "string",
+  "description": "free-form text that identifies a group of sales order line items that must be shipped together, based on what the customer is willing to accept in terms of partial deliveries, stored as a nvarchar",
+  "sourceColumn": "Delivery Group",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

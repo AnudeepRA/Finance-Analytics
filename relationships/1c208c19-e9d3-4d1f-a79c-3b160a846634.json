@@ -1,0 +1,7 @@
+{
+  "name": "1c208c19-e9d3-4d1f-a79c-3b160a846634",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "COST_CTR_HIERARCHY_REGION_KEY",
+  "toTable": "Cost Center Hierarchy Region",
+  "toColumn": "COST_CTR_HRCHY_KEY_REGION"
+}

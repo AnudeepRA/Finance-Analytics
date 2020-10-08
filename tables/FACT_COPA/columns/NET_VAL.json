@@ -1,0 +1,6 @@
+{
+  "name": "NET_VAL",
+  "dataType": "double",
+  "sourceColumn": "NET_VAL",
+  "encodingHint": "value"
+}

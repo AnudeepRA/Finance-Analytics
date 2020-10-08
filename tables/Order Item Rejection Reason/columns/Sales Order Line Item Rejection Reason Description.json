@@ -1,0 +1,27 @@
+{
+  "name": "Sales Order Line Item Rejection Reason Description",
+  "dataType": "string",
+  "description": [
+    "\"description associated with the code in SAP (see examples below) set by Customer Care to identify why the given sales order line item was rejected, stored as a nvarchar",
+    "",
+    "50 = transaction is being checked",
+    "51 = cancelled in CRM Service",
+    "Z1 = customer requested cancellation",
+    "Z2 = return material not received by Rockwell Automation",
+    "Z3 = return material not accepted by Rockwell Automation",
+    "Z4 = breach of contract",
+    "Z5 = commerical Reason",
+    "Z6 = credit risk",
+    "Z7 = replaced",
+    "Z8 = cancelled automatically based on request",
+    "Z9 = international ship-to not allowed",
+    "ZD = material not accepted by DMI",
+    "ZI = completed item PGI/invoice on other item",
+    "ZR = material not allowed for this return",
+    "ZS = standard pack size",
+    "",
+    "When a sales order line item is rejected, no further deliveries are allowed and therefore further planning for that sales order line item occurs.\""
+  ],
+  "sourceColumn": "Sales Order Line Item Rejection Reason Description",
+  "encodingHint": "hash"
+}

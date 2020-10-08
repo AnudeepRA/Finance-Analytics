@@ -1,0 +1,7 @@
+{
+  "name": "MATL_STOCK_STATUS_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "MATL_STOCK_STATUS_KEY",
+  "encodingHint": "hash"
+}

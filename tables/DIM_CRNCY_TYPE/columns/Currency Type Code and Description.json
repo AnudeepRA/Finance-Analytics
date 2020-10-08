@@ -1,0 +1,6 @@
+{
+  "name": "Currency Type Code and Description",
+  "dataType": "string",
+  "sourceColumn": "Currency Type Code and Description",
+  "encodingHint": "hash"
+}

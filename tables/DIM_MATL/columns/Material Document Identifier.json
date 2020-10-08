@@ -1,0 +1,7 @@
+{
+  "name": "Material Document Identifier",
+  "dataType": "string",
+  "description": "identifier in SAP (such as 10000325365) for the document that stores the drawing of the given material, stored as a nvarchar",
+  "sourceColumn": "Material Document Identifier",
+  "encodingHint": "hash"
+}

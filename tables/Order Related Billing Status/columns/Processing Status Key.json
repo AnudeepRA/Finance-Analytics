@@ -1,0 +1,9 @@
+{
+  "name": "Processing Status Key",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the primary key in the processing status dimension table, stored as a bigint",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "Processing Status Key",
+  "encodingHint": "hash"
+}

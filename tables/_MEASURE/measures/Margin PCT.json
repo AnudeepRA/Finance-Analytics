@@ -1,0 +1,22 @@
+{
+  "name": "Margin PCT",
+  "description": "Standard Margin Amount divided by total Revenue",
+  "expression": [
+    "",
+    "VAR ConversionType = SELECTEDVALUE('Currency Conversion'[Conversion Types], BLANK())",
+    "RETURN",
+    "CALCULATE(",
+    "    DIVIDE(",
+    "        '_MEASURE'[Standard Margin Amount],",
+    "        '_MEASURE'[Total Revenue],",
+    "        BLANK()",
+    "    ),",
+    "    FILTER(",
+    "        'Currency Conversion Manual',",
+    "        'Currency Conversion Manual'[Conversion Types Manual] = ConversionType",
+    "    )",
+    ")"
+  ],
+  "formatString": "#,0 %;-#,0 %;#,0 %",
+  "displayFolder": "Key Metrics"
+}

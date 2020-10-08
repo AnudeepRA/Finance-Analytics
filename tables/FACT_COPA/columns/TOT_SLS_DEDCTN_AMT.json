@@ -1,0 +1,6 @@
+{
+  "name": "TOT_SLS_DEDCTN_AMT",
+  "dataType": "double",
+  "sourceColumn": "TOT_SLS_DEDCTN_AMT",
+  "encodingHint": "value"
+}

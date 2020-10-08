@@ -1,0 +1,8 @@
+{
+  "name": "PROD_HRCHY_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "PROD_HRCHY_KEY",
+  "encodingHint": "hash"
+}

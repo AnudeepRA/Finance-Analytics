@@ -1,0 +1,7 @@
+{
+  "name": "7fa8ef03-587b-4a13-ac40-47e3e439688e",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SCHED_LINE_CAT_KEY",
+  "toTable": "Schedule Line Category",
+  "toColumn": "Schedule Line Category Key"
+}

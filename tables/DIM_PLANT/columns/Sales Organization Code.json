@@ -1,0 +1,11 @@
+{
+  "name": "Sales Organization Code",
+  "dataType": "string",
+  "description": [
+    "a company code in SAP (four digits stored as text, for example,  US = 1000, Canada = 2000, Germany = 4016, France = 4013, Netherlands = 4100) representing the smallest organizational unit (\"\"sales org\"\") for which a complete self-contained set of accounts can be drawn up for purposes of external reporting, financial statements, and profit and loss statements, stored as a nvarchar",
+    "",
+    "Each product (based on material master data that includes current series, delivering plant, minimum order quantity, price, brand, etc) is assigned to and managed uniquely for the Sales Org for each country in which the product will be sold to support sales to third parties and inter-company Stock Transport Orders.  The US and Canada are each organized into a single Sales Org, whereas Asia/Pacific, EMEA, and Latin America each have a dozen or two."
+  ],
+  "sourceColumn": "Sales Organization Code",
+  "encodingHint": "hash"
+}

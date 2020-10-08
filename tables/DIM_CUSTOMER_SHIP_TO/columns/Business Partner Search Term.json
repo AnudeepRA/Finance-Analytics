@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner Search Term",
+  "dataType": "string",
+  "description": "free-form text of the common name for the company associated with the given Business Partner (such as Miller Brewing for MillerCoorsLLC), additional account information, or a reason code or not about closing the account (such as \"CLOSED\"), stored as a nvarchar",
+  "sourceColumn": "Business Partner Search Term",
+  "encodingHint": "hash"
+}

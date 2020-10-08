@@ -1,0 +1,7 @@
+{
+  "name": "Cost Element Unit of Measure",
+  "dataType": "string",
+  "description": "the unit of measure used with the given cost element (such as '2' for 'square inch', '3' for 'cubic inch' or 'CAN' for 'Canister'), stored as a string",
+  "sourceColumn": "Cost Element Unit of Measure",
+  "encodingHint": "hash"
+}

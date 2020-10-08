@@ -1,0 +1,7 @@
+{
+  "name": "94d8557c-68b5-42ab-bf5a-d12168c1022d",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "HYPERION_PRFT_CTR_HRCHY_KEY",
+  "toTable": "DIM_HYPERION_PRFT_CTR_HRCHY",
+  "toColumn": "HYPERION_PRFT_CTR_HRCHY_KEY"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PLAN_CONSUMPTION_QTY",
+  "dataType": "double",
+  "sourceColumn": "PLAN_CONSUMPTION_QTY",
+  "encodingHint": "value"
+}

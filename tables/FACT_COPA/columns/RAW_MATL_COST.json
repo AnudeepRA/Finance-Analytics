@@ -1,0 +1,6 @@
+{
+  "name": "RAW_MATL_COST",
+  "dataType": "double",
+  "sourceColumn": "RAW_MATL_COST",
+  "encodingHint": "value"
+}

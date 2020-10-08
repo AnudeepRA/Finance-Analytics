@@ -1,0 +1,6 @@
+{
+  "name": "BP Business Unit Group",
+  "dataType": "string",
+  "sourceColumn": "BP Business Unit Group",
+  "encodingHint": "hash"
+}

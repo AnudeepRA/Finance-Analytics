@@ -1,0 +1,7 @@
+{
+  "name": "Country Name",
+  "dataType": "string",
+  "description": "name associated with the code for the country (such as CA for Canada, PE for Peru, TH for Thailand, and US for the United States) in SAP, stored as a two-character string",
+  "sourceColumn": "Country Name",
+  "encodingHint": "hash"
+}

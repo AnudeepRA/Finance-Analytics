@@ -1,0 +1,6 @@
+{
+  "name": "APR",
+  "dataType": "string",
+  "sourceColumn": "APR",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Profit Center Hierarchy Area Code",
+  "dataType": "string",
+  "description": "code (such as KNX_ENG for Kinetix engineering in the US or WAR_CON_LA for warranty concessions in Latin America) that identifies a group of profit centers used for both business unit and product line reporting, stored as a string",
+  "sourceColumn": "Profit Center Hierarchy Area Code",
+  "encodingHint": "hash"
+}

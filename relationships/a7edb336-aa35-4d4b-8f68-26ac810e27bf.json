@@ -1,0 +1,7 @@
+{
+  "name": "a7edb336-aa35-4d4b-8f68-26ac810e27bf",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_DIST_KEY",
+  "toTable": "DIM_SLS_DIST",
+  "toColumn": "SLS_DIST_KEY"
+}

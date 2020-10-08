@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner Fax Number",
+  "dataType": "string",
+  "description": "free-form text for the fax number of the primary contact for the Business Partner, stored as a string",
+  "sourceColumn": "Business Partner Fax Number",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "TRADE_GOODS_USG_COST",
+  "dataType": "double",
+  "sourceColumn": "TRADE_GOODS_USG_COST",
+  "encodingHint": "value"
+}

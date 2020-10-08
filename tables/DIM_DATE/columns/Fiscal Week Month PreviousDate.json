@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Week Month PreviousDate",
+  "dataType": "dateTime",
+  "sourceColumn": "Fiscal Week Month PreviousDate",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "TOT_VARNC_AMT",
+  "dataType": "double",
+  "sourceColumn": "TOT_VARNC_AMT",
+  "encodingHint": "value"
+}

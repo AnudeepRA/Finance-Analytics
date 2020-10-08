@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    FIN_V_DIM_MIDRANGE = Source{[Schema=\"FIN\",Item=\"V_DIM_MIDRANGE_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(FIN_V_DIM_MIDRANGE,{\"MIDRANGE_KEY\", \"Midrange Product Hyerarchy Code\", \"Midrange Category Description\", \"Midrange Group Description\", \"Midrange Subgroup Description\", \"Midrange Percent\", \"Midrange Note Text\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

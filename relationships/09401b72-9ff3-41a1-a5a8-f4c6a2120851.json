@@ -1,0 +1,7 @@
+{
+  "name": "09401b72-9ff3-41a1-a5a8-f4c6a2120851",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "PRFT_CTR_KEY",
+  "toTable": "DIM_PRFT_CTR",
+  "toColumn": "PRFT_CTR_KEY"
+}

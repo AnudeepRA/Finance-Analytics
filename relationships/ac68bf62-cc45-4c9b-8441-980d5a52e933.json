@@ -1,0 +1,7 @@
+{
+  "name": "ac68bf62-cc45-4c9b-8441-980d5a52e933",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "PLANT_KEY",
+  "toTable": "DIM_PLANT",
+  "toColumn": "PLANT_KEY"
+}

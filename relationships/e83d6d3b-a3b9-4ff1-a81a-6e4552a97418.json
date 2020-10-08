@@ -1,0 +1,7 @@
+{
+  "name": "e83d6d3b-a3b9-4ff1-a81a-6e4552a97418",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "MIDRANGE_KEY",
+  "toTable": "DIM_MIDRANGE",
+  "toColumn": "MIDRANGE_KEY"
+}

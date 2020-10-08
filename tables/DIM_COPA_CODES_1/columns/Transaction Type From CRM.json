@@ -1,0 +1,8 @@
+{
+  "name": "Transaction Type From CRM",
+  "dataType": "string",
+  "description": "code that represents the type of business transaction in SAP CRM (for example, ZSAG = RA Corp Agreement, ZSDC = RA Debit Correction, and ZSPM = Project Milestone Billing), stored as a four-letter string",
+  "sourceColumn": "Transaction Type From CRM",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

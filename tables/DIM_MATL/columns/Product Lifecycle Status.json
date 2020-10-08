@@ -1,0 +1,8 @@
+{
+  "name": "Product Lifecycle Status",
+  "dataType": "string",
+  "description": "short description of the current lifecycle status of the specified product (such as Active for the most current product offering within a category, Active Mature for a product that is fully supported but a newer product or family exists, End of Life for a product with an announced discontinued date, Discontinued for a product that is no longer manufactured or procured, Not Applicable - Service, and Invalid), stored as a nvarchar",
+  "sourceColumn": "Product Lifecycle Status",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

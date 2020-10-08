@@ -1,0 +1,19 @@
+{
+  "name": "Plan Variable Amount",
+  "description": "plan variable amount (Plan Amount - Plan Fixed Amount) posted to the cost center for the given transaction, which is used in cost center spend analysis (where plan and actual values are compared), stored as a decimal in the currency of the transaction",
+  "expression": [
+    " ",
+    "IF (NOT ",
+    "    [CCA Detail Flag],",
+    "    [Plan Variable Amount Summary]",
+    ")"
+  ],
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "CCA",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" Accuracy=\"2\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

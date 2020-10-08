@@ -1,0 +1,6 @@
+{
+  "name": "PRTNR_FUNCL_AREA_KEY",
+  "dataType": "int64",
+  "sourceColumn": "PRTNR_FUNCL_AREA_KEY",
+  "encodingHint": "hash"
+}

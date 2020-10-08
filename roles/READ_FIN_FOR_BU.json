@@ -1,0 +1,144 @@
+{
+  "name": "READ_FIN_FOR_BU",
+  "modelPermission": "read",
+  "members": [
+    {
+      "memberName": "DATA_AAS_READ_FIN_FOR_BU@rockwellautomation.com",
+      "identityProvider": "AzureAD"
+    }
+  ],
+  "tablePermissions": [
+    {
+      "name": "DIM_COMPANY",
+      "filterExpression": [
+        "CONTAINS(DIM_SECURITY_COPA,DIM_SECURITY_COPA[USER_PRNCPL_NAME],USERPRINCIPALNAME(),DIM_SECURITY_COPA[VARIABLE_NAME],\"ZCOMPCODE\",DIM_SECURITY_COPA[LOW_VALUE],DIM_COMPANY[Company Code])",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "DIM_PRFT_CTR",
+      "filterExpression": "CONTAINS(DIM_SECURITY_COPA,DIM_SECURITY_COPA[USER_PRNCPL_NAME],USERPRINCIPALNAME(),DIM_SECURITY_COPA[VARIABLE_NAME],\"ZPRFTCTR\",DIM_SECURITY_COPA[LOW_VALUE],DIM_PRFT_CTR[Profit Center])"
+    },
+    {
+      "name": "DIM_SECURITY_COPA",
+      "filterExpression": "FALSE()"
+    },
+    {
+      "name": "Partner Company",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "FACT_CCA_ACTUALS",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Cost Element Hierarchy Standard",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Cost Center Hierarchy Region",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Cost Center Hierarchy Standard",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Profit Center Hierarchy Tax",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Profit Center Hierarchy Region",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Version Plan",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Cost Center IBV",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Partner Functional Area",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "FACT_CCA_PLAN_ACTUALS",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Partner Object",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Accounting Document",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Debit Credit Type",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Vendor",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Area",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Cost Element By Chart Of Accounts",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Business Area",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "GL Account by Chart Of Accounts",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Cost Element By Controlling Area",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Area Activity Type",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Cost Center",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Valuation View",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Value Type Statistics",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Value Type Details",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Version",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Contolling Key Figure Category Type",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "Controlling Value Type",
+      "metadataPermission": "none"
+    },
+    {
+      "name": "DIM_SLS_ORG",
+      "filterExpression": "CONTAINS(DIM_SECURITY_COPA,DIM_SECURITY_COPA[USER_PRNCPL_NAME],USERPRINCIPALNAME(),DIM_SECURITY_COPA[VARIABLE_NAME],\"ZSORGAUTH\",DIM_SECURITY_COPA[LOW_VALUE],DIM_SLS_ORG[Sales Organization Code])"
+    }
+  ]
+}

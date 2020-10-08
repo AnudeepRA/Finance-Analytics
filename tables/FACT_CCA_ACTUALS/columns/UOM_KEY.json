@@ -1,0 +1,6 @@
+{
+  "name": "UOM_KEY",
+  "dataType": "int64",
+  "sourceColumn": "UOM_KEY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Currency Conversion Manual",
+  "calculationGroup": {
+    "precedence": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "138aee16-52f0-42bc-afbe-cd364fb54e6b",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "STATISTICS_KEY",
+  "toTable": "Controlling Value Type Statistics",
+  "toColumn": "Controlling Value Type Statistics Key"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SETLMNT_OUTBND_FRT_COST",
+  "dataType": "double",
+  "sourceColumn": "SETLMNT_OUTBND_FRT_COST",
+  "encodingHint": "value"
+}

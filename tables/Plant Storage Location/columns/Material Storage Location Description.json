@@ -1,0 +1,7 @@
+{
+  "name": "Material Storage Location Description",
+  "dataType": "string",
+  "description": "description associated with the code in SAP for the physical place (4 digits stored as text, such as 0004 for General SpcMkt and 0500 for MAN Repairs within plant 1050 (Manchester)) at which the material to be shipped for the given sales order line item is stored in a plant, which may contain one or more storage locations, stored as a nvarchar",
+  "sourceColumn": "Material Storage Location Description",
+  "encodingHint": "hash"
+}

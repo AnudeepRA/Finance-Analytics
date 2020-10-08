@@ -1,0 +1,7 @@
+{
+  "name": "Product Line Description",
+  "dataType": "string",
+  "description": "description associated with the third level in the Rockwell Automation product hierarchy (such as Toolkits, 1734 POINT I/O, PowerFlex DC Drives, or NEMA (802T) Safety Switches), below the Product Category, stored as a string (Product Line Description), stored as a nvarchar",
+  "sourceColumn": "Product Line Description",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "3212bd88-fe2e-4b2f-bbd1-c18c0394bd6e",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "FUNCL_AREA_KEY",
+  "toTable": "DIM_FUNCL_AREA",
+  "toColumn": "FUNCL_AREA_KEY"
+}

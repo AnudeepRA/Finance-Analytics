@@ -1,0 +1,6 @@
+{
+  "name": "SFSAC_LGCY_CLM_AMT",
+  "dataType": "double",
+  "sourceColumn": "SFSAC_LGCY_CLM_AMT",
+  "encodingHint": "value"
+}

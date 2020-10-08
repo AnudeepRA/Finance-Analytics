@@ -1,0 +1,7 @@
+{
+  "name": "Partition_Name",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "Partition_Name",
+  "encodingHint": "hash"
+}

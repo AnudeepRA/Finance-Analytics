@@ -1,0 +1,7 @@
+{
+  "name": "ff9067ed-51d0-4887-823b-886f58b12ee8",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "CONTROLLING_VERSION_KEY",
+  "toTable": "Controlling Version",
+  "toColumn": "Controlling Version Key"
+}

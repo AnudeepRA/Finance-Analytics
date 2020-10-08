@@ -1,0 +1,7 @@
+{
+  "name": "cac5eb9a-567c-4523-b9f2-aa3f838df972",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "MATL_TYPE_KEY",
+  "toTable": "DIM_MATL_TYPE",
+  "toColumn": "MATL_TYPE_KEY"
+}

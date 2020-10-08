@@ -1,0 +1,7 @@
+{
+  "name": "a1eb9864-dcce-45a9-9ea0-59238b354ad1",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "PERIOD_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY"
+}

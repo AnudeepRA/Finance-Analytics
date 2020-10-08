@@ -1,0 +1,7 @@
+{
+  "name": "54d78455-cd1a-464b-a339-3d2a4497584d",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SOLD_TO_BP_KEY",
+  "toTable": "DIM_CUSTOMER_SOLD_TO",
+  "toColumn": "CUST_KEY"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SETLMNT_COST_SLS_PRIM_AMT",
+  "dataType": "double",
+  "sourceColumn": "SETLMNT_COST_SLS_PRIM_AMT",
+  "encodingHint": "value"
+}

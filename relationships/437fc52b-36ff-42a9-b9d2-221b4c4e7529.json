@@ -1,0 +1,7 @@
+{
+  "name": "437fc52b-36ff-42a9-b9d2-221b4c4e7529",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "CRNCY_TYPE_KEY",
+  "toTable": "DIM_CRNCY_TYPE",
+  "toColumn": "CRNCY_TYPE_KEY"
+}

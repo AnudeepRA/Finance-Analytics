@@ -1,0 +1,7 @@
+{
+  "name": "a81098f6-fab7-42f5-90ad-a8319943d907",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "MATL_TYPE_KEY",
+  "toTable": "DIM_MATL_TYPE",
+  "toColumn": "MATL_TYPE_KEY"
+}

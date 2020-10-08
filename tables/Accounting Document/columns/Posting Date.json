@@ -1,0 +1,7 @@
+{
+  "name": "Posting Date",
+  "dataType": "dateTime",
+  "description": "identifier (a counter generated in increments of 1, such as 100,101,102...) for the Posting Date Foreign Key in the Fact CCA Actuals table, which links to the Posting Date in the Date Dimension table, stored as a Date",
+  "sourceColumn": "Posting Date",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Product Category",
+  "dataType": "string",
+  "description": "the second level in the Rockwell Automation product hierarchy and a logical representation of product offerings within a business unit (such as ACSA173 for Channel Software, ACSA172 for Peripherals, ACSA1723A682 for Hardware, and ACSA1723A6824A3261 for Cables & Adapters), stored as an nvarchar",
+  "sourceColumn": "Product Category",
+  "encodingHint": "hash"
+}

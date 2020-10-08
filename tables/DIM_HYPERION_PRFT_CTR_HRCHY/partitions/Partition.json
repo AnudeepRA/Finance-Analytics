@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    FIN_V_DIM_HYPERION_PRFT_CTR_HRCHY_BusNm = Source{[Schema=\"FIN\",Item=\"V_DIM_HYPERION_PRFT_CTR_HRCHY_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(FIN_V_DIM_HYPERION_PRFT_CTR_HRCHY_BusNm,{\"HYPERION_PRFT_CTR_HRCHY_KEY\", \"Profit Center Code\", \"Hyperion Client\", \"SBU\", \"SBU Description\", \"FBU\", \"FBU Description\", \"BU\", \"BU Description\", \"Segment\", \"Segment Description\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

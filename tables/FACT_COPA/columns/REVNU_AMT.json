@@ -1,0 +1,6 @@
+{
+  "name": "REVNU_AMT",
+  "dataType": "double",
+  "sourceColumn": "REVNU_AMT",
+  "encodingHint": "value"
+}

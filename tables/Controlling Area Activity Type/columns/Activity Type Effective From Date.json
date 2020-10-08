@@ -1,0 +1,7 @@
+{
+  "name": "Activity Type Effective From Date",
+  "dataType": "dateTime",
+  "description": "date in SAP on which the given activity type is effective (which may be a past, present, or future date), stored as a timestamp in the format yyyy-mm-dd",
+  "sourceColumn": "Activity Type Effective From Date",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "e7b30d43-9c82-4dfb-811c-d30c1d7f4094",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "MEASURE_TYPE_KEY",
+  "toTable": "Contolling Key Figure Category Type",
+  "toColumn": "Controlling Key Figure Category Type Key"
+}

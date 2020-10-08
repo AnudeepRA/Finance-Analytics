@@ -1,0 +1,7 @@
+{
+  "name": "c7c8e5a3-1228-4770-8fb9-f4f082a3c765",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_ORD_ITM_OVRLL_DLVRY_PRCSNG_STAT_KEY",
+  "toTable": "Sales Order Item Overall Delivery Status",
+  "toColumn": "Processing Status Key"
+}

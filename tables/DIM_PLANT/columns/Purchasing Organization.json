@@ -1,0 +1,7 @@
+{
+  "name": "Purchasing Organization",
+  "dataType": "string",
+  "description": "code for an organizational unit subdividing Rockwell Automation according to the requirements of Purchasing (such as AP, EMEA, LA, and NA), stored as a nvarchar",
+  "sourceColumn": "Purchasing Organization",
+  "encodingHint": "hash"
+}

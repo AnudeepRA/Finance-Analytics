@@ -1,0 +1,7 @@
+{
+  "name": "9e3742bf-5c76-4631-a771-0628a6d1d06c",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_QTY_UOM_KEY",
+  "toTable": "DIM_UNIT_OF_MEASURE",
+  "toColumn": "UOM_KEY"
+}

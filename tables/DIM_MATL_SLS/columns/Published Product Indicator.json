@@ -1,0 +1,7 @@
+{
+  "name": "Published Product Indicator",
+  "dataType": "string",
+  "description": "indicator for whether the given product is included in the Rockwell Automation product catalog and available for ordering through the rockwellautomation.com web site, portals, Sales, Customer Care, or SSB (X if published, blank if not), stored as a nvarchar",
+  "sourceColumn": "Published Product Indicator",
+  "encodingHint": "hash"
+}

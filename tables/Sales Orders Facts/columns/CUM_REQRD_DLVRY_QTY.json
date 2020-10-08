@@ -1,0 +1,7 @@
+{
+  "name": "CUM_REQRD_DLVRY_QTY",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "CUM_REQRD_DLVRY_QTY",
+  "encodingHint": "value"
+}

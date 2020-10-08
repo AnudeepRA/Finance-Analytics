@@ -1,0 +1,7 @@
+{
+  "name": "dcf13122-783c-411b-809b-cc183892690e",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "STATISTICS_KEY",
+  "toTable": "Controlling Value Type Statistics",
+  "toColumn": "Controlling Value Type Statistics Key"
+}

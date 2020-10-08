@@ -1,0 +1,7 @@
+{
+  "name": "ORD_ITM_REJECTION_REASON_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ORD_ITM_REJECTION_REASON_KEY",
+  "encodingHint": "hash"
+}

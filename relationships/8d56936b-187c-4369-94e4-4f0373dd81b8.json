@@ -1,0 +1,7 @@
+{
+  "name": "8d56936b-187c-4369-94e4-4f0373dd81b8",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "MATL_STOCK_STATUS_KEY",
+  "toTable": "Material Stock Status",
+  "toColumn": "Material Stock Status Key"
+}

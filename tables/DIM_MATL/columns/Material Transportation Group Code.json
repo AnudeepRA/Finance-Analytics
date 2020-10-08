@@ -1,0 +1,11 @@
+{
+  "name": "Material Transportation Group Code",
+  "dataType": "string",
+  "description": [
+    "code in SAP for the group of materials to be delivered using the same route and transportation (such as Z001 for RA Transport Goods or Z002 for Dangerous Goods), stored as a nvarchar",
+    "",
+    "The Transportation Group Code is used to schedule routes automatically during sales order and delivery note processing, as well as for stock transport orders."
+  ],
+  "sourceColumn": "Material Transportation Group Code",
+  "encodingHint": "hash"
+}

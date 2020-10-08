@@ -1,0 +1,17 @@
+{
+  "name": "Net Value In USD At M Rate",
+  "description": [
+    "\"the amount of the transaction in the given booking document line item, stored as a decimal in United States dollars (Currency Code = USD) using the monthly exchange rate in effect at the time of the transaction",
+    "",
+    "The Net Value In USD is calculated using the Net Value In Transaction Currency and the current monthly rate (\"\"M rate\"\"), which is the exchange rate between the local currency (as specified by the Local Currency Code) and USD as set by Rockwell Automation Finance each month.\""
+  ],
+  "expression": "SUM('Sales Orders Facts'[GLBL_M_NET_VAL])",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Sales Orders Bookings Measures",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" Accuracy=\"2\"><Currency LCID=\"1033\" DisplayName=\"$ English (United States)\" Symbol=\"$\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "cb2caef8-ed5e-4a94-86eb-31c056b2c206",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SLS_DOC_TYPE_KEY",
+  "toTable": "DIM_SLS_DOC_TYPE",
+  "toColumn": "SLS_DOC_TYPE_KEY"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Requirement Type Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP (see examples below) that identifies how the material will be manufactured, stored as a nvarchar",
+    "",
+    "ELVV = make-to-order variant with planning material consumption",
+    "KEB = make-to-order for individual customer purchase order",
+    "KEK = make-to-order configurable material",
+    "KEL= make-to-order material variant",
+    "KELV= make-to-order variant with planning material consumption",
+    "KEV = make-to-order with consumption",
+    "KEVV = make-to-order for individual customer with planning material consumption",
+    "KL = manufactured by lot size for sales orders",
+    "KMFA  = assemble-to-order with production order",
+    "KMNP  = assemble-to-order with network order",
+    "KMPA = assemble-to-order with process order",
+    "KMPN = assemble-to-order with network/project",
+    "KMSE = assemble-to-order planned order",
+    "KP = make-to-order for project",
+    "KPV = make-to-order with project planning\""
+  ],
+  "sourceColumn": "Requirement Type Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

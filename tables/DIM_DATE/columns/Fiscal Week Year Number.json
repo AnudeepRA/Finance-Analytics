@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Week Year Number",
+  "dataType": "int64",
+  "sourceColumn": "Fiscal Week Year Number",
+  "encodingHint": "hash"
+}

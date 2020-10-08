@@ -1,0 +1,7 @@
+{
+  "name": "Profit Center Effective From Date Key",
+  "dataType": "dateTime",
+  "description": "the date on which the Profit Center is effective (which may be a past, present, or future date), stored as text for display and used as a key value",
+  "sourceColumn": "Profit Center Effective From Date Key",
+  "encodingHint": "hash"
+}

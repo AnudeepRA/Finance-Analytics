@@ -1,0 +1,7 @@
+{
+  "name": "33f1d0bf-3ffc-45b9-8538-ffb7f33eef49",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "PROD_HRCHY_KEY",
+  "toTable": "DIM_PROD_HRCHY",
+  "toColumn": "PROD_HRCHY_KEY"
+}

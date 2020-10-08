@@ -1,0 +1,6 @@
+{
+  "name": "Displn Process",
+  "dataType": "string",
+  "sourceColumn": "Displn Process",
+  "encodingHint": "hash"
+}

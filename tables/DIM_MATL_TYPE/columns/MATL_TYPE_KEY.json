@@ -1,0 +1,8 @@
+{
+  "name": "MATL_TYPE_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "MATL_TYPE_KEY",
+  "encodingHint": "hash"
+}

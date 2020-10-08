@@ -1,0 +1,12 @@
+{
+  "name": "Total_SETLMNT_DISC_PRMTN_INCNTV_AMT",
+  "expression": "SUM(FACT_COPA[SETLMNT_DISC_PRMTN_INCNTV_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Misc. Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

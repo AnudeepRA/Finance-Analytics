@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner Tax Number 1",
+  "dataType": "string",
+  "description": "free-form text (usually a string of digits) for the first tax identification number (usually to represent the company) associated with the business partner, stored as a nvarchar",
+  "sourceColumn": "Business Partner Tax Number 1",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Configurable Material Indicator",
+  "dataType": "string",
+  "description": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+  "sourceColumn": "Configurable Material Indicator",
+  "encodingHint": "hash"
+}

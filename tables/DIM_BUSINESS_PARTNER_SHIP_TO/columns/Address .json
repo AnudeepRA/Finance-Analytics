@@ -1,0 +1,6 @@
+{
+  "name": "Address ",
+  "dataType": "string",
+  "sourceColumn": "Address ",
+  "encodingHint": "hash"
+}

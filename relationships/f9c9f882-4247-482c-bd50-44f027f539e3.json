@@ -1,0 +1,7 @@
+{
+  "name": "f9c9f882-4247-482c-bd50-44f027f539e3",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "ORD_REASON_KEY",
+  "toTable": "Order Reason",
+  "toColumn": "Order Reason Key"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PRMTN_EXP_COST",
+  "dataType": "double",
+  "sourceColumn": "PRMTN_EXP_COST",
+  "encodingHint": "value"
+}

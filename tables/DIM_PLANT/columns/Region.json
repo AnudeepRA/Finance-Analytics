@@ -1,0 +1,7 @@
+{
+  "name": "Region",
+  "dataType": "string",
+  "description": "abbreviation in SAP for the state, province, or county (such as WI for Wisconsin or TWN for Taiwan) associated with the address for the given plant, stored as a nvarchar",
+  "sourceColumn": "Region",
+  "encodingHint": "hash"
+}

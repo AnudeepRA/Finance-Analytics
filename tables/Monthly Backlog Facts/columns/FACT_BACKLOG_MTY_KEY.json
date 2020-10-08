@@ -1,0 +1,9 @@
+{
+  "name": "FACT_BACKLOG_MTY_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the primary key in the monthly backlog snapshot fact table, stored as a bigint",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "FACT_BACKLOG_MTY_KEY",
+  "encodingHint": "hash"
+}

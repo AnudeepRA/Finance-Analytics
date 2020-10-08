@@ -1,0 +1,11 @@
+{
+  "name": "Product Available Date",
+  "dataType": "dateTime",
+  "description": [
+    "the date (which may be a past, present, or future date) on which the given product became or will first become available for sale to customers, stored as a DateTime in yyyy-MM-dd HH:mm:ss format, where HH:mm:ss are all zeroes",
+    "",
+    "The Product Life Cycle Status of a product must be Active before it can become available in stock (that is, the Product Active Date must be the same as or earlier than the Product Available Date)."
+  ],
+  "sourceColumn": "Product Available Date",
+  "encodingHint": "hash"
+}

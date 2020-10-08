@@ -1,0 +1,7 @@
+{
+  "name": "BOOKING_DOC_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "BOOKING_DOC_KEY",
+  "encodingHint": "hash"
+}

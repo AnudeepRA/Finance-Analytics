@@ -1,0 +1,7 @@
+{
+  "name": "Chart Of Accounts Code",
+  "dataType": "string",
+  "sourceColumn": "Chart Of Accounts Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

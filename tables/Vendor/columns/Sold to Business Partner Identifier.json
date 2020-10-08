@@ -1,0 +1,11 @@
+{
+  "name": "Sold to Business Partner Identifier",
+  "dataType": "string",
+  "description": [
+    "\"business partner identifier in SAP (such as P1090 for REXEL CONSOLIDATED) for the company (such as a Rockwell Automation plant, a distributor, or an end customer) that purchased the product, as listed on the sales order, stored as a string",
+    "",
+    "For a stock transfer order (where one Rockwell Automation location receives the product from another plant or distribution center), the Sold To Business Partner Identifier is a Rockwell Automation (internal) business partner identifier.\""
+  ],
+  "sourceColumn": "Sold to Business Partner Identifier",
+  "encodingHint": "hash"
+}

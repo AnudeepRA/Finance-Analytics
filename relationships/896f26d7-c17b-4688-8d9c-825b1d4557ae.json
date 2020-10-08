@@ -1,0 +1,7 @@
+{
+  "name": "896f26d7-c17b-4688-8d9c-825b1d4557ae",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SOLD_TO_BP_KEY",
+  "toTable": "DIM_BUSINESS_PARTNER_SOLD_TO",
+  "toColumn": "BUSI_PRTNR_KEY"
+}

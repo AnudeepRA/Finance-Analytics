@@ -1,0 +1,6 @@
+{
+  "name": "Ord Blk",
+  "dataType": "string",
+  "sourceColumn": "Ord Blk",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Cost Center Code",
+  "dataType": "string",
+  "description": "code in SAP (such as 20030 for FDLDET Detroit) for an organizational unit within a Business Area that represents a defined location in which costs are incurred, stored as a string",
+  "sourceColumn": "Cost Center Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

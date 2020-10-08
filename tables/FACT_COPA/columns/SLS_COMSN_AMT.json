@@ -1,0 +1,6 @@
+{
+  "name": "SLS_COMSN_AMT",
+  "dataType": "double",
+  "sourceColumn": "SLS_COMSN_AMT",
+  "encodingHint": "value"
+}

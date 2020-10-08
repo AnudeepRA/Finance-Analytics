@@ -1,0 +1,6 @@
+{
+  "name": "ADJD_COST_CMPNT_AMT",
+  "dataType": "double",
+  "sourceColumn": "ADJD_COST_CMPNT_AMT",
+  "encodingHint": "value"
+}

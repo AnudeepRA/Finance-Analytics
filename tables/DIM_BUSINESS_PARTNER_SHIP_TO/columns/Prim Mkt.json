@@ -1,0 +1,6 @@
+{
+  "name": "Prim Mkt",
+  "dataType": "string",
+  "sourceColumn": "Prim Mkt",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Week Qtr End Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Fiscal Week Qtr End Date",
+  "encodingHint": "hash"
+}

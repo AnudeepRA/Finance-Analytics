@@ -1,0 +1,7 @@
+{
+  "name": "SHP_TO_CUST_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SHP_TO_CUST_KEY",
+  "encodingHint": "hash"
+}

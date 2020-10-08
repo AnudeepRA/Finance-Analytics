@@ -1,0 +1,6 @@
+{
+  "name": "RESTK_FEE_AMT",
+  "dataType": "double",
+  "sourceColumn": "RESTK_FEE_AMT",
+  "encodingHint": "value"
+}

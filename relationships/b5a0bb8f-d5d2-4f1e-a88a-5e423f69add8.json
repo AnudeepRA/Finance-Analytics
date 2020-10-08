@@ -1,0 +1,7 @@
+{
+  "name": "b5a0bb8f-d5d2-4f1e-a88a-5e423f69add8",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "PRFT_CTR_HRCHY_KEY",
+  "toTable": "DIM_PRFT_CTR_HRCHY",
+  "toColumn": "PRFT_CTR_HRCHY_KEY"
+}

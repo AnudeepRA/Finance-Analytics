@@ -1,0 +1,16 @@
+{
+  "name": "Chart of Accounts",
+  "dataType": "string",
+  "description": [
+    "\"code for the chart of accounts (see examples below) that applies to the given scope, stored as a string",
+    "",
+    "RAHF - Group - a higher level of accounts used to consolidate operating details from the operating chart of accounts, primarily designed for HFM reporting",
+    "",
+    "RCOA - Operating - the standard chart of accounts in SAP FI used for posting transactions, with most settings standard across all company codes",
+    "",
+    "xxCA - country-specific alternate charts of account that allow for reporting of results in a country-mandated chart format\""
+  ],
+  "sourceColumn": "Chart of Accounts",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

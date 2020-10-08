@@ -1,0 +1,7 @@
+{
+  "name": "be2a84f8-b69d-493e-865a-fdf8f420604e",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SHPMNT_COMPLT_IND_VAL_KEY",
+  "toTable": "Shipment Complete Indicator values",
+  "toColumn": "Indicator Values Key"
+}

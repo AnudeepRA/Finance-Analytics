@@ -1,0 +1,6 @@
+{
+  "name": "PERIOD_KEY",
+  "dataType": "int64",
+  "sourceColumn": "PERIOD_KEY",
+  "encodingHint": "hash"
+}

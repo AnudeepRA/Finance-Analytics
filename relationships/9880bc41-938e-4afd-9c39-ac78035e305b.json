@@ -1,0 +1,7 @@
+{
+  "name": "9880bc41-938e-4afd-9c39-ac78035e305b",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "PRFT_CTR_HRCHY_KEY",
+  "toTable": "DIM_PRFT_CTR_HRCHY",
+  "toColumn": "PRFT_CTR_HRCHY_KEY"
+}

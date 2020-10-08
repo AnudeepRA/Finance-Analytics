@@ -1,0 +1,7 @@
+{
+  "name": "Date Short Name",
+  "dataType": "string",
+  "sourceColumn": "Date Short Name",
+  "sortByColumn": "Date Dt",
+  "encodingHint": "hash"
+}

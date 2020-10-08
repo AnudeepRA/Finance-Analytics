@@ -1,0 +1,7 @@
+{
+  "name": "dfff0e3a-068e-4d1c-ace5-d74fff040d40",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "BOOKING_DOC_KEY",
+  "toTable": "Booking Document",
+  "toColumn": "Booking Document Key"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "PRFT_CTR_HRCHY_REGION_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "PRFT_CTR_HRCHY_REGION_KEY",
+  "encodingHint": "hash"
+}

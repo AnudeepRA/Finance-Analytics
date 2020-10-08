@@ -1,0 +1,52 @@
+{
+  "name": "Current Fiscal Period",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    MyQuery = ",
+      "    Value.NativeQuery(",
+      "        #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "       \"SELECT ",
+      "\t\t\t[Accounting Document Key]",
+      "\t\t\t, [Cost Accounting Document Identifier]",
+      "\t\t\t, [Cost Accounting Document Line Item Number]",
+      "\t\t\t, [Cost Accounting Document Line Item Number Description]",
+      "\t\t\t, [Posting Date]",
+      "\t\t\t, [Document Date]",
+      "\t\tFROM [FIN_CCA].[V_DIM_ACCNTNG_DOCMNT_BUSNM] ",
+      "\t\twhere Part = 'Current Fiscal Period'",
+      "       \"",
+      "    )",
+      "in",
+      "    MyQuery"
+    ]
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization",
+      "value": [
+        "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>let",
+        "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+        "    MyQuery = ",
+        "    Value.NativeQuery(",
+        "        #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+        "       \"SELECT ",
+        "\t\t\t[Accounting Document Key]",
+        "\t\t\t, [Cost Accounting Document Identifier]",
+        "\t\t\t, [Cost Accounting Document Line Item Number]",
+        "\t\t\t, [Cost Accounting Document Line Item Number Description]",
+        "\t\t\t, [Posting Date]",
+        "\t\t\t, [Document Date]",
+        "\t\tFROM [FIN_CCA].[V_DIM_ACCNTNG_DOCMNT_BUSNM] ",
+        "\t\twhere Part = 'Current Fiscal Period'",
+        "       \"",
+        "    )",
+        "in",
+        "    MyQuery</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+      ]
+    }
+  ]
+}

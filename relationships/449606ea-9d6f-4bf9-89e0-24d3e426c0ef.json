@@ -1,0 +1,7 @@
+{
+  "name": "449606ea-9d6f-4bf9-89e0-24d3e426c0ef",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "UOM_KEY",
+  "toTable": "DIM_UNIT_OF_MEASURE",
+  "toColumn": "UOM_KEY"
+}

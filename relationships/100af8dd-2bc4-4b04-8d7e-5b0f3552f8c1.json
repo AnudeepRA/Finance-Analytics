@@ -1,0 +1,7 @@
+{
+  "name": "100af8dd-2bc4-4b04-8d7e-5b0f3552f8c1",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "COMPANY_KEY",
+  "toTable": "DIM_COMPANY",
+  "toColumn": "COMPANY_KEY"
+}

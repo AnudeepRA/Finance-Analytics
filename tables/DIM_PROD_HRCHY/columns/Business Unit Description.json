@@ -1,0 +1,7 @@
+{
+  "name": "Business Unit Description",
+  "dataType": "string",
+  "description": "description associated with the code for the business unit (such as Automation Software for ACS, Global Infrastructure for Architecture for GIA, Kinetix for KNX, Motor Control Protection for MCP, Package Component Business for CPB, Push Buttons for PBS, Software for SOF, Supply of Power for SOP) that is responsible for the design of the product, and the highest level in the Rockwell Automation product hierarchy, stored as a nvarchar",
+  "sourceColumn": "Business Unit Description",
+  "encodingHint": "hash"
+}

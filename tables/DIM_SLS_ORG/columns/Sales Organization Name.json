@@ -1,0 +1,8 @@
+{
+  "name": "Sales Organization Name",
+  "dataType": "string",
+  "description": "name associated with the Sales Organization (company code) in SAP (such as RA Netherlands Local for Sales Organization 4100 amd RA Italy for 4021), stored as a nvarchar",
+  "sourceColumn": "Sales Organization Name",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

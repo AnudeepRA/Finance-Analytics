@@ -1,0 +1,10 @@
+{
+  "name": "Cost Center Department Name",
+  "dataType": "string",
+  "description": [
+    "name (such as Research Department, Marketing, etc.) of the department associated with the given cost center, stored as a string",
+    ""
+  ],
+  "sourceColumn": "Cost Center Department Name",
+  "encodingHint": "hash"
+}

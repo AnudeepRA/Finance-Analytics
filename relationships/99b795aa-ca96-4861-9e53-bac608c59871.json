@@ -1,0 +1,8 @@
+{
+  "name": "99b795aa-ca96-4861-9e53-bac608c59871",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "ORD_ITM_PLND_GOODS_ISS_DTE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY",
+  "isActive": false
+}

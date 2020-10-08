@@ -1,0 +1,15 @@
+{
+  "name": "Extended List Price Value In Document Currency Without Decimal Shift (Backlog)",
+  "description": [
+    "\"the undiscounted amount that would have been invoiced to the customer for the quantity of products or services purchased on the given booking document line item based on the list price, plus any applicable charges such as freight or handling, before taxes, stored as a decimal in the currency used for the transaction",
+    "",
+    "Extended List Price Value In Document Currency = List Price In Sales Organization Currency * Booked Quantity",
+    "",
+    "The Extended List Price Value In Document Currency is also known as the \"\"subtotal 2 amount\"\".",
+    "",
+    "For currencies such as the Korean won or the Chilean peso that do not use denominations in decimals for everyday transactions (that is, the smallest denomination of the currency is a single unit, such as one won or one peso), this field stores the value before any adjustments have been made to shift the decimal point to prepare the data for analysis.  (Other currencies do use denominations in decimals for everyday transactions, such as the United States dollar, which uses a cent, or 1/100th of a dollar.)\""
+  ],
+  "expression": "SUM('Monthly Backlog Facts'[EXTD_LST_PRC_WTHOT_DCML_ADJMT_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

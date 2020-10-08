@@ -1,0 +1,7 @@
+{
+  "name": "G/L Account Short Description",
+  "dataType": "string",
+  "description": "short description associated with the identifer for the general ledger account (such as Creditors of the enterprise for GL account number 100 or Third Party Security for GL account number 1000), stored as a string",
+  "sourceColumn": "G/L Account Short Description",
+  "encodingHint": "hash"
+}

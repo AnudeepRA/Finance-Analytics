@@ -1,0 +1,7 @@
+{
+  "name": "Vendor Industry Type Description",
+  "dataType": "string",
+  "description": "description of the classification defined by SAP, which groups the vendor into a specific industry (such as manufacture, wholesale, service), stored as a string",
+  "sourceColumn": "Vendor Industry Type Description",
+  "encodingHint": "hash"
+}

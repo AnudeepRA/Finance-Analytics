@@ -1,0 +1,8 @@
+{
+  "name": "Incoterms Description",
+  "dataType": "string",
+  "description": "description associated with a code for an International Commercial Term (such as Free On Board for FOB, Free Carrier for FCA, Cost and Freight for CFR, and Carriage Paid To for CPT), which is one of a series of pre-defined commercial terms published by the International Chamber of Commerce (ICC) and specifies the obligations, costs, and risks involved in the delivery of goods from the seller to the buyer, stored as a nvarchar",
+  "sourceColumn": "Incoterms Description",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

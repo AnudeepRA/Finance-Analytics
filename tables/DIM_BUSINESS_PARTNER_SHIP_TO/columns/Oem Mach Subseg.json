@@ -1,0 +1,6 @@
+{
+  "name": "Oem Mach Subseg",
+  "dataType": "string",
+  "sourceColumn": "Oem Mach Subseg",
+  "encodingHint": "hash"
+}

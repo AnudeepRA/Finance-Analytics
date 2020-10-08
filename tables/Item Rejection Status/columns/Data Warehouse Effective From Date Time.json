@@ -1,0 +1,5 @@
+{
+  "name": "Data Warehouse Effective From Date Time",
+  "dataType": "dateTime",
+  "sourceColumn": "Data Warehouse Effective From Date Time"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_CRNCY_DCML_ADJMT = Source{[Schema=\"GLBL\",Item=\"V_DIM_CRNCY_DCML_ADJMT_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_CRNCY_DCML_ADJMT,{\"CRNCY_DCML_ADJMT_KEY\", \"Controlling Area Currency Code\", \"ISO Currency Name\", \"Decimal Places\", \"Decimal Shift Correction Multiplier\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

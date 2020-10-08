@@ -1,0 +1,5 @@
+{
+  "name": "Region from Profit Center",
+  "dataType": "string",
+  "sourceColumn": "Region from Profit Center"
+}

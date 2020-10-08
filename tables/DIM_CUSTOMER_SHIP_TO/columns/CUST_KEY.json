@@ -1,0 +1,8 @@
+{
+  "name": "CUST_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "CUST_KEY",
+  "encodingHint": "hash"
+}

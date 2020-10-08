@@ -1,0 +1,7 @@
+{
+  "name": "0c331d5e-a694-4eec-9db3-60cb861d6759",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "INCOTERMS_KEY",
+  "toTable": "DIM_INCOTERMS",
+  "toColumn": "INCOTERMS_KEY"
+}

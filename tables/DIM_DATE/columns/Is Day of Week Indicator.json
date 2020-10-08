@@ -1,0 +1,7 @@
+{
+  "name": "Is Day of Week Indicator",
+  "dataType": "string",
+  "sourceColumn": "Is Day of Week Indicator",
+  "sortByColumn": "Is Day of Week Count",
+  "encodingHint": "hash"
+}

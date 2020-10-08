@@ -1,0 +1,8 @@
+{
+  "name": "SLS_ORD_SFTWR_SHPMNT_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the sales order software shipment indicator foreign key in the sales order fact table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "SLS_ORD_SFTWR_SHPMNT_KEY",
+  "encodingHint": "hash"
+}

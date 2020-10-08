@@ -1,0 +1,6 @@
+{
+  "name": "LGSTCS_OVRHD_COST",
+  "dataType": "double",
+  "sourceColumn": "LGSTCS_OVRHD_COST",
+  "encodingHint": "value"
+}

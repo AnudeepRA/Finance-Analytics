@@ -1,0 +1,7 @@
+{
+  "name": "060d453e-72b1-411a-a1b2-20a61bd66d7a",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SETLMNT_QTY_UOM_KEY",
+  "toTable": "DIM_UNIT_OF_MEASURE",
+  "toColumn": "UOM_KEY"
+}

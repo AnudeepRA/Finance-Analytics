@@ -1,0 +1,7 @@
+{
+  "name": "ANLYSS_AUTHZN_ID",
+  "dataType": "string",
+  "description": "identifier associated with the authorization concept in SAP (such as Z_PRCTR_ALL), that describes how data access is controlled, which limits a users ability to access certain data or to perform certain activities in the business intelligence (BI) environment, based upon authorization objects, stored as a nvarchar",
+  "sourceColumn": "ANLYSS_AUTHZN_ID",
+  "encodingHint": "hash"
+}

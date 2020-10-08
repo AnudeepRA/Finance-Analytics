@@ -1,0 +1,13 @@
+{
+  "name": "Output Factor Unit of Measure",
+  "dataType": "string",
+  "description": [
+    "\"the unit of measure that the given activity produced at the time of posting, stored as a string",
+    "",
+    "The unit of measure of the recorded output is defined in the activity type master and cannot be changed.",
+    "",
+    "It is possible to make subsequent planned and actual posting in an output unit of measure different than the one recorded, provided it can be converted to the unit of measure defined in the activity type master. \""
+  ],
+  "sourceColumn": "Output Factor Unit of Measure",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Cost Center Currency Code",
+  "dataType": "string",
+  "description": [
+    "\"code for the currency used for the transactions within the given cost center (such as EUR or USD) in SAP, stored as a string",
+    "",
+    "All cost center planning is done in local currency.\""
+  ],
+  "sourceColumn": "Cost Center Currency Code"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "d14e0ec9-7d7e-4981-ac08-1895571d42e8",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "ORD_ITM_REJECTION_REASON_KEY",
+  "toTable": "Order Item Rejection Reason",
+  "toColumn": "Order Item Rejection Reason Key"
+}

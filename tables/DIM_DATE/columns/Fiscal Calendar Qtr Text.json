@@ -1,0 +1,8 @@
+{
+  "name": "Fiscal Calendar Qtr Text",
+  "dataType": "string",
+  "description": "the quarter number for the Rockwell fiscal year stored with preceding characters \"QTR\", stored as a nvarchar",
+  "sourceColumn": "Fiscal Calendar Qtr Text",
+  "sortByColumn": "Fiscal Calendar Qtr Number",
+  "encodingHint": "hash"
+}

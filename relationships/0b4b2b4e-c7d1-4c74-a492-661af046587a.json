@@ -1,0 +1,7 @@
+{
+  "name": "0b4b2b4e-c7d1-4c74-a492-661af046587a",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "ORD_REASON_KEY",
+  "toTable": "Order Reason",
+  "toColumn": "Order Reason Key"
+}

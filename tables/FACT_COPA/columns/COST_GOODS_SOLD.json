@@ -1,0 +1,6 @@
+{
+  "name": "COST_GOODS_SOLD",
+  "dataType": "double",
+  "sourceColumn": "COST_GOODS_SOLD",
+  "encodingHint": "value"
+}

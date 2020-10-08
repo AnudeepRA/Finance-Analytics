@@ -1,0 +1,19 @@
+{
+  "name": "Standard Margin Excluding Inter-company",
+  "description": [
+    "amount of profit Rockwell Automation earns on the given transaction (which could be a \"\"ship and bill\"\", or not) for products, projects, or services, stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "Standard Margin Excluding Inter-company Markup = Total Revenue (excluding Inter-company Transfer Markup and Transfer Costs) - Total Cost of Sales  ",
+    "",
+    "The Standard Margin Excluding Inter-company Markup is a true measure of the profit earned at the company level — by excluding Inter-company Transfer Markup, there is no risk of double-counting that notional \"\"profit\"\" when revenue from all Rockwell Automation legal entities is combined."
+  ],
+  "expression": "sum(FACT_COPA[STD_MARG_EXCL_INTRCO_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SOLD_TO_BP_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the sold to business partner foreign key in the sales order fact table, which links to the business partner dimension table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "SOLD_TO_BP_KEY",
+  "encodingHint": "hash"
+}

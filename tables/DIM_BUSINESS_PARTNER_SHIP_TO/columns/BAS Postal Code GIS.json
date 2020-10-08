@@ -1,0 +1,6 @@
+{
+  "name": "BAS Postal Code GIS",
+  "dataType": "string",
+  "sourceColumn": "BAS Postal Code GIS",
+  "encodingHint": "hash"
+}

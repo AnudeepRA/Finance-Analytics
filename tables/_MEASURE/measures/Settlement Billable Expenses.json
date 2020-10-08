@@ -1,0 +1,17 @@
+{
+  "name": "Settlement Billable Expenses",
+  "description": [
+    "amount accrued for actual, legitimate business expenses that the customer has agreed to pay for (such as travel and living  costs for field engineers) as part of the given delivery of projects or services  (such as product installation — not a \"\"ship and bill\"\" transaction for a physical product, per Rockwell Automation revenue recognition rules), stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "Settlement Billable Expenses may have been posted to a deferral account on the balance sheet as a provision (deferred liability), and are settled per Rockwell Automation revenue recognition rules."
+  ],
+  "expression": "sum(FACT_COPA[SETLMNT_BILLD_EXP_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

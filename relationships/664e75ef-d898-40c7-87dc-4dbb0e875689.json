@@ -1,0 +1,7 @@
+{
+  "name": "664e75ef-d898-40c7-87dc-4dbb0e875689",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "PRFT_CTR_HRCHY_KEY",
+  "toTable": "DIM_PRFT_CTR_HRCHY",
+  "toColumn": "PRFT_CTR_HRCHY_KEY"
+}

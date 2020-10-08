@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_VENDOR_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_VENDOR_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_VENDOR_BusNm,{\"Vendor Key\", \"Vendor Business Partner Identifier\", \"Country Code\", \"Vendor Name 1\", \"Vendor Name 2\", \"Business Partner City Name\", \"Business Partner District Name\", \"Business Partner PO Box\", \"Business Partner PO Box Postal Code\", \"Business Partner Postal Code\", \"Vendor Business Partner Street Address\", \"Vendor Business Address Services Identifier\", \"Business Partner SIC Code\", \"Vendor Account Group Code\", \"Vendor Central Deletion Indicator\", \"Vendor Central Posting Block Indicator\", \"Vendor Imposed Central Purchasing Block Indicator\", \"Trading Partner Company Identifier\", \"VAT Registration Number\", \"Business Partner PO Box City Name\", \"Plant Code\", \"Tax Jurisdiction Code\", \"Vendor Payment Block Indicator\", \"Tax Number Type\", \"Vendor Business Type Description\", \"Vendor Industry Type Description\", \"Business Purpose Completion Indicator\", \"Sold to Business Partner Identifier\", \"Region (State Province County) Code\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "BP Name 1 Description",
+  "dataType": "string",
+  "description": [
+    "medium-length name associated with the Business Partner Identifier in SAP for the company (such as a distributor or an end customer), stored as a nvarchar",
+    "",
+    "Known as Account Name 1 in SAP"
+  ],
+  "sourceColumn": "BP Name 1 Description",
+  "encodingHint": "hash"
+}

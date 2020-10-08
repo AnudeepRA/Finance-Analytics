@@ -1,0 +1,7 @@
+{
+  "name": "Valuation Area",
+  "dataType": "string",
+  "description": "code in SAP for the level at which materials are assigned costs and prices (such as at the Plant level or at the Company Code level), stored as a nvarchar",
+  "sourceColumn": "Valuation Area",
+  "encodingHint": "hash"
+}

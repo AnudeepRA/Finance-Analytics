@@ -1,0 +1,11 @@
+{
+  "name": "Planned Secondary Costs Lock Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator (such as X if a secondary cost can be posted or blank if not) of whether a secondary cost can be posted in the given cost center; which if active, it is not possible to post secondary costs to the cost center, stored as a string",
+    "",
+    "This indicator normally only locks the cost center for actual debits of secondary costs. However, actual credits to the cost center are a possibility as well.\""
+  ],
+  "sourceColumn": "Planned Secondary Costs Lock Indicator",
+  "encodingHint": "hash"
+}

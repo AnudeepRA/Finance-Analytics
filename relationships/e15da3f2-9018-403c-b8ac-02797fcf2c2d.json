@@ -1,0 +1,7 @@
+{
+  "name": "e15da3f2-9018-403c-b8ac-02797fcf2c2d",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_ORD_ITM_DLVRY_BLOCK_KEY",
+  "toTable": "Sales Order Item Delivery Block",
+  "toColumn": "Sales Order Delivery Block Key"
+}

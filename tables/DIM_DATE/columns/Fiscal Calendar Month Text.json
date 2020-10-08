@@ -1,0 +1,8 @@
+{
+  "name": "Fiscal Calendar Month Text",
+  "dataType": "string",
+  "description": "the ordinal number for the period  or mionth within the RA fiscal year, stored as an integer ",
+  "sourceColumn": "Fiscal Calendar Month Text",
+  "sortByColumn": "Fiscal Calendar Month Number",
+  "encodingHint": "hash"
+}

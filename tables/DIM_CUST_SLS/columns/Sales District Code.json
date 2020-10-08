@@ -1,0 +1,7 @@
+{
+  "name": "Sales District Code",
+  "dataType": "string",
+  "description": "code in SAP for the Rockwell Automation district sales area (such as SEA for Seattle or BOS for Boston), comprised of multiple sales offices, responsible for providing support to the sold-to customer, stored as a nvarchar",
+  "sourceColumn": "Sales District Code",
+  "encodingHint": "hash"
+}

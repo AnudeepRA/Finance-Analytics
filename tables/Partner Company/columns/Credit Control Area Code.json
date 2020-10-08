@@ -1,0 +1,6 @@
+{
+  "name": "Credit Control Area Code",
+  "dataType": "string",
+  "sourceColumn": "Credit Control Area Code",
+  "encodingHint": "hash"
+}

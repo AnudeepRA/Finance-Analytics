@@ -1,0 +1,7 @@
+{
+  "name": "f3b550f9-ac52-4282-944a-1b475becfb80",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "CONTROLLING_VALUE_TYPE_KEY",
+  "toTable": "Controlling Value Type",
+  "toColumn": "Controlling Value Type Key"
+}

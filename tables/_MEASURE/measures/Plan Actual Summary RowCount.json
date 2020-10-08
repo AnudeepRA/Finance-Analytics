@@ -1,0 +1,7 @@
+{
+  "name": "Plan Actual Summary RowCount",
+  "description": "Fact CCA Plan Actual summary table row count",
+  "expression": " COUNTROWS(FACT_CCA_PLAN_ACTUALS)",
+  "formatString": "0",
+  "displayFolder": "CCA"
+}

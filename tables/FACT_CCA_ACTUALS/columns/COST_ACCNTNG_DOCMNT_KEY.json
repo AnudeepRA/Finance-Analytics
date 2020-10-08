@@ -1,0 +1,6 @@
+{
+  "name": "COST_ACCNTNG_DOCMNT_KEY",
+  "dataType": "int64",
+  "sourceColumn": "COST_ACCNTNG_DOCMNT_KEY",
+  "encodingHint": "hash"
+}

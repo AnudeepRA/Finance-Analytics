@@ -1,0 +1,6 @@
+{
+  "name": "CONTROLLING_VERSION_KEY",
+  "dataType": "int64",
+  "sourceColumn": "CONTROLLING_VERSION_KEY",
+  "encodingHint": "hash"
+}

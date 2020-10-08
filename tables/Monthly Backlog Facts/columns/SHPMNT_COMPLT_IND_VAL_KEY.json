@@ -1,0 +1,7 @@
+{
+  "name": "SHPMNT_COMPLT_IND_VAL_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SHPMNT_COMPLT_IND_VAL_KEY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Company Code",
+  "dataType": "string",
+  "description": "code in SAP used to organize accounting information related to business transactions, representing the smallest organizational unit for which a complete self-contained set of accounts can be drawn up for purposes of external reporting, financial statements, and profit and loss statements, stored as a VARCHAR",
+  "sourceColumn": "Company Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

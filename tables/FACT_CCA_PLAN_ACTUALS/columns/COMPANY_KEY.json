@@ -1,0 +1,6 @@
+{
+  "name": "COMPANY_KEY",
+  "dataType": "int64",
+  "sourceColumn": "COMPANY_KEY",
+  "encodingHint": "hash"
+}

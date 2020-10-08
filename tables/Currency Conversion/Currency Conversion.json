@@ -1,0 +1,6 @@
+{
+  "name": "Currency Conversion",
+  "calculationGroup": {
+    "precedence": 1
+  }
+}

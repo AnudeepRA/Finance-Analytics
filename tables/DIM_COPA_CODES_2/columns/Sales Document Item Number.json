@@ -1,0 +1,12 @@
+{
+  "name": "Sales Document Item Number",
+  "dataType": "string",
+  "description": [
+    "\"number of the item in the given sales order document in SAP that is related to the given COPA Record, stored as a nvarchar",
+    "",
+    "The Sales Document Item Number is populated with a value for transactions related to sales orders only (such as booking and billing transactions).\""
+  ],
+  "sourceColumn": "Sales Document Item Number",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

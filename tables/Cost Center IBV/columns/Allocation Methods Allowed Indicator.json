@@ -1,0 +1,11 @@
+{
+  "name": "Allocation Methods Allowed Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator that determines what settlement options are permitted for a given cost center, stored as a string",
+    "",
+    "This indicator is not used presently.\""
+  ],
+  "sourceColumn": "Allocation Methods Allowed Indicator",
+  "encodingHint": "hash"
+}

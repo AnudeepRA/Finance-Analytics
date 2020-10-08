@@ -1,0 +1,7 @@
+{
+  "name": "Sold To Business Partner Name",
+  "dataType": "string",
+  "description": "name associated with the Sold To Business Partner Identifier in SAP for the company (such as a distributor or an end customer) that purchased the product on the given sales order, stored as a string",
+  "sourceColumn": "Sold To Business Partner Name",
+  "encodingHint": "hash"
+}

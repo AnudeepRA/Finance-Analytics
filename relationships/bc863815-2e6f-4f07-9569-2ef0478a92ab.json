@@ -1,0 +1,7 @@
+{
+  "name": "bc863815-2e6f-4f07-9569-2ef0478a92ab",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "BLLNG_PRCSNG_STAT_KEY",
+  "toTable": "Billing Status",
+  "toColumn": "Processing Status Key"
+}

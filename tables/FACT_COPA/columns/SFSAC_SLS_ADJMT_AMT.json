@@ -1,0 +1,6 @@
+{
+  "name": "SFSAC_SLS_ADJMT_AMT",
+  "dataType": "double",
+  "sourceColumn": "SFSAC_SLS_ADJMT_AMT",
+  "encodingHint": "value"
+}

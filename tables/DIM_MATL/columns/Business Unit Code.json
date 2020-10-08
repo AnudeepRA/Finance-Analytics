@@ -1,0 +1,8 @@
+{
+  "name": "Business Unit Code",
+  "dataType": "string",
+  "description": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+  "sourceColumn": "Business Unit Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "MATL_BASE_UOM_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "MATL_BASE_UOM_KEY",
+  "encodingHint": "hash"
+}

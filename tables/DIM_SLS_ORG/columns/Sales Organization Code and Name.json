@@ -1,0 +1,7 @@
+{
+  "name": "Sales Organization Code and Name",
+  "dataType": "string",
+  "description": "concatenation of the Sales Organization (company code) in SAP and the name associated with the Sales Organization (such as 4100 - RA Netherlands or 4021 - RA Italy), stored as a nvarchar",
+  "sourceColumn": "Sales Organization Code and Name",
+  "encodingHint": "hash"
+}

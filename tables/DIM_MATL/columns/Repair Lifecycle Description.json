@@ -1,0 +1,15 @@
+{
+  "name": "Repair Lifecycle Description",
+  "dataType": "string",
+  "description": [
+    "short description of the repair lifecycle status (see list below) of the specified product, stored as a nvarchar",
+    "",
+    "CURRENT = a returned item that is a Rockwell Automation product that is current series and still under warranty",
+    "",
+    "LEGACY = a returned item that is a Rockwell Automation product that is not current series, but still under warranty",
+    "",
+    "CONSUMABLE = a returned item that is a Rockwell Automation product that is not economically feasible to repair"
+  ],
+  "sourceColumn": "Repair Lifecycle Description",
+  "encodingHint": "hash"
+}

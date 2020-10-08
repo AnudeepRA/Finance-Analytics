@@ -1,0 +1,6 @@
+{
+  "name": "DOCUMENT_DATE_KEY",
+  "dataType": "int64",
+  "sourceColumn": "DOCUMENT_DATE_KEY",
+  "encodingHint": "hash"
+}

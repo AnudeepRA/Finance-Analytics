@@ -1,0 +1,19 @@
+{
+  "name": "Machine Absorption Costs",
+  "description": [
+    "amount of costs to operate the machinery that produced the material in the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "The total overhead cost for the maintenance and operation of machinery is divided by the total number of production hours to calculate a machine absorption rate, which is then multiplied by the time required to produce a single unit to arrive at the Machine Absorption Cost per unit. ",
+    "",
+    ""
+  ],
+  "expression": "sum(FACT_COPA[MACH_ABSORP_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

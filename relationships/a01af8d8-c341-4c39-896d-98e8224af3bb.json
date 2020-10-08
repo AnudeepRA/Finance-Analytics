@@ -1,0 +1,7 @@
+{
+  "name": "a01af8d8-c341-4c39-896d-98e8224af3bb",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "END_CUST_BP_KEY",
+  "toTable": "DIM_BUSINESS_PARTNER_END_CUSTOMER",
+  "toColumn": "BUSI_PRTNR_KEY"
+}

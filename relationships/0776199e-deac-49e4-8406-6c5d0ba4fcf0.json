@@ -1,0 +1,7 @@
+{
+  "name": "0776199e-deac-49e4-8406-6c5d0ba4fcf0",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "DETAIL_VALUE_TYPE_KEY",
+  "toTable": "Controlling Value Type Details",
+  "toColumn": "Controlling  Value Type Details Key"
+}

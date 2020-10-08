@@ -1,0 +1,14 @@
+{
+  "name": "Processing Status Description",
+  "dataType": "string",
+  "description": [
+    "\"description associated with the code in SAP for the current processing status of the given sales order (see list below), stored as a nvarchar",
+    "",
+    "blank = not relevant",
+    "A = not yet processed = zero quantity shipped",
+    "B = partially processed = partial quantity shipped",
+    "C = completely processed = entire quantity shipped\""
+  ],
+  "sourceColumn": "Processing Status Description",
+  "encodingHint": "hash"
+}

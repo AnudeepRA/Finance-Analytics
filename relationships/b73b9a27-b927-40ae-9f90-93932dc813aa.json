@@ -1,0 +1,7 @@
+{
+  "name": "b73b9a27-b927-40ae-9f90-93932dc813aa",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SHIP_TO_BP_KEY",
+  "toTable": "DIM_BUSINESS_PARTNER_SHIP_TO",
+  "toColumn": "BUSI_PRTNR_KEY"
+}

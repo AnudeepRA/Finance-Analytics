@@ -1,0 +1,7 @@
+{
+  "name": "Cost Element COA Long Description",
+  "dataType": "string",
+  "description": "long description for the Cost Element COA, which is a category of an activity that incurs costs, stored as a string",
+  "sourceColumn": "Cost Element COA Long Description",
+  "encodingHint": "hash"
+}

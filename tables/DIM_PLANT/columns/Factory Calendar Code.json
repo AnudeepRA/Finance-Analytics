@@ -1,0 +1,7 @@
+{
+  "name": "Factory Calendar Code",
+  "dataType": "string",
+  "description": "code in SAP for the calendar that define the days of operation for a specifc plant (such as ZP for Monterrey Planta #1 Factory Calendar), stored as a nvarchar",
+  "sourceColumn": "Factory Calendar Code",
+  "encodingHint": "hash"
+}

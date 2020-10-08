@@ -1,0 +1,6 @@
+{
+  "name": "FNSHD_GOODS_COST",
+  "dataType": "double",
+  "sourceColumn": "FNSHD_GOODS_COST",
+  "encodingHint": "value"
+}

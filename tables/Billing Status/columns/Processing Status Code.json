@@ -1,0 +1,6 @@
+{
+  "name": "Processing Status Code",
+  "dataType": "string",
+  "sourceColumn": "Processing Status Code",
+  "encodingHint": "hash"
+}

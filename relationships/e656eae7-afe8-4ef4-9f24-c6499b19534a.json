@@ -1,0 +1,7 @@
+{
+  "name": "e656eae7-afe8-4ef4-9f24-c6499b19534a",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "MTL_KEY",
+  "toTable": "DIM_MATL",
+  "toColumn": "MATL_KEY"
+}

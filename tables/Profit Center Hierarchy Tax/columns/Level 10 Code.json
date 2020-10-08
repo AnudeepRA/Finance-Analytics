@@ -1,0 +1,7 @@
+{
+  "name": "Level 10 Code",
+  "dataType": "string",
+  "description": "code associated with level 10 of the profit center hierarchy, stored as a nvarchar",
+  "sourceColumn": "Level 10 Code",
+  "encodingHint": "hash"
+}

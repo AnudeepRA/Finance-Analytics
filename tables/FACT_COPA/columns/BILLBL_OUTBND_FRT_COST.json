@@ -1,0 +1,6 @@
+{
+  "name": "BILLBL_OUTBND_FRT_COST",
+  "dataType": "double",
+  "sourceColumn": "BILLBL_OUTBND_FRT_COST",
+  "encodingHint": "value"
+}

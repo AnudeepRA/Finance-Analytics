@@ -1,0 +1,7 @@
+{
+  "name": "INCOTERMS_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "INCOTERMS_KEY",
+  "encodingHint": "hash"
+}

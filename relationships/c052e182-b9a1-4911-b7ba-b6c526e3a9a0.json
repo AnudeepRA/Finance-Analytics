@@ -1,0 +1,8 @@
+{
+  "name": "c052e182-b9a1-4911-b7ba-b6c526e3a9a0",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "REQSTD_DLVRY_DTE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY",
+  "isActive": false
+}

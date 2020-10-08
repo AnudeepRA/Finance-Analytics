@@ -1,0 +1,5 @@
+{
+  "name": "Day of Week",
+  "expression": "sum(DIM_DATE[Is Day of Week Count])",
+  "displayFolder": "Key Metrics"
+}

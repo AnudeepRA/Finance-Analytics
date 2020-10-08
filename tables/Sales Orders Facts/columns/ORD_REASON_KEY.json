@@ -1,0 +1,8 @@
+{
+  "name": "ORD_REASON_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the order reason foreign key in the sales order fact table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "ORD_REASON_KEY",
+  "encodingHint": "hash"
+}

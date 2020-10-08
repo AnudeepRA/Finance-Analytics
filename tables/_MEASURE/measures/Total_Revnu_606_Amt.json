@@ -1,0 +1,4 @@
+{
+  "name": "Total_Revnu_606_Amt",
+  "expression": "sum(FACT_COPA[TOT_REVNU_606_AMT])"
+}

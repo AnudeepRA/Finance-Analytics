@@ -1,0 +1,6 @@
+{
+  "name": "BP BAS Care Of PO Code",
+  "dataType": "string",
+  "sourceColumn": "BP BAS Care Of PO Code",
+  "encodingHint": "hash"
+}

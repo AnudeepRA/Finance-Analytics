@@ -1,0 +1,5 @@
+{
+  "name": "DATE_DTE_KEY",
+  "dataType": "dateTime",
+  "sourceColumn": "DATE_DTE_KEY"
+}

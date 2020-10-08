@@ -1,0 +1,11 @@
+{
+  "name": "Midrange Subgroup Description",
+  "dataType": "string",
+  "description": [
+    "description associated with a specific set of \"\"product hierarchies\"\" for midrange processing capacity controllers (controllers or attachments/accessories for controllers), categorized into the midrange sub-group, as defined by Rockwell Automation Finance, stored as a varchar",
+    "",
+    "The mid-range subgroup is a lower level node within a mid-range group."
+  ],
+  "sourceColumn": "Midrange Subgroup Description",
+  "encodingHint": "hash"
+}

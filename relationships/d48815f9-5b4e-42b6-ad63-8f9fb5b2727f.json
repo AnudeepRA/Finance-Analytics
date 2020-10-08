@@ -1,0 +1,7 @@
+{
+  "name": "d48815f9-5b4e-42b6-ad63-8f9fb5b2727f",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "ORD_RELTD_BLLNG_PRCSNG_STAT_KEY",
+  "toTable": "Order Related Billing Status",
+  "toColumn": "Processing Status Key"
+}

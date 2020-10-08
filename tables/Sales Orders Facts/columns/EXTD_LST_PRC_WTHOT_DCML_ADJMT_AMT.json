@@ -1,0 +1,7 @@
+{
+  "name": "EXTD_LST_PRC_WTHOT_DCML_ADJMT_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "EXTD_LST_PRC_WTHOT_DCML_ADJMT_AMT",
+  "encodingHint": "value"
+}

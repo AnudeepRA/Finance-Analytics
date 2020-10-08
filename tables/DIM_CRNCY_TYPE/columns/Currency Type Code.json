@@ -1,0 +1,8 @@
+{
+  "name": "Currency Type Code",
+  "dataType": "string",
+  "description": "code in SAP for the type of currency used within RA00 (the common Controlling Area used globally at Rockwell Automation), which is always 10 (Company code currency), stored as a nvarchar",
+  "sourceColumn": "Currency Type Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

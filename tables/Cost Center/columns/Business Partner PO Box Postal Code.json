@@ -1,0 +1,13 @@
+{
+  "name": "Business Partner PO Box Postal Code",
+  "dataType": "string",
+  "description": [
+    "\"postal code of the post office (\"\"PO\"\") box for the given  Business Partner in SAP, stored as a string",
+    "",
+    "The Business Partner PO Box Postal Code is used for countries where the postal code (such as the ZIP code in the United States) that is used to send mail to the company P.O. Box is different than the one that is used to send letters to the company address.",
+    "",
+    "Also, some large companies have their own postal code and no post office box.\""
+  ],
+  "sourceColumn": "Business Partner PO Box Postal Code",
+  "encodingHint": "hash"
+}

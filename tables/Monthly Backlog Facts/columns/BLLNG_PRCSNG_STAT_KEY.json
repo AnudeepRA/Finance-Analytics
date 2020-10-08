@@ -1,0 +1,7 @@
+{
+  "name": "BLLNG_PRCSNG_STAT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "BLLNG_PRCSNG_STAT_KEY",
+  "encodingHint": "hash"
+}

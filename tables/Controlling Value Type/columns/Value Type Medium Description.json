@@ -1,0 +1,7 @@
+{
+  "name": "Value Type Medium Description",
+  "dataType": "string",
+  "description": "medium description associated with the code that represents the type of controlling value type (such as planned for code 20 and actual for code 10), which is used for reporting, stored as a string ",
+  "sourceColumn": "Value Type Medium Description",
+  "encodingHint": "hash"
+}

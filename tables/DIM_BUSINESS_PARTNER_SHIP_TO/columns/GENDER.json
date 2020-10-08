@@ -1,0 +1,6 @@
+{
+  "name": "GENDER",
+  "dataType": "string",
+  "sourceColumn": "Gender",
+  "encodingHint": "hash"
+}

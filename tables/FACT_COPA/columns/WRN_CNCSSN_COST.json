@@ -1,0 +1,6 @@
+{
+  "name": "WRN_CNCSSN_COST",
+  "dataType": "double",
+  "sourceColumn": "WRN_CNCSSN_COST",
+  "encodingHint": "value"
+}

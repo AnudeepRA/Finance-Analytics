@@ -1,0 +1,5 @@
+{
+  "name": "Plant",
+  "dataType": "string",
+  "sourceColumn": "Plant"
+}

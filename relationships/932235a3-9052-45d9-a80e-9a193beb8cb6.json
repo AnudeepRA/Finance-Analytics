@@ -1,0 +1,7 @@
+{
+  "name": "932235a3-9052-45d9-a80e-9a193beb8cb6",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "PLANT_KEY",
+  "toTable": "DIM_PLANT",
+  "toColumn": "PLANT_KEY"
+}

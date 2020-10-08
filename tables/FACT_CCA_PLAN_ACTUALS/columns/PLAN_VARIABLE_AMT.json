@@ -1,0 +1,6 @@
+{
+  "name": "PLAN_VARIABLE_AMT",
+  "dataType": "double",
+  "sourceColumn": "PLAN_VARIABLE_AMT",
+  "encodingHint": "value"
+}

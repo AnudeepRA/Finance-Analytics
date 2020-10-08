@@ -1,0 +1,11 @@
+{
+  "name": "Sales Unit Of Measure",
+  "dataType": "string",
+  "description": [
+    "the unit of measure used when selling the product, which may differ from the base unit of measure (for example, the base unit of measure may be EA for \"\"each\"\", but may be sold only by the dozen), stored as a nvarchar",
+    "",
+    "Known as VRKME in SAP"
+  ],
+  "sourceColumn": "Sales Unit Of Measure",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Week Day Number",
+  "dataType": "int64",
+  "sourceColumn": "Calendar Week Day Number",
+  "encodingHint": "hash"
+}

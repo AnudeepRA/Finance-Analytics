@@ -1,0 +1,16 @@
+{
+  "name": "Company Code And Description",
+  "dataType": "string",
+  "description": [
+    "\"concatenation of the Company Code in SAP and the associated Company Code Description (such as 1000 - Rockwell Automation, 2000 - Rockwell Canada, or 3014 - R.A. Columbia S.A.) used to organize accounting information related to business transactions, representing the smallest organizational unit for which a complete self-contained set of accounts can be drawn up for purposes of external reporting, financial statements, and profit and loss statements, stored as a nvarchar",
+    "",
+    "The Company Code is also the third level in the Rockwell Automation internal organization hierarchy in SAP, which ensures consistent standard financial reporting and has the structure:",
+    "1) Operating Concern",
+    "2) Controlling Area",
+    "3) Company Code",
+    "4) Business Area",
+    "5) Cost Center\""
+  ],
+  "sourceColumn": "Company Code And Description",
+  "encodingHint": "hash"
+}

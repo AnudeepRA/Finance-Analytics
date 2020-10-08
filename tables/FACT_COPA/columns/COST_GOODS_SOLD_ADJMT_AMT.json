@@ -1,0 +1,6 @@
+{
+  "name": "COST_GOODS_SOLD_ADJMT_AMT",
+  "dataType": "double",
+  "sourceColumn": "COST_GOODS_SOLD_ADJMT_AMT",
+  "encodingHint": "value"
+}

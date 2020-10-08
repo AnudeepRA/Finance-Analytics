@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Qtr Number",
+  "dataType": "int64",
+  "sourceColumn": "Calendar Qtr Number",
+  "encodingHint": "hash"
+}

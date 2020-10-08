@@ -1,0 +1,7 @@
+{
+  "name": "Activity Type Short Description",
+  "dataType": "string",
+  "description": "short description associated with the code in SAP (such as Direct Labor for code CAT001 or Panels for code CAT009) that describes the given activity produced by a cost center, measured in units of time or quantity, stored as a string",
+  "sourceColumn": "Activity Type Short Description",
+  "encodingHint": "hash"
+}

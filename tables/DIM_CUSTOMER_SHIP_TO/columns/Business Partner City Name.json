@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner City Name",
+  "dataType": "string",
+  "description": "name of the city for the given Business Partner in SAP, stored as a nvarchar",
+  "sourceColumn": "Business Partner City Name",
+  "encodingHint": "hash"
+}

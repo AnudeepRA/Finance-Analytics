@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner SIC Code",
+  "dataType": "string",
+  "description": "Standard Industry Classification (SIC) four-digit code and description from Dun & Bradstreet (D&B) (such as 3675 for Electronic Capacitors), which classifies the customer into to an industry, stored as a string",
+  "sourceColumn": "Business Partner SIC Code",
+  "encodingHint": "hash"
+}

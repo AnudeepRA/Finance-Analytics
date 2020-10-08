@@ -1,0 +1,7 @@
+{
+  "name": "b850debf-2c6b-4e33-8a4c-8bb6b11341ae",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "PRFT_CTR_HRCHY_TAX_KEY",
+  "toTable": "Profit Center Hierarchy Tax",
+  "toColumn": "PRFT_CTR_HRCHY_TAX_KEY"
+}

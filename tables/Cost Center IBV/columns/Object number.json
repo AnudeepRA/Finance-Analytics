@@ -1,0 +1,7 @@
+{
+  "name": "Object number",
+  "dataType": "string",
+  "description": "identifier that uniquely identifies an object (order, project, cost center, etc.) within a client, which is used in tables for status administration, cost collection, etc., stored as a string",
+  "sourceColumn": "Object number",
+  "encodingHint": "hash"
+}

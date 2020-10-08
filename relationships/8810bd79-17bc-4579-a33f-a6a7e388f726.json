@@ -1,0 +1,7 @@
+{
+  "name": "8810bd79-17bc-4579-a33f-a6a7e388f726",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_ORD_ITM_DLVRY_BLOCK_KEY",
+  "toTable": "Sales Order Item Delivery Block",
+  "toColumn": "Sales Order Delivery Block Key"
+}

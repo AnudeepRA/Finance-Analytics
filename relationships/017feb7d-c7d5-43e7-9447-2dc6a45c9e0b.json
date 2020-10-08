@@ -1,0 +1,7 @@
+{
+  "name": "017feb7d-c7d5-43e7-9447-2dc6a45c9e0b",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "DLVRY_RELTD_BLLNG_PRCSNG_STAT_KEY",
+  "toTable": "Delivery Related Billing Status",
+  "toColumn": "Processing Status Key"
+}

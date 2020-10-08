@@ -1,0 +1,6 @@
+{
+  "name": "OPRTG_PRFT_AMT",
+  "dataType": "double",
+  "sourceColumn": "OPRTG_PRFT_AMT",
+  "encodingHint": "value"
+}

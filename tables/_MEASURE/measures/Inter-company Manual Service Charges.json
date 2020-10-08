@@ -1,0 +1,17 @@
+{
+  "name": "Inter-company Manual Service Charges",
+  "description": [
+    "amount of General Ledger entries made by Rockwell Automation Finance to account for service charges to be settled between two Rockwell Automation legal entities (for example, for services provided by an installation/service technician belonging to one legal entity, such as Germany, for an order booked by another legal entity, such as France) for the given transaction, stored as a decimal in the currency specified in the COPA Record Currency Code",
+    "",
+    "This method of accounting is employed when the cost of an inter-company service transaction is so small that an internal order between the two entities is not practically possible."
+  ],
+  "expression": "sum(FACT_COPA[INTRCO_SRVC_CHRG_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

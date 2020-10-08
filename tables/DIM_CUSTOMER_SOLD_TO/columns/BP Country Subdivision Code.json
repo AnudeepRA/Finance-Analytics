@@ -1,0 +1,11 @@
+{
+  "name": "BP Country Subdivision Code",
+  "dataType": "string",
+  "description": [
+    "two-character abbreviation for the state, province, or county (such as WI for Wisconsin or 75 for Paris) associated with the address for the given Business Partner in SAP, stored as a nvarchar",
+    "",
+    "Known as Region (State, Province, County) in SAP"
+  ],
+  "sourceColumn": "BP Country Subdivision Code",
+  "encodingHint": "hash"
+}

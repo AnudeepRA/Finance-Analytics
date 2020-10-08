@@ -1,0 +1,7 @@
+{
+  "name": "Calendar Qtr Text",
+  "dataType": "string",
+  "sourceColumn": "Calendar Qtr Text",
+  "sortByColumn": "Calendar Qtr Number",
+  "encodingHint": "hash"
+}

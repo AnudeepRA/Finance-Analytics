@@ -1,0 +1,6 @@
+{
+  "name": "SLS_RBTE_AMT",
+  "dataType": "double",
+  "sourceColumn": "SLS_RBTE_AMT",
+  "encodingHint": "value"
+}

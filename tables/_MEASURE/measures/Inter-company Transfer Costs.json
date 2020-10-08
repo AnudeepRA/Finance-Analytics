@@ -1,0 +1,13 @@
+{
+  "name": "Inter-company Transfer Costs",
+  "description": "amount of costs (the transfer price plus any additional expenses related to the transfer such as freight, duty, sales or use taxes, and Value Added Taxes, but not including Inter-company Transfer Markup) for the given inter-company transfer transaction (such as a shipment of finished goods from a Rockwell Automation plant to a Rockwell Automation distribution center), stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "sum(FACT_COPA[INTRCO_TRNSFR_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

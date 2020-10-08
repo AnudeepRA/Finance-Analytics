@@ -1,0 +1,6 @@
+{
+  "name": "ACTUAL_AMT",
+  "dataType": "double",
+  "sourceColumn": "ACTUAL_AMT",
+  "encodingHint": "value"
+}

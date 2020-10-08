@@ -1,0 +1,6 @@
+{
+  "name": "PROD_FXD_COST",
+  "dataType": "double",
+  "sourceColumn": "PROD_FXD_COST",
+  "encodingHint": "value"
+}

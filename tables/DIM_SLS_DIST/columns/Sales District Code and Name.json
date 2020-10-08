@@ -1,0 +1,7 @@
+{
+  "name": "Sales District Code and Name",
+  "dataType": "string",
+  "description": "concatenation of the Sales District Code and the Sales District Name associated with that code (such as ASE - ASIA SOUTH EAST and BOS - BOSTON), stored as a nvarchar",
+  "sourceColumn": "Sales District Code and Name",
+  "encodingHint": "hash"
+}

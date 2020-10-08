@@ -1,0 +1,11 @@
+{
+  "name": "Planned Primary Costs Lock Indicator",
+  "dataType": "string",
+  "description": [
+    "Indicator (such as X if locked for planning with direct costs or blank if not) defining whether a cost center is locked for planning with direct costs, stored as a string",
+    "",
+    "If the indicator is active, you cannot plan any primary costs on the affected cost center at this time."
+  ],
+  "sourceColumn": "Planned Primary Costs Lock Indicator",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "PLANT_STORAGE_LOCATION_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "PLANT_STORAGE_LOCATION_KEY",
+  "encodingHint": "hash"
+}

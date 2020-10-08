@@ -1,0 +1,6 @@
+{
+  "name": "FUNCL_AREA_KEY",
+  "dataType": "int64",
+  "sourceColumn": "FUNCL_AREA_KEY",
+  "encodingHint": "hash"
+}

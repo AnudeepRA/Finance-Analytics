@@ -1,0 +1,7 @@
+{
+  "name": "ORD_ITM_DLVRY_PRTY_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ORD_ITM_DLVRY_PRTY_KEY",
+  "encodingHint": "hash"
+}

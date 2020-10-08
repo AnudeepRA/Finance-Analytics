@@ -1,0 +1,11 @@
+{
+  "name": "Booking Extended Standard Discount Value In USD At M Rate",
+  "description": [
+    "\"the amount that would have been invoiced to the customer for the quantity of products or services purchased on the given booking document line item and shipped, based on the standard discount, before taxes, stored as a decimal in United States dollars (Currency Code = USD) using the monthly exchange rate in effect at the time of the transaction",
+    "",
+    "Extended Standard Book Discount Value In USD At M Rate = List Price In USD Global Currency * Standard Book Discount Multiplier * Booked Quantity\""
+  ],
+  "expression": " SUM('Sales Orders Facts'[BKNG_EXTD_STD_DISC_GLBL_M_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Bookings Measures"
+}

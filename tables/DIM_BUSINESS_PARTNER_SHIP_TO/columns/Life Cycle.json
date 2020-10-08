@@ -1,0 +1,6 @@
+{
+  "name": "Life Cycle",
+  "dataType": "string",
+  "sourceColumn": "Life Cycle",
+  "encodingHint": "hash"
+}

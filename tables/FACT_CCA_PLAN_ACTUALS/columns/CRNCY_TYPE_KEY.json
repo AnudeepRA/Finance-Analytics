@@ -1,0 +1,6 @@
+{
+  "name": "CRNCY_TYPE_KEY",
+  "dataType": "int64",
+  "sourceColumn": "CRNCY_TYPE_KEY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Open Quantity Net Value in Transaction Currency",
+  "description": "the extended price to be invoiced to the customer for the open quantity of products purchased for the given sales order line item, including any applicable surcharges such as freight, stored as a decimal in the currency used for the transaction",
+  "expression": " SUM('Monthly Backlog Facts'[OPEN_QTY_NET_VAL_IN_TRANS_CRNCY])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

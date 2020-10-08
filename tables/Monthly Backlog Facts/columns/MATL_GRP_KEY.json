@@ -1,0 +1,7 @@
+{
+  "name": "MATL_GRP_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "MATL_GRP_KEY",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Shipping Route Description",
+  "dataType": "string",
+  "description": [
+    "\"description associated with the code in SAP (such as  Multi Leg 1 Day Transit for code value 102US1 - TWB to MKE, or Dangerous Goods Domestic 1 Day for code value DGDOM1) that indicates the selected means of delivering the product to the customer for the given sales order line item, and the maximum time planned for it to arrive at the customer ship to location, stored as a nvarchar",
+    "",
+    "Conditions such as the shipment source, shipment destination, and shipping conditions (time, type of goods, etc) factor into the selection of the Shipping Route Code.\""
+  ],
+  "sourceColumn": "Shipping Route Description",
+  "encodingHint": "hash"
+}

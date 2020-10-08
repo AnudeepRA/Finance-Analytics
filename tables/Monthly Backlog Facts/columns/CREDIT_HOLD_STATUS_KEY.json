@@ -1,0 +1,7 @@
+{
+  "name": "CREDIT_HOLD_STATUS_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "CREDIT_HOLD_STATUS_KEY",
+  "encodingHint": "hash"
+}

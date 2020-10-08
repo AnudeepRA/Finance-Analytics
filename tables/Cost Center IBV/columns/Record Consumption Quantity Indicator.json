@@ -1,0 +1,14 @@
+{
+  "name": "Record Consumption Quantity Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator (such as X if the system issues a message or blank if not) that defines whether the system issues a message if no quantity or quantity unit is specified for commitment or actual postings, stored as a string",
+    "",
+    "The indicator has no effect on planning and allows the consumption quantities to be planned at a later date.",
+    "The indicator has no effect on quantity updates or on the identification of quantities in reports.",
+    "You must set the indicator if you want to cost using an overhead that is dependent on the unit of measure posted with this cost element.",
+    "The indicator is an active default setting for the combination of cost center and cost element if in the master data for the cost center and cost element, it is defined that quantities should be managed.\""
+  ],
+  "sourceColumn": "Record Consumption Quantity Indicator",
+  "encodingHint": "hash"
+}

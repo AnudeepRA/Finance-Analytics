@@ -1,0 +1,7 @@
+{
+  "name": "Is Market Closed Ind",
+  "dataType": "string",
+  "sourceColumn": "Is Market Closed Ind",
+  "sortByColumn": "Is Market Closed Count",
+  "encodingHint": "hash"
+}

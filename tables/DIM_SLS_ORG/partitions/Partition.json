@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_SLS_ORG_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_SLS_ORG_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_SLS_ORG_BusNm,{\"SLS_ORG_KEY\", \"Sales Organization Code\", \"Country Code\", \"Country Name\", \"Fiscal Year Variant\", \"List Price Currency Code\", \"Sales Org BP Identifier\", \"Sales Organization Name\", \"Sales Organization Code and Name\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

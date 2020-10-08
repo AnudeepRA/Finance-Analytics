@@ -1,0 +1,6 @@
+{
+  "name": "STK_VAL_AMT",
+  "dataType": "double",
+  "sourceColumn": "STK_VAL_AMT",
+  "encodingHint": "value"
+}

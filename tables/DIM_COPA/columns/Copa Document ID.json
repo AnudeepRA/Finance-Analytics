@@ -1,0 +1,6 @@
+{
+  "name": "Copa Document ID",
+  "dataType": "string",
+  "sourceColumn": "Copa Document ID",
+  "encodingHint": "hash"
+}

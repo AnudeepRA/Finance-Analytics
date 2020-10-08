@@ -1,0 +1,7 @@
+{
+  "name": "Incoterms Details",
+  "dataType": "string",
+  "description": "free-form text to provide specific instructions aligned with the given Incoterms Code (such as \"Shipping Point\" with Incoterms Code FCA for Free Carrier or \"Destination\" with Incoterms Code FOB for Free On Board), stored as a nvarchar",
+  "sourceColumn": "Incoterms Details",
+  "encodingHint": "hash"
+}

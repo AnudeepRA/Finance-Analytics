@@ -1,0 +1,6 @@
+{
+  "name": "MIXED_PRC_VARNC_AMT",
+  "dataType": "double",
+  "sourceColumn": "MIXED_PRC_VARNC_AMT",
+  "encodingHint": "value"
+}

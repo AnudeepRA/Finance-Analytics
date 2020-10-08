@@ -1,0 +1,7 @@
+{
+  "name": "SLS_ORD_DLVRY_PRCSNG_STAT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "SLS_ORD_DLVRY_PRCSNG_STAT_KEY",
+  "encodingHint": "hash"
+}

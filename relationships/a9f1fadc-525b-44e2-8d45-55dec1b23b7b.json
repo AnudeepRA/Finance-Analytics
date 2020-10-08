@@ -1,0 +1,7 @@
+{
+  "name": "a9f1fadc-525b-44e2-8d45-55dec1b23b7b",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "SLS_DIST_KEY",
+  "toTable": "DIM_SLS_DIST",
+  "toColumn": "SLS_DIST_KEY"
+}

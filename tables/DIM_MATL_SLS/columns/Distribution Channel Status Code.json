@@ -1,0 +1,24 @@
+{
+  "name": "Distribution Channel Status Code",
+  "dataType": "string",
+  "description": [
+    "code in SAP (see examples below) that describes whether or how the given product may be used for a sale within the given sales organization, stored as a nvarchar",
+    "",
+    "NA = Not Applicable",
+    "Z2 = Pricing Not Complete (not yet available for sale)",
+    "Z5 = Memo/MFG Hold (not available for sale)",
+    "Z6 = Open for Order Entry (available for sale)",
+    "Z7 = Under Development (not yet available for sale)",
+    "Z8 = Obsolete (no longer available for sale)",
+    "ZE = Discnt w/o Replace (available for sale at a discount, and no replacement product identified)",
+    "ZG = Run Out (available for sale until stock is no longer available, and no more units will be manufactured)",
+    "ZJ = Duplicate-Do Not Use",
+    "ZK =  Discnt w/Manual Rplc (sell at a discount, with replacement product identified)",
+    "ZM = Material Extension (not yet available for sale)",
+    "ZN = End of Life (available for sale, but stock may be limited because product life cycle nearing end)",
+    "ZR = Prd Mgr Restriction (not available for sale per Product Manager)",
+    "ZX = Prd Compliance Hold (not available for sale)"
+  ],
+  "sourceColumn": "Distribution Channel Status Code",
+  "encodingHint": "hash"
+}

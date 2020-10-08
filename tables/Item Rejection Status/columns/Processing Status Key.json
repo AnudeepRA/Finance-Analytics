@@ -1,0 +1,6 @@
+{
+  "name": "Processing Status Key",
+  "dataType": "int64",
+  "isUnique": true,
+  "sourceColumn": "Processing Status Key"
+}

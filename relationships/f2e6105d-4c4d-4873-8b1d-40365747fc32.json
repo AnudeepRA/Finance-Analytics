@@ -1,0 +1,7 @@
+{
+  "name": "f2e6105d-4c4d-4873-8b1d-40365747fc32",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "PAYR_BP_KEY",
+  "toTable": "Payer Business Partner",
+  "toColumn": "BUSI_PRTNR_KEY"
+}

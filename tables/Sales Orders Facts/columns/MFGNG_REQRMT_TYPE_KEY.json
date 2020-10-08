@@ -1,0 +1,8 @@
+{
+  "name": "MFGNG_REQRMT_TYPE_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the manufacturing requirement type foreign key in the sales order fact table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "MFGNG_REQRMT_TYPE_KEY",
+  "encodingHint": "hash"
+}

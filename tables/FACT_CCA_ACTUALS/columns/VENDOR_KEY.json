@@ -1,0 +1,6 @@
+{
+  "name": "VENDOR_KEY",
+  "dataType": "int64",
+  "sourceColumn": "VENDOR_KEY",
+  "encodingHint": "hash"
+}

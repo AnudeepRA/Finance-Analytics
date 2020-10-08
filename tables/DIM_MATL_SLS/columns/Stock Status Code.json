@@ -1,0 +1,11 @@
+{
+  "name": "Stock Status Code",
+  "dataType": "string",
+  "description": [
+    "code in SAP that identifies whether the given material is stocked (01, meaning stored in inventory and used as needed) or not (02, meaning ordered as needed to fulfill defined demand), stored as a nvarchar",
+    "",
+    "Known as Volume Rebate Group in SAP, this field is being used for a different purpose at Rockwell Automation."
+  ],
+  "sourceColumn": "Stock Status Code",
+  "encodingHint": "hash"
+}

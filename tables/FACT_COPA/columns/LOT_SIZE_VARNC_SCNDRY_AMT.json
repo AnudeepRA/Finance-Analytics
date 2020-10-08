@@ -1,0 +1,6 @@
+{
+  "name": "LOT_SIZE_VARNC_SCNDRY_AMT",
+  "dataType": "double",
+  "sourceColumn": "LOT_SIZE_VARNC_SCNDRY_AMT",
+  "encodingHint": "value"
+}

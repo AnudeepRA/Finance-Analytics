@@ -1,0 +1,11 @@
+{
+  "name": "Product Deliv Qty Rndg Val",
+  "dataType": "double",
+  "description": [
+    "number of units, or multiples thereof, required of the given product on a sales order in the given sales organization, stored as a decimal in the sales unit of measure",
+    "",
+    "For example, if someone enters 1800.00 as the Sales Order Line Item Quantity in the Sales Unit Of Measure, and the Product Delivery Quantity Rounding Value is 1000.00, then SAP displays a message to indicate that only multiples of the Product Delivery Quantity Rounding Value are allowed."
+  ],
+  "sourceColumn": "Product Deliv Qty Rndg Val",
+  "encodingHint": "hash"
+}

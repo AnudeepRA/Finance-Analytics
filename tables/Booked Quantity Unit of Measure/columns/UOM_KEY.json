@@ -1,0 +1,6 @@
+{
+  "name": "UOM_KEY",
+  "dataType": "int64",
+  "isUnique": true,
+  "sourceColumn": "UOM_KEY"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Material Base Unit Of Measure",
+  "dataType": "string",
+  "description": "the unit of measure used for calculating the costs of the given material, which may differ from the stock or sale unit of measure (for example, the base unit of measure may be \"each\", but may be sold only by the dozen), stored as a nvarchar",
+  "sourceColumn": "Material Base Unit Of Measure",
+  "encodingHint": "hash"
+}

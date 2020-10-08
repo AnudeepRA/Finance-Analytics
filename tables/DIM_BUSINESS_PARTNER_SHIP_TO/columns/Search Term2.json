@@ -1,0 +1,6 @@
+{
+  "name": "Search Term2",
+  "dataType": "string",
+  "sourceColumn": "Search Term2",
+  "encodingHint": "hash"
+}

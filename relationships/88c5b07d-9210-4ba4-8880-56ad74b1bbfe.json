@@ -1,0 +1,7 @@
+{
+  "name": "88c5b07d-9210-4ba4-8880-56ad74b1bbfe",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_ORD_SFTWR_SHPMNT_KEY",
+  "toTable": "Sales Order Software Shipment",
+  "toColumn": "Sales Order Software Shipment Key"
+}

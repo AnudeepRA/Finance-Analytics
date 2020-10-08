@@ -1,0 +1,8 @@
+{
+  "name": "Internal Order Number",
+  "dataType": "string",
+  "description": "code for the internal order generated in SAP ECC (such as 1205 for \"Milwaukee Inventory Transfer-062\", or 5000001 for \"CRM Service order related internal order\") to transfer financial data from SAP CRM to SAP ECC for the given service order, stored as a string",
+  "sourceColumn": "Internal Order Number",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

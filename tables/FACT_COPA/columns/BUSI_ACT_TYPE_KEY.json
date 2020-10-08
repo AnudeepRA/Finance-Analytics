@@ -1,0 +1,7 @@
+{
+  "name": "BUSI_ACT_TYPE_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "BUSI_ACT_TYPE_KEY",
+  "encodingHint": "hash"
+}

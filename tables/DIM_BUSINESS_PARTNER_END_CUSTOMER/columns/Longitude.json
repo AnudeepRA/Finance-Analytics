@@ -1,0 +1,6 @@
+{
+  "name": "Longitude",
+  "dataType": "double",
+  "sourceColumn": "Longitude",
+  "encodingHint": "hash"
+}

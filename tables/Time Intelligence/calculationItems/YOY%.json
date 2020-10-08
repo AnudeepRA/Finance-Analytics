@@ -1,0 +1,25 @@
+{
+  "name": "YOY%",
+  "expression": [
+    "VAR CY=",
+    "        SELECTEDMEASURE ()",
+    "VAR PY =",
+    "        CALCULATE (",
+    "            SELECTEDMEASURE (),",
+    "            SAMEPERIODLASTYEAR (dim_date[Date Dt] )",
+    "        )",
+    "VAR Delta=CY - PY",
+    "",
+    "VAR Result=",
+    "      IF(",
+    "          NOT ISBLANK(CY),",
+    "          DIVIDE(Delta, PY)",
+    "        )",
+    "",
+    "RETURN Result"
+  ],
+  "ordinal": 6,
+  "formatStringDefinition": {
+    "expression": "\"0.00%\""
+  }
+}

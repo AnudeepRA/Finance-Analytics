@@ -1,0 +1,5 @@
+{
+  "name": "Fact Selection",
+  "dataType": "string",
+  "sourceColumn": "Name"
+}

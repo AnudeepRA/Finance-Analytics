@@ -1,0 +1,7 @@
+{
+  "name": "BP Telephone 1 Number",
+  "dataType": "string",
+  "description": "free-form text for the telephone number (such as +1 414 867 5309) of the primary contact for the Business Partner, stored as a nvarchar",
+  "sourceColumn": "BP Telephone 1 Number",
+  "encodingHint": "hash"
+}

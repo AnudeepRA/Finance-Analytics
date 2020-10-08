@@ -1,0 +1,6 @@
+{
+  "name": "Booked Quantity by Confirmed Delivery Date",
+  "expression": " CALCULATE(sum('Sales Orders Facts'[ITM_BKD_QTY]),USERELATIONSHIP('Sales Orders Facts'[CNFRMD_DLVRY_DTE_KEY],DIM_DATE[DATE_INT_KEY]))",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Bookings Measures by Conf Delivery Date"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Business Area Description",
+  "dataType": "string",
+  "description": "description associated with the code in SAP to identify an organizational unit of financial accounting that represents a separate area of operations or responsibilities within the company and to which value changes recorded in financial accounting can be allocated, stored as a string",
+  "sourceColumn": "Business Area Description",
+  "encodingHint": "hash"
+}

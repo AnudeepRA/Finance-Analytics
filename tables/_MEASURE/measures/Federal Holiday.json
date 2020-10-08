@@ -1,0 +1,5 @@
+{
+  "name": "Federal Holiday",
+  "expression": "Sum(DIM_DATE[Is Federal Holiday Count])",
+  "displayFolder": "Key Metrics"
+}

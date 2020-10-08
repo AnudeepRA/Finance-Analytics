@@ -1,0 +1,6 @@
+{
+  "name": "SLS_QTY",
+  "dataType": "double",
+  "sourceColumn": "SLS_QTY",
+  "encodingHint": "value"
+}

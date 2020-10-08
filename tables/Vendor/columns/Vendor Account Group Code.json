@@ -1,0 +1,11 @@
+{
+  "name": "Vendor Account Group Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP (such as 001 for Vendor, 002 for Goods Supplier, or 004 for Invoicing Party) used to classify a given vendor master record, stored a a string",
+    "",
+    "The Vendor Account Group Code determines the number interval for the account number of the vendor, whether the number is assigned by the user or by the system, and which specifications are necessary and/or possible in the master record.\""
+  ],
+  "sourceColumn": "Vendor Account Group Code",
+  "encodingHint": "hash"
+}

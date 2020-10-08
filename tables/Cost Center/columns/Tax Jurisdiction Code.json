@@ -1,0 +1,11 @@
+{
+  "name": "Tax Jurisdiction Code",
+  "dataType": "string",
+  "description": [
+    "\"code that identifies the tax jurisdiction associated with the given cost center, stored as a string",
+    "",
+    "There are four jurisdiction levels for calculation procedure TAXUSJ and six jurisdiction levels for calculation procedure TAXUSX. Each jurisdiction level will have its own jurisdiction code (such as PA0000000 for the state of Pennsylvania or PA0010100 for the city of Pittsburgh)\""
+  ],
+  "sourceColumn": "Tax Jurisdiction Code",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "4fffdd4d-26d1-4f90-a07e-36cea9703ead",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_ORD_DELIVERY_BLOCK_KEY",
+  "toTable": "Sales Order Delivery Block",
+  "toColumn": "Sales Order Delivery Block Key"
+}

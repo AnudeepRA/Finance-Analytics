@@ -1,0 +1,7 @@
+{
+  "name": "0556fa42-2a51-47aa-8988-f50894726782",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "PRFT_CTR_HRCHY_KEY",
+  "toTable": "DIM_PRFT_CTR_HRCHY",
+  "toColumn": "PRFT_CTR_HRCHY_KEY"
+}

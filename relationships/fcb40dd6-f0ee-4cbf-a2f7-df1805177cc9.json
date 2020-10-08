@@ -1,0 +1,7 @@
+{
+  "name": "fcb40dd6-f0ee-4cbf-a2f7-df1805177cc9",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "CRNCY_TYPE_KEY",
+  "toTable": "DIM_CRNCY_TYPE",
+  "toColumn": "CRNCY_TYPE_KEY"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "92381009-8bb0-4dc9-805e-a05df95839c3",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SHIPPING_CONDITION_KEY",
+  "toTable": "Shipping Condition",
+  "toColumn": "Shipping Condition Key"
+}

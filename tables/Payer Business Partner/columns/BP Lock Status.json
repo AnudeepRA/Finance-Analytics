@@ -1,0 +1,5 @@
+{
+  "name": "BP Lock Status",
+  "dataType": "int64",
+  "sourceColumn": "BP Lock Status"
+}

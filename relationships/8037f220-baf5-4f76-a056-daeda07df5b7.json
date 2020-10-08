@@ -1,0 +1,7 @@
+{
+  "name": "8037f220-baf5-4f76-a056-daeda07df5b7",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "CREDIT_HOLD_STATUS_KEY",
+  "toTable": "Credit Hold Status",
+  "toColumn": "Credit Hold Status Key"
+}

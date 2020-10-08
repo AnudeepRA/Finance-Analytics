@@ -1,0 +1,6 @@
+{
+  "name": "Is Day of Week Count",
+  "dataType": "int64",
+  "sourceColumn": "Is Day of Week Count",
+  "encodingHint": "hash"
+}

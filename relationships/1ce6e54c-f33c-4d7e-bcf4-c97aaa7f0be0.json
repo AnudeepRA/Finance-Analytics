@@ -1,0 +1,7 @@
+{
+  "name": "1ce6e54c-f33c-4d7e-bcf4-c97aaa7f0be0",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SLS_ORD_OVRLL_DLVRY_PRCSNG_STAT_KEY",
+  "toTable": "Sales Order Overall Delivery Status",
+  "toColumn": "Processing Status Key"
+}

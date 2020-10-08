@@ -1,0 +1,7 @@
+{
+  "name": "MTL_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "MTL_KEY",
+  "encodingHint": "hash"
+}

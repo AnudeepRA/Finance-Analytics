@@ -1,0 +1,7 @@
+{
+  "name": "CO-CCA Overhead Code",
+  "dataType": "string",
+  "description": "code that specifies which overhead is applied to the given reference object (such as a material), which forms a link between overhead conditions and the following: a material master record or a sales order item, stored as a string",
+  "sourceColumn": "CO-CCA Overhead Code",
+  "encodingHint": "hash"
+}

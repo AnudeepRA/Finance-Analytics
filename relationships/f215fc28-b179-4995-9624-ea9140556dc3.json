@@ -1,0 +1,7 @@
+{
+  "name": "f215fc28-b179-4995-9624-ea9140556dc3",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "COMPANY_KEY",
+  "toTable": "DIM_COMPANY",
+  "toColumn": "COMPANY_KEY"
+}

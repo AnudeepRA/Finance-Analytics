@@ -1,0 +1,5 @@
+{
+  "name": "SIC Code",
+  "dataType": "string",
+  "sourceColumn": "SIC Code"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Midrange Category Description",
+  "dataType": "string",
+  "sourceColumn": "Midrange Category Description",
+  "encodingHint": "hash"
+}

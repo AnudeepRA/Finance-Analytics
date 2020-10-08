@@ -1,0 +1,13 @@
+{
+  "name": "Quantity Sold",
+  "description": "the quantity of products sold to the customer for the given transaction, stored as a decimal",
+  "expression": "sum(FACT_COPA[SLS_QTY])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

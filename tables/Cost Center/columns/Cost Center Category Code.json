@@ -1,0 +1,13 @@
+{
+  "name": "Cost Center Category Code",
+  "dataType": "string",
+  "description": [
+    "\"classification defined by Rockwell Automation (see examples below), which groups similar cost centers, stored as a string",
+    "",
+    "A - RA Administration",
+    "B - RA Marketing",
+    "D - RA Production\""
+  ],
+  "sourceColumn": "Cost Center Category Code",
+  "encodingHint": "hash"
+}

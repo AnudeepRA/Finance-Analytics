@@ -1,0 +1,7 @@
+{
+  "name": "dfbdc8de-a2f9-468c-bd43-6a514aadc58b",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "CUST_SLS_KEY",
+  "toTable": "DIM_CUST_SLS",
+  "toColumn": "CUST_SLS_KEY"
+}

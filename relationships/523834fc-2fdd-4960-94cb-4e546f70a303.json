@@ -1,0 +1,7 @@
+{
+  "name": "523834fc-2fdd-4960-94cb-4e546f70a303",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "BOOKING_DOC_KEY",
+  "toTable": "Booking Document",
+  "toColumn": "Booking Document Key"
+}

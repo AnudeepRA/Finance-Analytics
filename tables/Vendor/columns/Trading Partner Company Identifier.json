@@ -1,0 +1,11 @@
+{
+  "name": "Trading Partner Company Identifier",
+  "dataType": "string",
+  "description": [
+    "\"identifier for the given Business Partner Identifier (such as 185, the identifier for the company FDS 185 Turkey) or the Company Code of the purchasing company, such as the receiving plant for an intercompany transaction (such as 3031, the identfier for the company Rockwell Automation Chile S.A.), stored as a string",
+    "",
+    "A Trading Partner is a legally independent company belonging to the group [company].  Some accounts require a Trading Partner.  The Trading Partner Company Identifier is required on some manually posted transactions (such as FB50, FB60 and FB70).  The Trading Partner Company Identifer is also required for intercompany accounts payable and accounts receivable transactions, intercompany miscellaneous income and expense transactions, and intercompany sales & cost of sales transactions, which are submitted to the HFM system for consolidation.\""
+  ],
+  "sourceColumn": "Trading Partner Company Identifier",
+  "encodingHint": "hash"
+}

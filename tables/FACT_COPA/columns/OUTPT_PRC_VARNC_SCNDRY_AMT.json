@@ -1,0 +1,6 @@
+{
+  "name": "OUTPT_PRC_VARNC_SCNDRY_AMT",
+  "dataType": "double",
+  "sourceColumn": "OUTPT_PRC_VARNC_SCNDRY_AMT",
+  "encodingHint": "value"
+}

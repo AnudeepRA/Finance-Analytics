@@ -1,0 +1,7 @@
+{
+  "name": "Actuals Detail RowCount",
+  "description": "Fact CCA Actual detail table Row Count",
+  "expression": " COUNTROWS(FACT_CCA_ACTUALS)",
+  "formatString": "0",
+  "displayFolder": "CCA"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "EXTRNL_PROCRMT_COST",
+  "dataType": "double",
+  "sourceColumn": "EXTRNL_PROCRMT_COST",
+  "encodingHint": "value"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Transaction Plant Code",
+  "dataType": "string",
+  "description": [
+    "code in SAP for the plant (4 digits stored as text) at which the specified product was manufactured or from which it was delivered (for example, 1020 = Twinsburg, 4000 = European Distribution Center, and 5040 = Rockwell Automation China), stored as a nvarchar",
+    "",
+    "If the source of a serial number was Factory Talk Product Centre (FTPC), the Transaction Plant Code represents the plant that manufactured or produced the product;  otherwise, the Transaction Plant Code represents the plant that delivered the product per a sales order or stock transfer order."
+  ],
+  "sourceColumn": "Transaction Plant Code",
+  "encodingHint": "hash"
+}

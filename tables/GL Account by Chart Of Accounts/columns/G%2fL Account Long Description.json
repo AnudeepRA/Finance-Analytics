@@ -1,0 +1,7 @@
+{
+  "name": "G/L Account Long Description",
+  "dataType": "string",
+  "description": "long description associated with the identifer for the general ledger account (such as Creditors of the enterprise, 3rd Party Securities for GL account number 100 or Third Party Giving guarantees on behalf of enterprise for GL account number 1000), stored as a string",
+  "sourceColumn": "G/L Account Long Description",
+  "encodingHint": "hash"
+}

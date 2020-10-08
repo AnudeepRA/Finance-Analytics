@@ -1,0 +1,7 @@
+{
+  "name": "Material Type Code and Description",
+  "dataType": "string",
+  "description": "concatenation of the Material Type Code and the associated description (such as ZCFG - RA Configurable Materials and ZCNV - RA-Cust Owned Materials), stored as a nvarchar",
+  "sourceColumn": "Material Type Code and Description",
+  "encodingHint": "hash"
+}

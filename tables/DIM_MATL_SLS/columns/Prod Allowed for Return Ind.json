@@ -1,0 +1,7 @@
+{
+  "name": "Prod Allowed for Return Ind",
+  "dataType": "string",
+  "description": "indicator in SAP for whether Rockwell Automation accepts the given product to be returned by distributors in the given sales organization per the Rockwell Automation scheduled return policy (X if accepted, or blank if not), stored as a nvarchar",
+  "sourceColumn": "Prod Allowed for Return Ind",
+  "encodingHint": "hash"
+}

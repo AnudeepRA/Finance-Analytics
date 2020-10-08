@@ -1,0 +1,6 @@
+{
+  "name": "IMPORT_DUTY_COST",
+  "dataType": "double",
+  "sourceColumn": "IMPORT_DUTY_COST",
+  "encodingHint": "value"
+}

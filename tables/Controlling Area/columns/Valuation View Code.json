@@ -1,0 +1,7 @@
+{
+  "name": "Valuation View Code",
+  "dataType": "int64",
+  "description": "code that identifies a distinct view on which a given business transaction can be valuated (such as 0 for Legal Valuation, 1 for Group Valuation, or 2 for Profit Center Valuation), stored a string",
+  "sourceColumn": "Valuation View Code",
+  "encodingHint": "hash"
+}

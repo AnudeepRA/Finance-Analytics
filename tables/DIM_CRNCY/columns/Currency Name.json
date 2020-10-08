@@ -1,0 +1,7 @@
+{
+  "name": "Currency Name",
+  "dataType": "string",
+  "description": "The name of a global currency.",
+  "sourceColumn": "Currency Name",
+  "encodingHint": "hash"
+}

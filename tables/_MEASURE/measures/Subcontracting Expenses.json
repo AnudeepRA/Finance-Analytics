@@ -1,0 +1,17 @@
+{
+  "name": "Subcontracting Expenses",
+  "description": [
+    "amount paid to external companies hired by Rockwell Automation to perform a specific task as part of the overall value chain for manufacturing or producing the finished goods for the given transaction, stored as a decimal in the currency specified by the COPA Record Currency Code",
+    "",
+    "Subcontracting is generally used for services that are deemed not core or strategic, and so are not performed in-house by Rockwell Automation.  Subcontracting expenses are included in the Total Cost Of Goods Sold."
+  ],
+  "expression": "sum(FACT_COPA[SUBCONTRG_EXP_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

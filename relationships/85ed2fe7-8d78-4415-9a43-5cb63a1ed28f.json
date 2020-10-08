@@ -1,0 +1,7 @@
+{
+  "name": "85ed2fe7-8d78-4415-9a43-5cb63a1ed28f",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "COMPANY_KEY",
+  "toTable": "DIM_COMPANY",
+  "toColumn": "COMPANY_KEY"
+}

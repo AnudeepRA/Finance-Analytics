@@ -1,0 +1,7 @@
+{
+  "name": "5f719432-bd2b-446d-b2f5-32028937ee0d",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "COPA_CODES_2_KEY",
+  "toTable": "DIM_COPA_CODES_2",
+  "toColumn": "COPA_CODES_2_KEY"
+}

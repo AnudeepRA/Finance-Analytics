@@ -1,0 +1,7 @@
+{
+  "name": "RPTG_CAT_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "RPTG_CAT_KEY",
+  "encodingHint": "hash"
+}

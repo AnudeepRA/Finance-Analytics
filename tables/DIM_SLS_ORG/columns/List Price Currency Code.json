@@ -1,0 +1,7 @@
+{
+  "name": "List Price Currency Code",
+  "dataType": "string",
+  "description": "code for the currency used for the standard catalog list price (such as EUR or USD) in SAP, based on the sales organization for the country in which the product will be or was sold, stored as a nvarchar",
+  "sourceColumn": "List Price Currency Code",
+  "encodingHint": "hash"
+}

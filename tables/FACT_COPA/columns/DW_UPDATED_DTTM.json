@@ -1,0 +1,5 @@
+{
+  "name": "DW_UPDATED_DTTM",
+  "dataType": "dateTime",
+  "sourceColumn": "DW_UPDATED_DTTM"
+}

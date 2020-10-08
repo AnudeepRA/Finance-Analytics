@@ -1,0 +1,11 @@
+{
+  "name": "VARIABLE_NAME",
+  "dataType": "string",
+  "description": [
+    "name associated with the data object (such as ZPRFTCTR), which refers to the memory location allocated during the program execution for processing, stored as a nvarchar",
+    "",
+    "A user can change the contect of the variable using an ABAP statement."
+  ],
+  "sourceColumn": "VARIABLE_NAME",
+  "encodingHint": "hash"
+}

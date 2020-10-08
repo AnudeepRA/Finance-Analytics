@@ -1,0 +1,1489 @@
+{
+  "name": "READ_FIN_COPA_R",
+  "modelPermission": "read",
+  "members": [
+    {
+      "memberName": "VNEXT01@ROCKWELLAUTOMATION.COM",
+      "identityProvider": "AzureAD"
+    },
+    {
+      "memberName": "vnext02@rockwellautomation.com",
+      "identityProvider": "AzureAD"
+    },
+    {
+      "memberName": "vNext03@rockwellautomation.com",
+      "identityProvider": "AzureAD"
+    },
+    {
+      "memberName": "DATA_AAS_READ_FIN_COPA_R@rockwellautomation.com",
+      "identityProvider": "AzureAD"
+    }
+  ],
+  "tablePermissions": [
+    {
+      "name": "DIM_COMPANY",
+      "filterExpression": [
+        "CONTAINS(DIM_SECURITY_COPA,DIM_SECURITY_COPA[USER_PRNCPL_NAME],USERPRINCIPALNAME(),DIM_SECURITY_COPA[VARIABLE_NAME],\"ZCOMPCODE\",DIM_SECURITY_COPA[LOW_VALUE],DIM_COMPANY[Company Code])",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "DIM_PRFT_CTR",
+      "filterExpression": "CONTAINS(DIM_SECURITY_COPA,DIM_SECURITY_COPA[USER_PRNCPL_NAME],USERPRINCIPALNAME(),DIM_SECURITY_COPA[VARIABLE_NAME],\"ZPRFTCTR\",DIM_SECURITY_COPA[LOW_VALUE],DIM_PRFT_CTR[Profit Center])"
+    },
+    {
+      "name": "DIM_SECURITY_COPA",
+      "filterExpression": "FALSE()"
+    },
+    {
+      "name": "Controlling Value Type",
+      "columnPermissions": [
+        {
+          "name": "Controlling Value Type Key"
+        },
+        {
+          "name": "Value Type Code"
+        },
+        {
+          "name": "Value Type Short Description"
+        },
+        {
+          "name": "Value Type Medium Description"
+        }
+      ]
+    },
+    {
+      "name": "FACT_CCA_PLAN_ACTUALS",
+      "columnPermissions": [
+        {
+          "name": "CRNCY_KEY"
+        },
+        {
+          "name": "CONTROLLING_AREA_KEY"
+        },
+        {
+          "name": "PERIOD_KEY"
+        },
+        {
+          "name": "COST_CTR_KEY"
+        },
+        {
+          "name": "COST_CTR_HIERARCHY_KEY"
+        },
+        {
+          "name": "PRFT_CTR_KEY"
+        },
+        {
+          "name": "PRFT_CTR_HRCHY_KEY"
+        },
+        {
+          "name": "COST_ELEMENT_COA_KEY"
+        },
+        {
+          "name": "COST_ELEMENT_CONTROLLING_AREA_KEY"
+        },
+        {
+          "name": "COST_ELEMENT_HIERARCHY_KEY"
+        },
+        {
+          "name": "CRNCY_TYPE_KEY"
+        },
+        {
+          "name": "MEASURE_TYPE_KEY"
+        },
+        {
+          "name": "UOM_KEY"
+        },
+        {
+          "name": "DETAIL_VALUE_TYPE_KEY"
+        },
+        {
+          "name": "STATISTICS_KEY"
+        },
+        {
+          "name": "CONTROLLING_VERSION_KEY"
+        },
+        {
+          "name": "VALUATION_VIEW_KEY"
+        },
+        {
+          "name": "SENDER_RECEIVER_KEY"
+        },
+        {
+          "name": "FUNCL_AREA_KEY"
+        },
+        {
+          "name": "PRTNR_FUNCL_AREA_KEY"
+        },
+        {
+          "name": "COMPANY_KEY"
+        },
+        {
+          "name": "COST_CTR_ELIM_IBV_KEY"
+        },
+        {
+          "name": "PLANT_KEY"
+        },
+        {
+          "name": "PRTNR_OBJ_KEY"
+        },
+        {
+          "name": "ACTUAL_CONSUMPTION_QTY"
+        },
+        {
+          "name": "ACTUAL_FIX_CONSUMPTION_QTY"
+        },
+        {
+          "name": "ACTUAL_VAR_CONSUMPTION_QTY"
+        },
+        {
+          "name": "PLAN_CONSUMPTION_QTY"
+        },
+        {
+          "name": "PLAN_FIX_CONSUMPTION_QTY"
+        },
+        {
+          "name": "PLAN_VAR_CONSUMPTION_QTY"
+        },
+        {
+          "name": "DATE_DTE_KEY"
+        },
+        {
+          "name": "CONTROLLING_PLAN_VERSION_KEY"
+        },
+        {
+          "name": "CONTROLLING_AREA_ACTIVITY_TYPE_KEY"
+        },
+        {
+          "name": "CONTROLLING_VALUE_TYPE_KEY"
+        },
+        {
+          "name": "ACTUAL_AMT"
+        },
+        {
+          "name": "ACTUAL_FIXED_AMT"
+        },
+        {
+          "name": "ACTUAL_VARIABLE_AMT"
+        },
+        {
+          "name": "PLAN_AMT"
+        },
+        {
+          "name": "PLAN_FIXED_AMT"
+        },
+        {
+          "name": "PLAN_VARIABLE_AMT"
+        },
+        {
+          "name": "PRFT_CTR_HRCHY_TAX_KEY"
+        },
+        {
+          "name": "PRFT_CTR_HRCHY_REGION_KEY"
+        },
+        {
+          "name": "COST_CTR_HIERARCHY_REGION_KEY"
+        }
+      ]
+    },
+    {
+      "name": "FACT_CCA_ACTUALS",
+      "columnPermissions": [
+        {
+          "name": "PERIOD_KEY"
+        },
+        {
+          "name": "CONTROLLING_AREA_KEY"
+        },
+        {
+          "name": "COST_CTR_KEY"
+        },
+        {
+          "name": "PRFT_CTR_KEY"
+        },
+        {
+          "name": "PRFT_CTR_HRCHY_KEY"
+        },
+        {
+          "name": "PRFT_CTR_HRCHY_TAX_KEY"
+        },
+        {
+          "name": "PRFT_CTR_HRCHY_REGION_KEY"
+        },
+        {
+          "name": "COST_CTR_HIERARCHY_KEY"
+        },
+        {
+          "name": "COST_CTR_HIERARCHY_REGION_KEY"
+        },
+        {
+          "name": "COST_ELEMENT_HIERARCHY_KEY"
+        },
+        {
+          "name": "COST_ELEMENT_COA_KEY"
+        },
+        {
+          "name": "COST_ELEMENT_CONTROLLING_AREA_KEY"
+        },
+        {
+          "name": "CONTROLLING_AREA_ACTIVITY_TYPE_KEY"
+        },
+        {
+          "name": "CONTROLLING_VALUE_TYPE_KEY"
+        },
+        {
+          "name": "CRNCY_TYPE_KEY"
+        },
+        {
+          "name": "CRNCY_KEY"
+        },
+        {
+          "name": "CUST_KEY"
+        },
+        {
+          "name": "MEASURE_TYPE_KEY"
+        },
+        {
+          "name": "UOM_KEY"
+        },
+        {
+          "name": "DETAIL_VALUE_TYPE_KEY"
+        },
+        {
+          "name": "STATISTICS_KEY"
+        },
+        {
+          "name": "CONTROLLING_VERSION_KEY"
+        },
+        {
+          "name": "VALUATION_VIEW_KEY"
+        },
+        {
+          "name": "SENDER_RECEIVER_KEY"
+        },
+        {
+          "name": "FUNCL_AREA_KEY"
+        },
+        {
+          "name": "PRTNR_FUNCL_AREA_KEY"
+        },
+        {
+          "name": "COMPANY_KEY"
+        },
+        {
+          "name": "PRTNR_COMPANY_KEY"
+        },
+        {
+          "name": "BUSINESS_AREA_KEY"
+        },
+        {
+          "name": "PLANT_KEY"
+        },
+        {
+          "name": "MATL_KEY"
+        },
+        {
+          "name": "VENDOR_KEY"
+        },
+        {
+          "name": "DOCUMENT_DATE_KEY"
+        },
+        {
+          "name": "POSTING_DATE_KEY"
+        },
+        {
+          "name": "GL_ACCOUNT_MASTER_COA_KEY"
+        },
+        {
+          "name": "COST_CTR_ELIM_IBV_KEY"
+        },
+        {
+          "name": "COST_ACCNTNG_DOCMNT_KEY"
+        },
+        {
+          "name": "PRTNR_OBJ_KEY"
+        },
+        {
+          "name": "ACTUAL_AMT"
+        },
+        {
+          "name": "ACTUAL_FIXED_AMT"
+        },
+        {
+          "name": "ACTUAL_VARIABLE_AMT"
+        },
+        {
+          "name": "ACTUAL_CONSUMPTION_QTY"
+        },
+        {
+          "name": "ACTUAL_FIX_CONSUMPTION_QTY"
+        },
+        {
+          "name": "ACTUAL_VARIABLE_CONSUMPTION_QTY"
+        },
+        {
+          "name": "DATE_DTE_KEY"
+        }
+      ]
+    },
+    {
+      "name": "Partner Company",
+      "columnPermissions": [
+        {
+          "name": "COMPANY_KEY"
+        },
+        {
+          "name": "Company Code"
+        },
+        {
+          "name": "Company Country Code"
+        },
+        {
+          "name": "List Price Currency Code"
+        },
+        {
+          "name": "Chart Of Accounts Code"
+        },
+        {
+          "name": "Credit Control Area Code"
+        },
+        {
+          "name": "Fiscal Year Variant"
+        },
+        {
+          "name": "Company Code Description"
+        },
+        {
+          "name": "Company Code And Description"
+        }
+      ]
+    },
+    {
+      "name": "Cost Element Hierarchy Standard",
+      "columnPermissions": [
+        {
+          "name": "COST_ELEMNT_HRCHY_KEY"
+        },
+        {
+          "name": "SAP Client Number"
+        },
+        {
+          "name": "Level 1 Code"
+        },
+        {
+          "name": "Level 2 Code"
+        },
+        {
+          "name": "Level 2 Description"
+        },
+        {
+          "name": "Level 3 Code"
+        },
+        {
+          "name": "Level 3 Description"
+        },
+        {
+          "name": "Level 4 Code"
+        },
+        {
+          "name": "Level 4 Description"
+        },
+        {
+          "name": "Level 5 Code"
+        },
+        {
+          "name": "Level 5 Description"
+        },
+        {
+          "name": "Level 6 Code"
+        },
+        {
+          "name": "Level 6 Description"
+        },
+        {
+          "name": "Level 7 Code"
+        },
+        {
+          "name": "Level 7 Description"
+        },
+        {
+          "name": "Level 8 Code"
+        },
+        {
+          "name": "Level 8 Description"
+        },
+        {
+          "name": "Level 9 Code"
+        },
+        {
+          "name": "Level 9 Description"
+        },
+        {
+          "name": "Level 10 Code"
+        },
+        {
+          "name": "Level 10 Description"
+        },
+        {
+          "name": "Cost Element"
+        }
+      ]
+    },
+    {
+      "name": "Cost Center Hierarchy Region",
+      "columnPermissions": [
+        {
+          "name": "COST_CTR_HRCHY_KEY_REGION"
+        },
+        {
+          "name": "SAP Client Number"
+        },
+        {
+          "name": "Level 1 Code"
+        },
+        {
+          "name": "Level 2 Code"
+        },
+        {
+          "name": "Level 2 Description"
+        },
+        {
+          "name": "Level 3 Code"
+        },
+        {
+          "name": "Level 3 Description"
+        },
+        {
+          "name": "Level 4 Code"
+        },
+        {
+          "name": "Level 4 Description"
+        },
+        {
+          "name": "Level 5 Code"
+        },
+        {
+          "name": "Level 5 Description"
+        },
+        {
+          "name": "Level 6 Code"
+        },
+        {
+          "name": "Level 6 Description"
+        },
+        {
+          "name": "Level 7 Code"
+        },
+        {
+          "name": "Level 7 Description"
+        },
+        {
+          "name": "Level 8 Code"
+        },
+        {
+          "name": "Level 8 Description"
+        },
+        {
+          "name": "Level 9 Code"
+        },
+        {
+          "name": "Level 9 Description"
+        },
+        {
+          "name": "Level 10 Code"
+        },
+        {
+          "name": "Level 10 Description"
+        },
+        {
+          "name": "Cost Center"
+        }
+      ]
+    },
+    {
+      "name": "Cost Center Hierarchy Standard",
+      "columnPermissions": [
+        {
+          "name": "COST_CTR_HRCHY_KEY"
+        },
+        {
+          "name": "SAP Client Number"
+        },
+        {
+          "name": "Level 1 Code"
+        },
+        {
+          "name": "Level 2 Code"
+        },
+        {
+          "name": "Level 2 Description"
+        },
+        {
+          "name": "Level 3 Code"
+        },
+        {
+          "name": "Level 3 Description"
+        },
+        {
+          "name": "Level 4 Code"
+        },
+        {
+          "name": "Level 4 Description"
+        },
+        {
+          "name": "Level 5 Code"
+        },
+        {
+          "name": "Level 5 Description"
+        },
+        {
+          "name": "Level 6 Code"
+        },
+        {
+          "name": "Level 6 Description"
+        },
+        {
+          "name": "Level 7 Code"
+        },
+        {
+          "name": "Level 7 Description"
+        },
+        {
+          "name": "Level 8 Code"
+        },
+        {
+          "name": "Level 8 Description"
+        },
+        {
+          "name": "Level 9 Code"
+        },
+        {
+          "name": "Level 9 Description"
+        },
+        {
+          "name": "Level 10 Code"
+        },
+        {
+          "name": "Level 10 Description"
+        },
+        {
+          "name": "Cost Center"
+        }
+      ]
+    },
+    {
+      "name": "Profit Center Hierarchy Tax",
+      "columnPermissions": [
+        {
+          "name": "PRFT_CTR_HRCHY_TAX_KEY"
+        },
+        {
+          "name": "SAP Client Number"
+        },
+        {
+          "name": "Level 1 Code"
+        },
+        {
+          "name": "Level 2 Code"
+        },
+        {
+          "name": "Level 2 Description"
+        },
+        {
+          "name": "Level 3 Code"
+        },
+        {
+          "name": "Level 3 Description"
+        },
+        {
+          "name": "Level 4 Code"
+        },
+        {
+          "name": "Level 4 Description"
+        },
+        {
+          "name": "Level 5 Code"
+        },
+        {
+          "name": "Level 5 Description"
+        },
+        {
+          "name": "Level 6 Code"
+        },
+        {
+          "name": "Level 6 Description"
+        },
+        {
+          "name": "Level 7 Code"
+        },
+        {
+          "name": "Level 7 Description"
+        },
+        {
+          "name": "Level 8 Code"
+        },
+        {
+          "name": "Level 8 Description"
+        },
+        {
+          "name": "Level 9 Code"
+        },
+        {
+          "name": "Level 9 Description"
+        },
+        {
+          "name": "Level 10 Code"
+        },
+        {
+          "name": "Level 10 Description"
+        },
+        {
+          "name": "Profit Center"
+        }
+      ]
+    },
+    {
+      "name": "Profit Center Hierarchy Region",
+      "columnPermissions": [
+        {
+          "name": "PRFT_CTR_HRCHY_REGION_KEY"
+        },
+        {
+          "name": "SAP Client Number"
+        },
+        {
+          "name": "Level 1 Code"
+        },
+        {
+          "name": "Level 2 Code"
+        },
+        {
+          "name": "Level 2 Description"
+        },
+        {
+          "name": "Level 3 Code"
+        },
+        {
+          "name": "Level 3 Description"
+        },
+        {
+          "name": "Level 4 Code"
+        },
+        {
+          "name": "Level 4 Description"
+        },
+        {
+          "name": "Level 5 Code"
+        },
+        {
+          "name": "Level 5 Description"
+        },
+        {
+          "name": "Level 6 Code"
+        },
+        {
+          "name": "Level 6 Description"
+        },
+        {
+          "name": "Level 7 Code"
+        },
+        {
+          "name": "Level 7 Description"
+        },
+        {
+          "name": "Level 8 Code"
+        },
+        {
+          "name": "Level 8 Description"
+        },
+        {
+          "name": "Level 9 Code"
+        },
+        {
+          "name": "Level 9 Description"
+        },
+        {
+          "name": "Level 10 Code"
+        },
+        {
+          "name": "Level 10 Description"
+        },
+        {
+          "name": "Profit Center"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Version Plan",
+      "columnPermissions": [
+        {
+          "name": "Controlling Version Key"
+        },
+        {
+          "name": "Plan Version Code"
+        },
+        {
+          "name": "Plan Version Name"
+        }
+      ]
+    },
+    {
+      "name": "Cost Center IBV",
+      "columnPermissions": [
+        {
+          "name": "Cost Center Key"
+        },
+        {
+          "name": "Controlling Area Code"
+        },
+        {
+          "name": "Cost Center Code"
+        },
+        {
+          "name": "Cost Center Effective To Date"
+        },
+        {
+          "name": "Cost Center Effective From Date"
+        },
+        {
+          "name": "Actual Primary Postings Lock Indicator"
+        },
+        {
+          "name": "Planned Primary Costs Lock Indicator"
+        },
+        {
+          "name": "Company Code"
+        },
+        {
+          "name": "Cost Center Category Code"
+        },
+        {
+          "name": "Cost Center Currency Code"
+        },
+        {
+          "name": "Cost Sheet Description"
+        },
+        {
+          "name": "Tax Jurisdiction Code"
+        },
+        {
+          "name": "Profit Center"
+        },
+        {
+          "name": "Plant Code"
+        },
+        {
+          "name": "Actual Secondary Costs Lock Indicator"
+        },
+        {
+          "name": "Actual Revenue Postings Lock Indicator"
+        },
+        {
+          "name": "Commitment Update Lock Indicator"
+        },
+        {
+          "name": "Planned Secondary Costs Lock Indicator"
+        },
+        {
+          "name": "Allocation Methods Allowed Indicator"
+        },
+        {
+          "name": "Record Consumption Quantity Indicator"
+        },
+        {
+          "name": "Cost Center Department Name"
+        },
+        {
+          "name": "CO-CCA Overhead Code"
+        },
+        {
+          "name": "Country Code"
+        },
+        {
+          "name": "Business Partner Name 1"
+        },
+        {
+          "name": "Business Partner Name 2"
+        },
+        {
+          "name": "Business Partner Name 3"
+        },
+        {
+          "name": "Business Partner Name 4"
+        },
+        {
+          "name": "Business Partner City Name"
+        },
+        {
+          "name": "Business Partner District Name"
+        },
+        {
+          "name": "Business Partner Street Address"
+        },
+        {
+          "name": "Business Partner PO Box"
+        },
+        {
+          "name": "Business Partner Postal Code"
+        },
+        {
+          "name": "Business Partner PO Box Postal Code"
+        },
+        {
+          "name": "Region (State Province County) Code"
+        },
+        {
+          "name": "First telephone number"
+        },
+        {
+          "name": "Second telephone number"
+        },
+        {
+          "name": "Cost Center Hierarchy Code"
+        },
+        {
+          "name": "Cost Center Statistical Indicator "
+        },
+        {
+          "name": "Object number"
+        },
+        {
+          "name": "Functional Area Code"
+        },
+        {
+          "name": "Cost Center Name"
+        },
+        {
+          "name": "Cost Center Description"
+        },
+        {
+          "name": "Cost Center Short Description"
+        }
+      ]
+    },
+    {
+      "name": "Partner Functional Area",
+      "columnPermissions": [
+        {
+          "name": "FUNCL_AREA_KEY"
+        },
+        {
+          "name": "Functional Area Code"
+        },
+        {
+          "name": "Functional Area Description"
+        }
+      ]
+    },
+    {
+      "name": "Partner Object",
+      "columnPermissions": [
+        {
+          "name": "Partner Object Key"
+        },
+        {
+          "name": "Partner Object Code"
+        },
+        {
+          "name": "Partner Object Value"
+        }
+      ]
+    },
+    {
+      "name": "Accounting Document",
+      "columnPermissions": [
+        {
+          "name": "Accounting Document Key"
+        },
+        {
+          "name": "Cost Accounting Document Identifier"
+        },
+        {
+          "name": "Cost Accounting Document Line Item Number"
+        },
+        {
+          "name": "Cost Accounting Document Line Item Number Description"
+        },
+        {
+          "name": "Posting Date"
+        },
+        {
+          "name": "Document Date"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Debit Credit Type",
+      "columnPermissions": [
+        {
+          "name": "Controlling Debit Credit Type Key"
+        },
+        {
+          "name": "Debit Credit Type Code"
+        },
+        {
+          "name": "Debit Credit Type Long Description"
+        }
+      ]
+    },
+    {
+      "name": "Vendor",
+      "columnPermissions": [
+        {
+          "name": "Vendor Key"
+        },
+        {
+          "name": "Country Code"
+        },
+        {
+          "name": "Vendor Name 1"
+        },
+        {
+          "name": "Vendor Name 2"
+        },
+        {
+          "name": "Business Partner City Name"
+        },
+        {
+          "name": "Business Partner District Name"
+        },
+        {
+          "name": "Business Partner PO Box"
+        },
+        {
+          "name": "Business Partner PO Box Postal Code"
+        },
+        {
+          "name": "Business Partner Postal Code"
+        },
+        {
+          "name": "Vendor Business Partner Street Address"
+        },
+        {
+          "name": "Vendor Business Address Services Identifier"
+        },
+        {
+          "name": "Business Partner SIC Code"
+        },
+        {
+          "name": "Vendor Account Group Code"
+        },
+        {
+          "name": "Vendor Central Deletion Indicator"
+        },
+        {
+          "name": "Vendor Central Posting Block Indicator"
+        },
+        {
+          "name": "Trading Partner Company Identifier"
+        },
+        {
+          "name": "VAT Registration Number"
+        },
+        {
+          "name": "Business Partner PO Box City Name"
+        },
+        {
+          "name": "Plant Code"
+        },
+        {
+          "name": "Tax Jurisdiction Code"
+        },
+        {
+          "name": "Vendor Payment Block Indicator"
+        },
+        {
+          "name": "Tax Number Type"
+        },
+        {
+          "name": "Vendor Business Type Description"
+        },
+        {
+          "name": "Vendor Industry Type Description"
+        },
+        {
+          "name": "Business Purpose Completion Indicator"
+        },
+        {
+          "name": "Sold to Business Partner Identifier"
+        },
+        {
+          "name": "Region (State Province County) Code"
+        },
+        {
+          "name": "Vendor Business Partner Identifier"
+        },
+        {
+          "name": "Vendor Imposed Central Purchasing Block Indicator"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Area",
+      "columnPermissions": [
+        {
+          "name": "Controlling Area Key"
+        },
+        {
+          "name": "Controlling Area Code"
+        },
+        {
+          "name": "Controlling Area Name"
+        },
+        {
+          "name": "List Price Currency Code"
+        },
+        {
+          "name": "Chart of Accounts"
+        },
+        {
+          "name": "Fiscal Year Variant Code"
+        },
+        {
+          "name": "Cost Center Hierarchy Code"
+        },
+        {
+          "name": "Operating Concern Code"
+        },
+        {
+          "name": "Profit Center Hierarchy Area Code"
+        },
+        {
+          "name": "Valuation View Code"
+        },
+        {
+          "name": "Calculation Base Valuation View Code"
+        }
+      ]
+    },
+    {
+      "name": "Cost Element By Chart Of Accounts",
+      "columnPermissions": [
+        {
+          "name": "Cost Element COA Key"
+        },
+        {
+          "name": "Chart Of Accounts Code"
+        },
+        {
+          "name": "Cost Element Code"
+        },
+        {
+          "name": "Cost Element Created Date"
+        },
+        {
+          "name": "Functional Area Code"
+        },
+        {
+          "name": "Cost Element COA Name"
+        },
+        {
+          "name": "Cost Element COA Long Description"
+        },
+        {
+          "name": "Cost Element COA Short Description"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Business Area",
+      "columnPermissions": [
+        {
+          "name": "Controlling Business Area Key"
+        },
+        {
+          "name": "Business Area Code"
+        },
+        {
+          "name": "Business Area Description"
+        }
+      ]
+    },
+    {
+      "name": "GL Account by Chart Of Accounts",
+      "columnPermissions": [
+        {
+          "name": "G/L Account Master COA Key"
+        },
+        {
+          "name": "Chart of Accounts"
+        },
+        {
+          "name": "G/L Account Number"
+        },
+        {
+          "name": "Balance Sheet Account Indicator"
+        },
+        {
+          "name": "G/L Account Number Significant Length"
+        },
+        {
+          "name": "Group Account Number"
+        },
+        {
+          "name": "P&L Account Indicator"
+        },
+        {
+          "name": "G/L Account Group Code"
+        },
+        {
+          "name": "Trading Partner Company Identifier"
+        },
+        {
+          "name": "G/L Account Deletion Indicator"
+        },
+        {
+          "name": "G/L Account Creation Blocked Indicator"
+        },
+        {
+          "name": "G/L Account Posting Blocked Indicator"
+        },
+        {
+          "name": "G/L Account Planning Blocked Indicator"
+        },
+        {
+          "name": "Functional Area Code"
+        },
+        {
+          "name": "G/L Account Short Description"
+        },
+        {
+          "name": "G/L Account Long Description"
+        }
+      ]
+    },
+    {
+      "name": "Cost Element By Controlling Area",
+      "columnPermissions": [
+        {
+          "name": "Cost Element Controlling Area key"
+        },
+        {
+          "name": "Controlling Area Code"
+        },
+        {
+          "name": "Cost Element Code"
+        },
+        {
+          "name": "Cost Element Effective To Date"
+        },
+        {
+          "name": "Cost Element Effective From Date"
+        },
+        {
+          "name": "Cost Element Category Code"
+        },
+        {
+          "name": "Cost Element Attributes Description"
+        },
+        {
+          "name": "Cost Center Code"
+        },
+        {
+          "name": "Order Number"
+        },
+        {
+          "name": "Cost Element Unit of Measure"
+        },
+        {
+          "name": "Cost Element Deactivated Indicator"
+        },
+        {
+          "name": "Cost Element Short Description"
+        },
+        {
+          "name": "Cost Element Medium Description"
+        },
+        {
+          "name": "Cost Element Deletion Indicator"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Area Activity Type",
+      "columnPermissions": [
+        {
+          "name": "Controlling Area Activity Type Key"
+        },
+        {
+          "name": "Controlling Area Code"
+        },
+        {
+          "name": "Activity Type Code"
+        },
+        {
+          "name": "Activity Type Effective To Date"
+        },
+        {
+          "name": "Activity Type Effective From Date"
+        },
+        {
+          "name": "Activity Type Unit Of Measure"
+        },
+        {
+          "name": "Activity Type Category Indicator"
+        },
+        {
+          "name": "Variant Activity Type Category for Actual Postings Indicator"
+        },
+        {
+          "name": "Activity Type Created Date"
+        },
+        {
+          "name": "Activity Type Created By Identifier"
+        },
+        {
+          "name": "Activity Type Valid Cost Center Categories Indicator"
+        },
+        {
+          "name": "Output Factor Unit of Measure"
+        },
+        {
+          "name": "Output Factor"
+        },
+        {
+          "name": "Allocation Cost Element"
+        },
+        {
+          "name": "Activity Type Lock Indicator"
+        },
+        {
+          "name": "Activity Type Name"
+        },
+        {
+          "name": "Activity Type Long Description"
+        },
+        {
+          "name": "Activity Type Short Description"
+        }
+      ]
+    },
+    {
+      "name": "Cost Center",
+      "columnPermissions": [
+        {
+          "name": "Cost Center Key"
+        },
+        {
+          "name": "Controlling Area Code"
+        },
+        {
+          "name": "Cost Center Code"
+        },
+        {
+          "name": "Cost Center Effective To Date"
+        },
+        {
+          "name": "Cost Center Effective From Date"
+        },
+        {
+          "name": "Actual Primary Postings Lock Indicator"
+        },
+        {
+          "name": "Planned Primary Costs Lock Indicator"
+        },
+        {
+          "name": "Company Code"
+        },
+        {
+          "name": "Cost Center Category Code"
+        },
+        {
+          "name": "Cost Center Currency Code"
+        },
+        {
+          "name": "Cost Sheet Description"
+        },
+        {
+          "name": "Tax Jurisdiction Code"
+        },
+        {
+          "name": "Profit Center"
+        },
+        {
+          "name": "Plant Code"
+        },
+        {
+          "name": "Actual Secondary Costs Lock Indicator"
+        },
+        {
+          "name": "Actual Revenue Postings Lock Indicator"
+        },
+        {
+          "name": "Commitment Update Lock Indicator"
+        },
+        {
+          "name": "Planned Secondary Costs Lock Indicator"
+        },
+        {
+          "name": "Allocation Methods Allowed Indicator"
+        },
+        {
+          "name": "Record Consumption Quantity Indicator"
+        },
+        {
+          "name": "CO-CCA Overhead Code"
+        },
+        {
+          "name": "Country Code"
+        },
+        {
+          "name": "Business Partner Name 1"
+        },
+        {
+          "name": "Business Partner Name 2"
+        },
+        {
+          "name": "Business Partner Name 3"
+        },
+        {
+          "name": "Business Partner Name 4"
+        },
+        {
+          "name": "Business Partner City Name"
+        },
+        {
+          "name": "Business Partner District Name"
+        },
+        {
+          "name": "Business Partner Street Address"
+        },
+        {
+          "name": "Business Partner PO Box"
+        },
+        {
+          "name": "Business Partner Postal Code"
+        },
+        {
+          "name": "Business Partner PO Box Postal Code"
+        },
+        {
+          "name": "Region (State Province County) Code"
+        },
+        {
+          "name": "First telephone number"
+        },
+        {
+          "name": "Second telephone number"
+        },
+        {
+          "name": "Cost Center Hierarchy Code"
+        },
+        {
+          "name": "Cost Center Statistical Indicator "
+        },
+        {
+          "name": "Object number"
+        },
+        {
+          "name": "Functional Area Code"
+        },
+        {
+          "name": "Cost Center Name"
+        },
+        {
+          "name": "Cost Center Description"
+        },
+        {
+          "name": "Cost Center Short Description"
+        },
+        {
+          "name": "Cost Center Department Name"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Valuation View",
+      "columnPermissions": [
+        {
+          "name": "Controlling Valuation View Key"
+        },
+        {
+          "name": "Valuation View Code"
+        },
+        {
+          "name": "Valuation View Long Description"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Value Type Statistics",
+      "columnPermissions": [
+        {
+          "name": "Controlling Value Type Statistics Key"
+        },
+        {
+          "name": "Value Type Code"
+        },
+        {
+          "name": "Value Type Statistical Indicator"
+        },
+        {
+          "name": "Value Type Statistics Code Short Description"
+        },
+        {
+          "name": "Value Type Statistics Code Medium Description"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Value Type Details",
+      "columnPermissions": [
+        {
+          "name": "Controlling  Value Type Details Key"
+        },
+        {
+          "name": "Value Type Code"
+        },
+        {
+          "name": "Key Figure Category Type Code"
+        },
+        {
+          "name": "Detail Value Type Code"
+        },
+        {
+          "name": "Detail Value Type short description"
+        },
+        {
+          "name": "Detail Value Type medium description"
+        }
+      ]
+    },
+    {
+      "name": "Controlling Version",
+      "columnPermissions": [
+        {
+          "name": "Controlling Version Key"
+        },
+        {
+          "name": "Plan Version Code"
+        },
+        {
+          "name": "Plan Version Name"
+        }
+      ]
+    },
+    {
+      "name": "Contolling Key Figure Category Type",
+      "columnPermissions": [
+        {
+          "name": "Controlling Key Figure Category Type Key"
+        },
+        {
+          "name": "Key Figure Category Type Code"
+        },
+        {
+          "name": "Key Figure Category Type Short Description"
+        },
+        {
+          "name": "Key Figure Category Type Medium Description"
+        }
+      ]
+    },
+    {
+      "name": "DIM_SLS_ORG",
+      "filterExpression": "CONTAINS(DIM_SECURITY_COPA,DIM_SECURITY_COPA[USER_PRNCPL_NAME],USERPRINCIPALNAME(),DIM_SECURITY_COPA[VARIABLE_NAME],\"ZSORGAUTH\",DIM_SECURITY_COPA[LOW_VALUE],DIM_SLS_ORG[Sales Organization Code])"
+    }
+  ]
+}

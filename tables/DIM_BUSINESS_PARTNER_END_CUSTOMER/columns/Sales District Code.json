@@ -1,0 +1,6 @@
+{
+  "name": "Sales District Code",
+  "dataType": "string",
+  "description": "code in SAP for the Rockwell Automation district sales area (such as ASE for Asia South East, BOS for Boston, and SEA for Seattle), comprised of multiple sales offices, responsible for providing support to the sold-to customer, stored as a three-letter string",
+  "sourceColumn": "Sales District Code"
+}

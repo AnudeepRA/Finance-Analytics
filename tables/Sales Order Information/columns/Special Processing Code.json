@@ -1,0 +1,6 @@
+{
+  "name": "Special Processing Code",
+  "dataType": "string",
+  "sourceColumn": "Special Processing Code",
+  "encodingHint": "hash"
+}

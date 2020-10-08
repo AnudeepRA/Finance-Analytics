@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_COST_CTR_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_COST_CTR_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_COST_CTR_BusNm,{\"Cost Center Key\", \"Controlling Area Code\", \"Cost Center Code\", \"Cost Center Effective To Date\", \"Cost Center Effective From Date\", \"Actual Primary Postings Lock Indicator\", \"Planned Primary Costs Lock Indicator\", \"Company Code\", \"Cost Center Category Code\", \"Cost Center Currency Code\", \"Cost Sheet Description\", \"Tax Jurisdiction Code\", \"Profit Center\", \"Plant Code\", \"Actual Secondary Costs Lock Indicator\", \"Actual Revenue Postings Lock Indicator\", \"Commitment Update Lock Indicator\", \"Planned Secondary Costs Lock Indicator\", \"Allocation Methods Allowed Indicator\", \"Record Consumption Quantity Indicator\", \"Cost Center Department Name\", \"CO-CCA Overhead Code\", \"Country Code\", \"Business Partner Name 1\", \"Business Partner Name 2\", \"Business Partner Name 3\", \"Business Partner Name 4\", \"Business Partner City Name\", \"Business Partner District Name\", \"Business Partner Street Address\", \"Business Partner PO Box\", \"Business Partner Postal Code\", \"Business Partner PO Box Postal Code\", \"Region (State Province County) Code\", \"First telephone number\", \"Second telephone number\", \"Cost Center Hierarchy Code\", \"Cost Center Statistical Indicator \", \"Object number\", \"Functional Area Code\", \"Cost Center Name\", \"Cost Center Description\", \"Cost Center Short Description\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

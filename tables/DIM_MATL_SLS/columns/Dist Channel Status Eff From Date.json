@@ -1,0 +1,10 @@
+{
+  "name": "Dist Channel Status Eff From Date",
+  "dataType": "dateTime",
+  "description": [
+    "the date on which the given Distribution Channel Status became effective, stored as a DATETIME in yyyy-MM-dd HH:mm:ss format, where HH:mm:ss are all zeroes",
+    ""
+  ],
+  "sourceColumn": "Dist Channel Status Eff From Date",
+  "encodingHint": "hash"
+}

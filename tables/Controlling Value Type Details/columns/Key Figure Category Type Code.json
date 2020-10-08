@@ -1,0 +1,7 @@
+{
+  "name": "Key Figure Category Type Code",
+  "dataType": "string",
+  "description": "code (such as 000200 for Credit, 000400 for Sales or 001400 for Result from RA, etc.) that identifies the type of key figure category in SAP, stored as a string",
+  "sourceColumn": "Key Figure Category Type Code",
+  "encodingHint": "hash"
+}

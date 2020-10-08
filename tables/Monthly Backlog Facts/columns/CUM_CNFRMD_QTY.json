@@ -1,0 +1,7 @@
+{
+  "name": "CUM_CNFRMD_QTY",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "CUM_CNFRMD_QTY",
+  "encodingHint": "value"
+}

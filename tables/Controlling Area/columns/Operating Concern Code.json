@@ -1,0 +1,6 @@
+{
+  "name": "Operating Concern Code",
+  "dataType": "string",
+  "sourceColumn": "Operating Concern Code",
+  "encodingHint": "hash"
+}

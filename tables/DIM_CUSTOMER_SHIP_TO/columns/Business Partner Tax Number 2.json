@@ -1,0 +1,11 @@
+{
+  "name": "Business Partner Tax Number 2",
+  "dataType": "string",
+  "description": [
+    "free-form text (usually a string of digits) for a second tax identification number associated with the business partner, stored as a nvarchar",
+    "",
+    "The use of this field varies by country, and often is used to store the tax number for a person (as opposed to a company, which is typically stored in Tax Number 1)."
+  ],
+  "sourceColumn": "Business Partner Tax Number 2",
+  "encodingHint": "hash"
+}

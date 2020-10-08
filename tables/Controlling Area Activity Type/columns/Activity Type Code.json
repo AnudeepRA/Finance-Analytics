@@ -1,0 +1,12 @@
+{
+  "name": "Activity Type Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP (such as CAT001 for Direct Labor or CAT009 for Panels) that describes the given activity produced by a cost center, measured in units of time or quantity, stored as a string",
+    "",
+    "In Activity Type Planning, control data determines whether the activity price for evaluation of the activity type is manually set or if it is derived iteratively through activity price calculation. \""
+  ],
+  "sourceColumn": "Activity Type Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

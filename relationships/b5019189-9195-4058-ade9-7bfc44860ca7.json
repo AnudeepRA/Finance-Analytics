@@ -1,0 +1,7 @@
+{
+  "name": "b5019189-9195-4058-ade9-7bfc44860ca7",
+  "fromTable": "DIM_CRNCY_CVRSN",
+  "fromColumn": "TO_CRNCY_KEY",
+  "toTable": "DIM_CRNCY",
+  "toColumn": "CRNCY_KEY"
+}

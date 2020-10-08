@@ -1,0 +1,6 @@
+{
+  "name": "SS SAP Sales Territory Code",
+  "dataType": "string",
+  "sourceColumn": "SS SAP Sales Territory Code",
+  "encodingHint": "hash"
+}

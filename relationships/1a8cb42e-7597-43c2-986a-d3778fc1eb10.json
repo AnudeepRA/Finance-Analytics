@@ -1,0 +1,7 @@
+{
+  "name": "1a8cb42e-7597-43c2-986a-d3778fc1eb10",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "BLLNG_PRCSNG_STAT_KEY",
+  "toTable": "Billing Status",
+  "toColumn": "Processing Status Key"
+}

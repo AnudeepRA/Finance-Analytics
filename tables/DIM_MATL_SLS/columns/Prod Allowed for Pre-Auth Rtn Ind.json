@@ -1,0 +1,11 @@
+{
+  "name": "Prod Allowed for Pre-Auth Rtn Ind",
+  "dataType": "string",
+  "description": [
+    "indicator in SAP for whether Rockwell Automation accepts the given product as an \"\"everyday return\"\" within 90 days of the original Rockwell Automation ship date (X if yes, or blank if not), stored as a nvarchar",
+    "",
+    "If pre-authorized returns are allowed, the customer must also provide the invoice, and typically a restocking fee of 10% or 25% (as defined by policy) will be charged."
+  ],
+  "sourceColumn": "Prod Allowed for Pre-Auth Rtn Ind",
+  "encodingHint": "hash"
+}

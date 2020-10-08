@@ -1,0 +1,7 @@
+{
+  "name": "Vendor Business Type Description",
+  "dataType": "string",
+  "description": "description of the classification defined by SAP, which groups the vendor into a specific business (such as elec machine, trade, repair), stored as a string",
+  "sourceColumn": "Vendor Business Type Description",
+  "encodingHint": "hash"
+}

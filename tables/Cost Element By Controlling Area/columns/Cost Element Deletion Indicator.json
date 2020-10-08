@@ -1,0 +1,7 @@
+{
+  "name": "Cost Element Deletion Indicator",
+  "dataType": "string",
+  "description": "indicator (such as x if marked for deletion or null if not) of whether the given cost element has been marked for deletion in SAP, stored as a string",
+  "sourceColumn": "Cost Element Deletion Indicator",
+  "encodingHint": "hash"
+}

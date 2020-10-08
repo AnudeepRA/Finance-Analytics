@@ -1,0 +1,6 @@
+{
+  "name": "CONTROLLING_PLAN_VERSION_KEY",
+  "dataType": "int64",
+  "sourceColumn": "CONTROLLING_PLAN_VERSION_KEY",
+  "encodingHint": "hash"
+}

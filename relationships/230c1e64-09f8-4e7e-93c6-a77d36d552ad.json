@@ -1,0 +1,7 @@
+{
+  "name": "230c1e64-09f8-4e7e-93c6-a77d36d552ad",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "SENDER_RECEIVER_KEY",
+  "toTable": "Controlling Debit Credit Type",
+  "toColumn": "Controlling Debit Credit Type Key"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Material Document Type Code",
+  "dataType": "string",
+  "description": "code in SAP for the type of business transaction related to the given material (such as DRW for an engineering/design drawing; FRM for a manufacturing info form​ that lists all new materials, with attributes, that are to be extended to one or more plant​s; PRJ for a project document; PUB for a publication; or SWR for related software), used not only to classify the associated documents but also to control which material master record attributes must be specified, stored as a nvarchar",
+  "sourceColumn": "Material Document Type Code",
+  "encodingHint": "hash"
+}

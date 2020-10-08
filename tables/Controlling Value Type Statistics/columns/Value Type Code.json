@@ -1,0 +1,7 @@
+{
+  "name": "Value Type Code",
+  "dataType": "string",
+  "description": "code that represents the type of controlling value type (such as 20 for planned and 10 for actual), which is used for reporting, stored as a string ",
+  "sourceColumn": "Value Type Code",
+  "encodingHint": "hash"
+}

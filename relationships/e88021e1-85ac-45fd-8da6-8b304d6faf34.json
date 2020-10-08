@@ -1,0 +1,7 @@
+{
+  "name": "e88021e1-85ac-45fd-8da6-8b304d6faf34",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "PAYR_BP_KEY",
+  "toTable": "Payer Business Partner",
+  "toColumn": "BUSI_PRTNR_KEY"
+}

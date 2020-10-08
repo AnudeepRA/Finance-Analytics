@@ -1,0 +1,7 @@
+{
+  "name": "e9bcf4d1-614b-4bcd-bbeb-fdea172c944d",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "FUNCL_AREA_KEY",
+  "toTable": "DIM_FUNCL_AREA",
+  "toColumn": "FUNCL_AREA_KEY"
+}

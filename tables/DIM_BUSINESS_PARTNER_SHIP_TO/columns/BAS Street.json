@@ -1,0 +1,6 @@
+{
+  "name": "BAS Street",
+  "dataType": "string",
+  "sourceColumn": "BAS Street",
+  "encodingHint": "hash"
+}

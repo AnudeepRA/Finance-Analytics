@@ -1,0 +1,14 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_ORD_ITM_REJECTION_REASON_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_ORD_ITM_REJECTION_REASON_BusNm\"]}[Data]",
+      "in",
+      "    GLBL_V_DIM_ORD_ITM_REJECTION_REASON_BusNm"
+    ]
+  }
+}

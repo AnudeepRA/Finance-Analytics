@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Qtr Day Count",
+  "dataType": "int64",
+  "sourceColumn": "Calendar Qtr Day Count",
+  "encodingHint": "hash"
+}

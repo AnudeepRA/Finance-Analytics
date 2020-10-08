@@ -1,0 +1,6 @@
+{
+  "name": "Sales Purpose",
+  "dataType": "string",
+  "sourceColumn": "Sales Purpose",
+  "encodingHint": "hash"
+}

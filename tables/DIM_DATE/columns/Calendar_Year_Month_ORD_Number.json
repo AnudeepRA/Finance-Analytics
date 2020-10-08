@@ -1,0 +1,7 @@
+{
+  "name": "Calendar_Year_Month_ORD_Number",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Calendar_Year_Month_ORD_Number",
+  "encodingHint": "hash"
+}

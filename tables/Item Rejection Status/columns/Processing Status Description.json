@@ -1,0 +1,5 @@
+{
+  "name": "Processing Status Description",
+  "dataType": "string",
+  "sourceColumn": "Processing Status Description"
+}

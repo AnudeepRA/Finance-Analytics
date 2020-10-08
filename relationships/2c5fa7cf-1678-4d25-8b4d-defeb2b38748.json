@@ -1,0 +1,7 @@
+{
+  "name": "2c5fa7cf-1678-4d25-8b4d-defeb2b38748",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "PLANT_STORAGE_LOCATION_KEY",
+  "toTable": "Plant Storage Location",
+  "toColumn": "Plant Storage Location Key"
+}

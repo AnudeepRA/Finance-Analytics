@@ -1,0 +1,7 @@
+{
+  "name": "Material Identifier",
+  "dataType": "string",
+  "description": "identifier (such as 1768-ENBT A for a CompactLogix L4X EtherNet/IP Module, series A) from the material master data in SAP for the product (which could be a finished good, purchased item, sub-assembly, cost item, service item, ...), stored as a nvarchar",
+  "sourceColumn": "Material Identifier",
+  "encodingHint": "hash"
+}

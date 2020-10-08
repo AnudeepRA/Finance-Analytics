@@ -1,0 +1,6 @@
+{
+  "name": "Created By",
+  "dataType": "string",
+  "sourceColumn": "Created By",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "6c86b37b-b9be-41e4-913a-538981977c92",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "COST_CTR_HIERARCHY_REGION_KEY",
+  "toTable": "Cost Center Hierarchy Region",
+  "toColumn": "COST_CTR_HRCHY_KEY_REGION"
+}

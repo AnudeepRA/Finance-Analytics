@@ -1,0 +1,7 @@
+{
+  "name": "fed54345-f498-48ea-a2a2-b636f4796be9",
+  "fromTable": "FACT_CCA_PLAN_ACTUALS",
+  "fromColumn": "PLANT_KEY",
+  "toTable": "DIM_PLANT",
+  "toColumn": "PLANT_KEY"
+}

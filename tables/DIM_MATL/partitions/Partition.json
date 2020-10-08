@@ -1,0 +1,15 @@
+{
+  "name": "Partition",
+  "dataView": "full",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
+      "    GLBL_V_DIM_MATL_BusNm = Source{[Schema=\"GLBL\",Item=\"V_DIM_MATL_BusNm\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(GLBL_V_DIM_MATL_BusNm,{\"MATL_KEY\", \"Material Identifier\", \"Material Base Unit Of Measure\", \"Material UoM Multiplier Denominator\", \"Material UoM Multiplier Numerator\", \"Bulletin Number\", \"Business Unit Code\", \"Catalog Identifier\", \"Configurable Material Indicator\", \"Commodity Code\", \"Cross-Plant Config Material ID\", \"Material Dimension Unit Of Measure\", \"Material Document Identifier\", \"Material Document Type Code\", \"Material Document Version\", \"Material Gross Weight\", \"Material Height Dimension\", \"Material Length Dimension\", \"Repair Lifecycle Description\", \"Material Description\", \"Material General Item Cat Grp\", \"Material Group\", \"Material Master Record Created Date\", \"Material Type Code\", \"Material Net Weight\", \"PO Quantity UOM\", \"Product Category\", \"Product Group\", \"Prod Hier Code And Desc\", \"Product Hierarchy Code\", \"Product Lifecycle Status\", \"Product Line\", \"Series\", \"Serial Number\", \"Material Transportation Group Code\", \"Material Volume Dimension\", \"Material Volume Unit Of Measure\", \"Material Width Dimension\", \"Material Weight Unit Of Measure\", \"Material Identifier and Description \"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

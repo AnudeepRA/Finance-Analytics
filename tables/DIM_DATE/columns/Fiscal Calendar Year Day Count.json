@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Calendar Year Day Count",
+  "dataType": "int64",
+  "sourceColumn": "Fiscal Calendar Year Day Count",
+  "encodingHint": "hash"
+}

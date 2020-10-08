@@ -1,0 +1,7 @@
+{
+  "name": "e9a554b1-8d6d-4227-9b40-33f947925940",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "PERIOD_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY"
+}

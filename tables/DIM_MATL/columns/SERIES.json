@@ -1,0 +1,13 @@
+{
+  "name": "SERIES",
+  "dataType": "string",
+  "description": [
+    "alphabetical designator on the product, used to indicate significant change(s) to the product (typically used for hardware products), stored as a nvarchar",
+    "",
+    "The Series enables plant services and repair manufacturing to idenitify the part accurately.",
+    "",
+    "When a Catalog Identifier is specified on an order, the current Series of the product is the one that SAP will provide as a default."
+  ],
+  "sourceColumn": "Series",
+  "encodingHint": "hash"
+}

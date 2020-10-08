@@ -1,0 +1,8 @@
+{
+  "name": "596c1e28-be0b-494c-86b8-20d2d25108c4",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "DOCUMENT_DATE_KEY",
+  "toTable": "DIM_DATE",
+  "toColumn": "DATE_INT_KEY",
+  "isActive": false
+}

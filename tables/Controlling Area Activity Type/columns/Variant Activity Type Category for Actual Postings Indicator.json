@@ -1,0 +1,32 @@
+{
+  "name": "Variant Activity Type Category for Actual Postings Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator which is used to determine the method of actual activity allocation (see examples below), stored a string",
+    "",
+    "For example:",
+    "",
+    "Activity type category 1 (Manual entry, manual allocation)",
+    "Actual activity quantities in internal activity allocation are entered based on transaction.",
+    "",
+    "",
+    "Activity Type Category 2 (Indirect calculation, indirect allocation)",
+    "The quantities produced by the activity types in this category cannot be calculated, if they can they can only be calculated with great effort. The Planned and Actual activity quantities are determined in indirect activity allocation using defined sender/receiver relationships and receiver tracing factors or fixed quantities (defined in the segments).",
+    "Allocating the activities takes place automatically through indirect activity allocation as described above. The actual and planned activity quantities result from the sum of the activity inputs calculated from the tracing factors on the individual receivers.",
+    "The planned and scheduled activity quantities are therefore automatically reconciled. ",
+    "",
+    "",
+    "Activity type category 3 (indirect determination, indirect allocation)",
+    "Activity quantities are planned manually. Entering the actual activity quantity takes place on a transaction-related basis using a special function (Non-allocatable activities) for which no receiver objects can be given. The planned and actual activity quantities are allocated indirectly using defined sender/receiver relationships. The R/3 System calculates the activity quantity to be allocated for each receiver based on the ratios of tracing factors for all receivers. The manually planned or posted activity is thereby completely allocated to the receivers.This ensures that the plan activities are fully reconciled after carrying out indirect activity allocation",
+    "",
+    "Activity type category 4 (Manual entry, no allocation)",
+    "Activity types of this category use actual activity quantities entered on a transaction-related basis using a special function (Non-allocatable activities) where no receiver objects can be entered.",
+    "",
+    "Activity type category 5 (Calculation and allocation via target = actual activity allocation)",
+    "Because the allocation is used only for actual values, activities used in target = actual activity allocation must be given separate activity type categories for planned and actual. ",
+    "",
+    "Planning can use categories 1, 2, or 3, where 1 is used as a rule.\""
+  ],
+  "sourceColumn": "Variant Activity Type Category for Actual Postings Indicator",
+  "encodingHint": "hash"
+}

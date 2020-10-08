@@ -1,0 +1,7 @@
+{
+  "name": "Cost Center Hierarchy Code",
+  "dataType": "string",
+  "description": "the Rockwell Automation hierarchy in SAP (RA for Rockwell Automation) used to organize cost centers within RA00 (the common Controlling Area used globally at Rockwell Automation), stored as a string",
+  "sourceColumn": "Cost Center Hierarchy Code",
+  "encodingHint": "hash"
+}

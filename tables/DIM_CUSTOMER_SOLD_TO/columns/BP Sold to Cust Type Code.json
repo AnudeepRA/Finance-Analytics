@@ -1,0 +1,23 @@
+{
+  "name": "BP Sold to Cust Type Code",
+  "dataType": "string",
+  "description": [
+    "code for a category of business partners that Rockwell Automation transacts with or does business with (see examples below), stored as a two-digit nvarchar",
+    "",
+    "01 = A&E, EPC, or Consultant",
+    "02 = Contractor",
+    "03 = Educational Institution",
+    "04 = End User (direct customer of RA)",
+    "05 = Unauth Reseller",
+    "06 = OEM",
+    "07 = Panel Builder",
+    "08 = RA Authorized Distributor",
+    "09 = System Integrator",
+    "10 = Rockwell Location",
+    "11 = Authorized Reseller",
+    "",
+    ""
+  ],
+  "sourceColumn": "BP Sold to Cust Type Code",
+  "encodingHint": "hash"
+}

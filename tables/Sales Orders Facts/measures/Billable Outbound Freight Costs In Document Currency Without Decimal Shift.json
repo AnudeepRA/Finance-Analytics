@@ -1,0 +1,13 @@
+{
+  "name": "Billable Outbound Freight Costs In Document Currency Without Decimal Shift",
+  "description": [
+    "\"the total billable amount of the costs related to the transport of finished goods from the Rockwell Automation plant or distribution center to the delivery location specified by the customer (which may include costs or charges for packing, palletizing, documentation, loading, unloading, carriage, and insurance) for the given line item on the booking document, stored as a decimal in the currency used for the transaction",
+    "",
+    "In some cases, outbound freight costs are not billable (such as when shipping replacement parts under warranty or promotional/demo products).",
+    "",
+    "For currencies such as the Korean won or the Chilean peso that do not use denominations in decimals for everyday transactions (that is, the smallest denomination of the currency is a single unit, such as one won or one peso), this field stores the value before any adjustments have been made to shift the decimal point to prepare the data for analysis.  (Other currencies do use denominations in decimals for everyday transactions, such as the United States dollar, which uses a cent, or 1/100th of a dollar.)\""
+  ],
+  "expression": " SUM('Sales Orders Facts'[BILLBL_OUTBND_FRT_WTHOT_DCML_ADJMT_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Bookings Measures"
+}

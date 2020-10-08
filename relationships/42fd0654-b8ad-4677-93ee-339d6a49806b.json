@@ -1,0 +1,7 @@
+{
+  "name": "42fd0654-b8ad-4677-93ee-339d6a49806b",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "CTRY_SUBDIV_KEY",
+  "toTable": "DIM_CNTRY_SUBDIV",
+  "toColumn": "CTRY_SUBDIV_KEY"
+}

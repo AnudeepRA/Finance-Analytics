@@ -1,0 +1,7 @@
+{
+  "name": "fff68740-ce97-40a6-96f1-6c1e504ab782",
+  "fromTable": "Sales Orders Facts",
+  "fromColumn": "SLS_OFFICE_KEY",
+  "toTable": "DIM_SLS_OFFICE",
+  "toColumn": "SLS_OFFICE_KEY"
+}

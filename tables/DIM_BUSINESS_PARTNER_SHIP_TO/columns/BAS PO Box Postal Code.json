@@ -1,0 +1,7 @@
+{
+  "name": "BAS PO Box Postal Code",
+  "dataType": "string",
+  "description": "number of the post office box for the given Business Partner in SAP, stored as a string",
+  "sourceColumn": "BAS PO Box Postal Code",
+  "encodingHint": "hash"
+}

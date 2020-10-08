@@ -1,0 +1,6 @@
+{
+  "name": "Chart of Accounts",
+  "dataType": "string",
+  "sourceColumn": "Chart of Accounts",
+  "encodingHint": "hash"
+}

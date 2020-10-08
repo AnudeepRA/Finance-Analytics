@@ -1,0 +1,7 @@
+{
+  "name": "3df34349-2581-49cb-a407-d404bb1fcebd",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "PRTNR_OBJ_KEY",
+  "toTable": "Partner Object",
+  "toColumn": "Partner Object Key"
+}

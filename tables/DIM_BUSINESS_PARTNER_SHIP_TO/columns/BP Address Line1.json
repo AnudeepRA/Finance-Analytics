@@ -1,0 +1,6 @@
+{
+  "name": "BP Address Line1",
+  "dataType": "string",
+  "sourceColumn": "BP Address Line1",
+  "encodingHint": "hash"
+}

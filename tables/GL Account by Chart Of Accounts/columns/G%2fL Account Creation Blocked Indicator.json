@@ -1,0 +1,7 @@
+{
+  "name": "G/L Account Creation Blocked Indicator",
+  "dataType": "string",
+  "description": "indicator (such as X if the account is blocked or blank if not) of whether the given G/L account is to blocked for creation in the specified company code, stored as a string",
+  "sourceColumn": "G/L Account Creation Blocked Indicator",
+  "encodingHint": "hash"
+}

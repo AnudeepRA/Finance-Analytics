@@ -1,0 +1,8 @@
+{
+  "name": "SLS_ORD_ITM_OVRLL_DLVRY_PRCSNG_STAT_KEY",
+  "dataType": "int64",
+  "description": "identifier (a counter generated in increments of 1, such as 100, 101, 102…) for the sales order item overall delivery processing status foreign key in the sales order fact table, which links to the processing status dimension table, stored as a bigint",
+  "isHidden": true,
+  "sourceColumn": "SLS_ORD_ITM_OVRLL_DLVRY_PRCSNG_STAT_KEY",
+  "encodingHint": "hash"
+}

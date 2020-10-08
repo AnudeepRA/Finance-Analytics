@@ -1,0 +1,12 @@
+{
+  "name": "Vendor Business Partner Identifier",
+  "dataType": "string",
+  "description": [
+    "\"business partner identifier in SAP (such as 0001003665 for ARROW ELECTRONICS) for the given company that supplies goods to Rockwell Automation to fulfill a purchase order, stored as a string",
+    "",
+    "For a stock transfer order (where one Rockwell Automation location receives the product from another plant or distribution center), the Vendor Business Partner Identifier is a Rockwell Automation (internal) business partner identifier.\""
+  ],
+  "sourceColumn": "Vendor Business Partner Identifier",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

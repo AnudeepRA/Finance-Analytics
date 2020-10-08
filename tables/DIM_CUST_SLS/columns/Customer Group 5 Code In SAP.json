@@ -1,0 +1,13 @@
+{
+  "name": "Customer Group 5 Code In SAP",
+  "dataType": "string",
+  "description": [
+    "code in SAP for the format and information included or excluded in electronic copies of invoices and billing documents sent to customers (such as CON for First Line Extended Net, NET for Extended Net, SIT for Suppress Item, STD for List Price / Discount / Extended Net, SUP for Suppress Both, TOT for Order Total Pricing, or UNT for Net / Extended Net), stored as a string",
+    "",
+    "Rockwell Automation also uses the Customer Group Code to set up pricing conditions or contracts, determine invoice terms, print invoices, and for reporting.",
+    "",
+    "Known as KVGR5, Customer Group 5, in SAP."
+  ],
+  "sourceColumn": "Customer Group 5 Code In SAP",
+  "encodingHint": "hash"
+}

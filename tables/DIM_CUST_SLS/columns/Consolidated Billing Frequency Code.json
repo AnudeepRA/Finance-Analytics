@@ -1,0 +1,7 @@
+{
+  "name": "Consolidated Billing Frequency Code",
+  "dataType": "string",
+  "description": "code in SAP that identifies the frequency at which invoices are generated for a customer with a pricing agreement (such as MO for Monthly Consolidation Billing), stored as a nvarchar",
+  "sourceColumn": "Consolidated Billing Frequency Code",
+  "encodingHint": "hash"
+}

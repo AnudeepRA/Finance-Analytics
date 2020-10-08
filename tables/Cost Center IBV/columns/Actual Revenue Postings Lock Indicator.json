@@ -1,0 +1,13 @@
+{
+  "name": "Actual Revenue Postings Lock Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator (such as X if locked for the posting of revenue or blank if not) of whether a given cost center is locked for the posting of revenue, stored as a string",
+    "",
+    "If the indicator is active, you cannot post revenues to the affected cost center.",
+    "",
+    "If the indicator is inactive, the revenues are written to the cost center as statistics only.\""
+  ],
+  "sourceColumn": "Actual Revenue Postings Lock Indicator",
+  "encodingHint": "hash"
+}

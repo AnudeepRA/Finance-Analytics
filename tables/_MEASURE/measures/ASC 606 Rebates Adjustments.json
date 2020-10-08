@@ -1,0 +1,13 @@
+{
+  "name": "ASC 606 Rebates Adjustments",
+  "description": "the total amount of adjustments to rebates as reported by applying Accounting Standards Codification (ASC) 606 - Revenue From Contracts With Customers guidance, stored as a decimal",
+  "expression": "sum(FACT_COPA[RBTE_ADJMT_A606_AMT])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

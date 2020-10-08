@@ -1,0 +1,16 @@
+{
+  "name": "Sales Order Line Item Software Shipment Indicator",
+  "dataType": "string",
+  "description": [
+    "\"indicator in SAP for whether the given sales order line item is for physical media with software that requires shipment, stored as a nvarchar",
+    "",
+    "RSHPD = Rockwell software that will be shipped or authorized for download by Rockwell Automation",
+    "",
+    "CSHPD = non-Rockwell software that will be shipped or authorized for download by Rockwell Automation",
+    "",
+    "blank = not software, or is software that will be shipped from a third-party vendor (such as HP)\""
+  ],
+  "sourceColumn": "Sales Order Line Item Software Shipment Indicator",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

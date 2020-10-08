@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Col1",
+  "dataType": "int64",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Value]"
+}

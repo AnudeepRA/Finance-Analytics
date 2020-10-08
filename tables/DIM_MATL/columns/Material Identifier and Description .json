@@ -1,0 +1,7 @@
+{
+  "name": "Material Identifier and Description ",
+  "dataType": "string",
+  "description": "concatenation of the material identifier in SAP and the associated material description (such as 1768-ENBT A - CompactLogix L4X EtherNet/IP Module, series A), stored as a nvarchar",
+  "sourceColumn": "Material Identifier and Description ",
+  "encodingHint": "hash"
+}

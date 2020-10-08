@@ -1,0 +1,7 @@
+{
+  "name": "39dea071-50a8-47c3-88b0-8263d8fb47a6",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "CRNCY_KEY",
+  "toTable": "DIM_SOURCE_CRNCY",
+  "toColumn": "CRNCY_KEY"
+}

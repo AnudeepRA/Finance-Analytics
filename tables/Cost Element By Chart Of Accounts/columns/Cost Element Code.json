@@ -1,0 +1,8 @@
+{
+  "name": "Cost Element Code",
+  "dataType": "string",
+  "description": "category of an activity that incurs costs (see examples below), used in activity based costing (which states that products consume activities and activities consume resources), stored as a string",
+  "sourceColumn": "Cost Element Code",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

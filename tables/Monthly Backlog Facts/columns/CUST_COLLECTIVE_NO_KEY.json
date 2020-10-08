@@ -1,0 +1,7 @@
+{
+  "name": "CUST_COLLECTIVE_NO_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "CUST_COLLECTIVE_NO_KEY",
+  "encodingHint": "hash"
+}

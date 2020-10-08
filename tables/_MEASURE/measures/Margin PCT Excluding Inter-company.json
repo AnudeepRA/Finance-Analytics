@@ -1,0 +1,20 @@
+{
+  "name": "Margin PCT Excluding Inter-company",
+  "expression": [
+    "",
+    "VAR ConversionType = SELECTEDVALUE('Currency Conversion'[Conversion Types], BLANK())",
+    "RETURN",
+    "CALCULATE(",
+    "    DIVIDE(",
+    "        '_MEASURE'[Standard Margin Excluding Inter-company],",
+    "        '_MEASURE'[Total Revenue],",
+    "        BLANK()",
+    "    ),",
+    "    FILTER(",
+    "        'Currency Conversion Manual',",
+    "        'Currency Conversion Manual'[Conversion Types Manual] = ConversionType",
+    "    )",
+    ")"
+  ],
+  "formatString": "0 %;-0 %;0 %"
+}

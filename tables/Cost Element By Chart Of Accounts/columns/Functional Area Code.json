@@ -1,0 +1,7 @@
+{
+  "name": "Functional Area Code",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "Functional Area Code",
+  "encodingHint": "hash"
+}

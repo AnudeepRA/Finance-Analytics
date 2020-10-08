@@ -1,0 +1,8 @@
+{
+  "name": "COST_ELEMNT_HRCHY_KEY",
+  "dataType": "int64",
+  "isHidden": true,
+  "isUnique": true,
+  "sourceColumn": "COST_ELEMNT_HRCHY_KEY",
+  "encodingHint": "hash"
+}

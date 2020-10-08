@@ -1,0 +1,11 @@
+{
+  "name": "USER_PRNCPL_NAME",
+  "dataType": "string",
+  "description": [
+    "\"name (such as SAPTRN022@rockwellautomation.com), which is provided upon successful authentication with Active Directory, stored as a nvarchar",
+    "",
+    "The User Principal Name is mapped to an SAP user, as defined in the SNC tab of that user's profile. \""
+  ],
+  "sourceColumn": "USER_PRNCPL_NAME",
+  "encodingHint": "hash"
+}

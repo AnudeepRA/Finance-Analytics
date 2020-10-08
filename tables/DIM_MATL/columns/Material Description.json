@@ -1,0 +1,7 @@
+{
+  "name": "Material Description",
+  "dataType": "string",
+  "description": "description from the material master data in SAP associated with the given product (such as \"CompactLogix L4X EtherNet/IP Module, series A\" for Material Identifier 1768-ENBT A), stored as a string",
+  "sourceColumn": "Material Description",
+  "encodingHint": "hash"
+}

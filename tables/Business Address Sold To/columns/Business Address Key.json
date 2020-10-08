@@ -1,0 +1,6 @@
+{
+  "name": "Business Address Key",
+  "dataType": "int64",
+  "isUnique": true,
+  "sourceColumn": "Business Address Key"
+}

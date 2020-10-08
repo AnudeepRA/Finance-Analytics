@@ -1,0 +1,7 @@
+{
+  "name": "Cust Account Asgnmt Group Code and Desc",
+  "dataType": "string",
+  "description": "concatenation of the Customer Account Assignment Group Code in SAP and the description associated with that code (such as 01 - 3rd Party Vendor, 02 - Intercompany/Intracompany Revenue, and Z1 - 3rd Party Vendor Sales), stored as a VARCHAR",
+  "sourceColumn": "Cust Account Asgnmt Group Code and Desc",
+  "encodingHint": "hash"
+}

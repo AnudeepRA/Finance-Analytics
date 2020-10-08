@@ -1,0 +1,7 @@
+{
+  "name": "Business Partner RAAMP Code",
+  "dataType": "string",
+  "description": "code for the RAAMP services that the customer subscribes to (such as RO for RAAMP Only or RS for RAAMP / storeroom management), stored as a nvarchar",
+  "sourceColumn": "Business Partner RAAMP Code",
+  "encodingHint": "hash"
+}

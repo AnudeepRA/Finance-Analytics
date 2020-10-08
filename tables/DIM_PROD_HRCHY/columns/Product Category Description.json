@@ -1,0 +1,8 @@
+{
+  "name": "Product Category Description",
+  "dataType": "string",
+  "description": "description associated with the code for the product category, which is the second level in the Rockwell Automation product hierarchy and a logical representation of product offerings within a business unit (such as I/O, Drives, Limit Switches, or Channel Software), stored as a nvarchar",
+  "sourceColumn": "Product Category Description",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

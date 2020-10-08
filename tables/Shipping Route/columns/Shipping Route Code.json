@@ -1,0 +1,12 @@
+{
+  "name": "Shipping Route Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP (such as 102US1 - TWB to MKE for Multi Leg 1 day transit, or DGDOM1 for Dangerous Goods Domestic 1 Day) that indicates the selected means of delivering the product to the customer for the given sales order line item, and the maximum time planned for it to arrive at the customer ship to location, stored as a nvarchar",
+    "",
+    "Conditions such as the shipment source, shipment destination, and shipping conditions (time, type of goods, etc) factor into the selection of the Shipping Route Code.\""
+  ],
+  "sourceColumn": "Shipping Route Code",
+  "displayFolder": "Sales Orders Key Attributes",
+  "encodingHint": "hash"
+}

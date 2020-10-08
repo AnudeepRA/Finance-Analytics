@@ -1,0 +1,7 @@
+{
+  "name": "Material Net Weight",
+  "dataType": "double",
+  "description": "the weight of the material (alone, without packaging), stored as a decimal in the Material Weight Unit Of Measure",
+  "sourceColumn": "Material Net Weight",
+  "encodingHint": "hash"
+}

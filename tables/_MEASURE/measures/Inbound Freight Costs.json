@@ -1,0 +1,13 @@
+{
+  "name": "Inbound Freight Costs",
+  "description": "amount paid for the transport of raw materials needed to make the material for the given transaction from third-party suppliers to the Rockwell Automation plant, stored as a decimal in the currency specified by the COPA Record Currency Code",
+  "expression": "sum(FACT_COPA[INBND_FRT_COST])",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "displayFolder": "Key Metrics",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

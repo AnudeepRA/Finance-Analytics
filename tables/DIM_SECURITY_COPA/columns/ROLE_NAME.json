@@ -1,0 +1,11 @@
+{
+  "name": "ROLE_NAME",
+  "dataType": "string",
+  "description": [
+    "\"identifier used to group the analysis authorizations associated with the user (such as ZE_BI_PROF_CENTER_ENABLER_ALL), stored as a nvarchar",
+    "",
+    "Upon the generation of the role, a profile is created, which contains the authorizations. A profile may also be created manually using the transaction code--SU02. The transaction code--PFCG is used to manage roles.\""
+  ],
+  "sourceColumn": "ROLE_NAME",
+  "encodingHint": "hash"
+}

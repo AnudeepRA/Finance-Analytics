@@ -1,0 +1,7 @@
+{
+  "name": "2f2d55b4-fe86-474d-a3b0-b52cb7c94d25",
+  "fromTable": "FACT_COPA",
+  "fromColumn": "CRNCY_KEY",
+  "toTable": "DIM_SOURCE_CRNCY",
+  "toColumn": "CRNCY_KEY"
+}

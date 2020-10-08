@@ -1,0 +1,11 @@
+{
+  "name": "Cost Sheet Description",
+  "dataType": "string",
+  "description": [
+    "\"description that stores cost sheet information pertaining to costs associated with a product or production job, stored as a string",
+    "",
+    "The cost sheet combines all components of the overhead costing and determines the rules for calculating the values to be posted.\""
+  ],
+  "sourceColumn": "Cost Sheet Description",
+  "encodingHint": "hash"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "COST_CTR_ELIM_IBV_KEY",
+  "dataType": "int64",
+  "sourceColumn": "COST_CTR_ELIM_IBV_KEY",
+  "encodingHint": "hash"
+}

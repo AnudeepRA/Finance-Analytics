@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Month Previous Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Calendar Month Previous Date",
+  "encodingHint": "hash"
+}

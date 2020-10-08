@@ -1,0 +1,5 @@
+{
+  "name": "Time of Last Change to the Transaction",
+  "dataType": "string",
+  "sourceColumn": "Time of Last Change to the Transaction"
+}

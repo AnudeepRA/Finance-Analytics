@@ -1,0 +1,7 @@
+{
+  "name": "b921c0f5-06a2-4609-b260-8007c48b4789",
+  "fromTable": "Monthly Backlog Facts",
+  "fromColumn": "SOLD_TO_BP_BUSI_ADDR_KEY",
+  "toTable": "Business Address Sold To",
+  "toColumn": "Business Address Key"
+}

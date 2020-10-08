@@ -1,0 +1,7 @@
+{
+  "name": "Vendor Business Address Services Identifier",
+  "dataType": "string",
+  "description": "identifier in SAP Business Address Services (such as 1234556234 for REXEL CONSOLIDATED), which identifies an address (including the company name, postal code, and city), associated with the given Vendor Business Partner Identifier, stored as a string",
+  "sourceColumn": "Vendor Business Address Services Identifier",
+  "encodingHint": "hash"
+}

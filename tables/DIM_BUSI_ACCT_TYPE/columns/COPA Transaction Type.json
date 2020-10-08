@@ -1,0 +1,8 @@
+{
+  "name": "COPA Transaction Type",
+  "dataType": "string",
+  "description": "code in SAP for the type of transaction posted to SAP COPA for use in analysis (such as 1 for CRM services, 2 for CRM sales, A for incoming sales orders, or F for billings), stored as a nvarchar",
+  "sourceColumn": "COPA Transaction Type",
+  "displayFolder": "Key Attributes",
+  "encodingHint": "hash"
+}

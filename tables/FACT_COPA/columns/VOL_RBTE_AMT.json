@@ -1,0 +1,6 @@
+{
+  "name": "VOL_RBTE_AMT",
+  "dataType": "double",
+  "sourceColumn": "VOL_RBTE_AMT",
+  "encodingHint": "value"
+}

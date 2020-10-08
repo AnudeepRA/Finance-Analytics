@@ -1,0 +1,7 @@
+{
+  "name": "Material Type Code",
+  "dataType": "string",
+  "description": "code that represents the type of the material in the material master data (such as ZCFG for a material that is configured at the time of sale, or ZREP for a repair, where the repair product identifier is derived based on the catalog number for the product as sold), stored as a nvarchar",
+  "sourceColumn": "Material Type Code",
+  "encodingHint": "hash"
+}

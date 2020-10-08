@@ -1,0 +1,6 @@
+{
+  "name": "Displn Info",
+  "dataType": "string",
+  "sourceColumn": "Displn Info",
+  "encodingHint": "hash"
+}

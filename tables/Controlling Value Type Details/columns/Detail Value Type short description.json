@@ -1,0 +1,7 @@
+{
+  "name": "Detail Value Type short description",
+  "dataType": "string",
+  "description": "short description associated with the code that identifies characteristics for a given value type and key figure category type combination (such as Primary Costs for code 01 or C0-Transfer for code 02), stored as a string",
+  "sourceColumn": "Detail Value Type short description",
+  "encodingHint": "hash"
+}

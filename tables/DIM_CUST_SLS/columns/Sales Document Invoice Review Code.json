@@ -1,0 +1,22 @@
+{
+  "name": "Sales Document Invoice Review Code",
+  "dataType": "string",
+  "description": [
+    "\"code in SAP that identifies whether or how an invoice will be reviewed and processed (see list below), stored as a nvarchar",
+    "",
+    "01 = Auto Distribute Invoice",
+    "02 = Manual Review Invoice",
+    "03 = Both",
+    "04 = Non-EDI - Passport",
+    "05 = Standard List Price",
+    "06 = Unit net and extend",
+    "07 = Extended net only",
+    "08 = No line item pricing",
+    "",
+    "The manual invoice review function is used to hold an invoice or credit memo (not send it to the end customer) until additional review has been completed.  Manual reviews are done in several situations, for instance if Rockwell Automation needs to send the invoice or credit memo with supporting documentation, or to make internal billing adjustments (match the invoice with a credit memo that does not have to be sent to customer, internal credit memos​, or internal invoices​).",
+    "",
+    "Known as Customer Group 1 in SAP\""
+  ],
+  "sourceColumn": "Sales Document Invoice Review Code",
+  "encodingHint": "hash"
+}

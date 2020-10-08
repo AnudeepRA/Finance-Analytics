@@ -1,0 +1,7 @@
+{
+  "name": "f3a47793-1703-4834-b912-a205011498f9",
+  "fromTable": "FACT_CCA_ACTUALS",
+  "fromColumn": "COST_ACCNTNG_DOCMNT_KEY",
+  "toTable": "Accounting Document",
+  "toColumn": "Accounting Document Key"
+}
