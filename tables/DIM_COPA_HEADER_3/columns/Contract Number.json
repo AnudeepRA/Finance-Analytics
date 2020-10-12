@@ -1,0 +1,6 @@
+{
+  "name": "Contract Number",
+  "dataType": "string",
+  "sourceColumn": "Contract Number",
+  "encodingHint": "hash"
+}
