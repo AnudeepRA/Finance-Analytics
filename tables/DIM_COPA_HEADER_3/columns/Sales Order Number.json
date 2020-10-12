@@ -1,0 +1,6 @@
+{
+  "name": "Sales Order Number",
+  "dataType": "string",
+  "sourceColumn": "Sales Order Number",
+  "encodingHint": "hash"
+}
