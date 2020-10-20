@@ -1,0 +1,7 @@
+{
+  "name": "BILLB_OUTBND_FRT_GLBL_M_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "BILLB_OUTBND_FRT_GLBL_M_AMT",
+  "encodingHint": "value"
+}

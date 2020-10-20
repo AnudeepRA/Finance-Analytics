@@ -3,7 +3,7 @@
   "expression": [
     "CALCULATE(",
     "SELECTEDMEASURE(),",
-    "SAMEPERIODLASTYEAR (DIM_DATE[Date Dt])",
+    "SAMEPERIODLASTYEAR ('Date'[Date Dt])",
     ")",
     ""
   ],

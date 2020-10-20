@@ -1,0 +1,7 @@
+{
+  "name": "Sales Order Type",
+  "dataType": "string",
+  "description": "Derived field which uses Sales Document Type to classify orders into different categories like Regular, Service, Software, Other",
+  "sourceColumn": "Sales Order Type",
+  "encodingHint": "hash"
+}

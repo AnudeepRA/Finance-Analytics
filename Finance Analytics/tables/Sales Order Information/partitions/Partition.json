@@ -7,7 +7,7 @@
       "let",
       "    Source = #\"SQL/azr-sql-dai-entdl-300 database windows net;azr-adw-dai-entdl-300\",",
       "    SLS_ORD_V_DIM_SLS_ORD_INFO_BusNm = Source{[Schema=\"SLS_ORD\",Item=\"V_DIM_SLS_ORD_INFO_BusNm\"]}[Data],",
-      "    #\"Removed Other Columns\" = Table.SelectColumns(SLS_ORD_V_DIM_SLS_ORD_INFO_BusNm,{\"Sales Order Info Key\", \"Distribution Channel Code\", \"Delivery Group\", \"Incoterms Details\", \"Special Processing Code\", \"SIC Code and Description \"})",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(SLS_ORD_V_DIM_SLS_ORD_INFO_BusNm,{\"Sales Order Info Key\", \"Distribution Channel Code\", \"Delivery Group\", \"Incoterms Details\", \"Special Processing Code\", \"SIC Code and Description\", \"Cancel Data Record Code\", \"Sales Order Type\"})",
       "in",
       "    #\"Removed Other Columns\""
     ]

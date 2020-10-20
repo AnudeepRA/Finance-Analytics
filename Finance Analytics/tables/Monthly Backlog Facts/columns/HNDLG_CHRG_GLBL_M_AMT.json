@@ -1,0 +1,7 @@
+{
+  "name": "HNDLG_CHRG_GLBL_M_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "HNDLG_CHRG_GLBL_M_AMT",
+  "encodingHint": "value"
+}

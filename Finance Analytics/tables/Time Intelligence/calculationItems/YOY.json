@@ -6,7 +6,7 @@
     "    VAR PY =",
     "        CALCULATE (",
     "            SELECTEDMEASURE (),",
-    "            SAMEPERIODLASTYEAR (dim_date[date dt] )",
+    "            SAMEPERIODLASTYEAR ('Date'[date dt] )",
     "        )",
     "    VAR Result = CY- PY",
     "    RETURN Result"

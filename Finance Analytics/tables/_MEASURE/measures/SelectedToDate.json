@@ -1,5 +1,5 @@
 {
   "name": "SelectedToDate",
-  "expression": "SELECTEDVALUE(DIM_CRNCY_CVRSN[RATE_EFF_FROM_DTE_INT_KEY])",
+  "expression": "SELECTEDVALUE('Currency Conversion table'[RATE_EFF_FROM_DTE_INT_KEY])",
   "isHidden": true
 }

@@ -1,6 +1,6 @@
 {
   "name": "Net Trans Value by Requested Delivery Date",
-  "expression": " CALCULATE(sum('Sales Orders Facts'[TRANS_NET_VAL]),USERELATIONSHIP('Sales Orders Facts'[REQSTD_DLVRY_DTE_KEY],DIM_DATE[DATE_INT_KEY]))",
+  "expression": " CALCULATE(sum('Sales Orders Facts'[TRANS_NET_VAL]),USERELATIONSHIP('Sales Orders Facts'[REQSTD_DLVRY_DTE_KEY],'Date'[DATE_INT_KEY]))",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
   "displayFolder": "Sales Orders Bookings Measures by Requested Delivery Date",
   "annotations": [

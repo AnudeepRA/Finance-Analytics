@@ -1,5 +1,5 @@
 {
   "name": "YTD",
-  "expression": "Calculate(SELECTEDMEASURE(),DATESYTD(DIM_DATE[Date Dt],\"9-30\"))",
+  "expression": "Calculate(SELECTEDMEASURE(),DATESYTD('Date'[Date Dt],\"9-30\"))",
   "ordinal": 2
 }

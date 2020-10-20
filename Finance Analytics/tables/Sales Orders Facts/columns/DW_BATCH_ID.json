@@ -1,0 +1,5 @@
+{
+  "name": "DW_BATCH_ID",
+  "dataType": "string",
+  "sourceColumn": "DW_BATCH_ID"
+}

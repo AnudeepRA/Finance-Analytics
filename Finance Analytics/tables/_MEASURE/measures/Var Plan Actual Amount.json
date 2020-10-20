@@ -1,6 +1,6 @@
 {
   "name": "Var Plan Actual Amount",
-  "expression": " [Plan Amount] - [Actual Amount]",
+  "expression": " [Actual Amount] - [Plan Amount]",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
   "displayFolder": "CCA",
   "annotations": [

@@ -1,0 +1,7 @@
+{
+  "name": "Customer Discounts In USD At M Rate (Backlog)",
+  "description": "amount of discounts applied to the given booking document line item (which may include discounts from special pricing agreements, sales discounts, settlement discounts, and quantity discounts, but not cash discounts, or the cost of any items given to the customer for free), stored as a decimal in United States dollars (Currency Code = USD) using the monthly exchange rate in effect at the time of the transaction",
+  "expression": "SUM('Monthly Backlog Facts'[CUST_DISC_GLBL_M_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

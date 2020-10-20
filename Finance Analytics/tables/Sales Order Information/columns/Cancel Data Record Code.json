@@ -1,0 +1,7 @@
+{
+  "name": "Cancel Data Record Code",
+  "dataType": "string",
+  "description": "One of the fields in SAP extrators that controls the plus/minus sign of key figures/measures that are extracted to BW . The value of this field  defines whether a key figure is transferred to BW positively or negatively.",
+  "sourceColumn": "Cancel Data Record Code",
+  "encodingHint": "hash"
+}

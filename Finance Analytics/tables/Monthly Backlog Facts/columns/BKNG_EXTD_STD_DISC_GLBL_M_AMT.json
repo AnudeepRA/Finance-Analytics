@@ -1,0 +1,7 @@
+{
+  "name": "BKNG_EXTD_STD_DISC_GLBL_M_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "BKNG_EXTD_STD_DISC_GLBL_M_AMT",
+  "encodingHint": "value"
+}

@@ -1,5 +1,5 @@
 {
   "name": "Fiscal Week Year Day",
-  "expression": "SUM(DIM_DATE[Fiscal Week Year Day Count])",
+  "expression": "SUM('Date'[Fiscal Week Year Day Count])",
   "displayFolder": "Key Metrics"
 }

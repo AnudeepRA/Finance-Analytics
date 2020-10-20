@@ -1,5 +1,5 @@
 {
   "name": "FY End",
-  "expression": "Max(DIM_DATE[Fiscal Calendar Year Number])",
+  "expression": "Max('Date'[Fiscal Calendar Year Number])",
   "displayFolder": "Key Metrics"
 }

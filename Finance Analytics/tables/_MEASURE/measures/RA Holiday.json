@@ -1,5 +1,5 @@
 {
   "name": "RA Holiday",
-  "expression": "sum(DIM_DATE[Is RA Holiday Count])",
+  "expression": "sum('Date'[Is RA Holiday Count])",
   "displayFolder": "Key Metrics"
 }

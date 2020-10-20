@@ -1,0 +1,13 @@
+{
+  "name": "Booking Extended List Price Value In USD At M Rate (Backlog)",
+  "description": [
+    "\"the undiscounted amount that would have been invoiced to the customer for the quantity of products or services purchased on the given booking document line item based on the list price, before taxes, stored as a decimal in United States dollars (Currency Code = USD) using the monthly exchange rate in effect at the time of the transaction",
+    "",
+    "Extended List Price Value In USD At M Rate = List Price In USD At M Rate * Booked Quantity",
+    "",
+    "The Extended List Price Value In Document Currency is also known as the \"\"subtotal 2 amount\"\".\""
+  ],
+  "expression": " SUM('Monthly Backlog Facts'[BKNG_EXTD_LST_PRC_GLBL_M_AMT])",
+  "formatString": "0.00",
+  "displayFolder": "Sales Orders Backlogs"
+}

@@ -1,5 +1,5 @@
 {
   "name": "MTD",
-  "expression": "CALCULATE(SELECTEDMEASURE(), DATESMTD(DIM_DATE[Date Dt]))",
+  "expression": "CALCULATE(SELECTEDMEASURE(), DATESMTD('Date'[Date Dt]))",
   "ordinal": 0
 }

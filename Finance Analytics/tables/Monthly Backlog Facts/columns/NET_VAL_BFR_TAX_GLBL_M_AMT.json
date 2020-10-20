@@ -1,0 +1,7 @@
+{
+  "name": "NET_VAL_BFR_TAX_GLBL_M_AMT",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "NET_VAL_BFR_TAX_GLBL_M_AMT",
+  "encodingHint": "value"
+}

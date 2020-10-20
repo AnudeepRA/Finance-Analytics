@@ -1,7 +1,7 @@
 {
   "name": "Actual Amount By Posting Date",
   "description": "actual amount posted to the cost center for the given transaction, which is used in cost center spend analysis (where plan and actual values are compared), stored as a decimal in the currency of the transaction",
-  "expression": "CALCULATE(sum(FACT_CCA_ACTUALS[ACTUAL_AMT]), USERELATIONSHIP(FACT_CCA_ACTUALS[POSTING_DATE_KEY],DIM_DATE[DATE_INT_KEY]))",
+  "expression": "CALCULATE(sum(FACT_CCA_ACTUALS[ACTUAL_AMT]), USERELATIONSHIP(FACT_CCA_ACTUALS[POSTING_DATE_KEY],'Date'[DATE_INT_KEY]))",
   "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
   "isHidden": true,
   "displayFolder": "CCA By Posting Date",

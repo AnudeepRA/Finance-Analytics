@@ -1,7 +1,0 @@
-{
-  "name": "GLBL_BILLBL_OUTBND_FRT_WTHOT_DCML_ADJMT_AMT",
-  "dataType": "double",
-  "isHidden": true,
-  "sourceColumn": "GLBL_BILLBL_OUTBND_FRT_WTHOT_DCML_ADJMT_AMT",
-  "encodingHint": "value"
-}

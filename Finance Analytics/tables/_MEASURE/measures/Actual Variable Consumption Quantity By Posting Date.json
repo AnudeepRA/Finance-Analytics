@@ -5,7 +5,7 @@
     "",
     "The Unit of Measure (UOM) that is most common is hours. However, there can be other Units of Measure such as KG, CM, BAG, etc.\""
   ],
-  "expression": "CALCULATE(sum(FACT_CCA_ACTUALS[ACTUAL_VARIABLE_CONSUMPTION_QTY]), USERELATIONSHIP(FACT_CCA_ACTUALS[POSTING_DATE_KEY],DIM_DATE[DATE_INT_KEY]))",
+  "expression": "CALCULATE(sum(FACT_CCA_ACTUALS[ACTUAL_VARIABLE_CONSUMPTION_QTY]), USERELATIONSHIP(FACT_CCA_ACTUALS[POSTING_DATE_KEY],'Date'[DATE_INT_KEY]))",
   "formatString": "0.00",
   "isHidden": true,
   "displayFolder": "CCA By Posting Date"

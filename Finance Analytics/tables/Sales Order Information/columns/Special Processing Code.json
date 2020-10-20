@@ -1,6 +1,7 @@
 {
   "name": "Special Processing Code",
   "dataType": "string",
+  "description": "Indicator that results in a special processing form for a shipment or a special calculation form for shipment costs. Examples for special processing are Z001 - Prepaid and Absorbed, Z002 - Prepaid and Billed, Z003 - Collect, Z004 - 3rd Party",
   "sourceColumn": "Special Processing Code",
   "encodingHint": "hash"
 }

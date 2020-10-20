@@ -1,5 +1,5 @@
 {
   "name": "Calendar Year Day",
-  "expression": "SUM(DIM_DATE[Calendar Year Day Count])",
+  "expression": "SUM('Date'[Calendar Year Day Count])",
   "displayFolder": "Key Metrics"
 }

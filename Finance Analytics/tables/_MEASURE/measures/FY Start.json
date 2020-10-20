@@ -1,5 +1,5 @@
 {
   "name": "FY Start",
-  "expression": "Min(DIM_DATE[Fiscal Calendar Year Number])",
+  "expression": "Min('Date'[Fiscal Calendar Year Number])",
   "displayFolder": "Key Metrics"
 }

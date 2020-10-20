@@ -1,0 +1,5 @@
+{
+  "name": "DW_CREATED_DTTM",
+  "dataType": "dateTime",
+  "sourceColumn": "DW_CREATED_DTTM"
+}
