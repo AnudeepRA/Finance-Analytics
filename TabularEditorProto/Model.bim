@@ -1,0 +1,1338 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1500,
+  "model": {
+    "dataSources": [
+      {
+        "name": "SQLDW",
+        "connectionString": "Provider=MSOLEDBSQL;Data Source=azr-sql-dai-entdl-300.database.windows.net;User ID=anudeep.vadlamudi@rockwellautomation.com;Database=azr-adw-dai-entdl-300;Authentication=ActiveDirectoryInteractive",
+        "impersonationMode": "impersonateAccount",
+        "provider": "System.Data.OleDb",
+        "annotations": [
+          {
+            "name": "TabularEditor_RowLimitClause",
+            "value": "1"
+          },
+          {
+            "name": "TabularEditor_IdentifierQuoting",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "V_FACT_CCA_PLAN_ACTUALS_AAS",
+        "columns": [
+          {
+            "name": "DW_CREATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_CREATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_UPDATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_UPDATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "CRNCY_KEY",
+            "dataType": "int64",
+            "sourceColumn": "CRNCY_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "CONTROLLING_AREA_KEY",
+            "dataType": "int64",
+            "sourceColumn": "CONTROLLING_AREA_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "PERIOD_KEY",
+            "dataType": "int64",
+            "sourceColumn": "PERIOD_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COST_CTR_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COST_CTR_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "PRFT_CTR_KEY",
+            "dataType": "int64",
+            "sourceColumn": "PRFT_CTR_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "PRFT_CTR_HRCHY_KEY",
+            "dataType": "int64",
+            "sourceColumn": "PRFT_CTR_HRCHY_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "PRFT_CTR_HRCHY_TAX_KEY",
+            "dataType": "int64",
+            "sourceColumn": "PRFT_CTR_HRCHY_TAX_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "PRFT_CTR_HRCHY_REGION_KEY",
+            "dataType": "int64",
+            "sourceColumn": "PRFT_CTR_HRCHY_REGION_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COST_CTR_HIERARCHY_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COST_CTR_HIERARCHY_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COST_CTR_HIERARCHY_REGION_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COST_CTR_HIERARCHY_REGION_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COST_ELEMENT_HIERARCHY_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COST_ELEMENT_HIERARCHY_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COST_ELEMENT_COA_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COST_ELEMENT_COA_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COST_ELEMENT_CONTROLLING_AREA_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COST_ELEMENT_CONTROLLING_AREA_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "CONTROLLING_AREA_ACTIVITY_TYPE_KEY",
+            "dataType": "int64",
+            "sourceColumn": "CONTROLLING_AREA_ACTIVITY_TYPE_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "CONTROLLING_VALUE_TYPE_KEY",
+            "dataType": "int64",
+            "sourceColumn": "CONTROLLING_VALUE_TYPE_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "CRNCY_TYPE_KEY",
+            "dataType": "int64",
+            "sourceColumn": "CRNCY_TYPE_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "MEASURE_TYPE_KEY",
+            "dataType": "int64",
+            "sourceColumn": "MEASURE_TYPE_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "UOM_KEY",
+            "dataType": "int64",
+            "sourceColumn": "UOM_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "DETAIL_VALUE_TYPE_KEY",
+            "dataType": "int64",
+            "sourceColumn": "DETAIL_VALUE_TYPE_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "STATISTICS_KEY",
+            "dataType": "int64",
+            "sourceColumn": "STATISTICS_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "CONTROLLING_VERSION_KEY",
+            "dataType": "int64",
+            "sourceColumn": "CONTROLLING_VERSION_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "CONTROLLING_PLAN_VERSION_KEY",
+            "dataType": "int64",
+            "sourceColumn": "CONTROLLING_PLAN_VERSION_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "VALUATION_VIEW_KEY",
+            "dataType": "int64",
+            "sourceColumn": "VALUATION_VIEW_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "SENDER_RECEIVER_KEY",
+            "dataType": "int64",
+            "sourceColumn": "SENDER_RECEIVER_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "FUNCL_AREA_KEY",
+            "dataType": "int64",
+            "sourceColumn": "FUNCL_AREA_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "PRTNR_FUNCL_AREA_KEY",
+            "dataType": "int64",
+            "sourceColumn": "PRTNR_FUNCL_AREA_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COMPANY_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COMPANY_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COST_CTR_ELIM_IBV_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COST_CTR_ELIM_IBV_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "PLANT_KEY",
+            "dataType": "int64",
+            "sourceColumn": "PLANT_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "PRTNR_OBJ_KEY",
+            "dataType": "int64",
+            "sourceColumn": "PRTNR_OBJ_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "ACTUAL_AMT",
+            "dataType": "decimal",
+            "sourceColumn": "ACTUAL_AMT",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "ACTUAL_FIXED_AMT",
+            "dataType": "decimal",
+            "sourceColumn": "ACTUAL_FIXED_AMT",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "ACTUAL_VARIABLE_AMT",
+            "dataType": "decimal",
+            "sourceColumn": "ACTUAL_VARIABLE_AMT",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "ACTUAL_CONSUMPTION_QTY",
+            "dataType": "decimal",
+            "sourceColumn": "ACTUAL_CONSUMPTION_QTY",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "ACTUAL_FIX_CONSUMPTION_QTY",
+            "dataType": "decimal",
+            "sourceColumn": "ACTUAL_FIX_CONSUMPTION_QTY",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "ACTUAL_VAR_CONSUMPTION_QTY",
+            "dataType": "decimal",
+            "sourceColumn": "ACTUAL_VAR_CONSUMPTION_QTY",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "PLAN_AMT",
+            "dataType": "decimal",
+            "sourceColumn": "PLAN_AMT",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "PLAN_FIXED_AMT",
+            "dataType": "decimal",
+            "sourceColumn": "PLAN_FIXED_AMT",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "PLAN_VARIABLE_AMT",
+            "dataType": "decimal",
+            "sourceColumn": "PLAN_VARIABLE_AMT",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "PLAN_CONSUMPTION_QTY",
+            "dataType": "decimal",
+            "sourceColumn": "PLAN_CONSUMPTION_QTY",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "PLAN_FIX_CONSUMPTION_QTY",
+            "dataType": "decimal",
+            "sourceColumn": "PLAN_FIX_CONSUMPTION_QTY",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "PLAN_VAR_CONSUMPTION_QTY",
+            "dataType": "decimal",
+            "sourceColumn": "PLAN_VAR_CONSUMPTION_QTY",
+            "sourceProviderType": "Decimal"
+          },
+          {
+            "name": "DATE_DTE_KEY",
+            "dataType": "dateTime",
+            "sourceColumn": "DATE_DTE_KEY",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "FISCAL_YR_NUM",
+            "dataType": "string",
+            "sourceColumn": "FISCAL_YR_NUM",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Part",
+            "dataType": "string",
+            "sourceColumn": "Part",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "HFM_ENTITY_KEY",
+            "dataType": "int64",
+            "sourceColumn": "HFM_ENTITY_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "HFM_ACCOUNT_KEY",
+            "dataType": "int64",
+            "sourceColumn": "HFM_ACCOUNT_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "HFM_CUSTOM_ATTRIBUTE_1_KEY",
+            "dataType": "int64",
+            "sourceColumn": "HFM_CUSTOM_ATTRIBUTE_1_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "HP_LOCATION_KEY",
+            "dataType": "int64",
+            "sourceColumn": "HP_LOCATION_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "HP_PRODUCT_KEY",
+            "dataType": "int64",
+            "sourceColumn": "HP_PRODUCT_KEY",
+            "sourceProviderType": "Int64"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "V_FACT_CCA_PLAN_ACTUALS_AAS",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "\t*",
+                "FROM",
+                "\t[FIN_CCA].[V_FACT_CCA_PLAN_ACTUALS_AAS]"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"V_FACT_CCA_PLAN_ACTUALS_AAS\",\"Schema\":\"FIN_CCA\",\"Database\":\"azr-adw-dai-entdl-500\",\"IncludedColumns\":[],\"SelectAll\":true}"
+              }
+            ]
+          },
+          {
+            "name": "V_FACT_CCA_PLAN_ACTUALS_AAS_Current_Fisical_Year",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "    *",
+                "FROM",
+                "    [FIN_CCA].[V_FACT_CCA_PLAN_ACTUALS_AAS] WHERE Part = 'Current Fiscal Year'"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"V_FACT_CCA_PLAN_ACTUALS_AAS\",\"Schema\":\"FIN_CCA\",\"Database\":\"azr-adw-dai-entdl-500\",\"IncludedColumns\":[],\"SelectAll\":true}"
+              }
+            ]
+          },
+          {
+            "name": "V_FACT_CCA_PLAN_ACTUALS_AAS_Prev_Fisical_Year",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "    *",
+                "FROM",
+                "    [FIN_CCA].[V_FACT_CCA_PLAN_ACTUALS_AAS] Where Part = 'PrevFiscalYear'"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"V_FACT_CCA_PLAN_ACTUALS_AAS\",\"Schema\":\"FIN_CCA\",\"Database\":\"azr-adw-dai-entdl-500\",\"IncludedColumns\":[],\"SelectAll\":true}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "V_DIM_COMPANY_BusNm",
+        "columns": [
+          {
+            "name": "COMPANY_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COMPANY_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "Company Code",
+            "dataType": "string",
+            "sourceColumn": "Company Code",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_CREATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_CREATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_UPDATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_UPDATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Company Country Code",
+            "dataType": "string",
+            "sourceColumn": "Company Country Code",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "List Price Currency Code",
+            "dataType": "string",
+            "sourceColumn": "List Price Currency Code",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Chart Of Accounts Code",
+            "dataType": "string",
+            "sourceColumn": "Chart Of Accounts Code",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Credit Control Area Code",
+            "dataType": "string",
+            "sourceColumn": "Credit Control Area Code",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Year Variant",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Year Variant",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Company Code Description",
+            "dataType": "string",
+            "sourceColumn": "Company Code Description",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Company Code And Description",
+            "dataType": "string",
+            "sourceColumn": "Company Code And Description",
+            "sourceProviderType": "String"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "V_DIM_COMPANY_BusNm",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "\t*",
+                "FROM",
+                "\t[GLBL].[V_DIM_COMPANY_BusNm]"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"V_DIM_COMPANY_BusNm\",\"Schema\":\"GLBL\",\"Database\":\"azr-adw-dai-entdl-500\",\"IncludedColumns\":[\"Error message\"],\"SelectAll\":true}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "V_DIM_COUNTRY_BusNm",
+        "columns": [
+          {
+            "name": "COUNTRY_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COUNTRY_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "Country Code",
+            "dataType": "string",
+            "sourceColumn": "Country Code",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_CREATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_CREATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_UPDATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_UPDATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Country Name",
+            "dataType": "string",
+            "sourceColumn": "Country Name",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Country Code and Name",
+            "dataType": "string",
+            "sourceColumn": "Country Code and Name",
+            "sourceProviderType": "String"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "V_DIM_COUNTRY_BusNm",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "\t*",
+                "FROM",
+                "\t[GLBL].[V_DIM_COUNTRY_BusNm]"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"V_DIM_COUNTRY_BusNm\",\"Schema\":\"GLBL\",\"Database\":\"azr-adw-dai-entdl-500\",\"IncludedColumns\":[\"Error message\"],\"SelectAll\":true}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "V_DIM_DATE_BusNm",
+        "columns": [
+          {
+            "name": "DATE_INT_KEY",
+            "dataType": "int64",
+            "sourceColumn": "DATE_INT_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "DATE_DTE_KEY",
+            "dataType": "dateTime",
+            "sourceColumn": "DATE_DTE_KEY",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_CREATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_CREATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_UPDATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_UPDATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Date Dt",
+            "dataType": "dateTime",
+            "sourceColumn": "Date Dt",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Date Name",
+            "dataType": "string",
+            "sourceColumn": "Date Name",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Date Short Name",
+            "dataType": "string",
+            "sourceColumn": "Date Short Name",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Day Name",
+            "dataType": "string",
+            "sourceColumn": "Day Name",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Day Short Name",
+            "dataType": "string",
+            "sourceColumn": "Day Short Name",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar Week Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar Week Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Calendar Week Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Week Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar Week Year Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Week Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar_Week_Year_Text_ORD_Number",
+            "dataType": "string",
+            "sourceColumn": "Calendar_Week_Year_Text_ORD_Number",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar Week Day Number",
+            "dataType": "string",
+            "sourceColumn": "Calendar Week Day Number",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Calendar Week Prev Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Week Prev Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Week Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Week Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Week End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Week End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Month Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar Month Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Calendar Month Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Month Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar Month Short Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Month Short Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar Month Year Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Month Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar Month Year Short Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Month Year Short Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar_Month_Year_Text_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar_Month_Year_Text_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Calendar Month Day Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar Month Day Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Calendar Month Day Count",
+            "dataType": "int64",
+            "sourceColumn": "Calendar Month Day Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Calendar Month Previous Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Month Previous Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Month Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Month Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Month End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Month End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Qtr Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar Qtr Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Calendar Qtr Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Qtr Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar Qtr Year Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Qtr Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar_Qtr_Year_Text_ORD_Number",
+            "dataType": "string",
+            "sourceColumn": "Calendar_Qtr_Year_Text_ORD_Number",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar Qtr Previous Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Qtr Previous Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Qtr Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Qtr Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Qtr End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Qtr End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Qtr Day Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar Qtr Day Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Calendar Qtr Day Count",
+            "dataType": "int64",
+            "sourceColumn": "Calendar Qtr Day Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Calendar Year Number",
+            "dataType": "string",
+            "sourceColumn": "Calendar Year Number",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Calendar Year Text",
+            "dataType": "string",
+            "sourceColumn": "Calendar Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Calendar_Year_Week_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar_Year_Week_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Calendar_Year_Month_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar_Year_Month_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Calendar_Year_Qtr_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Calendar_Year_Qtr_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Calendar Year Day Number",
+            "dataType": "string",
+            "sourceColumn": "Calendar Year Day Number",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Calendar Year Previous Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Year Previous Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Year Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Year Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Year End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Calendar Year End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Calendar Year Day Count",
+            "dataType": "string",
+            "sourceColumn": "Calendar Year Day Count",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Fiscal Calendar Qtr Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Calendar Qtr Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Calendar Qtr Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Qtr Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Calendar Qtr Year Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Qtr Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal_Calendar_Qtr_Year_Text_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal_Calendar_Qtr_Year_Text_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Calendar Qtr Day Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Calendar Qtr Day Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Calendar Qtr Previous Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Qtr Previous Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Qtr Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Qtr Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Qtr End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Qtr End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Qtr Day Count",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Calendar Qtr Day Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Calendar Month Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Calendar Month Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Calendar Month Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Month Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Calendar Month Short Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Month Short Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Calendar Month Year Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Month Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Calendar Month Year Short Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Month Year Short Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal_Calendar_Month_Year_Text_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal_Calendar_Month_Year_Text_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Calendar Month Day Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Calendar Month Day Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Calendar Month Day Count",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Calendar Month Day Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Calendar Month Previous Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Month Previous Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Month Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Month Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Month End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Month End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Year Number",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Year Number",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Fiscal Calendar Year Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Calendar YEAR_PERIOD",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar YEAR_PERIOD",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal_Calendar_Year_Month_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal_Calendar_Year_Month_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal_Calendar_Year_Qtr_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal_Calendar_Year_Qtr_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Calendar Year Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Year Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Year End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Year End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Year Day Number",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Year Day Number",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Fiscal Calendar Year Day Count",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Year Day Count",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Fiscal Calendar Year Previous Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Year Previous Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Week Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Calendar Week Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Calendar Week Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Week Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Calendar Week Year Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Calendar Week Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal_Calendar_Week_Year_Text_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal_Calendar_Week_Year_Text_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal_Calendar_Year_Week_ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal_Calendar_Year_Week_ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Calendar Week Day Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Calendar Week Day Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Calendar Week Previous Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Week Previous Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Week Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Week Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Calendar Week End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Calendar Week End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Qtr Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Qtr Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Week Qtr Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Week Qtr Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Week Qtr Year Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Week Qtr Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Week Qtr Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Qtr Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Qtr End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Qtr End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Qtr PreviousDate",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Qtr PreviousDate",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Qtr Day Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Qtr Day Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Week Qtr Day Count",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Qtr Day Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Week Month Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Month Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Week Month Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Week Month Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Week Month Year Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Week Month Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Week Month Day Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Month Day Number",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Week Month Day Count",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Month Day Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Fiscal Week Month PreviousDate",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Month PreviousDate",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Month Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Month Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Month End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Month End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Year Number",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Week Year Number",
+            "sourceProviderType": "Int16"
+          },
+          {
+            "name": "Fiscal Week Year Text",
+            "dataType": "string",
+            "sourceColumn": "Fiscal Week Year Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Fiscal Week Year WeekORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Year WeekORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Week Year Month ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Year Month ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Week Year Qtr ORD_Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Year Qtr ORD_Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Week Year Day Number",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Year Day Number",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Week Year Day Count",
+            "dataType": "int64",
+            "sourceColumn": "Fiscal Week Year Day Count",
+            "sourceProviderType": "Int32"
+          },
+          {
+            "name": "Fiscal Week Year Previous Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Year Previous Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Year Begin Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Year Begin Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Fiscal Week Year End Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Fiscal Week Year End Date",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "Is Day of Week Indicator",
+            "dataType": "string",
+            "sourceColumn": "Is Day of Week Indicator",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Is Day of Week Count",
+            "dataType": "int64",
+            "sourceColumn": "Is Day of Week Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Work Day Type Text",
+            "dataType": "string",
+            "sourceColumn": "Work Day Type Text",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Is RA Work Day Ind",
+            "dataType": "string",
+            "sourceColumn": "Is RA Work Day Ind",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Is RA Work Day Count",
+            "dataType": "int64",
+            "sourceColumn": "Is RA Work Day Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Is RA Holiday Ind",
+            "dataType": "string",
+            "sourceColumn": "Is RA Holiday Ind",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Is RA Holiday Count",
+            "dataType": "int64",
+            "sourceColumn": "Is RA Holiday Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Holiday Name",
+            "dataType": "string",
+            "sourceColumn": "Holiday Name",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Is Federal Holiday Ind",
+            "dataType": "string",
+            "sourceColumn": "Is Federal Holiday Ind",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Is Federal Holiday Count",
+            "dataType": "int64",
+            "sourceColumn": "Is Federal Holiday Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Is Market Closed Ind",
+            "dataType": "string",
+            "sourceColumn": "Is Market Closed Ind",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "Is Market Closed Count",
+            "dataType": "int64",
+            "sourceColumn": "Is Market Closed Count",
+            "sourceProviderType": "Byte"
+          },
+          {
+            "name": "Season Name",
+            "dataType": "string",
+            "sourceColumn": "Season Name",
+            "sourceProviderType": "String"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "V_DIM_DATE_BusNm",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "\t*",
+                "FROM",
+                "\t[GLBL].[V_DIM_DATE_BusNm]"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"V_DIM_DATE_BusNm\",\"Schema\":\"GLBL\",\"Database\":\"azr-adw-dai-entdl-500\",\"IncludedColumns\":[\"Error message\"],\"SelectAll\":true}"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "TabularEditor_SerializeOptions",
+        "value": "{\"IgnoreInferredObjects\":true,\"IgnoreInferredProperties\":true,\"IgnoreTimestamps\":true,\"SplitMultilineStrings\":true,\"PrefixFilenames\":false,\"LocalTranslations\":false,\"LocalPerspectives\":false,\"LocalRelationships\":false,\"Levels\":[\"Data Sources\",\"Perspectives\",\"Relationships\",\"Roles\",\"Tables\",\"Tables/Columns\",\"Tables/Hierarchies\",\"Tables/Measures\",\"Tables/Partitions\",\"Tables/Calculation Items\",\"Translations\"]}"
+      }
+    ]
+  }
+}
