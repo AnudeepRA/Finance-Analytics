@@ -1,0 +1,25 @@
+{
+"createOrReplace": {
+"object": {
+"database": "TabularEditorProto",
+"dataSource": "SQLDW"
+},
+"dataSource": {
+"name": "SQLDW",
+"connectionString": "Provider=MSOLEDBSQL.1;Data Source=azr-sql-dai-entdl-300.database.windows.net;Persist Security Info=True;User ID=svc-db-fincopa;Initial Catalog=azr-adw-dai-entdl-300;Initial File Name=;Use Encryption for Data=False;Server SPN=;Authentication=;Access Token=",
+"password": "D*Tb#APsR%xD.D^4",
+"impersonationMode": "impersonateAccount",
+
+"annotations": [
+{
+"name": "TabularEditor_RowLimitClause",
+"value": "1"
+},
+{
+"name": "TabularEditor_IdentifierQuoting",
+"value": "1"
+}
+]
+}
+}
+}
