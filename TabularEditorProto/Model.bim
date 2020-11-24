@@ -1326,44 +1326,6 @@
             ]
           }
         ]
-      },
-      {
-        "name": "DELETERANGE",
-        "columns": [
-          {
-            "name": "boundary_id",
-            "dataType": "int64",
-            "sourceColumn": "boundary_id",
-            "sourceProviderType": "Int32"
-          },
-          {
-            "name": "VALUE",
-            "dataType": "int64",
-            "sourceColumn": "VALUE",
-            "sourceProviderType": "Int32"
-          }
-        ],
-        "partitions": [
-          {
-            "name": "DELETERANGE",
-            "source": {
-              "type": "query",
-              "query": [
-                "SELECT",
-                "\t*",
-                "FROM",
-                "\t[dbo].[DELETERANGE]"
-              ],
-              "dataSource": "SQLDW"
-            },
-            "annotations": [
-              {
-                "name": "TabularEditor_TableSchema",
-                "value": "{\"Name\":\"DELETERANGE\",\"Schema\":\"dbo\",\"Database\":\"azr-adw-dai-entdl-300\",\"IncludedColumns\":[\"boundary_id\",\"VALUE\"],\"SelectAll\":true}"
-              }
-            ]
-          }
-        ]
       }
     ],
     "annotations": [
