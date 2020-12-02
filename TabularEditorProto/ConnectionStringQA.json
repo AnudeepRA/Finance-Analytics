@@ -6,7 +6,7 @@
 },
 "dataSource": {
 "name": "SQLDW",
-"connectionString": "Provider=MSOLEDBSQL.1;Data Source=azr-sql-dai-entdl-500.database.windows.net;Persist Security Info=True;User ID=UserID;Initial Catalog=azr-adw-dai-entdl-500;Initial File Name=;Use Encryption for Data=False;Server SPN=;Authentication=;Access Token=",
+"connectionString": "Provider=MSOLEDBSQL.1;Data Source=azr-sql-dai-entdl-500.database.windows.net;Persist Security Info=True;User ID=svc-db-fincopa;Initial Catalog=azr-adw-dai-entdl-500;Initial File Name=;Use Encryption for Data=False;Server SPN=;Authentication=;Access Token=",
 "password": "password",
 "impersonationMode": "impersonateAccount",
 
