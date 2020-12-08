@@ -1560,6 +1560,226 @@
             ]
           }
         ]
+      },
+      {
+        "name": "DIM_COUNTRY_REGION 1",
+        "columns": [
+          {
+            "name": "COUNTRY_REGION_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COUNTRY_REGION_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COMPANY_CD",
+            "dataType": "string",
+            "sourceColumn": "COMPANY_CD",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "SALES_ORG_CD",
+            "dataType": "string",
+            "sourceColumn": "SALES_ORG_CD",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "SUB_REGION",
+            "dataType": "string",
+            "sourceColumn": "SUB_REGION",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_EFF_FROM_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_EFF_FROM_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_EFF_TO_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_EFF_TO_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_CREATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_CREATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_CREATED_PROCESS_NM",
+            "dataType": "string",
+            "sourceColumn": "DW_CREATED_PROCESS_NM",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_UPDATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_UPDATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_UPDATED_PROCESS_NM",
+            "dataType": "string",
+            "sourceColumn": "DW_UPDATED_PROCESS_NM",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_BATCH_ID",
+            "dataType": "string",
+            "sourceColumn": "DW_BATCH_ID",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "COUNTRY",
+            "dataType": "string",
+            "sourceColumn": "COUNTRY",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "REGION",
+            "dataType": "string",
+            "sourceColumn": "REGION",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "REGION_DESC",
+            "dataType": "string",
+            "sourceColumn": "REGION_DESC",
+            "sourceProviderType": "String"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DIM_COUNTRY_REGION",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "\t*",
+                "FROM",
+                "\t[FIN].[DIM_COUNTRY_REGION]"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"DIM_COUNTRY_REGION\",\"Schema\":\"FIN\",\"Database\":\"azr-adw-dai-entdl-300\",\"IncludedColumns\":[\"COUNTRY_REGION_KEY\",\"COMPANY_CD\",\"SALES_ORG_CD\",\"SUB_REGION\",\"DW_EFF_FROM_DTTM\",\"DW_EFF_TO_DTTM\",\"DW_CREATED_DTTM\",\"DW_CREATED_PROCESS_NM\",\"DW_UPDATED_DTTM\",\"DW_UPDATED_PROCESS_NM\",\"DW_BATCH_ID\",\"COUNTRY\",\"REGION\",\"REGION_DESC\"],\"SelectAll\":true}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DIM_COUNTRY_REGION_EXT",
+        "columns": [
+          {
+            "name": "COUNTRY_REGION_KEY",
+            "dataType": "int64",
+            "sourceColumn": "COUNTRY_REGION_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "COMPANY_CD",
+            "dataType": "string",
+            "sourceColumn": "COMPANY_CD",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "SALES_ORG_CD",
+            "dataType": "string",
+            "sourceColumn": "SALES_ORG_CD",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "SUB_REGION",
+            "dataType": "string",
+            "sourceColumn": "SUB_REGION",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_EFF_FROM_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_EFF_FROM_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_EFF_TO_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_EFF_TO_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_CREATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_CREATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_CREATED_PROCESS_NM",
+            "dataType": "string",
+            "sourceColumn": "DW_CREATED_PROCESS_NM",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_UPDATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_UPDATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_UPDATED_PROCESS_NM",
+            "dataType": "string",
+            "sourceColumn": "DW_UPDATED_PROCESS_NM",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_BATCH_ID",
+            "dataType": "string",
+            "sourceColumn": "DW_BATCH_ID",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "COUNTRY",
+            "dataType": "string",
+            "sourceColumn": "COUNTRY",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "REGION",
+            "dataType": "string",
+            "sourceColumn": "REGION",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "REGION_DESC",
+            "dataType": "string",
+            "sourceColumn": "REGION_DESC",
+            "sourceProviderType": "String"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DIM_COUNTRY_REGION_EXT",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "\t*",
+                "FROM",
+                "\t[FIN].[DIM_COUNTRY_REGION_EXT]"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"DIM_COUNTRY_REGION_EXT\",\"Schema\":\"FIN\",\"Database\":\"azr-adw-dai-entdl-300\",\"IncludedColumns\":[\"Error message\"],\"SelectAll\":true}"
+              }
+            ]
+          }
+        ]
       }
     ],
     "annotations": [
