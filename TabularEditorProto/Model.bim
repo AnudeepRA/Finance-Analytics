@@ -1474,6 +1474,92 @@
             ]
           }
         ]
+      },
+      {
+        "name": "DIM_CHART_OF_ACCOUNTS",
+        "columns": [
+          {
+            "name": "CHART_OF_ACCOUNTS_KEY",
+            "dataType": "int64",
+            "sourceColumn": "CHART_OF_ACCOUNTS_KEY",
+            "sourceProviderType": "Int64"
+          },
+          {
+            "name": "CHRT_OF_ACCTS_CD",
+            "dataType": "string",
+            "sourceColumn": "CHRT_OF_ACCTS_CD",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_EFF_FROM_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_EFF_FROM_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_EFF_TO_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_EFF_TO_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_CREATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_CREATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_CREATED_PROCESS_NM",
+            "dataType": "string",
+            "sourceColumn": "DW_CREATED_PROCESS_NM",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_UPDATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DW_UPDATED_DTTM",
+            "sourceProviderType": "DateTime"
+          },
+          {
+            "name": "DW_UPDATED_PROCESS_NM",
+            "dataType": "string",
+            "sourceColumn": "DW_UPDATED_PROCESS_NM",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "DW_BATCH_ID",
+            "dataType": "string",
+            "sourceColumn": "DW_BATCH_ID",
+            "sourceProviderType": "String"
+          },
+          {
+            "name": "CHRT_OF_ACCTS_DESC",
+            "dataType": "string",
+            "sourceColumn": "CHRT_OF_ACCTS_DESC",
+            "sourceProviderType": "String"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DIM_CHART_OF_ACCOUNTS",
+            "source": {
+              "type": "query",
+              "query": [
+                "SELECT",
+                "\t*",
+                "FROM",
+                "\t[FIN].[DIM_CHART_OF_ACCOUNTS]"
+              ],
+              "dataSource": "SQLDW"
+            },
+            "annotations": [
+              {
+                "name": "TabularEditor_TableSchema",
+                "value": "{\"Name\":\"DIM_CHART_OF_ACCOUNTS\",\"Schema\":\"FIN\",\"Database\":\"azr-adw-dai-entdl-300\",\"IncludedColumns\":[\"CHART_OF_ACCOUNTS_KEY\",\"CHRT_OF_ACCTS_CD\",\"DW_EFF_FROM_DTTM\",\"DW_EFF_TO_DTTM\",\"DW_CREATED_DTTM\",\"DW_CREATED_PROCESS_NM\",\"DW_UPDATED_DTTM\",\"DW_UPDATED_PROCESS_NM\",\"DW_BATCH_ID\",\"CHRT_OF_ACCTS_DESC\"],\"SelectAll\":true}"
+              }
+            ]
+          }
+        ]
       }
     ],
     "annotations": [
